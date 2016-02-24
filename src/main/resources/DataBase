@@ -1,0 +1,179 @@
+--
+-- База данных: `Rele_storage`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `category`
+--
+
+CREATE TABLE IF NOT EXISTS `category` (
+  `id` int(11) NOT NULL,
+  `name` varchar(45) CHARACTER SET latin1 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `rele`
+--
+
+CREATE TABLE IF NOT EXISTS `rele` (
+  `id` int(11) NOT NULL,
+  `serial_number` int(11) NOT NULL,
+  `fk_type` varchar(45) NOT NULL,
+  `fk_unit` varchar(45) NOT NULL,
+  `fk_station` varchar(45) NOT NULL,
+  `manufacture_date` date NOT NULL,
+  `last_service` date NOT NULL,
+  `next_service` date NOT NULL,
+  `responible` varchar(45) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `rele_type`
+--
+
+CREATE TABLE IF NOT EXISTS `rele_type` (
+  `id` int(11) NOT NULL,
+  `name` varchar(45) CHARACTER SET utf8 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `station`
+--
+
+CREATE TABLE IF NOT EXISTS `station` (
+  `id` int(11) NOT NULL,
+  `station_name` varchar(45) CHARACTER SET latin1 NOT NULL,
+  `fk_unit` varchar(45) CHARACTER SET latin1 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `stuff`
+--
+
+CREATE TABLE IF NOT EXISTS `stuff` (
+  `id` int(11) NOT NULL,
+  `stuff_number` int(11) NOT NULL,
+  `name` varchar(45) CHARACTER SET latin1 DEFAULT NULL,
+  `second_name` varchar(45) CHARACTER SET latin1 DEFAULT NULL,
+  `last_name` varchar(45) CHARACTER SET latin1 DEFAULT NULL,
+  `fk_category` varchar(45) CHARACTER SET latin1 NOT NULL,
+  `fk_unit` varchar(45) CHARACTER SET latin1 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `unit`
+--
+
+CREATE TABLE IF NOT EXISTS `unit` (
+  `id` int(11) NOT NULL,
+  `name` varchar(45) CHARACTER SET latin1 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL,
+  `name` varchar(45) NOT NULL,
+  `password` varchar(45) NOT NULL,
+  `category` varchar(20) CHARACTER SET utf8 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Индексы сохранённых таблиц
+--
+
+--
+-- Индексы таблицы `category`
+--
+ALTER TABLE `category`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `id_UNIQUE` (`id`);
+
+--
+-- Индексы таблицы `rele`
+--
+ALTER TABLE `rele`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `id_UNIQUE` (`id`),
+  ADD UNIQUE KEY `serial_number_UNIQUE` (`serial_number`);
+
+--
+-- Индексы таблицы `rele_type`
+--
+ALTER TABLE `rele_type`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `id_UNIQUE` (`id`);
+
+--
+-- Индексы таблицы `station`
+--
+ALTER TABLE `station`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `id_station_UNIQUE` (`id`);
+
+--
+-- Индексы таблицы `stuff`
+--
+ALTER TABLE `stuff`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `stuff_number_UNIQUE` (`stuff_number`),
+  ADD UNIQUE KEY `fk_category_UNIQUE` (`fk_category`),
+  ADD UNIQUE KEY `fk_unit_UNIQUE` (`fk_unit`),
+  ADD KEY `fk_unit_idx` (`id`);
+
+--
+-- Индексы таблицы `unit`
+--
+ALTER TABLE `unit`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `id_UNIQUE` (`id`),
+  ADD UNIQUE KEY `name_UNIQUE` (`name`);
+
+--
+-- Индексы таблицы `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `id_UNIQUE` (`id`),
+  ADD UNIQUE KEY `name_UNIQUE` (`name`);
+
+--
+-- AUTO_INCREMENT для сохранённых таблиц
+--
+
+--
+-- AUTO_INCREMENT для таблицы `rele`
+--
+ALTER TABLE `rele`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT для таблицы `rele_type`
+--
+ALTER TABLE `rele_type`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT для таблицы `stuff`
+--
+ALTER TABLE `stuff`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT для таблицы `unit`
+--
+ALTER TABLE `unit`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
