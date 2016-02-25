@@ -9,6 +9,7 @@ public class UserTest {
 
     User userWithEmptyConstructor = new User();
     User getUserWithNotEmptyConstructor = new User("TestUser", "TestPassword", "TestGroup");
+    User userSettersTest = new User();
     @Test
     public void testEmptyConstructor() throws Exception{
 
@@ -28,6 +29,16 @@ public class UserTest {
         Assert.assertThat(getUserWithNotEmptyConstructor.getName(), CoreMatchers.is(Name));
         Assert.assertThat(getUserWithNotEmptyConstructor.getGroup(), CoreMatchers.is(Group));
         Assert.assertThat(getUserWithNotEmptyConstructor.getPassword(), CoreMatchers.is(Password));
+    }
+
+    @Test
+    public void testSetters() throws Exception{
+        userSettersTest.setName("SetterName");
+        userSettersTest.setPassword("SetterPassword");
+        userSettersTest.setGroup("SetterGroup");
+        Assert.assertThat(userSettersTest.getName(), CoreMatchers.is("SetterName"));
+        Assert.assertThat(userSettersTest.getGroup(), CoreMatchers.is("SetterGroup"));
+        Assert.assertThat(userSettersTest.getPassword(), CoreMatchers.is("SetterPassword"));
     }
 
 }
