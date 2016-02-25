@@ -2,6 +2,7 @@ package interfaces;
 
 
 import entities.*;
+import location.*;
 
 import java.util.Date;
 import java.util.List;

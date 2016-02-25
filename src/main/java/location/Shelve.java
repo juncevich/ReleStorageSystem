@@ -1,4 +1,4 @@
-package entities;
+package location;
 
 
 import interfaces.Location;

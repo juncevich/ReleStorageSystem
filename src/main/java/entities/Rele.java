@@ -54,7 +54,9 @@ public class Rele {
      * @param manufactureDate manufacture date
      * @param responsiblePerson responsible person
      */
-    public Rele(Integer number, String type, Location location, Date lastServiceDate, Date nextServiceDate, Date manufactureDate, Person responsiblePerson) {
+    public Rele(Integer number, String type, Location location,
+                Date lastServiceDate, Date nextServiceDate,
+                Date manufactureDate, Person responsiblePerson) {
         this.number = number;
         this.type = type;
         this.location = location;
