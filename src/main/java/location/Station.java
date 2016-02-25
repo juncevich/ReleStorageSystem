@@ -1,17 +1,17 @@
 package location;
 
 import entities.Relay;
-import interfaces.Location;
 
 import java.util.HashMap;
 
-public class Station implements Location{
+public class Station {
     HashMap<Integer, Stativ> stationStorage;
-    public void addRelay(int numberShelve, int relayPosition, Relay currentRelay) {
 
+    public void addRelay(int numberStativ, int numberShelve, int relayPosition, Relay currentRelay) {
+        stationStorage.get(numberStativ).addRelay(numberShelve, relayPosition, currentRelay);
     }
 
-    public void deleteRelay(int numberShelve, int relayPosition) {
-
+    public void deleteRelay(int numberStativ, int numberShelve, int relayPosition) {
+        stationStorage.get(numberStativ).deleteRelay(numberShelve,relayPosition);
     }
 }

@@ -7,7 +7,7 @@ import interfaces.Shelve;
 
 public class Stativ implements Location{
 
-    int number;
+    private int number;
     private Shelve[] stativStorage = new Shelve[18];
 
     public Stativ(int number) {

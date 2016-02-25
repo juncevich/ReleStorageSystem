@@ -1,6 +1,5 @@
 package entities;
 
-import interfaces.Location;
 import interfaces.Person;
 
 import java.util.Date;
@@ -47,8 +46,8 @@ public class Relay {
      * Construct Relay with specified parameters.
      * @param number  the serial number
      * @param type  the type
-     * @param shelveNumber
-     * @param shelvePosition
+     * @param shelveNumber  number of shelve on that located relay
+     * @param shelvePosition  number of position relay on shelve
      * @param lastServiceDate  last service date
      * @param nextServiceDate  next service date
      * @param manufactureDate  manufacture date
