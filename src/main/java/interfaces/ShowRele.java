@@ -1,8 +1,8 @@
 package interfaces;
 
 
-import entities.Rele;
+import entities.Relay;
 
 public interface ShowRele {
-    void showRele(Rele rele);
+    void showRele(Relay relay);
 }

@@ -1,11 +1,11 @@
 package interfaces;
 
 
-import entities.Rele;
+import entities.Relay;
 
 public interface EditRele {
-    boolean add(Rele rele);
-    boolean save(Rele rele);
-    boolean delete(Rele rele);
-    boolean edit(Rele rele);
+    boolean add(Relay relay);
+    boolean save(Relay relay);
+    boolean delete(Relay relay);
+    boolean edit(Relay relay);
 }

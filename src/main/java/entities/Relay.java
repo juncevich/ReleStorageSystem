@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * The class that is used for storage of equipment.
  */
-public class Rele {
+public class Relay {
     /**
      * Contains the serial number.
      */
@@ -17,10 +17,9 @@ public class Rele {
      * Contains type.
      */
     private String type;
-    /**
-     * Contains location.
-     */
-    private Location location;
+    private int shelveNumber;
+    private int shelvePosition;
+
     /**
      * Contains the date of the last service.
      */
@@ -39,32 +38,38 @@ public class Rele {
     private Person responsiblePerson;
 
     /**
-     * Constructs an empty Rele, with empty parameters.
+     * Constructs an empty Relay, with empty parameters.
      */
-    public Rele() {
+    public Relay() {
     }
 
     /**
-     * Construct Rele with specified parameters.
-     * @param number the serial number
-     * @param type the type
-     * @param location the location of rele
-     * @param lastServiceDate last service date
-     * @param nextServiceDate next service date
-     * @param manufactureDate manufacture date
-     * @param responsiblePerson responsible person
+     * Construct Relay with specified parameters.
+     * @param number  the serial number
+     * @param type  the type
+     * @param shelveNumber
+     * @param shelvePosition
+     * @param lastServiceDate  last service date
+     * @param nextServiceDate  next service date
+     * @param manufactureDate  manufacture date
+     * @param responsiblePerson  responsible person
      */
-    public Rele(Integer number, String type, Location location,
-                Date lastServiceDate, Date nextServiceDate,
-                Date manufactureDate, Person responsiblePerson) {
+    public Relay(Integer number, String type, int shelveNumber,
+                 int shelvePosition, Date lastServiceDate,
+                 Date nextServiceDate, Date manufactureDate,
+                 Person responsiblePerson) {
         this.number = number;
         this.type = type;
-        this.location = location;
+        this.shelveNumber = shelveNumber;
+        this.shelvePosition = shelvePosition;
         this.lastServiceDate = lastServiceDate;
         this.nextServiceDate = nextServiceDate;
         this.manufactureDate = manufactureDate;
         this.responsiblePerson = responsiblePerson;
     }
+
+
+
 
     /**
      * Returns the serial number.
@@ -95,20 +100,23 @@ public class Rele {
     public void setType(String type) {
         this.type = type;
     }
-    /**
-     * Returns the location corresponding to this user.
-     * @return the location corresponding to this user.
-     */
-    public Location getLocation() {
-        return location;
+
+    public int getShelveNumber() {
+        return shelveNumber;
     }
-    /**
-     * Set the location corresponding to this user.
-     * @param location  corresponding to this user.
-     */
-    public void setLocation(Location location) {
-        this.location = location;
+
+    public void setShelveNumber(int shelveNumber) {
+        this.shelveNumber = shelveNumber;
     }
+
+    public int getShelvePosition() {
+        return shelvePosition;
+    }
+
+    public void setShelvePosition(int shelvePosition) {
+        this.shelvePosition = shelvePosition;
+    }
+
     /**
      * Returns the lastServiceDate corresponding to this user.
      * @return the lastServiceDate corresponding to this user.
