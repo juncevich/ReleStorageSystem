@@ -1,7 +1,7 @@
 package interfaces;
 
 
-import entities.*;
+import entities.Relay;
 import location.*;
 
 import java.util.Date;
