@@ -5,7 +5,9 @@ import entities.Relay;
 import java.util.HashMap;
 
 
-
+/**
+ *
+ */
 public class RailwayCrossing {
     HashMap<Integer, RelayBoard> boards;
 

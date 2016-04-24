@@ -4,6 +4,9 @@ import entities.Relay;
 
 import java.util.HashMap;
 
+/**
+ *
+ */
 public class Station {
     HashMap<Integer, Stativ> stationStorage;
 
