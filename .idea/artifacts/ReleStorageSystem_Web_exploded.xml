@@ -38,6 +38,7 @@
           <element id="library" level="project" name="Maven: org.primefaces:primefaces:5.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: opensymphony:ognl:2.6.11" />
+          <element id="library" level="project" name="Spring-4.2.5.RELEASE" />
         </element>
       </element>
     </root>
