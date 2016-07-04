@@ -8,7 +8,7 @@
 
     <import resource="webflow.xml"/>
 
-    <mvc:resources location="/" mapping="/resources/**"/>
+    <mvc:resources location="WEB-INF/" mapping="/resources/**"/>
 
 
     <bean class="org.springframework.webflow.mvc.servlet.FlowHandlerMapping">
