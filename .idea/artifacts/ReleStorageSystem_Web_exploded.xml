@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ReleStorageSystem:Web exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/ReleStorageSystem_Web_exploded</output-path>
+  <artifact type="exploded-war" build-on-make="true" name="ReleStorageSystem:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ReleStorageSystem</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="ReleStorageSystem/web/Web" />
       <element id="directory" name="WEB-INF">
@@ -11,6 +11,7 @@
           <element id="library" level="project" name="Maven: org.primefaces:primefaces:5.3" />
           <element id="library" level="project" name="Spring-4.2.5.RELEASE" />
           <element id="library" level="project" name="PrimeFaces-5.2" />
+          <element id="library" level="project" name="Primefaces" />
         </element>
       </element>
     </root>

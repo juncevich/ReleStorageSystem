@@ -8,7 +8,7 @@
 
     <import resource="webflow.xml"/>
 
-    <mvc:resources location="WEB-INF/" mapping="/resources/**"/>
+    <mvc:resources location="/" mapping="/resources/**"/>
 
 
     <bean class="org.springframework.webflow.mvc.servlet.FlowHandlerMapping">
@@ -19,6 +19,14 @@
         <property name="flowExecutor" ref="flowExecutor"/>
     </bean>
 
+
+
+
+    <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+        <property name="viewClass" value="org.springframework.faces.mvc.JsfView"/>
+        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="suffix" value=".xhtml"/>
+    </bean>
 
 
 </beans>
