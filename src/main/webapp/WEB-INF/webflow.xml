@@ -9,8 +9,8 @@
         http://www.springframework.org/schema/webflow-config http://www.springframework.org/schema/webflow-config/spring-webflow-config.xsd
         ">
 
-    <flow-registry id="flowRegistry" flow-builder-services="flowBuilderServices" base-path="/WEB-INF/flows">
-        <flow-location-pattern value="*.xml"/>
+    <flow-registry id="flowRegistry" flow-builder-services="flowBuilderServices" base-path="/flows">
+        <flow-location-pattern value="classpath:/flows/main.xml"/>
     </flow-registry>
 
     <faces:flow-builder-services id="flowBuilderServices" development="true"/>

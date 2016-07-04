@@ -8,17 +8,7 @@
     <artifactId>com.ReleStorageSystem</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <properties>
-        <webflow-version>2.4.2.RELEASE</webflow-version>
-        <spring-framework-version>4.2.5.RELEASE</spring-framework-version>
-        <springsecurity-version>4.0.4.RELEASE</springsecurity-version>
-        <slf4j-version>1.7.18</slf4j-version>
-        <mojarra-version>2.2.13</mojarra-version>
-        <primefaces-version>5.3</primefaces-version>
-        <servlet-version>3.1.0</servlet-version>
-        <log4j-version>1.2.17</log4j-version>
-        <junit-version>4.12</junit-version>
-    </properties>
+
 
     <dependencyManagement>
         <dependencies>
@@ -54,10 +44,12 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
+            <version>${spring-aop-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
+            <version>${spring-context-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -142,10 +134,76 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit-version}</version>
+            <scope>test</scope>
         </dependency>
-
-
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlet</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-webapp</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-util</artifactId>
+            <version>9.3.6.v20151106</version>
+        </dependency>
     </dependencies>
 
+   
 
+
+
+    <build>
+
+
+        <plugins>
+
+            <!-- Compiler -->
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+
+            <!-- Jetty -->
+
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>${jetty.version}</version>
+                <configuration>
+                    <httpConnector>
+                        <port>8080</port>
+                        <host>localhost</host>
+
+                    </httpConnector>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <properties>
+        <spring-aop-version>4.3.0.RELEASE</spring-aop-version>
+        <spring-context-version>4.3.0.RELEASE</spring-context-version>
+        <webflow-version>2.4.2.RELEASE</webflow-version>
+        <spring-framework-version>4.3.0.RELEASE</spring-framework-version>
+        <springsecurity-version>4.1.0.RELEASE</springsecurity-version>
+        <slf4j-version>1.7.21</slf4j-version>
+        <mojarra-version>2.2.13</mojarra-version>
+        <primefaces-version>5.2</primefaces-version>
+        <servlet-version>3.1.0</servlet-version>
+        <log4j-version>1.2.17</log4j-version>
+        <junit-version>4.12</junit-version>
+        <jetty.version>9.3.9.v20160517</jetty.version>
+    </properties>
 </project>

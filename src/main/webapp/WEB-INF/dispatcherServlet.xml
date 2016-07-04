@@ -9,7 +9,7 @@
 
     <import resource="webflow.xml"/>
 
-    <mvc:resources location="/" mapping="/resources/**"/>
+    <mvc:resources location="/flows/" mapping="/**"/>
     <bean class="org.springframework.webflow.mvc.servlet.FlowHandlerMapping">
         <property name="flowRegistry" ref="flowRegistry"/>
     </bean>
