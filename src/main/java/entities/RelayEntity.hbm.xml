@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entities.RelayEntity" table="relay" schema="releSystemDatabase">
+        <id name="id" column="id"/>
+        <property name="serialNumber" column="serial_number"/>
+        <property name="fkType" column="fk_type"/>
+        <property name="fkUnit" column="fk_unit"/>
+        <property name="fkStation" column="fk_station"/>
+        <property name="manufactureDate" column="manufacture_date"/>
+        <property name="lastService" column="last_service"/>
+        <property name="nextService" column="next_service"/>
+        <property name="responible" column="responible"/>
+    </class>
+</hibernate-mapping>
