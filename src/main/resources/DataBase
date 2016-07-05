@@ -1,7 +1,8 @@
 --
 -- База данных: `Rele_storage`
 --
-
+CREATE DATABASE IF NOT EXISTS releSystemDatabase;
+USE releSystemDatabase;
 -- --------------------------------------------------------
 
 --
