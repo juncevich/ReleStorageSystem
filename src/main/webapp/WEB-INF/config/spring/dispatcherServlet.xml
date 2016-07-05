@@ -20,7 +20,7 @@
     </bean>
 
     <bean id="local" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-        <property name="basename" value="locales.local"/>
+        <property name="basename" value="/WEB-INF/locales/local"/>
         <property name="defaultEncoding" value="UTF-8"/>
     </bean>
 
