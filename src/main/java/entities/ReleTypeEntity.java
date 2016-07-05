@@ -6,7 +6,7 @@ import javax.persistence.*;
  * Created by alex on 06.07.16.
  */
 @Entity
-@Table(name = "rele_type", schema = "releSystemDatabase", catalog = "")
+@Table(name = "rele_type", schema = "releSystemDatabase", catalog = "releSystemDatabase")
 public class ReleTypeEntity {
     private int id;
     private String name;

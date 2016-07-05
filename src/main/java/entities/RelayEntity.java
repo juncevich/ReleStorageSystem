@@ -7,7 +7,7 @@ import java.sql.Date;
  * Created by alex on 06.07.16.
  */
 @Entity
-@Table(name = "relay", schema = "releSystemDatabase", catalog = "")
+@Table(name = "relay", schema = "releSystemDatabase", catalog = "releSystemDatabase")
 public class RelayEntity {
     private int id;
     private int serialNumber;
