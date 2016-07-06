@@ -20,16 +20,26 @@ CREATE TABLE IF NOT EXISTS `category` (
 -- Структура таблицы `relay`
 --
 
+DROP TABLE IF EXISTS relay;
 CREATE TABLE IF NOT EXISTS `relay` (
-  `id` int(11) NOT NULL,
-  `serial_number` int(11) NOT NULL,
-  `fk_type` varchar(45) NOT NULL,
-  `fk_unit` varchar(45) NOT NULL,
-  `fk_station` varchar(45) NOT NULL,
-  `manufacture_date` date NOT NULL,
-  `last_service` date NOT NULL,
-  `next_service` date NOT NULL,
-  `responible` varchar(45) NOT NULL
+  `id` INT(11) NOT NULL NOT NULL AUTO_INCREMENT,
+  `serial_number` INT(11) NOT NULL,
+  `type_id` INT(11) NOT NULL,
+  `unit_id` INT(11) NOT NULL,
+  `station_id` INT(11) NOT NULL,
+  `manufacture_date` DATE NOT NULL,
+  `last_service` DATE NOT NULL,
+  `next_service` DATE NOT NULL,
+  `responible` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `serial_UNIQUE` (`serial_number`),
+  KEY `fk_type_idx` (`type_id`),
+  KEY `fk_unit_idx` (`unit_id`),
+  KEY `fk_station_idx` (`station_id`),
+  CONSTRAINT `fk_type` FOREIGN KEY (`type_id`) REFERENCES `rele_type` (`id`) ON UPDATE CASCADE,
+  CONSTRAINT `fk_unit` FOREIGN KEY (`unit_id`) REFERENCES `unit` (`id`) ON UPDATE CASCADE,
+  CONSTRAINT `fk_station` FOREIGN KEY (`station_id`) REFERENCES `station` (`id`) ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
