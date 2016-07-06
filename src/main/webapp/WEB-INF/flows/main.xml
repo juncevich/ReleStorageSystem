@@ -6,7 +6,7 @@
     <view-state id="main">
 
         <on-render>
-            <evaluate expression=""/>
+            <evaluate expression="testBean.test()"/>
         </on-render>
 
     </view-state>
