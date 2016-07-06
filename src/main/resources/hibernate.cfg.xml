@@ -6,25 +6,25 @@
     <session-factory>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.show_sql">true</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/relestorage?zeroDateTimeBehavior=convertToNull</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/releSystemDatabase</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.current_session_context_class">thread</property>
-        <property name="hibernate.connection.datasource">jdbc/ReleStorage</property>
+        <property name="hibernate.connection.datasource">jdbc/_default</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
         <mapping class="ru.relesystem.entities.CategoryEntity"/>
-        <mapping resource="ru.relesystem.entities/CategoryEntity.hbm.xml"/>
+        <mapping resource="ru/relesystem/entities/CategoryEntity.hbm.xml"/>
         <mapping class="ru.relesystem.entities.RelayEntity"/>
-        <mapping resource="ru.relesystem.entities/RelayEntity.hbm.xml"/>
+        <mapping resource="ru/relesystem/entities/RelayEntity.hbm.xml"/>
         <mapping class="ru.relesystem.entities.ReleTypeEntity"/>
-        <mapping resource="ru.relesystem.entities/ReleTypeEntity.hbm.xml"/>
+        <mapping resource="ru/relesystem/entities/ReleTypeEntity.hbm.xml"/>
         <mapping class="ru.relesystem.entities.StationEntity"/>
-        <mapping resource="ru.relesystem.entities/StationEntity.hbm.xml"/>
+        <mapping resource="ru/relesystem/entities/StationEntity.hbm.xml"/>
         <mapping class="ru.relesystem.entities.StuffEntity"/>
-        <mapping resource="ru.relesystem.entities/StuffEntity.hbm.xml"/>
+        <mapping resource="ru/relesystem/entities/StuffEntity.hbm.xml"/>
         <mapping class="ru.relesystem.entities.UnitEntity"/>
-        <mapping resource="ru.relesystem.entities/UnitEntity.hbm.xml"/>
+        <mapping resource="ru/relesystem/entities/UnitEntity.hbm.xml"/>
         <mapping class="ru.relesystem.entities.UsersEntity"/>
-        <mapping resource="ru.relesystem.entities/UsersEntity.hbm.xml"/>
+        <mapping resource="ru/relesystem/entities/UsersEntity.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>	

@@ -25,7 +25,6 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="dataSource" />
           <unit-entry name="hibernate.cfg.xml" value="583d58a6-3ca3-47bd-857b-760ee7ee52df" />
           <unit-entry name="sessionFactory" value="dataSource" />
         </datasource-map>
@@ -119,7 +118,6 @@
     <orderEntry type="library" name="Maven: org.apache.maven:maven-model:2.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:2.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:3.0.15" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.2.0.Final" level="project" />
   </component>
   <component name="com.intellij.jsf.UserDefinedFacesConfigs">
     <option name="USER_DEFINED_CONFIGS">

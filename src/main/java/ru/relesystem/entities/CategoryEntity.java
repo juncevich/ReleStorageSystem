@@ -2,11 +2,8 @@ package ru.relesystem.entities;
 
 import javax.persistence.*;
 
-/**
- * Created by alex on 06.07.16.
- */
 @Entity
-@Table(name = "category", schema = "releSystemDatabase", catalog = "releSystemDatabase")
+@Table(name = "category", schema = "releSystemDatabase")
 public class CategoryEntity {
     private int id;
     private String name;
