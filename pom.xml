@@ -23,6 +23,7 @@
         <jetty.version>9.3.9.v20160517</jetty.version>
         <hibernate-version>5.2.0.Final</hibernate-version>
         <mysql-version>6.0.2</mysql-version>
+        <tapestry-version>5.4.1</tapestry-version>
 
     </properties>
 
@@ -40,6 +41,11 @@
     </dependencyManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.tapestry</groupId>
+            <artifactId>tapestry-spring</artifactId>
+            <version>${tapestry-version}</version>
+        </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
