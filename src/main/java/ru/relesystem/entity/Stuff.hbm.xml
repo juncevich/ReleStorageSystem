@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="ru.relesystem.entity.Stuff" table="stuff" schema="releSystemDatabase">
+        <id name="id">
+            <column name="id" sql-type="int(11)"/>
+        </id>
+        <property name="stuffNumber">
+            <column name="stuff_number" sql-type="int(11)"/>
+        </property>
+        <property name="name">
+            <column name="name" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="secondName">
+            <column name="second_name" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="lastName">
+            <column name="last_name" sql-type="varchar(45)" length="45" not-null="true"/>
+        </property>
+        <property name="fkCategory">
+            <column name="fk_category" sql-type="varchar(45)" length="45"/>
+        </property>
+        <property name="fkUnit">
+            <column name="fk_unit" sql-type="varchar(45)" length="45"/>
+        </property>
+    </class>
+</hibernate-mapping>

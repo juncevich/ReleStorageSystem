@@ -1,15 +1,20 @@
-package ru.relesystem.entities;
+package ru.relesystem.entity;
 
-import javax.persistence.*;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+/**
+ * Created by alex on 09.07.16.
+ */
 @Entity
-@Table(name = "category", schema = "releSystemDatabase")
-public class CategoryEntity {
+public class Unit {
     private int id;
     private String name;
 
     @Id
-    @Column(name = "id")
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -19,7 +24,7 @@ public class CategoryEntity {
     }
 
     @Basic
-    @Column(name = "name")
+    @Column(name = "name", nullable = false, length = 45)
     public String getName() {
         return name;
     }
@@ -33,10 +38,10 @@ public class CategoryEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        CategoryEntity that = (CategoryEntity) o;
+        Unit unit = (Unit) o;
 
-        if (id != that.id) return false;
-        if (name != null ? !name.equals(that.name) : that.name != null) return false;
+        if (id != unit.id) return false;
+        if (name != null ? !name.equals(unit.name) : unit.name != null) return false;
 
         return true;
     }

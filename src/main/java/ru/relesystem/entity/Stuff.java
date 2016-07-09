@@ -1,13 +1,15 @@
-package ru.relesystem.entities;
+package ru.relesystem.entity;
 
-import javax.persistence.*;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
- * Created by alex on 06.07.16.
+ * Created by alex on 09.07.16.
  */
 @Entity
-@Table(name = "stuff", schema = "releSystemDatabase", catalog = "releSystemDatabase")
-public class StuffEntity {
+public class Stuff {
     private int id;
     private int stuffNumber;
     private String name;
@@ -17,7 +19,7 @@ public class StuffEntity {
     private String fkUnit;
 
     @Id
-    @Column(name = "id")
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -27,7 +29,7 @@ public class StuffEntity {
     }
 
     @Basic
-    @Column(name = "stuff_number")
+    @Column(name = "stuff_number", nullable = false)
     public int getStuffNumber() {
         return stuffNumber;
     }
@@ -37,7 +39,7 @@ public class StuffEntity {
     }
 
     @Basic
-    @Column(name = "name")
+    @Column(name = "name", nullable = true, length = 45)
     public String getName() {
         return name;
     }
@@ -47,7 +49,7 @@ public class StuffEntity {
     }
 
     @Basic
-    @Column(name = "second_name")
+    @Column(name = "second_name", nullable = true, length = 45)
     public String getSecondName() {
         return secondName;
     }
@@ -57,7 +59,7 @@ public class StuffEntity {
     }
 
     @Basic
-    @Column(name = "last_name")
+    @Column(name = "last_name", nullable = true, length = 45)
     public String getLastName() {
         return lastName;
     }
@@ -67,7 +69,7 @@ public class StuffEntity {
     }
 
     @Basic
-    @Column(name = "fk_category")
+    @Column(name = "fk_category", nullable = false, length = 45)
     public String getFkCategory() {
         return fkCategory;
     }
@@ -77,7 +79,7 @@ public class StuffEntity {
     }
 
     @Basic
-    @Column(name = "fk_unit")
+    @Column(name = "fk_unit", nullable = false, length = 45)
     public String getFkUnit() {
         return fkUnit;
     }
@@ -91,15 +93,15 @@ public class StuffEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        StuffEntity that = (StuffEntity) o;
+        Stuff stuff = (Stuff) o;
 
-        if (id != that.id) return false;
-        if (stuffNumber != that.stuffNumber) return false;
-        if (name != null ? !name.equals(that.name) : that.name != null) return false;
-        if (secondName != null ? !secondName.equals(that.secondName) : that.secondName != null) return false;
-        if (lastName != null ? !lastName.equals(that.lastName) : that.lastName != null) return false;
-        if (fkCategory != null ? !fkCategory.equals(that.fkCategory) : that.fkCategory != null) return false;
-        if (fkUnit != null ? !fkUnit.equals(that.fkUnit) : that.fkUnit != null) return false;
+        if (id != stuff.id) return false;
+        if (stuffNumber != stuff.stuffNumber) return false;
+        if (name != null ? !name.equals(stuff.name) : stuff.name != null) return false;
+        if (secondName != null ? !secondName.equals(stuff.secondName) : stuff.secondName != null) return false;
+        if (lastName != null ? !lastName.equals(stuff.lastName) : stuff.lastName != null) return false;
+        if (fkCategory != null ? !fkCategory.equals(stuff.fkCategory) : stuff.fkCategory != null) return false;
+        if (fkUnit != null ? !fkUnit.equals(stuff.fkUnit) : stuff.fkUnit != null) return false;
 
         return true;
     }

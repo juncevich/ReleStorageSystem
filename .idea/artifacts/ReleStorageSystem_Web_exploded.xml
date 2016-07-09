@@ -77,6 +77,19 @@
           <element id="library" level="project" name="Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:1.0.0.Beta1" />
           <element id="library" level="project" name="Maven: org.jboss:jandex:2.0.0.Final" />
           <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+          <element id="library" level="project" name="PrimeFaces-5.2" />
+          <element id="library" level="project" name="Maven: org.apache.tapestry:beanmodel:5.4.1" />
+          <element id="library" level="project" name="Maven: org.apache.tapestry:tapestry-ioc:5.4.1" />
+          <element id="library" level="project" name="Maven: org.apache.tapestry:tapestry-core:5.4.1" />
+          <element id="library" level="project" name="Maven: org.apache.tapestry:tapestry-spring:5.4.1" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: org.apache.tapestry:tapestry-func:5.4.1" />
+          <element id="library" level="project" name="Maven: org.apache.tapestry:tapestry5-annotations:5.4.1" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr-runtime:3.5.2" />
+          <element id="library" level="project" name="Maven: org.apache.tapestry:plastic:5.4.1" />
+          <element id="library" level="project" name="Maven: org.apache.tapestry:tapestry-json:5.4.1" />
+          <element id="library" level="project" name="Maven: org.apache.tapestry:commons:5.4.1" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.0" />
         </element>
       </element>
     </root>

@@ -4114,3 +4114,1118 @@ java.lang.Exception: java.lang.IllegalStateException: ContainerBase.addChild: st
 [2016-07-09T02:49:55.934+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=25 _ThreadName=http-listener-1(1)] [timeMillis: 1468014595934] [levelValue: 800] [[
   sessionFactory = org.hibernate.internal.SessionFactoryImpl@fe7b51]]
 
+[2016-07-09T03:02:31.524+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015351524] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcher']]
+
+[2016-07-09T03:02:51.401+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015371401] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-07-09T03:06:34.296+0500] [Payara 4.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015594296] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2016-07-09T03:06:39.160+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015599160] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-07-09T03:06:39.221+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015599221] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/ReleStorageSystem']]
+
+[2016-07-09T03:06:43.881+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015603881] [levelValue: 1000] [[
+  log4j:ERROR No appender named [console] could be found.]]
+
+[2016-07-09T03:06:46.993+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015606993] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-07-09T03:06:47.008+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015607008] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-07-09T03:06:47.016+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015607016] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-07-09T03:06:47.020+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015607020] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-07-09T03:06:54.454+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015614454] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcher']]
+
+[2016-07-09T03:07:15.671+0500] [Payara 4.1] [INFO] [] [org.hibernate.Version] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015635671] [levelValue: 800] [[
+  HHH000412: Hibernate Core {5.2.0.Final}]]
+
+[2016-07-09T03:07:15.689+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015635689] [levelValue: 800] [[
+  HHH000206: hibernate.properties not found]]
+
+[2016-07-09T03:07:15.700+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015635700] [levelValue: 800] [[
+  HHH000021: Bytecode provider name : javassist]]
+
+[2016-07-09T03:07:18.564+0500] [Payara 4.1] [INFO] [] [org.hibernate.annotations.common.Version] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015638564] [levelValue: 800] [[
+  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}]]
+
+[2016-07-09T03:07:26.220+0500] [Payara 4.1] [INFO] [] [org.hibernate.dialect.Dialect] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015646220] [levelValue: 800] [[
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect]]
+
+[2016-07-09T03:07:36.412+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015656412] [levelValue: 800] [[
+  Loading application [ReleStorageSystem] at [/ReleStorageSystem]]]
+
+[2016-07-09T03:07:38.168+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1468015658168] [levelValue: 800] [[
+  ReleStorageSystem was successfully deployed in 324,842 milliseconds.]]
+
+[2016-07-09T03:15:02.716+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016102716] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcher']]
+
+[2016-07-09T03:15:03.628+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016103628] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-07-09T03:16:10.965+0500] [Payara 4.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016170965] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2016-07-09T03:16:15.919+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016175919] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-07-09T03:16:16.696+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016176696] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/ReleStorageSystem']]
+
+[2016-07-09T03:16:21.899+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016181899] [levelValue: 1000] [[
+  log4j:ERROR No appender named [console] could be found.]]
+
+[2016-07-09T03:16:26.081+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016186081] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-07-09T03:16:26.090+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016186090] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-07-09T03:16:26.092+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016186092] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-07-09T03:16:26.093+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016186093] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-07-09T03:16:31.350+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016191350] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcher']]
+
+[2016-07-09T03:16:49.741+0500] [Payara 4.1] [INFO] [] [org.hibernate.Version] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016209741] [levelValue: 800] [[
+  HHH000412: Hibernate Core {5.2.0.Final}]]
+
+[2016-07-09T03:16:49.762+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016209762] [levelValue: 800] [[
+  HHH000206: hibernate.properties not found]]
+
+[2016-07-09T03:16:49.772+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016209772] [levelValue: 800] [[
+  HHH000021: Bytecode provider name : javassist]]
+
+[2016-07-09T03:16:50.933+0500] [Payara 4.1] [INFO] [] [org.hibernate.annotations.common.Version] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016210933] [levelValue: 800] [[
+  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}]]
+
+[2016-07-09T03:16:56.940+0500] [Payara 4.1] [INFO] [] [org.hibernate.dialect.Dialect] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016216940] [levelValue: 800] [[
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect]]
+
+[2016-07-09T03:17:46.751+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016266751] [levelValue: 800] [[
+  Loading application [ReleStorageSystem] at [/ReleStorageSystem]]]
+
+[2016-07-09T03:17:48.122+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1468016268122] [levelValue: 800] [[
+  ReleStorageSystem was successfully deployed in 165,508 milliseconds.]]
+
+[2016-07-09T03:24:16.528+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1468016656528] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcher']]
+
+[2016-07-09T03:24:16.788+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1468016656788] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-07-09T03:24:45.353+0500] [Payara 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=42 _ThreadName=admin-listener(4)] [timeMillis: 1468016685353] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2016-07-09T03:24:46.101+0500] [Payara 4.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=228 _ThreadName=Thread-40] [timeMillis: 1468016686101] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2016-07-09T03:24:46.381+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=228 _ThreadName=Thread-40] [timeMillis: 1468016686381] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@45f5ba from service registry.]]
+
+[2016-07-09T03:24:46.503+0500] [Payara 4.1] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=228 _ThreadName=Thread-40] [timeMillis: 1468016686503] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2016-07-09T03:24:46.434+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=228 _ThreadName=Thread-40] [timeMillis: 1468016686434] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2016-07-09T03:24:46.593+0500] [Payara 4.1] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=228 _ThreadName=Thread-40] [timeMillis: 1468016686593] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2016-07-09T03:24:47.715+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=233 _ThreadName=RunLevelControllerThread-1468016687090] [timeMillis: 1468016687715] [levelValue: 800] [[
+  Cannot find the resource bundle for the name com.sun.logging.enterprise.system.core for class com.sun.ejb.containers.interceptors.JavaEEInterceptorBuilderImpl using org.glassfish.main.ejb.ejb-container [41]]]
+
+[2016-07-09T03:24:48.717+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=236 _ThreadName=RunLevelControllerThread-1468016687164] [timeMillis: 1468016688717] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
+[2016-07-09T03:24:48.869+0500] [Payara 4.1] [INFO] [] [javax.enterprise.resource.resourceadapter.com.sun.enterprise.connectors.service] [tid: _ThreadID=239 _ThreadName=Thread-50] [timeMillis: 1468016688869] [levelValue: 800] [[
+  RAR7094: __ds_jdbc_ra shutdown successful.]]
+
+[2016-07-09T15:18:29.043+0500] [] [INFO] [NCLS-GFLAUNCHER-00005] [javax.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1468059509043] [levelValue: 800] [[
+  JVM invocation command line:
+/usr/lib/jvm/java-8-oracle/bin/java
+-cp
+/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:NewRatio=2
+-XX:MaxPermSize=512m
+-Xmx1024m
+-server
+-javaagent:/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/lib/monitor/flashlight-agent.jar
+-Djava.security.auth.login.config=/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/domains/payaradomain/config/login.conf
+-Djavax.net.ssl.trustStore=/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/domains/payaradomain/config/cacerts.jks
+-Djdk.tls.rejectClientInitiatedRenegotiation=true
+-Djdk.corba.allowOutputStreamSubclass=true
+-Dcom.sun.aas.instanceRoot=/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/domains/payaradomain
+-Dcom.sun.aas.installRoot=/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.endorsed.dirs=/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/modules/endorsed:/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/lib/endorsed
+-Djava.security.policy=/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/domains/payaradomain/config/server.policy
+-Dorg.jboss.weld.serialization.beanIdentifierIndexOptimization=false
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Djava.awt.headless=true
+-Djava.ext.dirs=/usr/lib/jvm/java-8-oracle/lib/ext:/usr/lib/jvm/java-8-oracle/jre/lib/ext:/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/domains/payaradomain/lib/ext
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Djavax.net.ssl.keyStore=/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/domains/payaradomain/config/keystore.jks
+-Djava.library.path=/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/lib:/opt/idea2016/bin:/usr/java/packages/lib/i386:/lib:/usr/lib
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-upgrade
+false
+-domaindir
+/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/domains/payaradomain
+-read-stdin
+true
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=false,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/domains,,,payaradomain
+-domainname
+payaradomain
+-instancename
+server
+-type
+DAS
+-verbose
+false
+-asadmin-classpath
+/home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/lib/client/appserver-cli.jar
+-debug
+false
+-asadmin-classname
+com.sun.enterprise.admin.cli.AdminMain
+-watchdog
+false]]
+
+[2016-07-09T15:19:03.495+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1468059542169] [timeMillis: 1468059543495] [levelValue: 800] [[
+  Running Payara Version: Payara Server  4.1.1.162 #badassfish (build 116)]]
+
+[2016-07-09T15:19:03.519+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1468059542169] [timeMillis: 1468059543519] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2016-07-09T15:19:06.158+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1468059542169] [timeMillis: 1468059546158] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2016-07-09T15:19:06.851+0500] [Payara 4.1] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1468059542287] [timeMillis: 1468059546851] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2016-07-09T15:19:07.028+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1468059542169] [timeMillis: 1468059547028] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2016-07-09T15:19:07.036+0500] [Payara 4.1] [INFO] [] [fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactory] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1468059542169] [timeMillis: 1468059547036] [levelValue: 800] [[
+  Registered Hazelcast BackingStoreFactory with persistence-type = hazelcast]]
+
+[2016-07-09T15:19:07.341+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1468059542281] [timeMillis: 1468059547341] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-07-09T15:19:07.363+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1468059542281] [timeMillis: 1468059547363] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-07-09T15:19:07.440+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1468059542281] [timeMillis: 1468059547440] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2016-07-09T15:19:07.864+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1468059542136] [timeMillis: 1468059547864] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 238ms - bound to [/0.0.0.0:8080]]]
+
+[2016-07-09T15:19:08.027+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1468059542136] [timeMillis: 1468059548027] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 9ms - bound to [/0.0.0.0:8181]]]
+
+[2016-07-09T15:19:08.068+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1468059542136] [timeMillis: 1468059548068] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 6ms - bound to [/0.0.0.0:4848]]]
+
+[2016-07-09T15:19:08.391+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1468059542136] [timeMillis: 1468059548391] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 4ms - bound to [/0.0.0.0:3700]]]
+
+[2016-07-09T15:19:08.412+0500] [Payara 4.1] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1468059548412] [levelValue: 800] [[
+  Payara Server  4.1.1.162 #badassfish (116) startup time : Felix (27,332ms), startup services(6,318ms), total(33,650ms)]]
+
+[2016-07-09T15:19:08.420+0500] [Payara 4.1] [INFO] [] [fish.payara.nucleus.util.CleanupPostBoot] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1468059548420] [levelValue: 800] [[
+  Cleaning JarFileFactory Cache to prevent jar FD leaks]]
+
+[2016-07-09T15:19:12.376+0500] [Payara 4.1] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=44 _ThreadName=admin-listener(1)] [timeMillis: 1468059552376] [levelValue: 800] [[
+  HV000001: Hibernate Validator 5.1.2.Final]]
+
+[2016-07-09T15:19:12.629+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1468059542287] [timeMillis: 1468059552629] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 4ms - bound to [/0.0.0.0:7677]]]
+
+[2016-07-09T15:19:13.405+0500] [Payara 4.1] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=55 _ThreadName=Thread-13] [timeMillis: 1468059553405] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://netbook:8686/jndi/rmi://netbook:8686/jmxrmi]]
+
+[2016-07-09T15:19:38.495+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059578495] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2016-07-09T15:19:38.498+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059578498] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2016-07-09T15:19:38.542+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059578542] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2016-07-09T15:19:38.885+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059578885] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2016-07-09T15:19:41.373+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059581373] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2016-07-09T15:19:41.431+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059581431] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2016-07-09T15:19:41.443+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059581443] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2016-07-09T15:19:41.630+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059581630] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2016-07-09T15:19:41.647+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059581647] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2016-07-09T15:19:42.778+0500] [Payara 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=48 _ThreadName=admin-listener(5)] [timeMillis: 1468059582778] [levelValue: 800] [[
+  Listening to REST requests at context: /management/domain.]]
+
+[2016-07-09T15:19:43.477+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1468059583477] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@31267b as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@1572c37.]]
+
+[2016-07-09T15:19:43.602+0500] [Payara 4.1] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059583602] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2016-07-09T15:19:43.607+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059583607] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2016-07-09T15:19:43.837+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=13 _ThreadName=FelixStartLevel] [timeMillis: 1468059583837] [levelValue: 800] [[
+  /home/alex/IdeaProjects/ReleStorageSystem/server/payara41/glassfish/domains/payaradomain/autodeploy/bundles does not exist, please create it.]]
+
+[2016-07-09T15:19:52.297+0500] [Payara 4.1] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059592297] [levelValue: 800] [[
+  WELD-000900: 2.3.2 (Final)]]
+
+[2016-07-09T15:19:59.905+0500] [Payara 4.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059599905] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2016-07-09T15:20:02.611+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=80 _ThreadName=Thread-20] [timeMillis: 1468059602611] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '']]
+
+[2016-07-09T15:20:12.494+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059612494] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-07-09T15:20:12.531+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059612531] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/ReleStorageSystem']]
+
+[2016-07-09T15:20:14.753+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=80 _ThreadName=Thread-20] [timeMillis: 1468059614753] [levelValue: 800] [[
+  Loading application [__admingui] at [/]]]
+
+[2016-07-09T15:20:14.779+0500] [Payara 4.1] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=80 _ThreadName=Thread-20] [timeMillis: 1468059614779] [levelValue: 800] [[
+  Loading application __admingui done in 31,311 ms]]
+
+[2016-07-09T15:20:15.805+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059615805] [levelValue: 1000] [[
+  log4j:ERROR No appender named [console] could be found.]]
+
+[2016-07-09T15:20:18.212+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059618212] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-07-09T15:20:18.225+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059618225] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-07-09T15:20:18.226+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059618226] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-07-09T15:20:18.227+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059618227] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-07-09T15:20:21.319+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059621319] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcher']]
+
+[2016-07-09T15:20:32.333+0500] [Payara 4.1] [SEVERE] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632333] [levelValue: 1000] [[
+  WebModule[/ReleStorageSystem]StandardWrapper.Throwable
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testBean': Unsatisfied dependency expressed through field 'sessionFactory': Error creating bean with name 'sessionFactory' defined in ServletContext resource [/WEB-INF/config/spring/dispatcherServlet.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ServletContext resource [/WEB-INF/config/spring/dispatcherServlet.xml]: Invocation of init method failed; nested exception is javax.naming.NamingException: Lookup failed for 'git log --one  ' in SerialContext[myEnv={java.naming.factory.initial=com.sun.enterprise.naming.impl.SerialInitContextFactory, java.naming.factory.state=com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl, java.naming.factory.url.pkgs=com.sun.enterprise.naming} [Root exception is javax.naming.NameNotFoundException: git log --one   not found]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in ServletContext resource [/WEB-INF/config/spring/dispatcherServlet.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ServletContext resource [/WEB-INF/config/spring/dispatcherServlet.xml]: Invocation of init method failed; nested exception is javax.naming.NamingException: Lookup failed for 'git log --one  ' in SerialContext[myEnv={java.naming.factory.initial=com.sun.enterprise.naming.impl.SerialInitContextFactory, java.naming.factory.state=com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl, java.naming.factory.url.pkgs=com.sun.enterprise.naming} [Root exception is javax.naming.NameNotFoundException: git log --one   not found]
+Related cause: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ServletContext resource [/WEB-INF/config/spring/dispatcherServlet.xml]: Invocation of init method failed; nested exception is javax.naming.NamingException: Lookup failed for 'git log --one  ' in SerialContext[myEnv={java.naming.factory.initial=com.sun.enterprise.naming.impl.SerialInitContextFactory, java.naming.factory.state=com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl, java.naming.factory.url.pkgs=com.sun.enterprise.naming} [Root exception is javax.naming.NameNotFoundException: git log --one   not found]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:775)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1583)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1382)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5734)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5979)
+	at com.sun.enterprise.web.WebModule.start(WebModule.java:691)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in ServletContext resource [/WEB-INF/config/spring/dispatcherServlet.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ServletContext resource [/WEB-INF/config/spring/dispatcherServlet.xml]: Invocation of init method failed; nested exception is javax.naming.NamingException: Lookup failed for 'git log --one  ' in SerialContext[myEnv={java.naming.factory.initial=com.sun.enterprise.naming.impl.SerialInitContextFactory, java.naming.factory.state=com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl, java.naming.factory.url.pkgs=com.sun.enterprise.naming} [Root exception is javax.naming.NameNotFoundException: git log --one   not found]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1048)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1018)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:570)
+	... 72 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ServletContext resource [/WEB-INF/config/spring/dispatcherServlet.xml]: Invocation of init method failed; nested exception is javax.naming.NamingException: Lookup failed for 'git log --one  ' in SerialContext[myEnv={java.naming.factory.initial=com.sun.enterprise.naming.impl.SerialInitContextFactory, java.naming.factory.state=com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl, java.naming.factory.url.pkgs=com.sun.enterprise.naming} [Root exception is javax.naming.NameNotFoundException: git log --one   not found]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 86 more
+Caused by: javax.naming.NamingException: Lookup failed for 'git log --one  ' in SerialContext[myEnv={java.naming.factory.initial=com.sun.enterprise.naming.impl.SerialInitContextFactory, java.naming.factory.state=com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl, java.naming.factory.url.pkgs=com.sun.enterprise.naming} [Root exception is javax.naming.NameNotFoundException: git log --one   not found]
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:491)
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:438)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.springframework.jndi.JndiTemplate$1.doInContext(JndiTemplate.java:155)
+	at org.springframework.jndi.JndiTemplate.execute(JndiTemplate.java:87)
+	at org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:152)
+	at org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:179)
+	at org.springframework.jndi.JndiLocatorSupport.lookup(JndiLocatorSupport.java:95)
+	at org.springframework.jndi.JndiObjectLocator.lookup(JndiObjectLocator.java:106)
+	at org.springframework.jndi.JndiObjectFactoryBean.lookupWithFallback(JndiObjectFactoryBean.java:231)
+	at org.springframework.jndi.JndiObjectFactoryBean.afterPropertiesSet(JndiObjectFactoryBean.java:217)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 93 more
+Caused by: javax.naming.NameNotFoundException: git log --one   not found
+	at com.sun.enterprise.naming.impl.TransientContext.doLookup(TransientContext.java:237)
+	at com.sun.enterprise.naming.impl.TransientContext.lookup(TransientContext.java:204)
+	at com.sun.enterprise.naming.impl.SerialContextProviderImpl.lookup(SerialContextProviderImpl.java:66)
+	at com.sun.enterprise.naming.impl.LocalSerialContextProviderImpl.lookup(LocalSerialContextProviderImpl.java:114)
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:478)
+	... 106 more
+Related cause:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in ServletContext resource [/WEB-INF/config/spring/dispatcherServlet.xml]: Invocation of init method failed; nested exception is javax.naming.NamingException: Lookup failed for 'git log --one  ' in SerialContext[myEnv={java.naming.factory.initial=com.sun.enterprise.naming.impl.SerialInitContextFactory, java.naming.factory.state=com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl, java.naming.factory.url.pkgs=com.sun.enterprise.naming} [Root exception is javax.naming.NameNotFoundException: git log --one   not found]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:808)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:544)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:448)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:424)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1048)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1018)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:570)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:775)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1583)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1382)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5734)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5979)
+	at com.sun.enterprise.web.WebModule.start(WebModule.java:691)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.naming.NamingException: Lookup failed for 'git log --one  ' in SerialContext[myEnv={java.naming.factory.initial=com.sun.enterprise.naming.impl.SerialInitContextFactory, java.naming.factory.state=com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl, java.naming.factory.url.pkgs=com.sun.enterprise.naming} [Root exception is javax.naming.NameNotFoundException: git log --one   not found]
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:491)
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:438)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.springframework.jndi.JndiTemplate$1.doInContext(JndiTemplate.java:155)
+	at org.springframework.jndi.JndiTemplate.execute(JndiTemplate.java:87)
+	at org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:152)
+	at org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:179)
+	at org.springframework.jndi.JndiLocatorSupport.lookup(JndiLocatorSupport.java:95)
+	at org.springframework.jndi.JndiObjectLocator.lookup(JndiObjectLocator.java:106)
+	at org.springframework.jndi.JndiObjectFactoryBean.lookupWithFallback(JndiObjectFactoryBean.java:231)
+	at org.springframework.jndi.JndiObjectFactoryBean.afterPropertiesSet(JndiObjectFactoryBean.java:217)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 87 more
+Caused by: javax.naming.NameNotFoundException: git log --one   not found
+	at com.sun.enterprise.naming.impl.TransientContext.doLookup(TransientContext.java:237)
+	at com.sun.enterprise.naming.impl.TransientContext.lookup(TransientContext.java:204)
+	at com.sun.enterprise.naming.impl.SerialContextProviderImpl.lookup(SerialContextProviderImpl.java:66)
+	at com.sun.enterprise.naming.impl.LocalSerialContextProviderImpl.lookup(LocalSerialContextProviderImpl.java:114)
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:478)
+	... 100 more
+]]
+
+[2016-07-09T15:20:32.343+0500] [Payara 4.1] [SEVERE] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632343] [levelValue: 1000] [[
+  WebModule[/ReleStorageSystem]Servlet /ReleStorageSystem threw load() exception
+javax.naming.NameNotFoundException: git log --one   not found
+	at com.sun.enterprise.naming.impl.TransientContext.doLookup(TransientContext.java:237)
+	at com.sun.enterprise.naming.impl.TransientContext.lookup(TransientContext.java:204)
+	at com.sun.enterprise.naming.impl.SerialContextProviderImpl.lookup(SerialContextProviderImpl.java:66)
+	at com.sun.enterprise.naming.impl.LocalSerialContextProviderImpl.lookup(LocalSerialContextProviderImpl.java:114)
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:478)
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:438)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.springframework.jndi.JndiTemplate$1.doInContext(JndiTemplate.java:155)
+	at org.springframework.jndi.JndiTemplate.execute(JndiTemplate.java:87)
+	at org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:152)
+	at org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:179)
+	at org.springframework.jndi.JndiLocatorSupport.lookup(JndiLocatorSupport.java:95)
+	at org.springframework.jndi.JndiObjectLocator.lookup(JndiObjectLocator.java:106)
+	at org.springframework.jndi.JndiObjectFactoryBean.lookupWithFallback(JndiObjectFactoryBean.java:231)
+	at org.springframework.jndi.JndiObjectFactoryBean.afterPropertiesSet(JndiObjectFactoryBean.java:217)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1048)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1018)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:570)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:775)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1583)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1382)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5734)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5979)
+	at com.sun.enterprise.web.WebModule.start(WebModule.java:691)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+]]
+
+[2016-07-09T15:20:32.347+0500] [Payara 4.1] [SEVERE] [AS-WEB-CORE-00174] [javax.enterprise.web.core] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632347] [levelValue: 1000] [[
+  Startup of context /ReleStorageSystem failed due to previous errors]]
+
+[2016-07-09T15:20:32.354+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632354] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcher']]
+
+[2016-07-09T15:20:32.402+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632402] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-07-09T15:20:32.481+0500] [Payara 4.1] [SEVERE] [AS-WEB-CORE-00108] [javax.enterprise.web.core] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632481] [levelValue: 1000] [[
+  ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: org.apache.catalina.LifecycleException: javax.naming.NameNotFoundException: git log --one   not found
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5987)
+	at com.sun.enterprise.web.WebModule.start(WebModule.java:691)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: javax.naming.NameNotFoundException: git log --one   not found
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5742)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5979)
+	... 49 more
+Caused by: javax.naming.NameNotFoundException: git log --one   not found
+	at com.sun.enterprise.naming.impl.TransientContext.doLookup(TransientContext.java:237)
+	at com.sun.enterprise.naming.impl.TransientContext.lookup(TransientContext.java:204)
+	at com.sun.enterprise.naming.impl.SerialContextProviderImpl.lookup(SerialContextProviderImpl.java:66)
+	at com.sun.enterprise.naming.impl.LocalSerialContextProviderImpl.lookup(LocalSerialContextProviderImpl.java:114)
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:478)
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:438)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.springframework.jndi.JndiTemplate$1.doInContext(JndiTemplate.java:155)
+	at org.springframework.jndi.JndiTemplate.execute(JndiTemplate.java:87)
+	at org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:152)
+	at org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:179)
+	at org.springframework.jndi.JndiLocatorSupport.lookup(JndiLocatorSupport.java:95)
+	at org.springframework.jndi.JndiObjectLocator.lookup(JndiObjectLocator.java:106)
+	at org.springframework.jndi.JndiObjectFactoryBean.lookupWithFallback(JndiObjectFactoryBean.java:231)
+	at org.springframework.jndi.JndiObjectFactoryBean.afterPropertiesSet(JndiObjectFactoryBean.java:217)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1226)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1048)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1018)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:570)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:775)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:861)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1583)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1382)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5734)
+	... 50 more
+]]
+
+[2016-07-09T15:20:32.493+0500] [Payara 4.1] [WARNING] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632493] [levelValue: 900] [[
+  java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.apache.catalina.LifecycleException: javax.naming.NameNotFoundException: git log --one   not found
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.apache.catalina.LifecycleException: javax.naming.NameNotFoundException: git log --one   not found
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1044)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+]]
+
+[2016-07-09T15:20:32.504+0500] [Payara 4.1] [SEVERE] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632504] [levelValue: 1000] [[
+  Exception while invoking class com.sun.enterprise.web.WebApplication start method
+java.lang.Exception: java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.apache.catalina.LifecycleException: javax.naming.NameNotFoundException: git log --one   not found
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:168)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+]]
+
+[2016-07-09T15:20:32.509+0500] [Payara 4.1] [SEVERE] [NCLS-CORE-00026] [javax.enterprise.system.core] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632509] [levelValue: 1000] [[
+  Exception during lifecycle processing
+java.lang.Exception: java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.apache.catalina.LifecycleException: javax.naming.NameNotFoundException: git log --one   not found
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:168)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+]]
+
+[2016-07-09T15:20:32.516+0500] [Payara 4.1] [SEVERE] [] [javax.enterprise.system.core] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632516] [levelValue: 1000] [[
+  Exception while loading the app]]
+
+[2016-07-09T15:20:32.518+0500] [Payara 4.1] [SEVERE] [AS-WEB-GLUE-00192] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632518] [levelValue: 1000] [[
+  Undeployment failed for context /ReleStorageSystem]]
+
+[2016-07-09T15:20:32.677+0500] [Payara 4.1] [SEVERE] [] [javax.enterprise.system.core] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468059632677] [levelValue: 1000] [[
+  Exception while loading the app : java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.apache.catalina.LifecycleException: javax.naming.NameNotFoundException: git log --one   not found]]
+
+[2016-07-09T15:27:34.023+0500] [Payara 4.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060054023] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2016-07-09T15:27:36.389+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060056389] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-07-09T15:27:37.222+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060057222] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/ReleStorageSystem']]
+
+[2016-07-09T15:27:40.290+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060060290] [levelValue: 1000] [[
+  log4j:ERROR No appender named [console] could be found.]]
+
+[2016-07-09T15:27:41.833+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060061833] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-07-09T15:27:41.846+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060061846] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-07-09T15:27:41.849+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060061849] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-07-09T15:27:41.852+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060061852] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-07-09T15:27:44.802+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060064802] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcher']]
+
+[2016-07-09T15:27:54.578+0500] [Payara 4.1] [INFO] [] [org.hibernate.Version] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060074578] [levelValue: 800] [[
+  HHH000412: Hibernate Core {5.2.0.Final}]]
+
+[2016-07-09T15:27:54.597+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060074597] [levelValue: 800] [[
+  HHH000206: hibernate.properties not found]]
+
+[2016-07-09T15:27:54.610+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060074610] [levelValue: 800] [[
+  HHH000021: Bytecode provider name : javassist]]
+
+[2016-07-09T15:27:57.410+0500] [Payara 4.1] [INFO] [] [org.hibernate.annotations.common.Version] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060077410] [levelValue: 800] [[
+  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}]]
+
+[2016-07-09T15:28:06.247+0500] [Payara 4.1] [INFO] [] [org.hibernate.dialect.Dialect] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060086247] [levelValue: 800] [[
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect]]
+
+[2016-07-09T15:28:17.409+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060097409] [levelValue: 800] [[
+  Loading application [ReleStorageSystem] at [/ReleStorageSystem]]]
+
+[2016-07-09T15:28:17.982+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=47 _ThreadName=admin-listener(4)] [timeMillis: 1468060097982] [levelValue: 800] [[
+  ReleStorageSystem was successfully deployed in 66,201 milliseconds.]]
+
+[2016-07-09T15:28:38.187+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=26 _ThreadName=http-listener-1(3)] [timeMillis: 1468060118187] [levelValue: 800] [[
+  sessionFactory = org.hibernate.internal.SessionFactoryImpl@18b6b79]]
+
+[2016-07-09T15:33:09.333+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060389333] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcher']]
+
+[2016-07-09T15:33:09.922+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060389922] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-07-09T15:33:29.116+0500] [Payara 4.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060409116] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2016-07-09T15:33:34.297+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060414297] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-07-09T15:33:34.405+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060414405] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/ReleStorageSystem']]
+
+[2016-07-09T15:33:36.388+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060416388] [levelValue: 1000] [[
+  log4j:ERROR No appender named [console] could be found.]]
+
+[2016-07-09T15:33:40.103+0500] [Payara 4.1] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060420103] [levelValue: 800] [[
+  Running on PrimeFaces 6.0]]
+
+[2016-07-09T15:33:40.104+0500] [Payara 4.1] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060420104] [levelValue: 800] [[
+  Running on PrimeFaces 6.0]]
+
+[2016-07-09T15:33:40.109+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060420109] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-07-09T15:33:40.119+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060420119] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-07-09T15:33:40.121+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060420121] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-07-09T15:33:40.123+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060420123] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-07-09T15:33:42.353+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060422353] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcher']]
+
+[2016-07-09T15:33:48.165+0500] [Payara 4.1] [INFO] [] [org.hibernate.Version] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060428165] [levelValue: 800] [[
+  HHH000412: Hibernate Core {5.2.0.Final}]]
+
+[2016-07-09T15:33:48.202+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060428202] [levelValue: 800] [[
+  HHH000206: hibernate.properties not found]]
+
+[2016-07-09T15:33:48.214+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060428214] [levelValue: 800] [[
+  HHH000021: Bytecode provider name : javassist]]
+
+[2016-07-09T15:33:48.994+0500] [Payara 4.1] [INFO] [] [org.hibernate.annotations.common.Version] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060428994] [levelValue: 800] [[
+  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}]]
+
+[2016-07-09T15:33:53.225+0500] [Payara 4.1] [INFO] [] [org.hibernate.dialect.Dialect] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060433225] [levelValue: 800] [[
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect]]
+
+[2016-07-09T15:34:00.543+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060440543] [levelValue: 800] [[
+  Loading application [ReleStorageSystem] at [/ReleStorageSystem]]]
+
+[2016-07-09T15:34:00.618+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1468060440618] [levelValue: 800] [[
+  ReleStorageSystem was successfully deployed in 51,516 milliseconds.]]
+
+[2016-07-09T15:37:29.749+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=24 _ThreadName=http-listener-1(1)] [timeMillis: 1468060649749] [levelValue: 800] [[
+  sessionFactory = org.hibernate.internal.SessionFactoryImpl@1f5c9a1]]
+
+[2016-07-09T15:37:34.130+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=27 _ThreadName=http-listener-1(4)] [timeMillis: 1468060654130] [levelValue: 800] [[
+  sessionFactory = org.hibernate.internal.SessionFactoryImpl@1f5c9a1]]
+
+[2016-07-09T15:37:34.783+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=26 _ThreadName=http-listener-1(3)] [timeMillis: 1468060654783] [levelValue: 800] [[
+  sessionFactory = org.hibernate.internal.SessionFactoryImpl@1f5c9a1]]
+
+[2016-07-09T15:37:35.788+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=28 _ThreadName=http-listener-1(5)] [timeMillis: 1468060655788] [levelValue: 800] [[
+  sessionFactory = org.hibernate.internal.SessionFactoryImpl@1f5c9a1]]
+
+[2016-07-09T15:37:36.694+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=25 _ThreadName=http-listener-1(2)] [timeMillis: 1468060656694] [levelValue: 800] [[
+  sessionFactory = org.hibernate.internal.SessionFactoryImpl@1f5c9a1]]
+
+[2016-07-09T15:37:37.410+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=24 _ThreadName=http-listener-1(1)] [timeMillis: 1468060657410] [levelValue: 800] [[
+  sessionFactory = org.hibernate.internal.SessionFactoryImpl@1f5c9a1]]
+
+[2016-07-09T15:37:38.598+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=27 _ThreadName=http-listener-1(4)] [timeMillis: 1468060658598] [levelValue: 800] [[
+  sessionFactory = org.hibernate.internal.SessionFactoryImpl@1f5c9a1]]
+
+[2016-07-09T15:37:45.666+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=26 _ThreadName=http-listener-1(3)] [timeMillis: 1468060665666] [levelValue: 800] [[
+  sessionFactory = org.hibernate.internal.SessionFactoryImpl@1f5c9a1]]
+
+[2016-07-09T15:37:47.164+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=28 _ThreadName=http-listener-1(5)] [timeMillis: 1468060667164] [levelValue: 800] [[
+  sessionFactory = org.hibernate.internal.SessionFactoryImpl@1f5c9a1]]
+

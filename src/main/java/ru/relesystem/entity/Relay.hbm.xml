@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="ru.relesystem.entity.Relay" table="relay" schema="releSystemDatabase">
+        <id name="id">
+            <column name="id" sql-type="int(11)"/>
+        </id>
+        <property name="serialNumber">
+            <column name="serial_number" sql-type="int(11)"/>
+        </property>
+        <property name="manufactureDate">
+            <column name="manufacture_date" sql-type="date"/>
+        </property>
+        <property name="lastService">
+            <column name="last_service" sql-type="date"/>
+        </property>
+        <property name="nextService">
+            <column name="next_service" sql-type="date"/>
+        </property>
+        <property name="responible">
+            <column name="responible" sql-type="varchar(45)" length="45"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,20 +1,22 @@
-package ru.relesystem.entities;
+package ru.relesystem.entity;
 
-import javax.persistence.*;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
- * Created by alex on 06.07.16.
+ * Created by alex on 09.07.16.
  */
 @Entity
-@Table(name = "users", schema = "releSystemDatabase", catalog = "releSystemDatabase")
-public class UsersEntity {
+public class Users {
     private int id;
     private String name;
     private String password;
     private String category;
 
     @Id
-    @Column(name = "id")
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -24,7 +26,7 @@ public class UsersEntity {
     }
 
     @Basic
-    @Column(name = "name")
+    @Column(name = "name", nullable = false, length = 45)
     public String getName() {
         return name;
     }
@@ -34,7 +36,7 @@ public class UsersEntity {
     }
 
     @Basic
-    @Column(name = "password")
+    @Column(name = "password", nullable = false, length = 45)
     public String getPassword() {
         return password;
     }
@@ -44,7 +46,7 @@ public class UsersEntity {
     }
 
     @Basic
-    @Column(name = "category")
+    @Column(name = "category", nullable = false, length = 20)
     public String getCategory() {
         return category;
     }
@@ -58,12 +60,12 @@ public class UsersEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        UsersEntity that = (UsersEntity) o;
+        Users users = (Users) o;
 
-        if (id != that.id) return false;
-        if (name != null ? !name.equals(that.name) : that.name != null) return false;
-        if (password != null ? !password.equals(that.password) : that.password != null) return false;
-        if (category != null ? !category.equals(that.category) : that.category != null) return false;
+        if (id != users.id) return false;
+        if (name != null ? !name.equals(users.name) : users.name != null) return false;
+        if (password != null ? !password.equals(users.password) : users.password != null) return false;
+        if (category != null ? !category.equals(users.category) : users.category != null) return false;
 
         return true;
     }

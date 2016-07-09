@@ -1,19 +1,21 @@
-package ru.relesystem.entities;
+package ru.relesystem.entity;
 
-import javax.persistence.*;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
- * Created by alex on 06.07.16.
+ * Created by alex on 09.07.16.
  */
 @Entity
-@Table(name = "station", schema = "releSystemDatabase", catalog = "releSystemDatabase")
-public class StationEntity {
+public class Station {
     private int id;
     private String stationName;
     private String fkUnit;
 
     @Id
-    @Column(name = "id")
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -23,7 +25,7 @@ public class StationEntity {
     }
 
     @Basic
-    @Column(name = "station_name")
+    @Column(name = "station_name", nullable = false, length = 45)
     public String getStationName() {
         return stationName;
     }
@@ -33,7 +35,7 @@ public class StationEntity {
     }
 
     @Basic
-    @Column(name = "fk_unit")
+    @Column(name = "fk_unit", nullable = false, length = 45)
     public String getFkUnit() {
         return fkUnit;
     }
@@ -47,11 +49,11 @@ public class StationEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        StationEntity that = (StationEntity) o;
+        Station station = (Station) o;
 
-        if (id != that.id) return false;
-        if (stationName != null ? !stationName.equals(that.stationName) : that.stationName != null) return false;
-        if (fkUnit != null ? !fkUnit.equals(that.fkUnit) : that.fkUnit != null) return false;
+        if (id != station.id) return false;
+        if (stationName != null ? !stationName.equals(station.stationName) : station.stationName != null) return false;
+        if (fkUnit != null ? !fkUnit.equals(station.fkUnit) : station.fkUnit != null) return false;
 
         return true;
     }
