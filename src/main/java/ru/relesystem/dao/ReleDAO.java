@@ -1,7 +1,5 @@
 package ru.relesystem.dao;
 
-import ru.relesystem.entity.Relay;
-
 import java.util.List;
 
 public interface ReleDAO {
