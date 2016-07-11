@@ -9,7 +9,7 @@ USE releSystemDatabase;
 --
 -- Структура таблицы `category`
 --
-
+DROP TABLE IF EXISTS `category`;
 CREATE TABLE IF NOT EXISTS `category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) CHARACTER SET utf8 NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE IF NOT EXISTS `relay` (
 --
 -- Структура таблицы `rele_type`
 --
-DROP TABLE rele_type;
+DROP TABLE IF EXISTS `rele_type`;
 CREATE TABLE IF NOT EXISTS `rele_type` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS `rele_type` (
 --
 -- Структура таблицы `station`
 --
-
+DROP TABLE IF EXISTS `station`;
 CREATE TABLE IF NOT EXISTS `station` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `station_name` varchar(45) CHARACTER SET utf8 NOT NULL,
@@ -77,7 +77,7 @@ CREATE TABLE IF NOT EXISTS `station` (
 --
 -- Структура таблицы `stuff`
 --
-
+DROP TABLE IF EXISTS `stuff`;
 CREATE TABLE IF NOT EXISTS `stuff` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `stuff_number` int(11) NOT NULL,
@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS `stuff` (
 --
 -- Структура таблицы `unit`
 --
-
+DROP TABLE IF EXISTS `unit`;
 CREATE TABLE IF NOT EXISTS `unit` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) CHARACTER SET utf8 NOT NULL,
@@ -106,7 +106,7 @@ CREATE TABLE IF NOT EXISTS `unit` (
 --
 -- Структура таблицы `users`
 --
-
+DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
@@ -114,3 +114,4 @@ CREATE TABLE IF NOT EXISTS `users` (
   `category` varchar(20) CHARACTER SET utf8 NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
