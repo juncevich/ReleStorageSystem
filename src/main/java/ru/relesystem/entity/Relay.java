@@ -1,13 +1,14 @@
 package ru.relesystem.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.sql.Date;
 
 /**
  * Created by alex on 11.07.16.
  */
 @Entity
-public class Relay {
+public class Relay implements Serializable{
     private int id;
     private int serialNumber;
     private Date manufactureDate;
@@ -107,7 +108,7 @@ public class Relay {
     }
 
     @ManyToOne
-    @JoinColumn(name = "station_id", referencedColumnName = "id", nullable = false)
+    @JoinColumn(name = "station_id", referencedColumnName = "id",  nullable = false)
     public Station getStationByStationId() {
         return stationByStationId;
     }

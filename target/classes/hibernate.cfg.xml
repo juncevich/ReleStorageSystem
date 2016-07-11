@@ -6,23 +6,19 @@
     <session-factory>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.show_sql">true</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/releSystemDatabase</property>
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.current_session_context_class">thread</property>
-        <property name="hibernate.connection.datasource">jdbc/ReleStorage</property>
+
         <mapping resource="ru/relesystem/entity/Category.hbm.xml"/>
-        <mapping class="ru.relesystem.entity.Category"/>
+
         <mapping resource="ru/relesystem/entity/ReleType.hbm.xml"/>
-        <mapping class="ru.relesystem.entity.ReleType"/>
-        <mapping class="ru.relesystem.entity.Station"/>
+
         <mapping resource="ru/relesystem/entity/Station.hbm.xml"/>
-        <mapping class="ru.relesystem.entity.Stuff"/>
+
         <mapping resource="ru/relesystem/entity/Stuff.hbm.xml"/>
-        <mapping class="ru.relesystem.entity.Unit"/>
+
         <mapping resource="ru/relesystem/entity/Unit.hbm.xml"/>
-        <mapping class="ru.relesystem.entity.Users"/>
+
         <mapping resource="ru/relesystem/entity/Users.hbm.xml"/>
         <mapping resource="ru/relesystem/entity/Relay.hbm.xml"/>
-        <mapping class="ru.relesystem.entity.Relay"/>
+
     </session-factory>
 </hibernate-configuration>	

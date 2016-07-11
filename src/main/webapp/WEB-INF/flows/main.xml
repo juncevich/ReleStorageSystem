@@ -6,7 +6,7 @@
     <view-state id="main">
 
         <on-render>
-            <evaluate expression="testBean.test()"/>
+            <evaluate expression="relayDao.relays"/>
         </on-render>
 
     </view-state>
