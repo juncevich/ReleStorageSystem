@@ -40,9 +40,9 @@ CREATE TABLE IF NOT EXISTS `relay` (
   KEY `fk_type_idx` (`type_id`),
   KEY `fk_unit_idx` (`unit_id`),
   KEY `fk_station_idx` (`station_id`),
-  CONSTRAINT `fk_type` FOREIGN KEY (`type_id`) REFERENCES `rele_type` (`id`) ON UPDATE CASCADE,
-  CONSTRAINT `fk_unit` FOREIGN KEY (`unit_id`) REFERENCES `unit` (`id`) ON UPDATE CASCADE,
-  CONSTRAINT `fk_station` FOREIGN KEY (`station_id`) REFERENCES `station` (`id`) ON UPDATE CASCADE
+  CONSTRAINT `fk_type` FOREIGN KEY (`type_id`) REFERENCES `rele_type` (`id`) ,
+  CONSTRAINT `fk_unit_1` FOREIGN KEY (`unit_id`) REFERENCES `unit` (`id`) ,
+  CONSTRAINT `fk_station` FOREIGN KEY (`station_id`) REFERENCES `station` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `rele_type` (
 CREATE TABLE IF NOT EXISTS `station` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `station_name` varchar(45) CHARACTER SET utf8 NOT NULL,
-  `unit_id` varchar(45) CHARACTER SET utf8 NOT NULL,
+  `unit_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_unit_idx` (`unit_id`),
   CONSTRAINT `fk_unit` FOREIGN KEY (`unit_id`) REFERENCES `unit` (`id`)
