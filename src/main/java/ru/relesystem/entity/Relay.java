@@ -1,5 +1,7 @@
 package ru.relesystem.entity;
 
+import org.apache.tapestry5.beaneditor.NonVisual;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.sql.Date;
@@ -20,6 +22,7 @@ public class Relay implements Serializable{
 
     @Id
     @Column(name = "id")
+    @NonVisual
     public int getId() {
         return id;
     }

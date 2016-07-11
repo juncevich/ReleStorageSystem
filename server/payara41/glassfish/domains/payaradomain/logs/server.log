@@ -9432,3 +9432,36 @@ false]]
 [2016-07-11T22:46:24.952+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=32 _ThreadName=http-listener-1(1)] [timeMillis: 1468259184952] [levelValue: 800] [[
   Hibernate: select this_.id as id1_1_2_, this_.serial_number as serial_n2_1_2_, this_.manufacture_date as manufact3_1_2_, this_.last_service as last_ser4_1_2_, this_.next_service as next_ser5_1_2_, this_.responible as responib6_1_2_, this_.station_id as station_7_1_2_, this_.type_id as type_id8_1_2_, station2_.id as id1_3_0_, station2_.station_name as station_2_3_0_, reletype3_.id as id1_2_1_, reletype3_.name as name2_2_1_ from relay this_ left outer join station station2_ on this_.station_id=station2_.id left outer join rele_type reletype3_ on this_.type_id=reletype3_.id]]
 
+[2016-07-11T22:48:39.762+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(1)] [timeMillis: 1468259319762] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcher']]
+
+[2016-07-11T22:48:39.789+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=46 _ThreadName=admin-listener(1)] [timeMillis: 1468259319789] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-07-11T22:48:45.678+0500] [Payara 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=50 _ThreadName=admin-listener(5)] [timeMillis: 1468259325678] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2016-07-11T22:48:45.808+0500] [Payara 4.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=128 _ThreadName=Thread-30] [timeMillis: 1468259325808] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2016-07-11T22:48:45.814+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=128 _ThreadName=Thread-30] [timeMillis: 1468259325814] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@4110765e from service registry.]]
+
+[2016-07-11T22:48:45.815+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=128 _ThreadName=Thread-30] [timeMillis: 1468259325815] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2016-07-11T22:48:45.823+0500] [Payara 4.1] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=128 _ThreadName=Thread-30] [timeMillis: 1468259325823] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2016-07-11T22:48:45.823+0500] [Payara 4.1] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=128 _ThreadName=Thread-30] [timeMillis: 1468259325823] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2016-07-11T22:48:45.990+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=139 _ThreadName=RunLevelControllerThread-1468259325901] [timeMillis: 1468259325990] [levelValue: 800] [[
+  Cannot find the resource bundle for the name com.sun.logging.enterprise.system.core for class com.sun.ejb.containers.interceptors.JavaEEInterceptorBuilderImpl using org.glassfish.main.ejb.ejb-container [138]]]
+
+[2016-07-11T22:48:46.039+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=133 _ThreadName=RunLevelControllerThread-1468259325854] [timeMillis: 1468259326039] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
+[2016-07-11T22:48:46.084+0500] [Payara 4.1] [INFO] [] [javax.enterprise.resource.resourceadapter.com.sun.enterprise.connectors.service] [tid: _ThreadID=140 _ThreadName=Thread-41] [timeMillis: 1468259326084] [levelValue: 800] [[
+  RAR7094: __ds_jdbc_ra shutdown successful.]]
+

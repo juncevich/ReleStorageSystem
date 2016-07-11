@@ -1,0 +1,8 @@
+
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+<body>
+The person's name is: ${person.name}
+<t:grid source="relays"
+        include="honorific,firstName,lastName,street1,city,state,zip,phone"/>
+</body>
+</html>
