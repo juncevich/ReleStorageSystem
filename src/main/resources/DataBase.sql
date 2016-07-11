@@ -66,8 +66,10 @@ CREATE TABLE IF NOT EXISTS `rele_type` (
 CREATE TABLE IF NOT EXISTS `station` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `station_name` varchar(45) CHARACTER SET utf8 NOT NULL,
-  `fk_unit` varchar(45) CHARACTER SET utf8 NOT NULL,
-  PRIMARY KEY (`id`)
+  `unit_id` varchar(45) CHARACTER SET utf8 NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_unit_idx` (`unit_id`),
+  CONSTRAINT `fk_unit` FOREIGN KEY (`unit_id`) REFERENCES `unit` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
