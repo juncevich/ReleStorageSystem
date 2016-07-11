@@ -12,7 +12,7 @@ USE releSystemDatabase;
 
 CREATE TABLE IF NOT EXISTS `category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(45) CHARACTER SET latin1 NOT NULL,
+  `name` varchar(45) CHARACTER SET utf8 NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -65,8 +65,8 @@ CREATE TABLE IF NOT EXISTS `rele_type` (
 
 CREATE TABLE IF NOT EXISTS `station` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `station_name` varchar(45) CHARACTER SET latin1 NOT NULL,
-  `fk_unit` varchar(45) CHARACTER SET latin1 NOT NULL,
+  `station_name` varchar(45) CHARACTER SET utf8 NOT NULL,
+  `fk_unit` varchar(45) CHARACTER SET utf8 NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -80,10 +80,10 @@ CREATE TABLE IF NOT EXISTS `stuff` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `stuff_number` int(11) NOT NULL,
   `name` varchar(45) CHARACTER SET latin1 DEFAULT NULL,
-  `second_name` varchar(45) CHARACTER SET latin1 DEFAULT NULL,
-  `last_name` varchar(45) CHARACTER SET latin1 DEFAULT NULL,
-  `fk_category` varchar(45) CHARACTER SET latin1 NOT NULL,
-  `fk_unit` varchar(45) CHARACTER SET latin1 NOT NULL,
+  `second_name` varchar(45) CHARACTER SET utf8 DEFAULT NULL,
+  `last_name` varchar(45) CHARACTER SET utf8 DEFAULT NULL,
+  `fk_category` varchar(45) CHARACTER SET utf8 NOT NULL,
+  `fk_unit` varchar(45) CHARACTER SET utf8 NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -95,7 +95,7 @@ CREATE TABLE IF NOT EXISTS `stuff` (
 
 CREATE TABLE IF NOT EXISTS `unit` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(45) CHARACTER SET latin1 NOT NULL,
+  `name` varchar(45) CHARACTER SET utf8 NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
