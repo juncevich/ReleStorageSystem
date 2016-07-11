@@ -103,11 +103,11 @@ public class RelayController {
                 InputStream inputStream = file.getInputStream();
                 if (inputStream == null) logger.info("File inputstream is null");
                 fileContent = IOUtils.toByteArray(inputStream);
-                contact.setPhoto(fileContent);
+                relay.setPhoto(fileContent);
             } catch (IOException ex) {
                 logger.error("Error saving uploaded file");
             }
-            contact.setPhoto(fileContent);
+            relay.setPhoto(fileContent);
         }
 
         relayService.save(relay);

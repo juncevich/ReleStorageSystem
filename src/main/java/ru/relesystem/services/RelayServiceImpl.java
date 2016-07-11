@@ -14,7 +14,7 @@ import java.util.List;
 
 @Repository
 @Transactional
-@Service("contactService")
+@Service("relayService")
 public class RelayServiceImpl implements RelayService {
     private RelayRepository relayRepository;
 
