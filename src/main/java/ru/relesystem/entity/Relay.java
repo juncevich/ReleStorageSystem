@@ -1,13 +1,10 @@
 package ru.relesystem.entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.sql.Date;
 
 /**
- * Created by alex on 09.07.16.
+ * Created by alex on 11.07.16.
  */
 @Entity
 public class Relay {
@@ -17,9 +14,11 @@ public class Relay {
     private Date lastService;
     private Date nextService;
     private String responible;
+    private Station stationByStationId;
+    private ReleType releTypeByTypeId;
 
     @Id
-    @Column(name = "id", nullable = false)
+    @Column(name = "id")
     public int getId() {
         return id;
     }
@@ -29,7 +28,7 @@ public class Relay {
     }
 
     @Basic
-    @Column(name = "serial_number", nullable = false)
+    @Column(name = "serial_number")
     public int getSerialNumber() {
         return serialNumber;
     }
@@ -39,7 +38,7 @@ public class Relay {
     }
 
     @Basic
-    @Column(name = "manufacture_date", nullable = false)
+    @Column(name = "manufacture_date")
     public Date getManufactureDate() {
         return manufactureDate;
     }
@@ -49,7 +48,7 @@ public class Relay {
     }
 
     @Basic
-    @Column(name = "last_service", nullable = false)
+    @Column(name = "last_service")
     public Date getLastService() {
         return lastService;
     }
@@ -59,7 +58,7 @@ public class Relay {
     }
 
     @Basic
-    @Column(name = "next_service", nullable = false)
+    @Column(name = "next_service")
     public Date getNextService() {
         return nextService;
     }
@@ -69,7 +68,7 @@ public class Relay {
     }
 
     @Basic
-    @Column(name = "responible", nullable = false, length = 45)
+    @Column(name = "responible")
     public String getResponible() {
         return responible;
     }
@@ -105,5 +104,25 @@ public class Relay {
         result = 31 * result + (nextService != null ? nextService.hashCode() : 0);
         result = 31 * result + (responible != null ? responible.hashCode() : 0);
         return result;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "station_id", referencedColumnName = "id", nullable = false)
+    public Station getStationByStationId() {
+        return stationByStationId;
+    }
+
+    public void setStationByStationId(Station stationByStationId) {
+        this.stationByStationId = stationByStationId;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "type_id", referencedColumnName = "id", nullable = false)
+    public ReleType getReleTypeByTypeId() {
+        return releTypeByTypeId;
+    }
+
+    public void setReleTypeByTypeId(ReleType releTypeByTypeId) {
+        this.releTypeByTypeId = releTypeByTypeId;
     }
 }

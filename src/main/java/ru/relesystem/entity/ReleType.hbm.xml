@@ -5,11 +5,7 @@
 <hibernate-mapping>
 
     <class name="ru.relesystem.entity.ReleType" table="rele_type" schema="releSystemDatabase">
-        <id name="id">
-            <column name="id" sql-type="int(11)"/>
-        </id>
-        <property name="name">
-            <column name="name" sql-type="varchar(45)" length="45"/>
-        </property>
+        <id name="id" column="id"/>
+        <property name="name" column="name"/>
     </class>
 </hibernate-mapping>

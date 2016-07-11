@@ -5,23 +5,17 @@
 <hibernate-mapping>
 
     <class name="ru.relesystem.entity.Relay" table="relay" schema="releSystemDatabase">
-        <id name="id">
-            <column name="id" sql-type="int(11)"/>
-        </id>
-        <property name="serialNumber">
-            <column name="serial_number" sql-type="int(11)"/>
-        </property>
-        <property name="manufactureDate">
-            <column name="manufacture_date" sql-type="date"/>
-        </property>
-        <property name="lastService">
-            <column name="last_service" sql-type="date"/>
-        </property>
-        <property name="nextService">
-            <column name="next_service" sql-type="date"/>
-        </property>
-        <property name="responible">
-            <column name="responible" sql-type="varchar(45)" length="45"/>
-        </property>
+        <id name="id" column="id"/>
+        <property name="serialNumber" column="serial_number"/>
+        <property name="manufactureDate" column="manufacture_date"/>
+        <property name="lastService" column="last_service"/>
+        <property name="nextService" column="next_service"/>
+        <property name="responible" column="responible"/>
+        <many-to-one name="stationByStationId" class="ru.relesystem.entity.Station">
+            <column name="station_id"/>
+        </many-to-one>
+        <many-to-one name="releTypeByTypeId" class="ru.relesystem.entity.ReleType">
+            <column name="type_id"/>
+        </many-to-one>
     </class>
 </hibernate-mapping>

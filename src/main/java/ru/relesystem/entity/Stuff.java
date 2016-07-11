@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 /**
- * Created by alex on 09.07.16.
+ * Created by alex on 11.07.16.
  */
 @Entity
 public class Stuff {
@@ -19,7 +19,7 @@ public class Stuff {
     private String fkUnit;
 
     @Id
-    @Column(name = "id", nullable = false)
+    @Column(name = "id")
     public int getId() {
         return id;
     }
@@ -29,7 +29,7 @@ public class Stuff {
     }
 
     @Basic
-    @Column(name = "stuff_number", nullable = false)
+    @Column(name = "stuff_number")
     public int getStuffNumber() {
         return stuffNumber;
     }
@@ -39,7 +39,7 @@ public class Stuff {
     }
 
     @Basic
-    @Column(name = "name", nullable = true, length = 45)
+    @Column(name = "name")
     public String getName() {
         return name;
     }
@@ -49,7 +49,7 @@ public class Stuff {
     }
 
     @Basic
-    @Column(name = "second_name", nullable = true, length = 45)
+    @Column(name = "second_name")
     public String getSecondName() {
         return secondName;
     }
@@ -59,7 +59,7 @@ public class Stuff {
     }
 
     @Basic
-    @Column(name = "last_name", nullable = true, length = 45)
+    @Column(name = "last_name")
     public String getLastName() {
         return lastName;
     }
@@ -69,7 +69,7 @@ public class Stuff {
     }
 
     @Basic
-    @Column(name = "fk_category", nullable = false, length = 45)
+    @Column(name = "fk_category")
     public String getFkCategory() {
         return fkCategory;
     }
@@ -79,7 +79,7 @@ public class Stuff {
     }
 
     @Basic
-    @Column(name = "fk_unit", nullable = false, length = 45)
+    @Column(name = "fk_unit")
     public String getFkUnit() {
         return fkUnit;
     }

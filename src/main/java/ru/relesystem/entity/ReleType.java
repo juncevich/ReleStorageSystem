@@ -3,7 +3,7 @@ package ru.relesystem.entity;
 import javax.persistence.*;
 
 /**
- * Created by alex on 09.07.16.
+ * Created by alex on 11.07.16.
  */
 @Entity
 @Table(name = "rele_type", schema = "releSystemDatabase", catalog = "")
@@ -12,7 +12,7 @@ public class ReleType {
     private String name;
 
     @Id
-    @Column(name = "id", nullable = false)
+    @Column(name = "id")
     public int getId() {
         return id;
     }
@@ -22,7 +22,7 @@ public class ReleType {
     }
 
     @Basic
-    @Column(name = "name", nullable = false, length = 45)
+    @Column(name = "name")
     public String getName() {
         return name;
     }

@@ -5,26 +5,12 @@
 <hibernate-mapping>
 
     <class name="ru.relesystem.entity.Stuff" table="stuff" schema="releSystemDatabase">
-        <id name="id">
-            <column name="id" sql-type="int(11)"/>
-        </id>
-        <property name="stuffNumber">
-            <column name="stuff_number" sql-type="int(11)"/>
-        </property>
-        <property name="name">
-            <column name="name" sql-type="varchar(45)" length="45" not-null="true"/>
-        </property>
-        <property name="secondName">
-            <column name="second_name" sql-type="varchar(45)" length="45" not-null="true"/>
-        </property>
-        <property name="lastName">
-            <column name="last_name" sql-type="varchar(45)" length="45" not-null="true"/>
-        </property>
-        <property name="fkCategory">
-            <column name="fk_category" sql-type="varchar(45)" length="45"/>
-        </property>
-        <property name="fkUnit">
-            <column name="fk_unit" sql-type="varchar(45)" length="45"/>
-        </property>
+        <id name="id" column="id"/>
+        <property name="stuffNumber" column="stuff_number"/>
+        <property name="name" column="name"/>
+        <property name="secondName" column="second_name"/>
+        <property name="lastName" column="last_name"/>
+        <property name="fkCategory" column="fk_category"/>
+        <property name="fkUnit" column="fk_unit"/>
     </class>
 </hibernate-mapping>

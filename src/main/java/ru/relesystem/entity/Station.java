@@ -6,16 +6,15 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 /**
- * Created by alex on 09.07.16.
+ * Created by alex on 11.07.16.
  */
 @Entity
 public class Station {
     private int id;
     private String stationName;
-    private String fkUnit;
 
     @Id
-    @Column(name = "id", nullable = false)
+    @Column(name = "id")
     public int getId() {
         return id;
     }
@@ -25,23 +24,13 @@ public class Station {
     }
 
     @Basic
-    @Column(name = "station_name", nullable = false, length = 45)
+    @Column(name = "station_name")
     public String getStationName() {
         return stationName;
     }
 
     public void setStationName(String stationName) {
         this.stationName = stationName;
-    }
-
-    @Basic
-    @Column(name = "fk_unit", nullable = false, length = 45)
-    public String getFkUnit() {
-        return fkUnit;
-    }
-
-    public void setFkUnit(String fkUnit) {
-        this.fkUnit = fkUnit;
     }
 
     @Override
@@ -53,7 +42,6 @@ public class Station {
 
         if (id != station.id) return false;
         if (stationName != null ? !stationName.equals(station.stationName) : station.stationName != null) return false;
-        if (fkUnit != null ? !fkUnit.equals(station.fkUnit) : station.fkUnit != null) return false;
 
         return true;
     }
@@ -62,7 +50,6 @@ public class Station {
     public int hashCode() {
         int result = id;
         result = 31 * result + (stationName != null ? stationName.hashCode() : 0);
-        result = 31 * result + (fkUnit != null ? fkUnit.hashCode() : 0);
         return result;
     }
 }
