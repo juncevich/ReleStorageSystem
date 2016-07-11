@@ -1,17 +1,17 @@
 package ru.relesystem.dao;
 
-import ru.relesystem.entities.RelayEntity;
+import ru.relesystem.entity.Relay;
 
 import java.util.List;
 
 public class ReleDAOImpl implements ReleDAO{
     @Override
-    public List<RelayEntity> getRelays() {
+    public List<Relay> getRelays() {
         return null;
     }
 
     @Override
-    public List<RelayEntity> getRelaysById(RelayEntity relayEntity) {
+    public List<Relay> getRelaysById(Relay relayEntity) {
         return null;
     }
 }

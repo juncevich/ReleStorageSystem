@@ -1,10 +1,10 @@
 package ru.relesystem.dao;
 
-import ru.relesystem.entities.RelayEntity;
+import ru.relesystem.entity.Relay;
 
 import java.util.List;
 
 public interface ReleDAO {
-    List<RelayEntity> getRelays();
-    List<RelayEntity> getRelaysById(RelayEntity relayEntity);
+    List<Relay> getRelays();
+    List<Relay> getRelaysById(Relay relayEntity);
 }
