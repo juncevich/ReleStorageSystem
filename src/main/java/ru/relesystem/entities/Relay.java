@@ -1,9 +1,10 @@
 package ru.relesystem.entities;
 
+import org.hibernate.annotations.Type;
+import org.springframework.format.annotation.DateTimeFormat;
 import ru.relesystem.interfaces.Person;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -13,6 +14,8 @@ import java.util.Date;
 @Entity
 @Table(name ="relay")
 public class Relay implements Serializable{
+    private Long id;
+    private int version;
     /**
      * Contains the serial number.
      */
@@ -72,13 +75,31 @@ public class Relay implements Serializable{
         this.responsiblePerson = responsiblePerson;
     }
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name ="ID")
+    public Long getId() {
+        return id;
+    }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+    @Version
+    @Column(name = "VERSION")
+    public int getVersion() {
+        return version;
+    }
 
+    public void setVersion(int version) {
+        this.version = version;
+    }
 
     /**
      * Returns the serial number.
      * @return number  number, that consists of nine characters.
      */
+    @Column(name = "SERIAL_NUMBER")
     public Integer getNumber() {
         return number;
     }
@@ -94,6 +115,7 @@ public class Relay implements Serializable{
      * Returns the type corresponding to this user.
      * @return the type corresponding to this user.
      */
+    @Column(name = "TYPE_ID")
     public String getType() {
         return type;
     }
@@ -104,7 +126,7 @@ public class Relay implements Serializable{
     public void setType(String type) {
         this.type = type;
     }
-
+    @Column(name = "SHELVE_NUMBER")
     public int getShelveNumber() {
         return shelveNumber;
     }
@@ -112,7 +134,7 @@ public class Relay implements Serializable{
     public void setShelveNumber(int shelveNumber) {
         this.shelveNumber = shelveNumber;
     }
-
+    @Column(name = "SHELVE_POSITION")
     public int getShelvePosition() {
         return shelvePosition;
     }
@@ -125,6 +147,9 @@ public class Relay implements Serializable{
      * Returns the lastServiceDate corresponding to this user.
      * @return the lastServiceDate corresponding to this user.
      */
+    @Column(name = "SERVICE_DATE")
+    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
+    @DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
     public Date getLastServiceDate() {
         return lastServiceDate;
     }
@@ -139,6 +164,9 @@ public class Relay implements Serializable{
      * Returns the nextServiceDate corresponding to this user.
      * @return the nextServiceDate corresponding to this user.
      */
+    @Column(name = "NEXT_SERVICE_DATE")
+    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
+    @DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
     public Date getNextServiceDate() {
         return nextServiceDate;
     }
@@ -153,6 +181,9 @@ public class Relay implements Serializable{
      * Returns the manufactureDate corresponding to this user.
      * @return the manufactureDate corresponding to this user.
      */
+    @Column(name = "MANUFACTURE_DATE")
+    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
+    @DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
     public Date getManufactureDate() {
         return manufactureDate;
     }
@@ -167,6 +198,7 @@ public class Relay implements Serializable{
      * Returns the responsiblePerson corresponding to this user.
      * @return the responsiblePerson corresponding to this user.
      */
+    @Column(name = "RESPONSIBLE_PERSON")
     public Person getResponsiblePerson() {
         return responsiblePerson;
     }
