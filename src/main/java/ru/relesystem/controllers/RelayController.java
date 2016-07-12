@@ -17,6 +17,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import ru.relesystem.RelayGrid;
+import ru.relesystem.UrlUtil;
 import ru.relesystem.entity.Relay;
 import ru.relesystem.services.RelayService;
 
@@ -24,6 +25,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.Part;
 import javax.validation.Valid;
 import java.util.List;
+import java.util.Locale;
 
 @RequestMapping("/relay")
 @Controller
@@ -35,19 +37,19 @@ public class RelayController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String list(Model uiModel) {
-        logger.info("Listing contacts");
+        logger.info("Listing relay");
 
-        List<Relay> contacts = relayService.findAll();
-        uiModel.addAttribute("contacts", contacts);
+        List<Relay> relays = relayService.findAll();
+        uiModel.addAttribute("contacts", relays);
 
-        logger.info("No. of contacts: " + contacts.size());
+        logger.info("No. of contacts: " + relays.size());
 
-        return "contacts/list";
+        return "relays/list";
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public String show(@PathVariable("id") Long id, Model uiModel) {
-        Relay contact = relayService.findById(id);
+        Relay relay = relayService.findById(id);
         uiModel.addAttribute("relay", relay);
 
         return "relay/show";
@@ -68,7 +70,7 @@ public class RelayController {
         redirectAttributes.addFlashAttribute("message", new Message("success",
                 messageSource.getMessage("relay_save_success", new Object[]{}, locale)));
         relayService.save(relay);
-        return "redirect:/contacts/" + UrlUtil.encodeUrlPathSegment(relay.getId().toString(),
+        return "redirect:/reles/" + UrlUtil.encodeUrlPathSegment(relay.getId().toString(),
                 httpServletRequest);
     }
 

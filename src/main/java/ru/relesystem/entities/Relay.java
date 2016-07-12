@@ -2,12 +2,17 @@ package ru.relesystem.entities;
 
 import ru.relesystem.interfaces.Person;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * The class that is used for storage of equipment.
  */
-public class Relay {
+@Entity
+@Table(name ="relay")
+public class Relay implements Serializable{
     /**
      * Contains the serial number.
      */
