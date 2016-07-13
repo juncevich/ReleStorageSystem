@@ -4,5 +4,11 @@
     <data-source name="MySQL - releSystemDatabase@localhost" uuid="c2144163-7403-41a3-87fa-52341a5cd7df">
       <user-name>root</user-name>
     </data-source>
+    <data-source name="H2 - default" uuid="bfde6e56-2f04-4d9b-bf30-e00d234495f4">
+      <secret-storage>master_key</secret-storage>
+      <auth-required>false</auth-required>
+      <schema-pattern>DEFAULT.PUBLIC</schema-pattern>
+      <default-schemas>DEFAULT.PUBLIC</default-schemas>
+    </data-source>
   </component>
 </project>

@@ -12,7 +12,7 @@ import java.util.Date;
  * The class that is used for storage of equipment.
  */
 @Entity
-@Table(name ="relay")
+@Table(name ="RELAY")
 public class Relay implements Serializable{
     private Long id;
     private int version;
@@ -198,15 +198,15 @@ public class Relay implements Serializable{
      * Returns the responsiblePerson corresponding to this user.
      * @return the responsiblePerson corresponding to this user.
      */
-    @Column(name = "RESPONSIBLE_PERSON")
-    public Person getResponsiblePerson() {
-        return responsiblePerson;
-    }
-    /**
-     * Set the responsiblePerson corresponding to this user.
-     * @param responsiblePerson  corresponding to this user.
-     */
-    public void setResponsiblePerson(Person responsiblePerson) {
-        this.responsiblePerson = responsiblePerson;
-    }
+
+//    public Person getResponsiblePerson() {
+//        return responsiblePerson;
+//    }
+//    /**
+//     * Set the responsiblePerson corresponding to this user.
+//     * @param responsiblePerson  corresponding to this user.
+//     */
+//    public void setResponsiblePerson(Person responsiblePerson) {
+//        this.responsiblePerson = responsiblePerson;
+//    }
 }

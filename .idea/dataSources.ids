@@ -232,4 +232,25 @@
       </key>
     </database-model>
   </data-source>
+  <data-source name="H2 - default" uuid="bfde6e56-2f04-4d9b-bf30-e00d234495f4">
+    <database-info product="H2" version="1.3.176 (2014-04-05)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.176 (2014-04-05)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="DEFAULT"/>
+    <table name="RELAY" schema="PUBLIC" catalog="DEFAULT" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4" def="KE5FWFQgVkFMVUUgRk9SIFBVQkxJQy5TWVNURU1fU0VRVUVOQ0VfMEM4NTNDOURfMTk1RV80NTc2X0JCNzJfRjQwRkM3RDE1ODU2KQ==" autoIncrement="true"/>
+      <column name="VERSION" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="SERIAL_NUMBER" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="TYPE_ID" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="SHELVE_NUMBER" sqlType="INTEGER" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="SHELVE_POSITION" sqlType="INTEGER" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="SERVICE_DATE" sqlType="DATE" precision="8" scale="0" nullable="true" jdbcType="91"/>
+      <column name="NEXT_SERVICE_DATE" sqlType="DATE" precision="8" scale="0" nullable="true" jdbcType="91"/>
+      <column name="MANUFACTURE_DATE" sqlType="DATE" precision="8" scale="0" nullable="true" jdbcType="91"/>
+      <column name="RESPONSIBLE_PERSON" sqlType="VARCHAR" precision="40" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="CONSTRAINT_4" columns="ID"/>
+      <index name="UQ_RELAY_1_INDEX_4" unique="true" columns="SERIAL_NUMBER,TYPE_ID"/>
+    </table>
+  </data-source>
 </component>

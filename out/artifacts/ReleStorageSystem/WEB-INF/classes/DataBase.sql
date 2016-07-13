@@ -1,7 +1,7 @@
 --
 -- База данных: `Rele_storage`
 --
-DROP DATABASE releSystemDatabase;
+DROP DATABASE IF EXISTS releSystemDatabase;
 CREATE DATABASE IF NOT EXISTS releSystemDatabase;
 USE releSystemDatabase;
 -- --------------------------------------------------------

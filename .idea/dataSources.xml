@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2664335360">
+  <component name="DataSourceManagerImpl" format="xml" hash="652116750">
     <data-source source="LOCAL" name="MySQL - releSystemDatabase@localhost" uuid="c2144163-7403-41a3-87fa-52341a5cd7df">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
@@ -14,6 +14,12 @@
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="H2 - default" uuid="bfde6e56-2f04-4d9b-bf30-e00d234495f4">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:default</jdbc-url>
     </data-source>
   </component>
 </project>

@@ -5,7 +5,6 @@ import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.binding.message.Message;
 import org.springframework.context.MessageSource;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -16,6 +15,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import ru.relesystem.Message;
 import ru.relesystem.RelayGrid;
 import ru.relesystem.UrlUtil;
 import ru.relesystem.entities.Relay;
@@ -24,6 +24,8 @@ import ru.relesystem.services.RelayService;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.Part;
 import javax.validation.Valid;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 import java.util.Locale;
 
@@ -105,29 +107,29 @@ public class RelayController {
                 InputStream inputStream = file.getInputStream();
                 if (inputStream == null) logger.info("File inputstream is null");
                 fileContent = IOUtils.toByteArray(inputStream);
-                relay.setPhoto(fileContent);
+                //relay.setPhoto(fileContent);
             } catch (IOException ex) {
                 logger.error("Error saving uploaded file");
             }
-            relay.setPhoto(fileContent);
+            //relay.setPhoto(fileContent);
         }
 
         relayService.save(relay);
         return "redirect:/relay/";
     }
 
-    @RequestMapping(value = "/photo/{id}", method = RequestMethod.GET)
-    @ResponseBody
-    public byte[] downloadPhoto(@PathVariable("id") Long id) {
-        Relay relay = relayService.findById(id);
-
-        if (relay.getPhoto() != null) {
-            logger.info("Downloading photo for id: {} with size: {}", relay.getId(),
-                    relay.getPhoto().length);
-        }
-
-        return relay.getPhoto();
-    }
+//    @RequestMapping(value = "/photo/{id}", method = RequestMethod.GET)
+//    @ResponseBody
+//    public byte[] downloadPhoto(@PathVariable("id") Long id) {
+//        Relay relay = relayService.findById(id);
+//
+//        if (relay.getPhoto() != null) {
+//            logger.info("Downloading photo for id: {} with size: {}", relay.getId(),
+//                    relay.getPhoto().length);
+//        }
+//
+//        return relay.getPhoto();
+//    }
 
     @PreAuthorize("isAuthenticated()")
     @RequestMapping(params = "form", method = RequestMethod.GET)
@@ -171,16 +173,16 @@ public class RelayController {
             pageRequest = new PageRequest(page - 1, rows);
         }
 
-        Page<Relay> contactPage = relayService.findAllByPage(pageRequest);
+        Page<Relay> relayPage = relayService.findAllByPage(pageRequest);
 
         // Construct the grid data that will return as JSON data
         RelayGrid relayGrid = new RelayGrid();
 
-        relayGrid.setCurrentPage(contactPage.getNumber() + 1);
-        relayGrid.setTotalPages(contactPage.getTotalPages());
-        relayGrid.setTotalRecords(contactPage.getTotalElements());
+        relayGrid.setCurrentPage(relayPage.getNumber() + 1);
+        relayGrid.setTotalPages(relayPage.getTotalPages());
+        relayGrid.setTotalRecords(relayPage.getTotalElements());
 
-        relayGrid.setContactData(Lists.newArrayList(contactPage.iterator()));
+        relayGrid.setContactData(Lists.newArrayList(relayPage.iterator()));
 
         return relayGrid;
     }
