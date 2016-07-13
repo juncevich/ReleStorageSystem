@@ -32,7 +32,7 @@
         <property name="jpaVendorAdapter">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
         </property>
-        <property name="packagesToScan" value="com.apress.prospring4"/>
+        <property name="packagesToScan" value="ru.relesystem"/>
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.dialect">
@@ -48,7 +48,7 @@
 
     <context:annotation-config/>
 
-    <jpa:repositories base-package="com.apress.prospring4.ch16"
+    <jpa:repositories base-package="ru.relesystem"
                       entity-manager-factory-ref="emf"
                       transaction-manager-ref="transactionManager"/>
 </beans>
