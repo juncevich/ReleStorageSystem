@@ -1,6 +1,6 @@
 package ru.relesystem.repository;
 
-import ru.relesystem.entity.Relay;
+import ru.relesystem.entities.Relay;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 

@@ -7,7 +7,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.relesystem.entity.Relay;
+import ru.relesystem.entities.Relay;
 import ru.relesystem.repository.RelayRepository;
 
 import java.util.List;

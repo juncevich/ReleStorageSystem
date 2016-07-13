@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import ru.relesystem.RelayGrid;
 import ru.relesystem.UrlUtil;
-import ru.relesystem.entity.Relay;
+import ru.relesystem.entities.Relay;
 import ru.relesystem.services.RelayService;
 
 import javax.servlet.http.HttpServletRequest;
@@ -81,7 +81,7 @@ public class RelayController {
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public String create(@Valid Relay relay, BindingResult bindingResult, Model uiModel, HttpServletRequest httpServletRequest, RedirectAttributes redirectAttributes, Locale locale, @RequestParam(value="file", required=false) Part file) {
+    public String create(@Valid Relay relay, BindingResult bindingResult, Model uiModel, HttpServletRequest httpServletRequest, RedirectAttributes redirectAttributes, Locale locale, @RequestParam(value = "file", required = false) Part file) {
         logger.info("Creating relay");
         if (bindingResult.hasErrors()) {
             uiModel.addAttribute("message", new Message("error",
@@ -139,11 +139,11 @@ public class RelayController {
     }
 
     @ResponseBody
-    @RequestMapping(value = "/listgrid", method = RequestMethod.GET, produces="application/json")
+    @RequestMapping(value = "/listgrid", method = RequestMethod.GET, produces = "application/json")
     public RelayGrid listGrid(@RequestParam(value = "page", required = false) Integer page,
-                                @RequestParam(value = "rows", required = false) Integer rows,
-                                @RequestParam(value = "sidx", required = false) String sortBy,
-                                @RequestParam(value = "sord", required = false) String order) {
+                              @RequestParam(value = "rows", required = false) Integer rows,
+                              @RequestParam(value = "sidx", required = false) String sortBy,
+                              @RequestParam(value = "sord", required = false) String order) {
 
         logger.info("Listing relay for grid with page: {}, rows: {}", page, rows);
         logger.info("Listing relay for grid with sort: {}, order: {}", sortBy, order);
