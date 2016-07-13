@@ -12778,3 +12778,845 @@ java.lang.Exception: java.lang.IllegalStateException: ContainerBase.addChild: st
 [2016-07-14T00:09:28.747+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=142 _ThreadName=RunLevelControllerThread-1468436968155] [timeMillis: 1468436968747] [levelValue: 800] [[
   JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
 
+[2016-07-14T00:23:46.615+0500] [] [INFO] [NCLS-GFLAUNCHER-00005] [javax.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1468437826615] [levelValue: 800] [[
+  JVM invocation command line:
+/usr/lib/jvm/java-8-oracle/bin/java
+-cp
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:NewRatio=2
+-XX:MaxPermSize=512m
+-Xmx1024m
+-server
+-javaagent:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/monitor/flashlight-agent.jar
+-Djava.security.auth.login.config=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/login.conf
+-Djavax.net.ssl.trustStore=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/cacerts.jks
+-Djdk.tls.rejectClientInitiatedRenegotiation=true
+-Djdk.corba.allowOutputStreamSubclass=true
+-Dcom.sun.aas.instanceRoot=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain
+-Dcom.sun.aas.installRoot=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.endorsed.dirs=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/modules/endorsed:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/endorsed
+-Djava.security.policy=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/server.policy
+-Dorg.jboss.weld.serialization.beanIdentifierIndexOptimization=false
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Djava.awt.headless=true
+-Djava.ext.dirs=/usr/lib/jvm/java-8-oracle/lib/ext:/usr/lib/jvm/java-8-oracle/jre/lib/ext:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/lib/ext
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Djavax.net.ssl.keyStore=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/keystore.jks
+-Djava.library.path=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib:/opt/idea16/bin:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-upgrade
+false
+-domaindir
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain
+-read-stdin
+true
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=false,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains,,,payaradomain
+-domainname
+payaradomain
+-instancename
+server
+-type
+DAS
+-verbose
+false
+-asadmin-classpath
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/client/appserver-cli.jar
+-debug
+false
+-asadmin-classname
+com.sun.enterprise.admin.cli.AdminMain
+-watchdog
+false]]
+
+[2016-07-14T00:24:03.434+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1468437842921] [timeMillis: 1468437843434] [levelValue: 800] [[
+  Running Payara Version: Payara Server  4.1.1.162 #badassfish (build 116)]]
+
+[2016-07-14T00:24:03.435+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1468437842921] [timeMillis: 1468437843435] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2016-07-14T00:24:03.992+0500] [Payara 4.1] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1468437842916] [timeMillis: 1468437843992] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2016-07-14T00:24:04.025+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1468437842948] [timeMillis: 1468437844025] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2016-07-14T00:24:04.173+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1468437842948] [timeMillis: 1468437844173] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-07-14T00:24:04.188+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1468437842948] [timeMillis: 1468437844188] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-07-14T00:24:04.192+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1468437842948] [timeMillis: 1468437844192] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2016-07-14T00:24:04.296+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1468437842916] [timeMillis: 1468437844296] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2016-07-14T00:24:04.297+0500] [Payara 4.1] [INFO] [] [fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactory] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1468437842916] [timeMillis: 1468437844297] [levelValue: 800] [[
+  Registered Hazelcast BackingStoreFactory with persistence-type = hazelcast]]
+
+[2016-07-14T00:24:04.360+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1468437842921] [timeMillis: 1468437844360] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 22ms - bound to [/0.0.0.0:8080]]]
+
+[2016-07-14T00:24:04.376+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1468437842921] [timeMillis: 1468437844376] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 0ms - bound to [/0.0.0.0:8181]]]
+
+[2016-07-14T00:24:04.381+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1468437842921] [timeMillis: 1468437844381] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 1ms - bound to [/0.0.0.0:4848]]]
+
+[2016-07-14T00:24:04.447+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1468437842948] [timeMillis: 1468437844447] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 13ms - bound to [/0.0.0.0:3700]]]
+
+[2016-07-14T00:24:04.457+0500] [Payara 4.1] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1468437844457] [levelValue: 800] [[
+  Payara Server  4.1.1.162 #badassfish (116) startup time : Felix (14,243ms), startup services(1,558ms), total(15,801ms)]]
+
+[2016-07-14T00:24:04.457+0500] [Payara 4.1] [INFO] [] [fish.payara.nucleus.util.CleanupPostBoot] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1468437844457] [levelValue: 800] [[
+  Cleaning JarFileFactory Cache to prevent jar FD leaks]]
+
+[2016-07-14T00:24:05.159+0500] [Payara 4.1] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=43 _ThreadName=admin-listener(2)] [timeMillis: 1468437845159] [levelValue: 800] [[
+  HV000001: Hibernate Validator 5.1.2.Final]]
+
+[2016-07-14T00:24:05.206+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1468437842948] [timeMillis: 1468437845206] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 2ms - bound to [/0.0.0.0:7677]]]
+
+[2016-07-14T00:24:05.210+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1468437845210] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@342726f1 as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@2add4d24.]]
+
+[2016-07-14T00:24:05.380+0500] [Payara 4.1] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=54 _ThreadName=Thread-14] [timeMillis: 1468437845380] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://alex-ESPRIMO-P400:8686/jndi/rmi://alex-ESPRIMO-P400:8686/jmxrmi]]
+
+[2016-07-14T00:24:05.712+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=13 _ThreadName=FelixStartLevel] [timeMillis: 1468437845712] [levelValue: 800] [[
+  /home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/autodeploy/bundles does not exist, please create it.]]
+
+[2016-07-14T00:24:15.803+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437855803] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2016-07-14T00:24:15.803+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437855803] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2016-07-14T00:24:15.806+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437855806] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2016-07-14T00:24:15.889+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437855889] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2016-07-14T00:24:16.220+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437856220] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2016-07-14T00:24:16.227+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437856227] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2016-07-14T00:24:16.229+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437856229] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2016-07-14T00:24:16.270+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437856270] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2016-07-14T00:24:16.272+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437856272] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2016-07-14T00:24:16.526+0500] [Payara 4.1] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437856526] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2016-07-14T00:24:16.527+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437856527] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2016-07-14T00:24:17.599+0500] [Payara 4.1] [SEVERE] [] [global] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437857599] [levelValue: 1000] [[
+  Class [ com/querydsl/core/types/Expression ] not found. Error while loading [ class org.springframework.data.jpa.repository.support.QueryDslRepositorySupport ]]]
+
+[2016-07-14T00:24:18.010+0500] [Payara 4.1] [WARNING] [] [javax.enterprise.web.util] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437858010] [levelValue: 900] [[
+  The web application [unknown] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.]]
+
+[2016-07-14T00:24:18.010+0500] [Payara 4.1] [WARNING] [] [javax.enterprise.web.util] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437858010] [levelValue: 900] [[
+  The web application [unknown] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.]]
+
+[2016-07-14T00:24:18.100+0500] [Payara 4.1] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437858100] [levelValue: 800] [[
+  WELD-000900: 2.3.2 (Final)]]
+
+[2016-07-14T00:24:21.352+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437861352] [levelValue: 800] [[
+  2016-07-14 00:24:21,352 INFO [org.springframework.data.jpa.repository.cdi.JpaRepositoryExtension] - <Activating CDI extension for Spring Data JPA repositories.>]]
+
+[2016-07-14T00:24:21.358+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437861358] [levelValue: 800] [[
+  2016-07-14 00:24:21,358 INFO [org.springframework.data.jpa.repository.cdi.JpaRepositoryExtension] - <Activating CDI extension for Spring Data JPA repositories.>]]
+
+[2016-07-14T00:24:21.926+0500] [Payara 4.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437861926] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] protected org.springframework.data.repository.cdi.CdiRepositoryExtensionSupport.processAnnotatedType(@Observes ProcessAnnotatedType<X>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2016-07-14T00:24:21.951+0500] [Payara 4.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437861951] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] protected org.springframework.data.repository.cdi.CdiRepositoryExtensionSupport.processAnnotatedType(@Observes ProcessAnnotatedType<X>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2016-07-14T00:24:21.968+0500] [Payara 4.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437861968] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2016-07-14T00:24:21.969+0500] [Payara 4.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437861969] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2016-07-14T00:24:24.173+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437864173] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():1 Spring WebApplicationInitializers detected on classpath]]
+
+[2016-07-14T00:24:24.465+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437864465] [levelValue: 800] [[
+  Cannot find the resource bundle for the name com.sun.logging.enterprise.system.core.naming for class org.glassfish.concurrent.runtime.deployer.ConcurrentObjectFactory using org.glassfish.main.concurrent.impl [21]]]
+
+[2016-07-14T00:24:24.532+0500] [Payara 4.1] [INFO] [] [org.glassfish.tyrus.servlet.TyrusServletContainerInitializer] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437864532] [levelValue: 800] [[
+  Registering WebSocket filter for url pattern /*]]
+
+[2016-07-14T00:24:24.533+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437864533] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing AtmosphereFramework]]
+
+[2016-07-14T00:24:24.586+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437864586] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/ReleStorageSystem']]
+
+[2016-07-14T00:24:26.315+0500] [Payara 4.1] [INFO] [] [org.primefaces.webapp.PostConstructApplicationEventListener] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437866315] [levelValue: 800] [[
+  Running on PrimeFaces 6.0]]
+
+[2016-07-14T00:24:26.319+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437866319] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-07-14T00:24:26.319+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437866319] [levelValue: 800] [[
+  2016-07-14 00:24:26,319 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>]]
+
+[2016-07-14T00:24:26.328+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437866328] [levelValue: 800] [[
+  2016-07-14 00:24:26,328 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Thu Jul 14 00:24:26 YEKT 2016]; root of context hierarchy>]]
+
+[2016-07-14T00:24:26.406+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437866406] [levelValue: 800] [[
+  2016-07-14 00:24:26,405 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/root-context.xml]>]]
+
+[2016-07-14T00:24:26.466+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437866466] [levelValue: 800] [[
+  2016-07-14 00:24:26,466 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [META-INF/spring/datasource-tx-jpa.xml]>]]
+
+[2016-07-14T00:24:26.843+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437866843] [levelValue: 800] [[
+  2016-07-14 00:24:26,843 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [META-INF/spring/security-context.xml]>]]
+
+[2016-07-14T00:24:26.874+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437866874] [levelValue: 800] [[
+  2016-07-14 00:24:26,874 INFO [org.springframework.security.core.SpringSecurityCoreVersion] - <You are running with Spring Security Core 4.1.0.RELEASE>]]
+
+[2016-07-14T00:24:26.880+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437866880] [levelValue: 800] [[
+  2016-07-14 00:24:26,879 INFO [org.springframework.security.config.SecurityNamespaceHandler] - <Spring Security 'config' module version is 4.1.0.RELEASE>]]
+
+[2016-07-14T00:24:26.982+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437866982] [levelValue: 800] [[
+  2016-07-14 00:24:26,982 INFO [org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser] - <Creating access control expression attribute 'permitAll' for /WEB-INF>]]
+
+[2016-07-14T00:24:27.038+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437867038] [levelValue: 800] [[
+  2016-07-14 00:24:27,038 INFO [org.springframework.security.config.http.HttpSecurityBeanDefinitionParser] - <Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, Root bean: class [org.springframework.security.web.header.HeaderWriterFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 500, Root bean: class [org.springframework.security.web.csrf.CsrfFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 600, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 700, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 1100, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1600, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2000, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2100, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2200, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2300]>]]
+
+[2016-07-14T00:24:27.285+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437867285] [levelValue: 800] [[
+  2016-07-14 00:24:27,285 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>]]
+
+[2016-07-14T00:24:27.516+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437867516] [levelValue: 800] [[
+  2016-07-14 00:24:27,516 INFO [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory] - <Starting embedded database: url='jdbc:h2:mem:dataSource;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'>]]
+
+[2016-07-14T00:24:27.785+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437867785] [levelValue: 800] [[
+  2016-07-14 00:24:27,785 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executing SQL script from class path resource [META-INF/sql/schema.sql]>]]
+
+[2016-07-14T00:24:27.836+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437867836] [levelValue: 800] [[
+  2016-07-14 00:24:27,836 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executed SQL script from class path resource [META-INF/sql/schema.sql] in 51 ms.>]]
+
+[2016-07-14T00:24:27.836+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437867836] [levelValue: 800] [[
+  2016-07-14 00:24:27,836 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executing SQL script from class path resource [META-INF/sql/test-data.sql]>]]
+
+[2016-07-14T00:24:27.845+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437867845] [levelValue: 800] [[
+  2016-07-14 00:24:27,845 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executed SQL script from class path resource [META-INF/sql/test-data.sql] in 8 ms.>]]
+
+[2016-07-14T00:24:27.997+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437867997] [levelValue: 800] [[
+  2016-07-14 00:24:27,997 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] - <Building JPA container EntityManagerFactory for persistence unit 'default'>]]
+
+[2016-07-14T00:24:28.044+0500] [Payara 4.1] [INFO] [] [org.hibernate.jpa.internal.util.LogHelper] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437868044] [levelValue: 800] [[
+  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]]
+
+[2016-07-14T00:24:28.334+0500] [Payara 4.1] [INFO] [] [org.hibernate.Version] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437868334] [levelValue: 800] [[
+  HHH000412: Hibernate Core {5.2.0.Final}]]
+
+[2016-07-14T00:24:28.337+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437868337] [levelValue: 800] [[
+  HHH000206: hibernate.properties not found]]
+
+[2016-07-14T00:24:28.340+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437868340] [levelValue: 800] [[
+  HHH000021: Bytecode provider name : javassist]]
+
+[2016-07-14T00:24:28.470+0500] [Payara 4.1] [INFO] [] [org.hibernate.annotations.common.Version] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437868470] [levelValue: 800] [[
+  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}]]
+
+[2016-07-14T00:24:30.235+0500] [Payara 4.1] [INFO] [] [org.hibernate.dialect.Dialect] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870235] [levelValue: 800] [[
+  HHH000400: Using dialect: org.hibernate.dialect.H2Dialect]]
+
+[2016-07-14T00:24:30.554+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870554] [levelValue: 800] [[
+  2016-07-14 00:24:30,554 WARN [org.springframework.web.context.support.XmlWebApplicationContext] - <Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emf' defined in class path resource [META-INF/spring/datasource-tx-jpa.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: class demo.fabric.Employee not found while looking for property: id>]]
+
+[2016-07-14T00:24:30.555+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870555] [levelValue: 800] [[
+  2016-07-14 00:24:30,555 INFO [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory] - <Shutting down embedded database: url='jdbc:h2:mem:dataSource;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'>]]
+
+[2016-07-14T00:24:30.564+0500] [Payara 4.1] [SEVERE] [AS-WEB-CORE-00174] [javax.enterprise.web.core] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870564] [levelValue: 1000] [[
+  Startup of context /ReleStorageSystem failed due to previous errors]]
+
+[2016-07-14T00:24:30.566+0500] [Payara 4.1] [SEVERE] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870566] [levelValue: 1000] [[
+  WebModule[/ReleStorageSystem]Servlet appServlet threw unload() exception
+javax.servlet.ServletException: Servlet.destroy() for servlet appServlet threw exception
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1913)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:2194)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:6150)
+	at com.sun.enterprise.web.WebModule.stop(WebModule.java:720)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5983)
+	at com.sun.enterprise.web.WebModule.start(WebModule.java:691)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.destroy(FrameworkServlet.java:826)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1899)
+	... 53 more
+----- Root Cause -----
+java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.destroy(FrameworkServlet.java:826)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1899)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:2194)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:6150)
+	at com.sun.enterprise.web.WebModule.stop(WebModule.java:720)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5983)
+	at com.sun.enterprise.web.WebModule.start(WebModule.java:691)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+]]
+
+[2016-07-14T00:24:30.567+0500] [Payara 4.1] [SEVERE] [AS-WEB-CORE-00175] [javax.enterprise.web.core] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870567] [levelValue: 1000] [[
+  Exception during cleanup after start failed
+org.apache.catalina.LifecycleException: Manager has not yet been started
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:935)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:6162)
+	at com.sun.enterprise.web.WebModule.stop(WebModule.java:720)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5983)
+	at com.sun.enterprise.web.WebModule.start(WebModule.java:691)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+]]
+
+[2016-07-14T00:24:30.563+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870563] [levelValue: 800] [[
+  2016-07-14 00:24:30,560 ERROR [org.springframework.web.context.ContextLoader] - <Context initialization failed>
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emf' defined in class path resource [META-INF/spring/datasource-tx-jpa.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: class demo.fabric.Employee not found while looking for property: id
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1076)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:851)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.contextListenerStart(StandardContext.java:5396)
+	at com.sun.enterprise.web.WebModule.contextListenerStart(WebModule.java:743)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5965)
+	at com.sun.enterprise.web.WebModule.start(WebModule.java:691)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.MappingException: class demo.fabric.Employee not found while looking for property: id
+	at org.hibernate.internal.util.ReflectHelper.reflectedPropertyClass(ReflectHelper.java:212)
+	at org.hibernate.mapping.SimpleValue.setTypeUsingReflection(SimpleValue.java:436)
+	at org.hibernate.boot.model.source.internal.hbm.ModelBinder.bindSimpleEntityIdentifier(ModelBinder.java:719)
+	at org.hibernate.boot.model.source.internal.hbm.ModelBinder.bindEntityIdentifier(ModelBinder.java:343)
+	at org.hibernate.boot.model.source.internal.hbm.ModelBinder.bindRootEntity(ModelBinder.java:238)
+	at org.hibernate.boot.model.source.internal.hbm.ModelBinder.bindEntityHierarchy(ModelBinder.java:185)
+	at org.hibernate.boot.model.source.internal.hbm.HbmMetadataSourceProcessorImpl.processEntityHierarchies(HbmMetadataSourceProcessorImpl.java:144)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:218)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:265)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:770)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:797)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:338)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:373)
+	at org.springfra]]
+
+[2016-07-14T00:24:30.567+0500] [Payara 4.1] [SEVERE] [AS-WEB-CORE-00108] [javax.enterprise.web.core] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870567] [levelValue: 1000] [[
+  ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emf' defined in class path resource [META-INF/spring/datasource-tx-jpa.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: class demo.fabric.Employee not found while looking for property: id
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5987)
+	at com.sun.enterprise.web.WebModule.start(WebModule.java:691)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emf' defined in class path resource [META-INF/spring/datasource-tx-jpa.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: class demo.fabric.Employee not found while looking for property: id
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1076)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:851)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:444)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.contextListenerStart(StandardContext.java:5396)
+	at com.sun.enterprise.web.WebModule.contextListenerStart(WebModule.java:743)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5965)
+	... 49 more
+Caused by: org.hibernate.MappingException: class demo.fabric.Employee not found while looking for property: id
+	at org.hibernate.internal.util.ReflectHelper.reflectedPropertyClass(ReflectHelper.java:212)
+	at org.hibernate.mapping.SimpleValue.setTypeUsingReflection(SimpleValue.java:436)
+	at org.hibernate.boot.model.source.internal.hbm.ModelBinder.bindSimpleEntityIdentifier(ModelBinder.java:719)
+	at org.hibernate.boot.model.source.internal.hbm.ModelBinder.bindEntityIdentifier(ModelBinder.java:343)
+	at org.hibernate.boot.model.source.internal.hbm.ModelBinder.bindRootEntity(ModelBinder.java:238)
+	at org.hibernate.boot.model.source.internal.hbm.ModelBinder.bindEntityHierarchy(ModelBinder.java:185)
+	at org.hibernate.boot.model.source.internal.hbm.HbmMetadataSourceProcessorImpl.processEntityHierarchies(HbmMetadataSourceProcessorImpl.java:144)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:218)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:265)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:770)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:797)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:338)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:373)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 64 more
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [demo.fabric.Employee]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:229)
+	at org.hibernate.internal.util.ReflectHelper.reflectedPropertyClass(ReflectHelper.java:208)
+	... 80 more
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : demo.fabric.Employee
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:217)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:226)
+	... 81 more
+]]
+
+[2016-07-14T00:24:30.563+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870563] [levelValue: 800] [[
+  mework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 64 more
+Caused by: org.hibernate.boot.registry.classloading.spi.ClassLoadingException: Unable to load class [demo.fabric.Employee]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:229)
+	at org.hibernate.internal.util.ReflectHelper.reflectedPropertyClass(ReflectHelper.java:208)
+	... 80 more
+Caused by: java.lang.ClassNotFoundException: Could not load requested class : demo.fabric.Employee
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl$AggregatedClassLoader.findClass(ClassLoaderServiceImpl.java:217)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.classForName(ClassLoaderServiceImpl.java:226)
+	... 81 more]]
+
+[2016-07-14T00:24:30.568+0500] [Payara 4.1] [WARNING] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870568] [levelValue: 900] [[
+  java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emf' defined in class path resource [META-INF/spring/datasource-tx-jpa.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: class demo.fabric.Employee not found while looking for property: id
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emf' defined in class path resource [META-INF/spring/datasource-tx-jpa.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: class demo.fabric.Employee not found while looking for property: id
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1044)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+]]
+
+[2016-07-14T00:24:30.569+0500] [Payara 4.1] [SEVERE] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870569] [levelValue: 1000] [[
+  Exception while invoking class com.sun.enterprise.web.WebApplication start method
+java.lang.Exception: java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emf' defined in class path resource [META-INF/spring/datasource-tx-jpa.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: class demo.fabric.Employee not found while looking for property: id
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:168)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+]]
+
+[2016-07-14T00:24:30.570+0500] [Payara 4.1] [SEVERE] [NCLS-CORE-00026] [javax.enterprise.system.core] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870570] [levelValue: 1000] [[
+  Exception during lifecycle processing
+java.lang.Exception: java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emf' defined in class path resource [META-INF/spring/datasource-tx-jpa.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: class demo.fabric.Employee not found while looking for property: id
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:168)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)
+]]
+
+[2016-07-14T00:24:30.570+0500] [Payara 4.1] [SEVERE] [] [javax.enterprise.system.core] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870570] [levelValue: 1000] [[
+  Exception while loading the app]]
+
+[2016-07-14T00:24:30.571+0500] [Payara 4.1] [SEVERE] [AS-WEB-GLUE-00192] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870571] [levelValue: 1000] [[
+  Undeployment failed for context /ReleStorageSystem]]
+
+[2016-07-14T00:24:30.572+0500] [Payara 4.1] [WARNING] [] [javax.enterprise.web.util] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870572] [levelValue: 900] [[
+  The web application [/ReleStorageSystem] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.]]
+
+[2016-07-14T00:24:30.596+0500] [Payara 4.1] [SEVERE] [] [javax.enterprise.system.core] [tid: _ThreadID=42 _ThreadName=admin-listener(1)] [timeMillis: 1468437870596] [levelValue: 1000] [[
+  Exception while loading the app : java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emf' defined in class path resource [META-INF/spring/datasource-tx-jpa.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: class demo.fabric.Employee not found while looking for property: id]]
+
+[2016-07-14T00:29:05.958+0500] [Payara 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=46 _ThreadName=admin-listener(5)] [timeMillis: 1468438145958] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2016-07-14T00:29:06.139+0500] [Payara 4.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=95 _ThreadName=Thread-22] [timeMillis: 1468438146139] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2016-07-14T00:29:06.158+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=95 _ThreadName=Thread-22] [timeMillis: 1468438146158] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@342726f1 from service registry.]]
+
+[2016-07-14T00:29:06.167+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=95 _ThreadName=Thread-22] [timeMillis: 1468438146167] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2016-07-14T00:29:06.180+0500] [Payara 4.1] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=95 _ThreadName=Thread-22] [timeMillis: 1468438146180] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2016-07-14T00:29:06.181+0500] [Payara 4.1] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=95 _ThreadName=Thread-22] [timeMillis: 1468438146181] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2016-07-14T00:29:06.325+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=108 _ThreadName=RunLevelControllerThread-1468438146224] [timeMillis: 1468438146325] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
