@@ -2,872 +2,155 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c6ca1e6-df79-44c0-b05f-4224a2297440" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/app-context-annotation.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/i18n/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/i18n/application_zh_HK.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/i18n/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/i18n/messages_zh_HK.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/layouts/default.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/layouts/layouts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/spring/appServlet/servlet-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/spring/root-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/views/contacts/edit.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/views/contacts/list.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/views/contacts/show.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/views/contacts/views.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/views/footer.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/views/header.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/views/menu.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/i18n/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/i18n/application_zh_HK.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/i18n/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/i18n/messages_zh_HK.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/layouts/default.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/layouts/layouts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/spring/appServlet/servlet-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/spring/root-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/views/contacts/edit.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/views/contacts/list.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/views/contacts/show.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/views/contacts/views.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/views/footer.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/views/header.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/views/menu.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/CHANGES.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/adapters/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/build-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/ckeditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/contents.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/af.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/bn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/bs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/en-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/fo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/gu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/ka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/ku.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/mn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/si.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/sr-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/tt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/lang/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/image/images/noimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/link/images/anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/scayt/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/wsc/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/api.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/appendto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/assets/inlineall/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/assets/outputxhtml/outputxhtml.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/assets/posteddata.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/assets/sample.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/assets/sample.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/assets/uilanguages/languages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/datafiltering.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/divreplace.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/inlineall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/inlinebycode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/inlinetextarea.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/jquery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/plugins/dialog/assets/my_dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/plugins/dialog/dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/plugins/enterkey/enterkey.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/plugins/htmlwriter/outputforflash.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/plugins/htmlwriter/outputhtml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/plugins/magicline/magicline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/plugins/toolbar/toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/plugins/wysiwygarea/fullpage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/readonly.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/replacebyclass.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/replacebycode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/sample.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/sample.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/sample_posteddata.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/tabindex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/uicolor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/uilanguages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/samples/xhtmlstyle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/dialog_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/dialog_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/dialog_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/dialog_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/editor_gecko.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/editor_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/editor_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/editor_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/editor_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/images/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/images/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/images/hidpi/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/images/hidpi/lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/images/hidpi/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/images/hidpi/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/images/lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/images/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/images/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/skins/moono/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/ckeditor/styles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/css/ui.jqgrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/Changes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-bg1251.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-cat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-dk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-hr1250.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-kr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-mne.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-sr-latin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-ua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/i18n/grid.locale-vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/install.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/jquery-1.11.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/jquery.jqGrid.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/js/jquery.jqGrid.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/plugins/grid.addons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/plugins/grid.postext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/plugins/grid.setcolumns.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/plugins/jquery.contextmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/plugins/jquery.searchFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/plugins/jquery.tablednd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/plugins/searchFilter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/plugins/ui.multiselect.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/plugins/ui.multiselect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/JsonXml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/css/ui.jqgrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/css/ui.multiselect.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.celledit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.formedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.grouping.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.import.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.inlinedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.jqueryui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.loader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.pivot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.subgrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.tbltogrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/grid.treegrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-bg1251.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-cat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-dk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-hr1250.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-kr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-mne.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-sr-latin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-ua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/i18n/grid.locale-vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/jqDnR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/jqModal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/jquery.fmatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/jqgrid/src/jquery.jqGrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/scripts/jquery-1.11.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/scripts/jquery-ui-1.10.4.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/styles/custom-theme/jquery-ui-1.10.4.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/styles/standard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/datasource-tx-jpa.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/security-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/application_zh_HK.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/messages_zh_HK.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/default.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contacts/edit.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contacts/list.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contacts/show.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contacts/views.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/CHANGES.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/adapters/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/build-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/ckeditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/contents.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/af.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/bn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/bs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/en-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/fo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/gu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/ka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/ku.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/mn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/si.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/sr-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/tt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/lang/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/image/images/noimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/link/images/anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/scayt/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/wsc/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/api.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/appendto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/assets/inlineall/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/assets/outputxhtml/outputxhtml.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/assets/posteddata.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/assets/sample.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/assets/sample.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/assets/uilanguages/languages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/datafiltering.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/divreplace.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/inlineall.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/inlinebycode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/inlinetextarea.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/jquery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/plugins/dialog/assets/my_dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/plugins/dialog/dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/plugins/enterkey/enterkey.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/plugins/htmlwriter/outputforflash.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/plugins/htmlwriter/outputhtml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/plugins/magicline/magicline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/plugins/toolbar/toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/plugins/wysiwygarea/fullpage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/readonly.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/replacebyclass.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/replacebycode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/sample.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/sample.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/sample_posteddata.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/tabindex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/uicolor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/uilanguages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/samples/xhtmlstyle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/dialog_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/dialog_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/dialog_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/dialog_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/editor_gecko.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/editor_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/editor_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/editor_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/editor_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/images/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/images/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/images/hidpi/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/images/hidpi/lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/images/hidpi/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/images/hidpi/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/images/lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/images/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/images/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/skins/moono/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/ckeditor/styles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/css/ui.jqgrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/Changes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-bg1251.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-cat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-dk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-hr1250.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-kr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-mne.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-sr-latin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-ua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/i18n/grid.locale-vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/install.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/jquery-1.11.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/jquery.jqGrid.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/js/jquery.jqGrid.src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/plugins/grid.addons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/plugins/grid.postext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/plugins/grid.setcolumns.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/plugins/jquery.contextmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/plugins/jquery.searchFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/plugins/jquery.tablednd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/plugins/searchFilter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/plugins/ui.multiselect.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/plugins/ui.multiselect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/JsonXml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/css/ui.jqgrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/css/ui.multiselect.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.celledit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.formedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.grouping.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.import.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.inlinedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.jqueryui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.loader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.pivot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.subgrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.tbltogrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/grid.treegrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-bg1251.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-cat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-dk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-hr1250.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-kr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-mne.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-sr-latin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-ua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/i18n/grid.locale-vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/jqDnR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/jqModal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/jquery.fmatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jqgrid/src/jquery.jqGrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/jquery-1.11.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/jquery-ui-1.10.4.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/styles/custom-theme/jquery-ui-1.10.4.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/styles/standard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/i18n/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/i18n/application_zh_HK.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/i18n/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/i18n/messages_zh_HK.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/layouts/default.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/layouts/layouts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/appServlet/servlet-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/root-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/contacts/edit.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/contacts/list.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/contacts/show.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/contacts/views.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/footer.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/header.jspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/views/menu.jspx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/ru/relesystem/entities/Relay.class" afterPath="$PROJECT_DIR$/out/artifacts/ReleStorageSystem/WEB-INF/classes/ru/relesystem/entities/Relay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ru/relesystem/entities/RelayTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ru/relesystem/entities/RelayTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ReleStorageSystem_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ReleStorageSystem_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_3_172.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_0_RELEASE.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__backport_util_concurrent_backport_util_concurrent_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_192.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_api_2_2_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_impl_2_2_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_1_PFD.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_web_api_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__opensymphony_ognl_2_6_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_deploy_plugin_2_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tapestry_beanmodel_5_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tapestry_commons_5_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tapestry_plastic_5_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tapestry_tapestry5_annotations_5_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tapestry_tapestry_core_5_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tapestry_tapestry_func_5_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tapestry_tapestry_hibernate_5_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tapestry_tapestry_hibernate_core_5_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tapestry_tapestry_ioc_5_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tapestry_tapestry_json_5_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tapestry_tapestry_spring_5_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_api_3_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_autotag_core_runtime_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_core_3_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_jsp_3_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_request_api_1_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_request_jsp_1_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_request_servlet_1_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_servlet_3_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tiles_tiles_template_3_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_lgpl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_lgpl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_3_9_v20160517.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_3_9_v20160517.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jadira_usertype_usertype_core_5_0_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jadira_usertype_usertype_spi_5_0_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_10_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_4_1_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_1_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_1_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_1_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_binding_2_4_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_faces_2_4_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_2_4_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_resources_2_4_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_webflow_2_4_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_primefaces_primefaces_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/MyWebAppInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/RelayGrid.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/SecurityController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/UrlUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/RelayController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/repository/RelayRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/services/RelayService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/services/RelayServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/Message.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/MyWebAppInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/RelayGrid.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/SecurityController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/UrlUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/beans/TestBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/controllers/RelayController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/dao/ReleDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/dao/ReleDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/entities/Engineer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/entities/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/entities/Relay.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/entities/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/entities/Worker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/enums/Department.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/enums/Profession.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/EditRele.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/Feedback.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/Location.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/ReleSearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/SecureLibrary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/Shelve.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/ShowRele.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/RailwayCrossing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/RailwayPoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/RelayBoard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/StandartShelve.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Station.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Stativ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Unit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Workshop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/repository/RelayRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/services/RelayService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/services/RelayServiceImpl.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_6_v20151106.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_9_v20160517.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_2_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_3_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_3_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ReleStorageSystem_Web_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ReleStorageSystem_Web_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/config/local-password" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/config/local-password" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/config/pid.prev" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/config/pid.prev" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReleStorageSystem.iml" afterPath="$PROJECT_DIR$/ReleStorageSystem.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/logs/server.log" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/logs/server.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/relesystem/entities/RelayTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/relesystem/entities/RelayTest.java" />
     </list>
     <ignored path="ReleStorageSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -903,12 +186,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/schema.sql">
+      <file leaf-file-name="Relay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Relay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -923,21 +208,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/UrlUtil.java">
+      <file leaf-file-name="Worker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/SecurityController.java">
+      <file leaf-file-name="TestBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/beans/TestBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#298#299#0" expanded="false" />
+                <element signature="e#370#371#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -963,11 +261,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app-context-annotation.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app-context-annotation.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/app-context-annotation.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            <state relative-caret-position="330">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -1012,7 +310,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.tml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/security-context.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/datasource-tx-jpa.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/DataBase.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/sql/schema.sql" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/Message.java" />
@@ -1039,6 +336,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Relay.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/relesystem/entities/RelayTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/app-context-annotation.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1327,6 +625,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReleStorageSystemSSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReleStorageSystemSSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="relesystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -1337,7 +665,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2&#10;MySQL" />
@@ -1760,12 +1088,12 @@
       <workItem from="1468437415345" duration="732000" />
       <workItem from="1468438158673" duration="889000" />
       <workItem from="1468765200489" duration="932000" />
-      <workItem from="1469024892608" duration="2705000" />
+      <workItem from="1469024892608" duration="5180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47708000" />
+    <option name="totallyTimeSpent" value="50183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1553" height="876" extended-state="6" />
@@ -1777,11 +1105,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1771732" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1794,20 +1120,22 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.572" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35066667" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19177173" sideWeight="0.49304175" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="147" y="208" width="1353" height="676" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15461181" sideWeight="0.50695825" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1845,26 +1173,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcherServlet.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entity/Relay.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.0.RELEASE/spring-context-4.3.0.RELEASE-sources.jar!/org/springframework/context/MessageSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228">
           <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/services/RelayService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/services/RelayServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1940,20 +1252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/RelayController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="184" column="28" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/RelayGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/pages/Index.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/dao/ReleDAO.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1977,13 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1996,20 +1287,6 @@
         <state relative-caret-position="180">
           <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/MyWebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/repository/RelayRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -2049,16 +1326,6 @@
         <state relative-caret-position="-540">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Relay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-227">
-          <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2114,22 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/test-data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="155" selection-start-line="0" selection-start-column="155" selection-end-line="0" selection-end-column="155" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/UrlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2206,8 +1457,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/app-context-annotation.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="330">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/UrlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/RelayGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/beans/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/MyWebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/services/RelayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/services/RelayServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/repository/RelayRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Relay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/test-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="155" selection-start-line="0" selection-start-column="155" selection-end-line="0" selection-end-column="155" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/RelayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -2231,7 +1583,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (ReleStorageSystem)|Spring</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2278,7 +1630,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.primefaces:primefaces:6.0</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
