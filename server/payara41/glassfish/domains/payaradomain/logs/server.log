@@ -17488,3 +17488,9 @@ java.lang.Exception: java.lang.IllegalStateException: ContainerBase.addChild: st
 [2016-07-20T21:37:30.760+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=46 _ThreadName=admin-listener(3)] [timeMillis: 1469032650760] [levelValue: 800] [[
   ReleStorageSystem was successfully deployed in 1,257 milliseconds.]]
 
+[2016-07-20T22:25:38.797+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=44 _ThreadName=admin-listener(1)] [timeMillis: 1469035538797] [levelValue: 800] [[
+  Loading application [ReleStorageSystem] at [/ReleStorageSystem]]]
+
+[2016-07-20T22:25:38.842+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=44 _ThreadName=admin-listener(1)] [timeMillis: 1469035538842] [levelValue: 800] [[
+  ReleStorageSystem was successfully deployed in 1,564 milliseconds.]]
+
