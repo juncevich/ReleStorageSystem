@@ -13,10 +13,10 @@ import java.util.Date;
 @Entity
 @Table(name = "RELAY")
 @NamedQueries({
-        @NamedQuery(name="Relay.findById",
-                query="select r from Relay r"),
-        @NamedQuery(name="Relay.findAllWithDetail",
-                query="select r from Relay r ")
+        @NamedQuery(name = "Relay.findById",
+                query = "select r from Relay r"),
+        @NamedQuery(name = "Relay.findAllWithDetail",
+                query = "select r from Relay r ")
 })
 public class Relay implements Serializable {
     private Long id;
@@ -217,8 +217,10 @@ public class Relay implements Serializable {
     public void setManufactureDate(Date manufactureDate) {
         this.manufactureDate = manufactureDate;
     }
+
     /**
      * Returns the responsiblePerson corresponding to this user.
+     *
      * @return the responsiblePerson corresponding to this user.
      */
 
@@ -232,4 +234,9 @@ public class Relay implements Serializable {
 //    public void setResponsiblePerson(Person responsiblePerson) {
 //        this.responsiblePerson = responsiblePerson;
 //    }
+    @Override
+    public String toString() {
+        return "Relay - Id: " + id + ", version "+version+", Type: " + type
+                + ", number " + number + ", shelve number: " +shelveNumber + ",shelve position: " +shelvePosition+", manufacture date: " + manufactureDate + ", last service date: " + lastServiceDate + ", next service date: " + nextServiceDate;
+    }
 }
