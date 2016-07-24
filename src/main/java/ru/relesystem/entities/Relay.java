@@ -1,24 +1,23 @@
 package ru.relesystem.entities;
 
-import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
-import org.springframework.format.annotation.DateTimeFormat;
 import ru.relesystem.interfaces.Person;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.persistence.Version;
+import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * The class that is used for storage of equipment.
  */
 @Entity
 @Table(name = "RELAY")
+@NamedQueries({
+        @NamedQuery(name="Relay.findById",
+                query="select r from Relay r"),
+        @NamedQuery(name="Relay.findAllWithDetail",
+                query="select r from Relay r ")
+})
 public class Relay implements Serializable {
     private Long id;
     private int version;
@@ -36,15 +35,15 @@ public class Relay implements Serializable {
     /**
      * Contains the date of the last service.
      */
-    private DateTime lastServiceDate;
+    private Date lastServiceDate;
     /**
      * Contains the date of the next service.
      */
-    private DateTime nextServiceDate;
+    private Date nextServiceDate;
     /**
      * Contains the date of manufacture.
      */
-    private DateTime manufactureDate;
+    private Date manufactureDate;
     /**
      * Contains responsible person for the relay.
      */
@@ -69,8 +68,8 @@ public class Relay implements Serializable {
      * @param responsiblePerson responsible person
      */
     public Relay(Integer number, String type, int shelveNumber,
-                 int shelvePosition, DateTime lastServiceDate,
-                 DateTime nextServiceDate, DateTime manufactureDate,
+                 int shelvePosition, Date lastServiceDate,
+                 Date nextServiceDate, Date manufactureDate,
                  Person responsiblePerson) {
         this.number = number;
         this.type = type;
@@ -141,7 +140,7 @@ public class Relay implements Serializable {
 
     @Column(name = "SHELVE_NUMBER")
     public int getShelveNumber() {
-        return shelveNumber;
+        return this.shelveNumber;
     }
 
     public void setShelveNumber(int shelveNumber) {
@@ -163,15 +162,10 @@ public class Relay implements Serializable {
      * @return the lastServiceDate corresponding to this user.
      */
     @Column(name = "SERVICE_DATE")
-    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
-    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
-    public DateTime getLastServiceDate() {
-        String serviceDateString = "";
-        if (lastServiceDate != null)
-            serviceDateString = org.joda.time.format.DateTimeFormat
-                    .forPattern("yyyy-MM-dd").print(lastServiceDate);
+    @Temporal(TemporalType.DATE)
+    public Date getLastServiceDate() {
 
-        return lastServiceDate;
+        return this.lastServiceDate;
     }
 
     /**
@@ -179,7 +173,7 @@ public class Relay implements Serializable {
      *
      * @param lastServiceDate corresponding to this user.
      */
-    public void setLastServiceDate(DateTime lastServiceDate) {
+    public void setLastServiceDate(Date lastServiceDate) {
         this.lastServiceDate = lastServiceDate;
     }
 
@@ -189,15 +183,10 @@ public class Relay implements Serializable {
      * @return the nextServiceDate corresponding to this user.
      */
     @Column(name = "NEXT_SERVICE_DATE")
-    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
-    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
-    public DateTime getNextServiceDate() {
-        String nextServiceDateString = "";
-        if (nextServiceDate != null)
-            nextServiceDateString = org.joda.time.format.DateTimeFormat
-                    .forPattern("yyyy-MM-dd").print(nextServiceDate);
+    @Temporal(TemporalType.DATE)
+    public Date getNextServiceDate() {
 
-        return nextServiceDate;
+        return this.nextServiceDate;
     }
 
     /**
@@ -205,7 +194,7 @@ public class Relay implements Serializable {
      *
      * @param nextServiceDate corresponding to this user.
      */
-    public void setNextServiceDate(DateTime nextServiceDate) {
+    public void setNextServiceDate(Date nextServiceDate) {
         this.nextServiceDate = nextServiceDate;
     }
 
@@ -215,9 +204,8 @@ public class Relay implements Serializable {
      * @return the manufactureDate corresponding to this user.
      */
     @Column(name = "MANUFACTURE_DATE")
-    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
-    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
-    public DateTime getManufactureDate() {
+    @Temporal(TemporalType.DATE)
+    public Date getManufactureDate() {
         return manufactureDate;
     }
 
@@ -226,7 +214,7 @@ public class Relay implements Serializable {
      *
      * @param manufactureDate corresponding to this user.
      */
-    public void setManufactureDate(DateTime manufactureDate) {
+    public void setManufactureDate(Date manufactureDate) {
         this.manufactureDate = manufactureDate;
     }
     /**

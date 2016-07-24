@@ -1,30 +1,38 @@
 package ru.relesystem.dao;
 
-import org.hibernate.Criteria;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import ru.relesystem.entities.Relay;
 
+import javax.annotation.Resource;
 import java.util.List;
-@Component(value = "relayDao")
+@Transactional
+@Repository(value = "relayDao")
 public class ReleDAOImpl implements ReleDAO{
-
+    private static final Log LOG = LogFactory.getLog(ReleDAOImpl.class);
     @Autowired
     private SessionFactory sessionFactory;
 
-    @Transactional
-    @Override
+    @Transactional(readOnly=true)
     public List<Relay> getRelays() {
-        List<Relay> relays = (List<Relay>) sessionFactory.getCurrentSession()
-                .createCriteria(Relay.class)
-                .setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY).list();
-        return relays;
+        return sessionFactory.getCurrentSession().createQuery("from Relay r").list();
     }
+
 
     @Override
     public List<Relay> getRelaysById(Relay relayEntity) {
         return null;
+    }
+
+    public SessionFactory getSessionFactory() {
+        return sessionFactory;
+    }
+    @Resource(name = "sessionFactory")
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
     }
 }
