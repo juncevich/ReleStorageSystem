@@ -17,6 +17,7 @@ public class User {
      * Contains the group to which the user belongs.
      */
     private String group;
+    private String district;
     /**
      * Constructs an empty User, with empty parameters.
      */

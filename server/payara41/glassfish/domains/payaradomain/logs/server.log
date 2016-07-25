@@ -18449,3 +18449,24 @@ false]]
 [2016-07-24T16:25:52.185+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=41 _ThreadName=admin-listener(1)] [timeMillis: 1469359552185] [levelValue: 800] [[
   rele_system-4.0-SNAPSHOT was successfully deployed in 1,535 milliseconds.]]
 
+[2016-07-24T20:37:44.231+0500] [Payara 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=42 _ThreadName=admin-listener(2)] [timeMillis: 1469374664231] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2016-07-24T20:37:44.563+0500] [Payara 4.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=270 _ThreadName=Thread-31] [timeMillis: 1469374664563] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2016-07-24T20:37:44.574+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=270 _ThreadName=Thread-31] [timeMillis: 1469374664574] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@1431267b from service registry.]]
+
+[2016-07-24T20:37:44.594+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=270 _ThreadName=Thread-31] [timeMillis: 1469374664594] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2016-07-24T20:37:44.766+0500] [Payara 4.1] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=270 _ThreadName=Thread-31] [timeMillis: 1469374664766] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2016-07-24T20:37:44.766+0500] [Payara 4.1] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=270 _ThreadName=Thread-31] [timeMillis: 1469374664766] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2016-07-24T20:37:46.574+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=277 _ThreadName=RunLevelControllerThread-1469374664918] [timeMillis: 1469374666574] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
