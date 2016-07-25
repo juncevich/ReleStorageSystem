@@ -19,6 +19,7 @@ public class ReleDAOImpl implements ReleDAO{
 
     @Transactional(readOnly=true)
     public List<Relay> getRelays() {
+        LOG.info("Invoke getRelays().");
         return sessionFactory.getCurrentSession().createQuery("from Relay r").list();
     }
 
@@ -29,10 +30,12 @@ public class ReleDAOImpl implements ReleDAO{
     }
 
     public SessionFactory getSessionFactory() {
+        LOG.info("Invoked getSessionFactory().");
         return sessionFactory;
     }
     @Resource(name = "sessionFactory")
     public void setSessionFactory(SessionFactory sessionFactory) {
+        LOG.info("Invoked setSessionFactory().");
         this.sessionFactory = sessionFactory;
     }
 }
