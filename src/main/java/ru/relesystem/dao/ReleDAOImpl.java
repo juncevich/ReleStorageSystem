@@ -30,6 +30,13 @@ public class ReleDAOImpl implements ReleDAO{
         return (Relay) sessionFactory.getCurrentSession().getNamedQuery("Relay.findById").setParameter("id", id).uniqueResult();
     }
 
+    @Override
+    public Relay save(Relay relay) {
+        sessionFactory.getCurrentSession().saveOrUpdate(relay);
+        LOG.info("Relay saved with id: " + relay.getId());
+        return relay;
+    }
+
     public SessionFactory getSessionFactory() {
         LOG.info("Invoked getSessionFactory().");
         return sessionFactory;

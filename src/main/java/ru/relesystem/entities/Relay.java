@@ -47,7 +47,7 @@ public class Relay implements Serializable {
     /**
      * Contains responsible person for the relay.
      */
-    private Person responsiblePerson;
+    private String responsiblePerson;
 
     /**
      * Constructs an empty Relay, with empty parameters.
@@ -70,7 +70,7 @@ public class Relay implements Serializable {
     public Relay(Integer number, String type, int shelveNumber,
                  int shelvePosition, Date lastServiceDate,
                  Date nextServiceDate, Date manufactureDate,
-                 Person responsiblePerson) {
+                 String responsiblePerson) {
         this.number = number;
         this.type = type;
         this.shelveNumber = shelveNumber;
@@ -223,17 +223,17 @@ public class Relay implements Serializable {
      *
      * @return the responsiblePerson corresponding to this user.
      */
-
-//    public Person getResponsiblePerson() {
-//        return responsiblePerson;
-//    }
-//    /**
-//     * Set the responsiblePerson corresponding to this user.
-//     * @param responsiblePerson  corresponding to this user.
-//     */
-//    public void setResponsiblePerson(Person responsiblePerson) {
-//        this.responsiblePerson = responsiblePerson;
-//    }
+    @Column(name = "RESPONSIBLE_PERSON")
+    public String getResponsiblePerson() {
+        return responsiblePerson;
+    }
+    /**
+     * Set the responsiblePerson corresponding to this user.
+     * @param responsiblePerson  corresponding to this user.
+     */
+    public void setResponsiblePerson(String responsiblePerson) {
+        this.responsiblePerson = responsiblePerson;
+    }
     @Override
     public String toString() {
         return "Relay - Id: " + id + ", version "+version+", Type: " + type

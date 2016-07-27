@@ -7,4 +7,5 @@ import java.util.List;
 public interface ReleDAO {
     List<Relay> getRelays();
     Relay getRelaysById(Long id);
+    Relay save(Relay relay);
 }
