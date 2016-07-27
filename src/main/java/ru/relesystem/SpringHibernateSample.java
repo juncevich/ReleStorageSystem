@@ -13,6 +13,10 @@ public class SpringHibernateSample {
         ctx.refresh();
         ReleDAO releDAO = ctx.getBean("relayDao", ReleDAO.class);
         listRelays(releDAO.getRelays());
+        Relay relay = releDAO.getRelaysById(1l);
+        System.out.println("");
+        System.out.println("Relay with 1 id: " + relay);
+        System.out.println("");
 
     }
 

@@ -25,8 +25,9 @@ public class ReleDAOImpl implements ReleDAO{
 
 
     @Override
-    public List<Relay> getRelaysById(Relay relayEntity) {
-        return null;
+    public Relay getRelaysById(Long id) {
+        LOG.info("Invoke getRelaysById().");
+        return (Relay) sessionFactory.getCurrentSession().getNamedQuery("Relay.findById").setParameter("id", id).uniqueResult();
     }
 
     public SessionFactory getSessionFactory() {

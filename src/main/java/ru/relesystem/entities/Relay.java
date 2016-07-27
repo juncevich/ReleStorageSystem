@@ -14,9 +14,9 @@ import java.util.Date;
 @Table(name = "RELAY")
 @NamedQueries({
         @NamedQuery(name = "Relay.findById",
-                query = "select r from Relay r"),
+                query = "select r from Relay r where r.id = :id"),
         @NamedQuery(name = "Relay.findAllWithDetail",
-                query = "select r from Relay r ")
+                query = "select r from Relay r "),
 })
 public class Relay implements Serializable {
     private Long id;
