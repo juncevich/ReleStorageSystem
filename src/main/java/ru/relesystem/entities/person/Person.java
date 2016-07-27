@@ -1,4 +1,4 @@
-package ru.relesystem.entities;
+package ru.relesystem.entities.person;
 
 import ru.relesystem.enums.Profession;
 
