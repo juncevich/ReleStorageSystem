@@ -12,7 +12,7 @@ import java.util.List;
 public class Station extends Location {
     private String stationName;
     List<Stativ> storageList;
-    @OneToMany(mappedBy = "stativ")
+    @OneToMany(mappedBy = "station")
     public List<Stativ> getStorageList() {
         return storageList;
     }
