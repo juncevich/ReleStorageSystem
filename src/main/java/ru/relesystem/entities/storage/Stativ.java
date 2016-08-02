@@ -4,14 +4,14 @@ import ru.relesystem.entities.Relay;
 import ru.relesystem.entities.location.Station;
 
 import javax.persistence.*;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "stativ")
 public class Stativ extends Storage {
     private Station station;
-    private Map<Byte, Relay> relaysOnStativ = new HashMap<>();
+    private List<Relay> relaysOnStativ = new ArrayList<>();
 
     @ManyToOne
     @JoinColumn(name = "STATION_ID")
@@ -25,11 +25,11 @@ public class Stativ extends Storage {
 
 
     @OneToMany(mappedBy = "stativ")
-    public Map<Byte, Relay> getRelaysOnStativ() {
+    public List<Relay> getRelaysOnStativ() {
         return relaysOnStativ;
     }
 
-    public void setRelaysOnStativ(Map<Byte, Relay> relaysOnStativ) {
+    public void setRelaysOnStativ(List<Relay> relaysOnStativ) {
         this.relaysOnStativ = relaysOnStativ;
     }
 
