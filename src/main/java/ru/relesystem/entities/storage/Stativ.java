@@ -9,10 +9,12 @@ import java.util.Map;
 
 @Entity
 @Table(name = "stativ")
-public class Stativ extends Storage{
+public class Stativ extends Storage {
     private Station station;
+    private Map<Byte, Relay> relaysOnStativ = new HashMap<>();
+
     @ManyToOne
-    @JoinColumn(name = "fk_stativ")
+    @JoinColumn(name = "station_id")
     public Station getStation() {
         return station;
     }
@@ -21,7 +23,7 @@ public class Stativ extends Storage{
         this.station = station;
     }
 
-    private Map<Byte,Relay> relaysOnStativ = new HashMap<>();
+
     @OneToMany(mappedBy = "stativ")
     public Map<Byte, Relay> getRelaysOnStativ() {
         return relaysOnStativ;

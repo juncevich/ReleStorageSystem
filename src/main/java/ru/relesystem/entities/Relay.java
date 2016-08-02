@@ -49,7 +49,7 @@ public class Relay implements Serializable {
     private String responsiblePerson;
     private Stativ stativ;
     @ManyToOne
-    @JoinColumn(name = "fk_stativ")
+    @JoinColumn(name = "stativ_id")
     public Stativ getStativ() {
         return stativ;
     }
