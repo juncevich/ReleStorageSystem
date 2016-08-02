@@ -14,7 +14,6 @@ public class RelayTest {
 
         Assert.assertThat(relayWithEmptyConstructor.getNumber(), CoreMatchers.is((Integer) null));
         Assert.assertThat(relayWithEmptyConstructor.getType(), CoreMatchers.is((String) null));
-        Assert.assertThat(relayWithEmptyConstructor.getShelveNumber(), CoreMatchers.is(0));
         Assert.assertThat(relayWithEmptyConstructor.getShelvePosition(), CoreMatchers.is(0));
 //        Assert.assertThat(relayWithEmptyConstructor.getLastServiceDate(), CoreMatchers.is((Date) null));
 //        Assert.assertThat(relayWithEmptyConstructor.getNextServiceDate(), CoreMatchers.is((Date) null));

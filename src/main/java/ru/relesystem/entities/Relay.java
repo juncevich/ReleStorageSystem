@@ -1,7 +1,6 @@
 package ru.relesystem.entities;
 
-import org.joda.time.DateTime;
-import ru.relesystem.interfaces.Person;
+import ru.relesystem.entities.storage.Stativ;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -11,12 +10,12 @@ import java.util.Date;
  * The class that is used for storage of equipment.
  */
 @Entity
-@Table(name = "RELAY")
+@Table(name = "relay")
 @NamedQueries({
-        @NamedQuery(name = "Relay.findById",
-                query = "select r from Relay r where r.id = :id"),
-        @NamedQuery(name = "Relay.findAllWithDetail",
-                query = "select r from Relay r "),
+        @NamedQuery(name = "relay.findById",
+                query = "select r from relay r where r.id = :id"),
+        @NamedQuery(name = "relay.findAllWithDetail",
+                query = "select r from relay r "),
 })
 public class Relay implements Serializable {
     private Long id;
@@ -48,6 +47,16 @@ public class Relay implements Serializable {
      * Contains responsible person for the relay.
      */
     private String responsiblePerson;
+    private Stativ stativ;
+    @ManyToOne
+    @JoinColumn(name = "fk_stativ")
+    public Stativ getStativ() {
+        return stativ;
+    }
+
+    public void setStativ(Stativ stativ) {
+        this.stativ = stativ;
+    }
 
     /**
      * Constructs an empty Relay, with empty parameters.
@@ -217,16 +226,19 @@ public class Relay implements Serializable {
     public String getResponsiblePerson() {
         return responsiblePerson;
     }
+
     /**
      * Set the responsiblePerson corresponding to this user.
-     * @param responsiblePerson  corresponding to this user.
+     *
+     * @param responsiblePerson corresponding to this user.
      */
     public void setResponsiblePerson(String responsiblePerson) {
         this.responsiblePerson = responsiblePerson;
     }
+
     @Override
     public String toString() {
-        return "Relay - Id: " + id + ", version "+version+", Type: " + type
-                + ", number " + number + ",shelve position: " +shelvePosition+", manufacture date: " + manufactureDate + ", last service date: " + lastServiceDate + ", next service date: " + nextServiceDate;
+        return "Relay - Id: " + id + ", version " + version + ", Type: " + type
+                + ", number " + number + ",shelve position: " + shelvePosition + ", manufacture date: " + manufactureDate + ", last service date: " + lastServiceDate + ", next service date: " + nextServiceDate;
     }
 }
