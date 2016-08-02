@@ -1,12 +1,8 @@
 package ru.relesystem.entities.location;
 
+import javax.persistence.Entity;
 
-import ru.relesystem.interfaces.Shelve;
+@Entity
+public class Stativ extends Storage{
 
-import java.util.List;
-
-public class Stativ {
-    Long id;
-    Byte number;
-    List<Shelve> shelveList;
 }

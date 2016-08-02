@@ -29,7 +29,7 @@ public class Relay implements Serializable {
      * Contains type.
      */
     private String type;
-    private int shelveNumber;
+
     private int shelvePosition;
 
     /**
@@ -73,7 +73,6 @@ public class Relay implements Serializable {
                  String responsiblePerson) {
         this.number = number;
         this.type = type;
-        this.shelveNumber = shelveNumber;
         this.shelvePosition = shelvePosition;
         this.lastServiceDate = lastServiceDate;
         this.nextServiceDate = nextServiceDate;
@@ -136,15 +135,6 @@ public class Relay implements Serializable {
      */
     public void setType(String type) {
         this.type = type;
-    }
-
-    @Column(name = "SHELVE_NUMBER")
-    public int getShelveNumber() {
-        return this.shelveNumber;
-    }
-
-    public void setShelveNumber(int shelveNumber) {
-        this.shelveNumber = shelveNumber;
     }
 
     @Column(name = "SHELVE_POSITION")
@@ -237,6 +227,6 @@ public class Relay implements Serializable {
     @Override
     public String toString() {
         return "Relay - Id: " + id + ", version "+version+", Type: " + type
-                + ", number " + number + ", shelve number: " +shelveNumber + ",shelve position: " +shelvePosition+", manufacture date: " + manufactureDate + ", last service date: " + lastServiceDate + ", next service date: " + nextServiceDate;
+                + ", number " + number + ",shelve position: " +shelvePosition+", manufacture date: " + manufactureDate + ", last service date: " + lastServiceDate + ", next service date: " + nextServiceDate;
     }
 }
