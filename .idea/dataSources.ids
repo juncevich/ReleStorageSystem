@@ -238,5 +238,35 @@
     </database-info>
     <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
     <schema name="PUBLIC" catalog="DEFAULT"/>
+    <table name="RELAY" schema="PUBLIC" catalog="DEFAULT" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4" def="KE5FWFQgVkFMVUUgRk9SIFBVQkxJQy5TWVNURU1fU0VRVUVOQ0VfMkM2QzY0N0RfQjIxNF80RjhGXzhFMDFfRjk5NDVBMzA0NDAwKQ==" autoIncrement="true"/>
+      <column name="VERSION" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="SERIAL_NUMBER" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="TYPE_ID" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="SHELVE_POSITION" sqlType="INTEGER" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="SERVICE_DATE" sqlType="DATE" precision="8" scale="0" nullable="true" jdbcType="91"/>
+      <column name="NEXT_SERVICE_DATE" sqlType="DATE" precision="8" scale="0" nullable="true" jdbcType="91"/>
+      <column name="MANUFACTURE_DATE" sqlType="DATE" precision="8" scale="0" nullable="true" jdbcType="91"/>
+      <column name="RESPONSIBLE_PERSON" sqlType="VARCHAR" precision="40" scale="0" nullable="false" jdbcType="12"/>
+      <column name="STATIV_ID" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="CONSTRAINT_4" columns="ID"/>
+      <foreign-key name="FK_STATIV_IN_RELE" columns="STATIV_ID" ref-table="STATIV" ref-schema="PUBLIC" ref-catalog="DEFAULT" ref-columns="ID" update-rule="1" delete-rule="1" deferrability="2"/>
+      <index name="UQ_RELAY_1_INDEX_4" unique="true" columns="SERIAL_NUMBER"/>
+      <index name="FK_STATIV_IN_RELE_INDEX_4" unique="false" columns="STATIV_ID"/>
+    </table>
+    <table name="STATION" schema="PUBLIC" catalog="DEFAULT" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4" def="KE5FWFQgVkFMVUUgRk9SIFBVQkxJQy5TWVNURU1fU0VRVUVOQ0VfN0RFOUY0NUFfODE2RF80QzgzX0FFQTVfMDI1MjNCMkE4QTE0KQ==" autoIncrement="true"/>
+      <column name="VERSION" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="STATION_NAME" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="CONSTRAINT_B" columns="ID"/>
+    </table>
+    <table name="STATIV" schema="PUBLIC" catalog="DEFAULT" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4" def="KE5FWFQgVkFMVUUgRk9SIFBVQkxJQy5TWVNURU1fU0VRVUVOQ0VfOTlGNjk4QjZfQ0VCNl80QzkyXzhENzJfMUYwRUE4MDg0MjdEKQ==" autoIncrement="true"/>
+      <column name="VERSION" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="STATION_ID" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="CONSTRAINT_9" columns="ID"/>
+      <foreign-key name="FK_STATION_IN_STATIV" columns="STATION_ID" ref-table="STATION" ref-schema="PUBLIC" ref-catalog="DEFAULT" ref-columns="ID" update-rule="1" delete-rule="1" deferrability="2"/>
+      <index name="FK_STATION_IN_STATIV_INDEX_9" unique="false" columns="STATION_ID"/>
+    </table>
   </data-source>
 </component>

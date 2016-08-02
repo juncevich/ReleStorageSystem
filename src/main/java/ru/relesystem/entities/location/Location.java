@@ -1,9 +1,6 @@
 package ru.relesystem.entities.location;
 
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
-import javax.persistence.MappedSuperclass;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @MappedSuperclass
 @Inheritance(strategy = InheritanceType.JOINED)
@@ -11,7 +8,9 @@ import javax.persistence.Table;
 public class Location {
     private int id;
     private int version;
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID")
     public int getId() {
         return id;
     }
@@ -19,7 +18,8 @@ public class Location {
     public void setId(int id) {
         this.id = id;
     }
-
+    @Version
+    @Column(name = "VERSION")
     public int getVersion() {
         return version;
     }
