@@ -12,9 +12,9 @@ import java.util.Date;
 @Entity
 @Table(name = "relay")
 @NamedQueries({
-        @NamedQuery(name = "relay.findById",
+        @NamedQuery(name = "Relay.findById",
                 query = "select r from Relay r where r.id = :id"),
-        @NamedQuery(name = "relay.findAllWithDetail",
+        @NamedQuery(name = "Relay.findAllWithDetail",
                 query = "select r from Relay r "),
 })
 public class Relay implements Serializable {
@@ -48,45 +48,15 @@ public class Relay implements Serializable {
      */
     private String responsiblePerson;
     private Stativ stativ;
+
     @ManyToOne
-    @JoinColumn(name = "stativ_id")
+    @JoinColumn(name = "STATIV_ID")
     public Stativ getStativ() {
         return stativ;
     }
 
     public void setStativ(Stativ stativ) {
         this.stativ = stativ;
-    }
-
-    /**
-     * Constructs an empty Relay, with empty parameters.
-     */
-    public Relay() {
-    }
-
-    /**
-     * Construct Relay with specified parameters.
-     *
-     * @param number            the serial number
-     * @param type              the type
-     * @param shelveNumber      number of shelve on that located relay
-     * @param shelvePosition    number of position relay on shelve
-     * @param lastServiceDate   last service date
-     * @param nextServiceDate   next service date
-     * @param manufactureDate   manufacture date
-     * @param responsiblePerson responsible person
-     */
-    public Relay(Integer number, String type, int shelveNumber,
-                 int shelvePosition, Date lastServiceDate,
-                 Date nextServiceDate, Date manufactureDate,
-                 String responsiblePerson) {
-        this.number = number;
-        this.type = type;
-        this.shelvePosition = shelvePosition;
-        this.lastServiceDate = lastServiceDate;
-        this.nextServiceDate = nextServiceDate;
-        this.manufactureDate = manufactureDate;
-        this.responsiblePerson = responsiblePerson;
     }
 
     @Id
@@ -239,6 +209,8 @@ public class Relay implements Serializable {
     @Override
     public String toString() {
         return "Relay - Id: " + id + ", version " + version + ", Type: " + type
-                + ", number " + number + ",shelve position: " + shelvePosition + ", manufacture date: " + manufactureDate + ", last service date: " + lastServiceDate + ", next service date: " + nextServiceDate;
+                + ", number " + number + ",shelve position: " + shelvePosition + ", manufacture date: " + manufactureDate
+                + ", last service date: " + lastServiceDate + ", next service date: " + nextServiceDate + ", stativ: " + stativ.getStation();
+
     }
 }

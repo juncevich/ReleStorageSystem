@@ -14,7 +14,7 @@ public class Stativ extends Storage {
     private Map<Byte, Relay> relaysOnStativ = new HashMap<>();
 
     @ManyToOne
-    @JoinColumn(name = "station_id")
+    @JoinColumn(name = "STATION_ID")
     public Station getStation() {
         return station;
     }
@@ -32,4 +32,5 @@ public class Stativ extends Storage {
     public void setRelaysOnStativ(Map<Byte, Relay> relaysOnStativ) {
         this.relaysOnStativ = relaysOnStativ;
     }
+
 }

@@ -4,7 +4,6 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 import ru.relesystem.dao.ReleDAO;
 import ru.relesystem.entities.Relay;
 
-import java.util.Date;
 import java.util.List;
 
 public class SpringHibernateSample {
@@ -18,9 +17,24 @@ public class SpringHibernateSample {
         System.out.println("");
         System.out.println("Relay with 1 id: " + relay);
         System.out.println("");
-
-        Relay relay1 = new Relay(123, "НМШ-400", 1, 1, new Date(), new Date(), new Date(), "test");
-        releDAO.save(relay1);
+//        Stativ stativ = new Stativ();
+//        Station station = new Station();
+//        stativ.setStation(station);
+//
+//        station.setStationName("Test");
+//
+//        Relay relay1 = new Relay();
+//        relay1.setNumber(1);
+//        relay1.setShelvePosition(111);
+//        relay1.setStativ(stativ);
+//        relay1.setType("YVI");
+//        relay1.setLastServiceDate(new Date());
+//        relay1.setManufactureDate(new Date());
+//        relay1.setNextServiceDate(new Date());
+//        relay1.setResponsiblePerson("Person");
+//
+//
+//        releDAO.save(relay1);
 
     }
 
