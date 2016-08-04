@@ -1,16 +1,25 @@
 package ru.relesystem.dao;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 import ru.relesystem.entities.storage.Stativ;
 
 import java.util.List;
 
-/**
- * Created by alex on 04.08.16.
- */
+@Transactional
+@Repository(value = "stativDao")
 public class StativDAOImpl implements StativDAO {
+    private static final Log LOG = LogFactory.getLog(StativDAOImpl.class);
+    @Autowired
+    private SessionFactory sessionFactory;
     @Override
     public List<Stativ> getStatives() {
-        return null;
+        LOG.info("Invoke getStatives().");
+        return sessionFactory.getCurrentSession().createQuery("from Stativ s").list();
     }
 
     @Override
@@ -20,6 +29,8 @@ public class StativDAOImpl implements StativDAO {
 
     @Override
     public Stativ save(Stativ stativ) {
-        return null;
+        sessionFactory.getCurrentSession().saveOrUpdate(stativ);
+        LOG.info("Relay saved with id: " + stativ.getId());
+        return stativ;
     }
 }
