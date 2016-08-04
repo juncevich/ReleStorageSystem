@@ -9,6 +9,12 @@ import java.util.List;
 
 @Entity
 @Table(name = "stativ")
+@NamedQueries({
+        @NamedQuery(name = "Stativ.findById",
+                query = "select s from Stativ s where s.id = :id"),
+        @NamedQuery(name = "Stativ.findAllWithDetail",
+                query = "select s from Stativ s "),
+})
 public class Stativ extends Storage {
     private Station station;
     private List<Relay> relaysOnStativ = new ArrayList<>();

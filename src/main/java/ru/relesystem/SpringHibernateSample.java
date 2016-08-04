@@ -41,7 +41,7 @@ public class SpringHibernateSample {
         relay1.setNextServiceDate(new Date());
         relay1.setResponsiblePerson("Person");
 
-
+        stativDAO.save(stativ);
         releDAO.save(relay1);
 
     }

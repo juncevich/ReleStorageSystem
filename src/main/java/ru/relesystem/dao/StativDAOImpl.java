@@ -24,13 +24,15 @@ public class StativDAOImpl implements StativDAO {
 
     @Override
     public Stativ getStativById(Long id) {
-        return null;
+
+        LOG.info("Invoke getStativeById().");
+        return (Stativ) sessionFactory.getCurrentSession().getNamedQuery("Stativ.findById").setParameter("id", id).uniqueResult();
     }
 
     @Override
     public Stativ save(Stativ stativ) {
         sessionFactory.getCurrentSession().saveOrUpdate(stativ);
-        LOG.info("Relay saved with id: " + stativ.getId());
+        LOG.info("Stativ saved with id: " + stativ.getId());
         return stativ;
     }
 }
