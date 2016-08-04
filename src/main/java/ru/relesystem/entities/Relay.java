@@ -49,6 +49,9 @@ public class Relay implements Serializable {
     private String responsiblePerson;
     private Stativ stativ;
 
+    public Relay() {
+    }
+
     @ManyToOne
     @JoinColumn(name = "STATIV_ID")
     public Stativ getStativ() {
@@ -60,7 +63,7 @@ public class Relay implements Serializable {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID")
     public Long getId() {
         return id;
@@ -211,7 +214,7 @@ public class Relay implements Serializable {
         return "Relay - Id: " + id + ", version " + version + ", Type: " + type
                 + ", number " + number + ",shelve position: " + shelvePosition + ", manufacture date: " + manufactureDate
                 + ", last service date: " + lastServiceDate + ", next service date: "
-                + nextServiceDate + ", stativ: " + stativ.getStation();
+                + nextServiceDate + ", stativ: " ;
 
     }
 }

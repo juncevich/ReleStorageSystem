@@ -9,7 +9,7 @@ public class Location {
     private int id;
     private int version;
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID")
     public int getId() {
         return id;

@@ -4,13 +4,13 @@ import javax.persistence.*;
 
 @MappedSuperclass
 @Inheritance(strategy = InheritanceType.JOINED)
-@Table(name = "storage")
+@Table(name = "storaged")
 public class Storage {
     private int id;
     private int version;
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID")
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "ID" , updatable = false, nullable = false)
     public int getId() {
         return id;
     }
