@@ -30,11 +30,7 @@ public class SpringHibernateSample {
         Stativ stativ = new Stativ();
         stativ.setNum(100);
         stativ.setStation(kedrovka);
-//        Station station = new Station();
-//        stativ.setStation(station);
-//
-//        station.setStationName("Test");
-//
+
         Relay relay1 = new Relay();
         relay1.setNumber(2);
         relay1.setShelvePosition(111);
