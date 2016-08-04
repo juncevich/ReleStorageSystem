@@ -2,6 +2,7 @@ package ru.relesystem;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 import ru.relesystem.dao.ReleDAO;
+import ru.relesystem.dao.StationDao;
 import ru.relesystem.dao.StativDAO;
 import ru.relesystem.entities.Relay;
 import ru.relesystem.entities.location.Station;
@@ -17,6 +18,7 @@ public class SpringHibernateSample {
         ctx.refresh();
         ReleDAO releDAO = ctx.getBean("relayDao", ReleDAO.class);
         StativDAO stativDAO = ctx.getBean("stativDao", StativDAO.class);
+        StationDao stationDAO = ctx.getBean("stationDao", StationDao.class);
         listRelays(releDAO.getRelays());
         Relay relay = releDAO.getRelaysById(1l);
         System.out.println("");
@@ -24,6 +26,7 @@ public class SpringHibernateSample {
         System.out.println("");
         Station kedrovka = new Station();
         kedrovka.setStationName("Кедровка");
+        stationDAO.save(kedrovka);
         Stativ stativ = new Stativ();
         stativ.setNum(100);
         stativ.setStation(kedrovka);

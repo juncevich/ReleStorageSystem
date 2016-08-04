@@ -9,6 +9,12 @@ import static javax.persistence.GenerationType.AUTO;
 
 @Entity
 @Table(name = "station")
+@NamedQueries({
+        @NamedQuery(name = "Station.findById",
+                query = "select s from Station s where s.id = :id"),
+        @NamedQuery(name = "Station.findAllWithDetail",
+                query = "select s from Station s "),
+})
 public class Station {
 
     private Long id;
