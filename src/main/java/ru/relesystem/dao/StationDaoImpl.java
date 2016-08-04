@@ -35,4 +35,10 @@ public class StationDaoImpl implements StationDao {
         LOG.info("Station saved with id: " + station.getId());
         return station;
     }
+
+    @Override
+    public void delete(Station station) {
+        sessionFactory.getCurrentSession().delete(station);
+        LOG.info("Station deleted with id " + station.getId());
+    }
 }

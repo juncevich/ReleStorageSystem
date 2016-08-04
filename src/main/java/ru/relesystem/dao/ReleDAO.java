@@ -8,4 +8,5 @@ public interface ReleDAO {
     List<Relay> getRelays();
     Relay getRelaysById(Long id);
     Relay save(Relay relay);
+    void delete(Relay relay);
 }

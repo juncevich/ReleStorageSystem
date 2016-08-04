@@ -46,4 +46,10 @@ public class ReleDAOImpl implements ReleDAO{
         LOG.info("Invoked setSessionFactory().");
         this.sessionFactory = sessionFactory;
     }
+
+    @Override
+    public void delete(Relay relay) {
+        sessionFactory.getCurrentSession().delete(relay);
+        LOG.info("Station deleted with id " + relay.getId());
+    }
 }

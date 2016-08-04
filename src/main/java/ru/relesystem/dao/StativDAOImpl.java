@@ -35,4 +35,10 @@ public class StativDAOImpl implements StativDAO {
         LOG.info("Stativ saved with id: " + stativ.getId());
         return stativ;
     }
+
+    @Override
+    public void delete(Stativ stativ) {
+        sessionFactory.getCurrentSession().delete(stativ);
+        LOG.info("Stativ deleted with id " + stativ.getId());
+    }
 }
