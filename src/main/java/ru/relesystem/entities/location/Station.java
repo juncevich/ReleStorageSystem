@@ -3,6 +3,7 @@ package ru.relesystem.entities.location;
 import ru.relesystem.entities.storage.Stativ;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 import static javax.persistence.GenerationType.AUTO;
@@ -20,7 +21,7 @@ public class Station {
     private Long id;
     private int version;
     private String stationName;
-    List<Stativ> storageList;
+    List<Stativ> storageList = new ArrayList<>();
 
     public Station() {
     }
@@ -63,6 +64,14 @@ public class Station {
         this.stationName = stationName;
     }
 
+    public void addStativ(Stativ stativ) {
+        stativ.setStation(this);
+        getStorageList().add(stativ);
+    }
+
+    public void removeStativ(Stativ stativ){
+        getStorageList().remove(stativ);
+    }
     @Override
     public String toString() {
         return "Station{" +

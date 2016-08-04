@@ -42,8 +42,10 @@ public class SpringHibernateSample {
         relay1.setResponsiblePerson("Person");
         stativ.addRele(relay1);
         stativDAO.save(stativ);
+        kedrovka.addStativ(stativ);
         releDAO.save(relay1);
         System.out.println(relay1);
+
 
     }
 
