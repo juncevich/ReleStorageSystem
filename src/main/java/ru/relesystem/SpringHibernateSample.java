@@ -34,15 +34,16 @@ public class SpringHibernateSample {
         Relay relay1 = new Relay();
         relay1.setNumber(2);
         relay1.setShelvePosition(111);
-        relay1.setStativ(stativ);
+ //       relay1.setStativ(stativ);
         relay1.setType("YVI");
         relay1.setLastServiceDate(new Date());
         relay1.setManufactureDate(new Date());
         relay1.setNextServiceDate(new Date());
         relay1.setResponsiblePerson("Person");
-
+        stativ.addRele(relay1);
         stativDAO.save(stativ);
         releDAO.save(relay1);
+        System.out.println(relay1);
 
     }
 

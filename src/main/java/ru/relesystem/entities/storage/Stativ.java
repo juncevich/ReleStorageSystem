@@ -78,4 +78,13 @@ public class Stativ  {
         this.relaysOnStativ = relaysOnStativ;
     }
 
+    public void addRele(Relay relay) {
+        relay.setStativ(this);
+        getRelaysOnStativ().add(relay);
+    }
+
+    public void removeRele (Relay relay) {
+        getRelaysOnStativ().remove(relay);
+    }
+
 }
