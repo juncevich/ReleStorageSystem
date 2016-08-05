@@ -18,36 +18,14 @@ import static javax.persistence.GenerationType.IDENTITY;
         @NamedQuery(name = "Stativ.findAllWithDetail",
                 query = "select s from Stativ s "),
 })
-public class Stativ  {
-    private Long id;
-    private int version;
+public class Stativ extends Storage  {
+
     private Integer Num;
     private Station station;
     private List<Relay> relaysOnStativ = new ArrayList<>();
 
     public Stativ() {
     }
-
-    @Id
-    @GeneratedValue(strategy = AUTO)
-    @Column(name = "ID")
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-    @Version
-    @Column(name = "VERSION")
-    public int getVersion() {
-        return version;
-    }
-
-    public void setVersion(int version) {
-        this.version = version;
-    }
-
 
     @Column(name = "NUM")
     public Integer getNum() {

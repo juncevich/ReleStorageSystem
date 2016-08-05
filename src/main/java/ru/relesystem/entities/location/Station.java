@@ -16,35 +16,15 @@ import static javax.persistence.GenerationType.AUTO;
         @NamedQuery(name = "Station.findAllWithDetail",
                 query = "select s from Station s "),
 })
-public class Station {
+public class Station extends Location{
 
-    private Long id;
-    private int version;
     private String stationName;
     List<Stativ> storageList = new ArrayList<>();
 
     public Station() {
     }
 
-    @Id
-    @GeneratedValue(strategy = AUTO)
-    @Column(name = "ID")
-    public Long getId() {
-        return id;
-    }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-    @Version
-    @Column(name = "VERSION")
-    public int getVersion() {
-        return version;
-    }
-
-    public void setVersion(int version) {
-        this.version = version;
-    }
 
 
     @OneToMany(mappedBy = "station")
