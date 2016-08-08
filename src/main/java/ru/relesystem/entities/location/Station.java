@@ -16,15 +16,13 @@ import static javax.persistence.GenerationType.AUTO;
         @NamedQuery(name = "Station.findAllWithDetail",
                 query = "select s from Station s "),
 })
-public class Station extends Location{
+public class Station extends Location {
 
     private String stationName;
     List<Stativ> storageList = new ArrayList<>();
 
     public Station() {
     }
-
-
 
 
     @OneToMany(mappedBy = "station")
@@ -35,6 +33,7 @@ public class Station extends Location{
     public void setStorageList(List<Stativ> storageList) {
         this.storageList = storageList;
     }
+
     @Column(name = "STATION_NAME")
     public String getStationName() {
         return stationName;
@@ -49,9 +48,10 @@ public class Station extends Location{
         getStorageList().add(stativ);
     }
 
-    public void removeStativ(Stativ stativ){
+    public void removeStativ(Stativ stativ) {
         getStorageList().remove(stativ);
     }
+
     @Override
     public String toString() {
         return "Station{" +
