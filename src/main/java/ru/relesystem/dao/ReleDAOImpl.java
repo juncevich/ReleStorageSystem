@@ -10,14 +10,15 @@ import ru.relesystem.entities.Relay;
 
 import javax.annotation.Resource;
 import java.util.List;
+
 @Transactional
 @Repository(value = "relayDao")
-public class ReleDAOImpl implements ReleDAO{
+public class ReleDAOImpl implements ReleDAO {
     private static final Log LOG = LogFactory.getLog(ReleDAOImpl.class);
     @Autowired
     private SessionFactory sessionFactory;
 
-    @Transactional(readOnly=true)
+    @Transactional(readOnly = true)
     public List<Relay> getRelays() {
         LOG.info("Invoke getRelays().");
         return sessionFactory.getCurrentSession().createQuery("from Relay r").list();
@@ -41,6 +42,7 @@ public class ReleDAOImpl implements ReleDAO{
         LOG.info("Invoked getSessionFactory().");
         return sessionFactory;
     }
+
     @Resource(name = "sessionFactory")
     public void setSessionFactory(SessionFactory sessionFactory) {
         LOG.info("Invoked setSessionFactory().");

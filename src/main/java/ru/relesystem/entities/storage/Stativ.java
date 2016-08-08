@@ -18,7 +18,7 @@ import static javax.persistence.GenerationType.IDENTITY;
         @NamedQuery(name = "Stativ.findAllWithDetail",
                 query = "select s from Stativ s "),
 })
-public class Stativ extends Storage  {
+public class Stativ extends Storage {
 
     private Integer Num;
     private Station station;
@@ -61,7 +61,7 @@ public class Stativ extends Storage  {
         getRelaysOnStativ().add(relay);
     }
 
-    public void removeRele (Relay relay) {
+    public void removeRele(Relay relay) {
         getRelaysOnStativ().remove(relay);
     }
 

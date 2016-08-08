@@ -8,9 +8,10 @@ import javax.persistence.*;
 public class Storage {
     private int id;
     private int version;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "ID" , updatable = false, nullable = false)
+    @Column(name = "ID", updatable = false, nullable = false)
     public int getId() {
         return id;
     }
@@ -18,6 +19,7 @@ public class Storage {
     public void setId(int id) {
         this.id = id;
     }
+
     @Version
     @Column(name = "VERSION")
     public int getVersion() {

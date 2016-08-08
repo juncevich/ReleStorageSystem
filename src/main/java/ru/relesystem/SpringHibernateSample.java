@@ -34,7 +34,6 @@ public class SpringHibernateSample {
         Relay relay1 = new Relay();
         relay1.setNumber(2);
         relay1.setShelvePosition(111);
- //       relay1.setStativ(stativ);
         relay1.setType("YVI");
         relay1.setLastServiceDate(new Date());
         relay1.setManufactureDate(new Date());

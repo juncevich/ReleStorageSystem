@@ -16,6 +16,7 @@ public class StationDaoImpl implements StationDao {
     private static final Log LOG = LogFactory.getLog(StativDAOImpl.class);
     @Autowired
     private SessionFactory sessionFactory;
+
     @Override
     public List<Station> getStations() {
         LOG.info("Invoke getStations().");

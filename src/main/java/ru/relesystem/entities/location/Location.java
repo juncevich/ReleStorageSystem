@@ -8,6 +8,7 @@ import javax.persistence.*;
 public class Location {
     private int id;
     private int version;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID")
@@ -18,6 +19,7 @@ public class Location {
     public void setId(int id) {
         this.id = id;
     }
+
     @Version
     @Column(name = "VERSION")
     public int getVersion() {

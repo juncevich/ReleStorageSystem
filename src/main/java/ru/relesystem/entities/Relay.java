@@ -214,7 +214,7 @@ public class Relay implements Serializable {
         return "Relay - Id: " + id + ", version " + version + ", Type: " + type
                 + ", number " + number + ",shelve position: " + shelvePosition + ", manufacture date: " + manufactureDate
                 + ", last service date: " + lastServiceDate + ", next service date: "
-                + nextServiceDate + ", stativ: " ;
+                + nextServiceDate + ", stativ: ";
 
     }
 }
