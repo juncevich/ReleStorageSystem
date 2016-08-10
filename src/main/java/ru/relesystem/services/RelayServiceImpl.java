@@ -17,7 +17,7 @@ import java.util.List;
 @Transactional
 public class RelayServiceImpl implements RelayService{
     final static String ALL_CONTACT_NATIVE_QUERY =
-            "select id, stativ_id, serial_number, type_id, version from relay";
+            "select * from relay";
 
     private Log log = LogFactory.getLog(RelayServiceImpl.class);
 
@@ -73,10 +73,10 @@ public class RelayServiceImpl implements RelayService{
         log.info("Relay with id: " + relay.getId()  + " deleted successfully");
     }
 
-    @Transactional(readOnly=true)
-    @Override
-    public List<Relay> findAllByNativeQuery() {
-        return em.createNativeQuery(ALL_CONTACT_NATIVE_QUERY,
-                "relayResult").getResultList();
-    }
+//    @Transactional(readOnly=true)
+//    @Override
+//    public List<Relay> findAllByNativeQuery() {
+//        return em.createNativeQuery(ALL_CONTACT_NATIVE_QUERY,
+//                "relayResult").getResultList();
+//    }
 }

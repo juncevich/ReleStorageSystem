@@ -10,5 +10,5 @@ public interface RelayService {
     Relay findById(Long id);
     Relay save(Relay relay);
     void delete(Relay relay);
-    List<Relay> findAllByNativeQuery();
+//    List<Relay> findAllByNativeQuery();
 }
