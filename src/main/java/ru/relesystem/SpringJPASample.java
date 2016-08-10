@@ -10,7 +10,7 @@ import java.util.List;
 public class SpringJPASample {
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
-        ctx.load("classpath:META-INF/spring/app-context-annotation.xml");
+        ctx.load("classpath:META-INF/spring/datasource-tx-jpa.xml");
         ctx.refresh();
 
         RelayService contactService = ctx.getBean(
