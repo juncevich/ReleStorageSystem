@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1c6ca1e6-df79-44c0-b05f-4224a2297440" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context-annotation.xml" />
     </list>
     <ignored path="ReleStorageSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +61,7 @@
       <file leaf-file-name="app-context-annotation.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context-annotation.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="161">
               <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
               <folding />
             </state>
@@ -1155,12 +1154,12 @@
       <workItem from="1470324632506" duration="11287000" />
       <workItem from="1470421368665" duration="904000" />
       <workItem from="1470681649221" duration="1801000" />
-      <workItem from="1470844526663" duration="482000" />
+      <workItem from="1470844526663" duration="1402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99895000" />
+    <option name="totallyTimeSpent" value="100815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1553" height="876" extended-state="6" />
@@ -1713,7 +1712,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context-annotation.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="161">
           <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
           <folding />
         </state>
