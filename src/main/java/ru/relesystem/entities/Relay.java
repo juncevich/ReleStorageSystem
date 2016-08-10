@@ -12,6 +12,8 @@ import java.util.Date;
 @Entity
 @Table(name = "relay")
 @NamedQueries({
+        @NamedQuery(name = "Relay.findAll",
+                query = "select r from Relay r"),
         @NamedQuery(name = "Relay.findById",
                 query = "select r from Relay r where r.id = :id"),
         @NamedQuery(name = "Relay.findAllWithDetail",
