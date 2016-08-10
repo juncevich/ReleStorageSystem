@@ -2669,3 +2669,390 @@ org.xml.sax.SAXParseException; lineNumber: 15; columnNumber: 12; SchemaLocation:
 [2016-08-11T00:11:18.985+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=42 _ThreadName=admin-listener(4)] [timeMillis: 1470856278985] [levelValue: 800] [[
   rele_system-4.0-SNAPSHOT was successfully deployed in 6,879 milliseconds.]]
 
+[2016-08-11T00:13:39.729+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856419729] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'appServlet']]
+
+[2016-08-11T00:13:39.730+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856419730] [levelValue: 800] [[
+  2016-08-11 00:13:39,730 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Aug 11 00:11:17 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T00:13:39.741+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856419741] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T00:13:39.741+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856419741] [levelValue: 800] [[
+  2016-08-11 00:13:39,741 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing Root WebApplicationContext: startup date [Thu Aug 11 00:11:15 YEKT 2016]; root of context hierarchy>]]
+
+[2016-08-11T00:13:39.742+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856419742] [levelValue: 800] [[
+  2016-08-11 00:13:39,742 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] - <Closing JPA EntityManagerFactory for persistence unit 'default'>]]
+
+[2016-08-11T00:13:39.744+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856419744] [levelValue: 800] [[
+  2016-08-11 00:13:39,743 INFO [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory] - <Shutting down embedded database: url='jdbc:h2:mem:dataSource;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'>]]
+
+[2016-08-11T00:13:39.761+0500] [Payara 4.1] [WARNING] [] [javax.enterprise.web.util] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856419761] [levelValue: 900] [[
+  The web application [/rele_system-4.0-SNAPSHOT] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.]]
+
+[2016-08-11T00:13:41.411+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856421411] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T00:13:41.422+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856421422] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/rele_system-4.0-SNAPSHOT']]
+
+[2016-08-11T00:13:41.688+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856421688] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T00:13:41.689+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856421689] [levelValue: 800] [[
+  2016-08-11 00:13:41,689 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>]]
+
+[2016-08-11T00:13:41.804+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856421804] [levelValue: 800] [[
+  2016-08-11 00:13:41,804 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Thu Aug 11 00:13:41 YEKT 2016]; root of context hierarchy>]]
+
+[2016-08-11T00:13:41.856+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856421856] [levelValue: 800] [[
+  2016-08-11 00:13:41,856 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/root-context.xml]>]]
+
+[2016-08-11T00:13:41.881+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856421881] [levelValue: 800] [[
+  2016-08-11 00:13:41,881 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [META-INF/spring/datasource-tx-jpa.xml]>]]
+
+[2016-08-11T00:13:42.164+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422164] [levelValue: 800] [[
+  2016-08-11 00:13:42,164 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>]]
+
+[2016-08-11T00:13:42.312+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422312] [levelValue: 800] [[
+  2016-08-11 00:13:42,312 INFO [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory] - <Starting embedded database: url='jdbc:h2:mem:dataSource;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'>]]
+
+[2016-08-11T00:13:42.489+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422489] [levelValue: 800] [[
+  2016-08-11 00:13:42,489 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executing SQL script from class path resource [META-INF/sql/schema.sql]>]]
+
+[2016-08-11T00:13:42.505+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422505] [levelValue: 800] [[
+  2016-08-11 00:13:42,505 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executed SQL script from class path resource [META-INF/sql/schema.sql] in 16 ms.>]]
+
+[2016-08-11T00:13:42.506+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422506] [levelValue: 800] [[
+  2016-08-11 00:13:42,506 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executing SQL script from class path resource [META-INF/sql/test-data.sql]>]]
+
+[2016-08-11T00:13:42.513+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422513] [levelValue: 800] [[
+  2016-08-11 00:13:42,513 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executed SQL script from class path resource [META-INF/sql/test-data.sql] in 7 ms.>]]
+
+[2016-08-11T00:13:42.561+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422561] [levelValue: 800] [[
+  2016-08-11 00:13:42,561 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] - <Building JPA container EntityManagerFactory for persistence unit 'default'>]]
+
+[2016-08-11T00:13:42.705+0500] [Payara 4.1] [INFO] [] [org.hibernate.annotations.common.Version] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422705] [levelValue: 800] [[
+  HCANN000001: Hibernate Commons Annotations {4.0.2.Final}]]
+
+[2016-08-11T00:13:42.712+0500] [Payara 4.1] [INFO] [] [org.hibernate.Version] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422712] [levelValue: 800] [[
+  HHH000412: Hibernate Core {4.2.3.Final}]]
+
+[2016-08-11T00:13:42.715+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422715] [levelValue: 800] [[
+  HHH000206: hibernate.properties not found]]
+
+[2016-08-11T00:13:42.717+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422717] [levelValue: 800] [[
+  HHH000021: Bytecode provider name : javassist]]
+
+[2016-08-11T00:13:42.744+0500] [Payara 4.1] [INFO] [] [org.hibernate.ejb.Ejb3Configuration] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422744] [levelValue: 800] [[
+  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]]
+
+[2016-08-11T00:13:42.895+0500] [Payara 4.1] [INFO] [] [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422895] [levelValue: 800] [[
+  HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider]]
+
+[2016-08-11T00:13:42.944+0500] [Payara 4.1] [INFO] [] [org.hibernate.dialect.Dialect] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856422944] [levelValue: 800] [[
+  HHH000400: Using dialect: org.hibernate.dialect.H2Dialect]]
+
+[2016-08-11T00:13:43.119+0500] [Payara 4.1] [INFO] [] [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423119] [levelValue: 800] [[
+  HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory]]
+
+[2016-08-11T00:13:43.125+0500] [Payara 4.1] [INFO] [] [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423125] [levelValue: 800] [[
+  HHH000397: Using ASTQueryTranslatorFactory]]
+
+[2016-08-11T00:13:43.556+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423556] [levelValue: 800] [[
+  2016-08-11 00:13:43,556 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] - <Initialized JPA EntityManagerFactory for persistence unit 'default'>]]
+
+[2016-08-11T00:13:43.601+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423601] [levelValue: 1000] [[
+  SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".]]
+
+[2016-08-11T00:13:43.601+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423601] [levelValue: 1000] [[
+  SLF4J: Defaulting to no-operation (NOP) logger implementation]]
+
+[2016-08-11T00:13:43.601+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423601] [levelValue: 1000] [[
+  SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.]]
+
+[2016-08-11T00:13:43.653+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423653] [levelValue: 800] [[
+  2016-08-11 00:13:43,653 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 1964 ms>]]
+
+[2016-08-11T00:13:43.695+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423695] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'appServlet']]
+
+[2016-08-11T00:13:43.695+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423695] [levelValue: 800] [[
+  2016-08-11 00:13:43,695 INFO [org.springframework.web.servlet.DispatcherServlet] - <FrameworkServlet 'appServlet': initialization started>]]
+
+[2016-08-11T00:13:43.700+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423700] [levelValue: 800] [[
+  2016-08-11 00:13:43,700 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Aug 11 00:13:43 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T00:13:43.700+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423700] [levelValue: 800] [[
+  2016-08-11 00:13:43,700 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]>]]
+
+[2016-08-11T00:13:43.705+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423705] [levelValue: 800] [[
+  2016-08-11 00:13:43,703 WARN [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Ignored XML validation warning>
+org.xml.sax.SAXParseException; lineNumber: 15; columnNumber: 12; SchemaLocation: schemaLocation value = 'http://www.springframework.org/schema/mvc         http://www.springframework.org/schema/mvc/spring-mvc.xsd         http://www.springframework.org/schema/beans         http://www.springframework.org/schema/beans/spring-beans.xsd         http://www.springframework.org/schema/context         http://www.springframework.org/schema/context/spring-context.xsd         http://www.springframework.org/schema/security         ' must have even number of URI's.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.warning(ErrorHandlerWrapper.java:99)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:392)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:452)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.storeLocations(XMLSchemaValidator.java:2347)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1754)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:740)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:380)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:619)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3129)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:612)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:513)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1583)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1382)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5734)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5979)
+	at com.sun.enterprise.web.WebModule.start(WebModule.java:691)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1041)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:1024)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:2286)
+	at com.sun.enterprise.web.WebContainer.loadWebModule(WebContainer.java:1932)
+	at com.sun.enterprise.web.WebApplication.start(WebApplication.java:139)
+	at org.glassfish.internal.data.EngineRef.start(EngineRef.java:122)
+	at org.glassfish.internal.data.ModuleInfo.start(ModuleInfo.java:291)
+	at org.glassfish.internal.data.ApplicationInfo.start(ApplicationInfo.java:353)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:501)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:220)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:487)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:539)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:535)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:534)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:565)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:556)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1464)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:109)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1846)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1722)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:534)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:224)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:189)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.Contain]]
+
+[2016-08-11T00:13:43.705+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423705] [levelValue: 800] [[
+  erMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:206)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:180)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:526)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Thread.java:745)]]
+
+[2016-08-11T00:13:43.816+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423816] [levelValue: 800] [[
+  2016-08-11 00:13:43,816 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>]]
+
+[2016-08-11T00:13:43.979+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423979] [levelValue: 800] [[
+  2016-08-11 00:13:43,979 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - <Mapped "{[/relays],methods=[GET]}" onto public java.lang.String ru.relesystem.controllers.RelayController.list(org.springframework.ui.Model)>]]
+
+[2016-08-11T00:13:44.159+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856424159] [levelValue: 800] [[
+  2016-08-11 00:13:44,159 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - <Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Aug 11 00:13:43 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T00:13:44.274+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856424274] [levelValue: 800] [[
+  2016-08-11 00:13:44,273 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - <Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Aug 11 00:13:43 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T00:13:44.414+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856424414] [levelValue: 800] [[
+  2016-08-11 00:13:44,414 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - <Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'>]]
+
+[2016-08-11T00:13:44.494+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856424494] [levelValue: 800] [[
+  2016-08-11 00:13:44,494 INFO [org.springframework.web.servlet.DispatcherServlet] - <FrameworkServlet 'appServlet': initialization completed in 798 ms>]]
+
+[2016-08-11T00:13:44.496+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856424496] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/rele_system-4.0-SNAPSHOT]]]
+
+[2016-08-11T00:13:44.528+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856424528] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 4,812 milliseconds.]]
+
+[2016-08-11T00:15:43.862+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856543862] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'appServlet']]
+
+[2016-08-11T00:15:43.867+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856543867] [levelValue: 800] [[
+  2016-08-11 00:15:43,863 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Aug 11 00:13:43 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T00:15:43.875+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856543875] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T00:15:43.875+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856543875] [levelValue: 800] [[
+  2016-08-11 00:15:43,875 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing Root WebApplicationContext: startup date [Thu Aug 11 00:13:41 YEKT 2016]; root of context hierarchy>]]
+
+[2016-08-11T00:15:43.876+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856543876] [levelValue: 800] [[
+  2016-08-11 00:15:43,876 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] - <Closing JPA EntityManagerFactory for persistence unit 'default'>]]
+
+[2016-08-11T00:15:43.878+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856543878] [levelValue: 800] [[
+  2016-08-11 00:15:43,878 INFO [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory] - <Shutting down embedded database: url='jdbc:h2:mem:dataSource;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false'>]]
+
+[2016-08-11T00:15:43.891+0500] [Payara 4.1] [WARNING] [] [javax.enterprise.web.util] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856543891] [levelValue: 900] [[
+  The web application [/rele_system-4.0-SNAPSHOT] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.]]
+
+[2016-08-11T00:15:45.657+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856545657] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T00:15:45.665+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856545665] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/rele_system-4.0-SNAPSHOT']]
+
+[2016-08-11T00:15:45.949+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856545949] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T00:15:45.950+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856545950] [levelValue: 800] [[
+  2016-08-11 00:15:45,950 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>]]
+
+[2016-08-11T00:15:46.050+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546050] [levelValue: 800] [[
+  2016-08-11 00:15:46,050 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Thu Aug 11 00:15:46 YEKT 2016]; root of context hierarchy>]]
+
+[2016-08-11T00:15:46.098+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546098] [levelValue: 800] [[
+  2016-08-11 00:15:46,098 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/root-context.xml]>]]
+
+[2016-08-11T00:15:46.116+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546116] [levelValue: 800] [[
+  2016-08-11 00:15:46,116 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from class path resource [META-INF/spring/datasource-tx-jpa.xml]>]]
+
+[2016-08-11T00:15:46.359+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546359] [levelValue: 800] [[
+  2016-08-11 00:15:46,359 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>]]
+
+[2016-08-11T00:15:46.507+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546507] [levelValue: 800] [[
+  2016-08-11 00:15:46,507 INFO [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory] - <Starting embedded database: url='jdbc:h2:mem:dataSource;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'>]]
+
+[2016-08-11T00:15:46.676+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546676] [levelValue: 800] [[
+  2016-08-11 00:15:46,676 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executing SQL script from class path resource [META-INF/sql/schema.sql]>]]
+
+[2016-08-11T00:15:46.693+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546693] [levelValue: 800] [[
+  2016-08-11 00:15:46,693 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executed SQL script from class path resource [META-INF/sql/schema.sql] in 17 ms.>]]
+
+[2016-08-11T00:15:46.694+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546694] [levelValue: 800] [[
+  2016-08-11 00:15:46,694 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executing SQL script from class path resource [META-INF/sql/test-data.sql]>]]
+
+[2016-08-11T00:15:46.701+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546701] [levelValue: 800] [[
+  2016-08-11 00:15:46,701 INFO [org.springframework.jdbc.datasource.init.ScriptUtils] - <Executed SQL script from class path resource [META-INF/sql/test-data.sql] in 7 ms.>]]
+
+[2016-08-11T00:15:46.751+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546751] [levelValue: 800] [[
+  2016-08-11 00:15:46,751 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] - <Building JPA container EntityManagerFactory for persistence unit 'default'>]]
+
+[2016-08-11T00:15:46.903+0500] [Payara 4.1] [INFO] [] [org.hibernate.annotations.common.Version] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546903] [levelValue: 800] [[
+  HCANN000001: Hibernate Commons Annotations {4.0.2.Final}]]
+
+[2016-08-11T00:15:46.911+0500] [Payara 4.1] [INFO] [] [org.hibernate.Version] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546911] [levelValue: 800] [[
+  HHH000412: Hibernate Core {4.2.3.Final}]]
+
+[2016-08-11T00:15:46.914+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546914] [levelValue: 800] [[
+  HHH000206: hibernate.properties not found]]
+
+[2016-08-11T00:15:46.917+0500] [Payara 4.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546917] [levelValue: 800] [[
+  HHH000021: Bytecode provider name : javassist]]
+
+[2016-08-11T00:15:46.947+0500] [Payara 4.1] [INFO] [] [org.hibernate.ejb.Ejb3Configuration] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856546947] [levelValue: 800] [[
+  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]]]
+
+[2016-08-11T00:15:47.114+0500] [Payara 4.1] [INFO] [] [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547114] [levelValue: 800] [[
+  HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider]]
+
+[2016-08-11T00:15:47.170+0500] [Payara 4.1] [INFO] [] [org.hibernate.dialect.Dialect] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547170] [levelValue: 800] [[
+  HHH000400: Using dialect: org.hibernate.dialect.H2Dialect]]
+
+[2016-08-11T00:15:47.367+0500] [Payara 4.1] [INFO] [] [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547367] [levelValue: 800] [[
+  HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory]]
+
+[2016-08-11T00:15:47.374+0500] [Payara 4.1] [INFO] [] [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547374] [levelValue: 800] [[
+  HHH000397: Using ASTQueryTranslatorFactory]]
+
+[2016-08-11T00:15:47.788+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547788] [levelValue: 800] [[
+  2016-08-11 00:15:47,788 INFO [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] - <Initialized JPA EntityManagerFactory for persistence unit 'default'>]]
+
+[2016-08-11T00:15:47.836+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547836] [levelValue: 1000] [[
+  SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".]]
+
+[2016-08-11T00:15:47.836+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547836] [levelValue: 1000] [[
+  SLF4J: Defaulting to no-operation (NOP) logger implementation]]
+
+[2016-08-11T00:15:47.837+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547837] [levelValue: 1000] [[
+  SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.]]
+
+[2016-08-11T00:15:47.893+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547893] [levelValue: 800] [[
+  2016-08-11 00:15:47,893 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 1943 ms>]]
+
+[2016-08-11T00:15:47.941+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547941] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'appServlet']]
+
+[2016-08-11T00:15:47.941+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547941] [levelValue: 800] [[
+  2016-08-11 00:15:47,941 INFO [org.springframework.web.servlet.DispatcherServlet] - <FrameworkServlet 'appServlet': initialization started>]]
+
+[2016-08-11T00:15:47.946+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547946] [levelValue: 800] [[
+  2016-08-11 00:15:47,946 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Aug 11 00:15:47 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T00:15:47.949+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856547949] [levelValue: 800] [[
+  2016-08-11 00:15:47,949 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]>]]
+
+[2016-08-11T00:15:48.070+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856548070] [levelValue: 800] [[
+  2016-08-11 00:15:48,070 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>]]
+
+[2016-08-11T00:15:48.201+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856548201] [levelValue: 800] [[
+  2016-08-11 00:15:48,201 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - <Mapped "{[/relays],methods=[GET]}" onto public java.lang.String ru.relesystem.controllers.RelayController.list(org.springframework.ui.Model)>]]
+
+[2016-08-11T00:15:48.333+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856548333] [levelValue: 800] [[
+  2016-08-11 00:15:48,333 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - <Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Aug 11 00:15:47 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T00:15:48.392+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856548392] [levelValue: 800] [[
+  2016-08-11 00:15:48,392 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - <Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Aug 11 00:15:47 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T00:15:48.452+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856548452] [levelValue: 800] [[
+  2016-08-11 00:15:48,452 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - <Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'>]]
+
+[2016-08-11T00:15:48.514+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856548514] [levelValue: 800] [[
+  2016-08-11 00:15:48,513 INFO [org.springframework.web.servlet.DispatcherServlet] - <FrameworkServlet 'appServlet': initialization completed in 571 ms>]]
+
+[2016-08-11T00:15:48.515+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856548515] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/rele_system-4.0-SNAPSHOT]]]
+
+[2016-08-11T00:15:48.540+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856548540] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 4,693 milliseconds.]]
+
