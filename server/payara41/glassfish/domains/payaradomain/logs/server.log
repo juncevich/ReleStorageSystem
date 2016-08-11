@@ -2649,7 +2649,7 @@ org.xml.sax.SAXParseException; lineNumber: 15; columnNumber: 12; SchemaLocation:
   2016-08-11 00:11:17,763 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>]]
 
 [2016-08-11T00:11:18.000+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(4)] [timeMillis: 1470856278000] [levelValue: 800] [[
-  2016-08-11 00:11:18,000 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - <Mapped "{[/relays],methods=[GET]}" onto public java.lang.String ru.relesystem.controllers.RelayController.list(org.springframework.ui.Model)>]]
+  2016-08-11 00:11:18,000 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - <Mapped "{[/relays],methods=[GET]}" onto public java.lang.String controllers.RelayController.list(org.springframework.ui.Model)>]]
 
 [2016-08-11T00:11:18.601+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(4)] [timeMillis: 1470856278601] [levelValue: 800] [[
   2016-08-11 00:11:18,601 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - <Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Aug 11 00:11:17 YEKT 2016]; parent: Root WebApplicationContext>]]
@@ -2893,7 +2893,7 @@ org.xml.sax.SAXParseException; lineNumber: 15; columnNumber: 12; SchemaLocation:
   2016-08-11 00:13:43,816 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>]]
 
 [2016-08-11T00:13:43.979+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856423979] [levelValue: 800] [[
-  2016-08-11 00:13:43,979 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - <Mapped "{[/relays],methods=[GET]}" onto public java.lang.String ru.relesystem.controllers.RelayController.list(org.springframework.ui.Model)>]]
+  2016-08-11 00:13:43,979 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - <Mapped "{[/relays],methods=[GET]}" onto public java.lang.String controllers.RelayController.list(org.springframework.ui.Model)>]]
 
 [2016-08-11T00:13:44.159+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470856424159] [levelValue: 800] [[
   2016-08-11 00:13:44,159 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - <Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Aug 11 00:13:43 YEKT 2016]; parent: Root WebApplicationContext>]]
@@ -3036,7 +3036,7 @@ org.xml.sax.SAXParseException; lineNumber: 15; columnNumber: 12; SchemaLocation:
   2016-08-11 00:15:48,070 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>]]
 
 [2016-08-11T00:15:48.201+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856548201] [levelValue: 800] [[
-  2016-08-11 00:15:48,201 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - <Mapped "{[/relays],methods=[GET]}" onto public java.lang.String ru.relesystem.controllers.RelayController.list(org.springframework.ui.Model)>]]
+  2016-08-11 00:15:48,201 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - <Mapped "{[/relays],methods=[GET]}" onto public java.lang.String controllers.RelayController.list(org.springframework.ui.Model)>]]
 
 [2016-08-11T00:15:48.333+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470856548333] [levelValue: 800] [[
   2016-08-11 00:15:48,333 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - <Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Aug 11 00:15:47 YEKT 2016]; parent: Root WebApplicationContext>]]
@@ -5993,4 +5993,1198 @@ false]]
 
 [2016-08-11T18:57:51.751+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=40 _ThreadName=admin-listener(4)] [timeMillis: 1470923871751] [levelValue: 800] [[
   rele_system-4.0-SNAPSHOT was successfully deployed in 2,478 milliseconds.]]
+
+[2016-08-11T20:03:52.848+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927832848] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:03:52.851+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927832851] [levelValue: 800] [[
+  2016-08-11 20:03:52,850 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Thu Aug 11 18:57:51 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T20:03:53.302+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927833302] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:03:53.303+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927833303] [levelValue: 800] [[
+  2016-08-11 20:03:53,303 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing Root WebApplicationContext: startup date [Thu Aug 11 18:57:51 YEKT 2016]; root of context hierarchy>]]
+
+[2016-08-11T20:04:07.838+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927847838] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T20:04:07.846+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927847846] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/test']]
+
+[2016-08-11T20:04:08.331+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927848331] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T20:04:08.332+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927848332] [levelValue: 800] [[
+  2016-08-11 20:04:08,332 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>]]
+
+[2016-08-11T20:04:08.495+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927848495] [levelValue: 800] [[
+  2016-08-11 20:04:08,495 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Thu Aug 11 20:04:08 YEKT 2016]; root of context hierarchy>]]
+
+[2016-08-11T20:04:08.545+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927848545] [levelValue: 800] [[
+  2016-08-11 20:04:08,545 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/config/application-context.xml]>]]
+
+[2016-08-11T20:04:08.777+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927848777] [levelValue: 800] [[
+  2016-08-11 20:04:08,777 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - <Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'>]]
+
+[2016-08-11T20:04:08.801+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927848801] [levelValue: 800] [[
+  2016-08-11 20:04:08,801 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 469 ms>]]
+
+[2016-08-11T20:04:08.865+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927848865] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:04:08.866+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927848866] [levelValue: 800] [[
+  2016-08-11 20:04:08,866 INFO [org.springframework.web.servlet.DispatcherServlet] - <FrameworkServlet 'dispatcherServlet': initialization started>]]
+
+[2016-08-11T20:04:08.868+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927848868] [levelValue: 800] [[
+  2016-08-11 20:04:08,868 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Thu Aug 11 20:04:08 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T20:04:08.869+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927848869] [levelValue: 800] [[
+  2016-08-11 20:04:08,869 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/config/mvc-config.xml]>]]
+
+[2016-08-11T20:04:09.043+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927849043] [levelValue: 800] [[
+  2016-08-11 20:04:09,042 INFO [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - <JSR-330 'javax.inject.Inject' annotation found and supported for autowiring>]]
+
+[2016-08-11T20:04:09.749+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927849749] [levelValue: 800] [[
+  2016-08-11 20:04:09,749 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - <Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Thu Aug 11 20:04:08 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T20:04:09.818+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927849818] [levelValue: 800] [[
+  2016-08-11 20:04:09,818 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - <Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Thu Aug 11 20:04:08 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T20:04:09.893+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927849893] [levelValue: 800] [[
+  2016-08-11 20:04:09,893 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/config/excel-pdf-config.xml]>]]
+
+[2016-08-11T20:04:09.897+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927849897] [levelValue: 800] [[
+  2016-08-11 20:04:09,897 INFO [org.springframework.web.context.support.GenericWebApplicationContext] - <Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2ef5c628: startup date [Thu Aug 11 20:04:09 YEKT 2016]; parent: WebApplicationContext for namespace 'dispatcherServlet-servlet'>]]
+
+[2016-08-11T20:04:09.919+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927849919] [levelValue: 800] [[
+  2016-08-11 20:04:09,919 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - <Mapped URL path [/index.html] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]>]]
+
+[2016-08-11T20:04:09.919+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927849919] [levelValue: 800] [[
+  2016-08-11 20:04:09,919 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - <Mapped URL path [/about.html] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]>]]
+
+[2016-08-11T20:04:09.919+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927849919] [levelValue: 800] [[
+  2016-08-11 20:04:09,919 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - <Mapped URL path [/file.html] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]>]]
+
+[2016-08-11T20:04:09.968+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927849968] [levelValue: 800] [[
+  2016-08-11 20:04:09,967 INFO [org.springframework.web.servlet.DispatcherServlet] - <FrameworkServlet 'dispatcherServlet': initialization completed in 1101 ms>]]
+
+[2016-08-11T20:04:09.969+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927849969] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/test]]]
+
+[2016-08-11T20:04:10.104+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470927850104] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 17,267 milliseconds.]]
+
+[2016-08-11T20:09:34.180+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928174180] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:09:34.182+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928174182] [levelValue: 800] [[
+  2016-08-11 20:09:34,181 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Thu Aug 11 20:04:08 YEKT 2016]; parent: Root WebApplicationContext>]]
+
+[2016-08-11T20:09:34.205+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928174205] [levelValue: 800] [[
+  2016-08-11 20:09:34,205 INFO [org.springframework.web.context.support.GenericWebApplicationContext] - <Closing org.springframework.web.context.support.GenericWebApplicationContext@2ef5c628: startup date [Thu Aug 11 20:04:09 YEKT 2016]; parent: WebApplicationContext for namespace 'dispatcherServlet-servlet'>]]
+
+[2016-08-11T20:09:34.213+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928174213] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:09:34.213+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928174213] [levelValue: 800] [[
+  2016-08-11 20:09:34,213 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing Root WebApplicationContext: startup date [Thu Aug 11 20:04:08 YEKT 2016]; root of context hierarchy>]]
+
+[2016-08-11T20:09:38.423+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928178423] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T20:09:38.428+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928178428] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/test']]
+
+[2016-08-11T20:09:38.690+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928178690] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T20:09:38.692+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928178692] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-08-11T20:09:38.692+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928178692] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-08-11T20:09:38.693+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928178693] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-08-11T20:09:39.089+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928179089] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:09:39.781+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928179781] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/test]]]
+
+[2016-08-11T20:09:39.795+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928179795] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 5,623 milliseconds.]]
+
+[2016-08-11T20:11:19.434+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928279434] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:11:19.465+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928279465] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:11:21.007+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928281007] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T20:11:21.071+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928281071] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/test']]
+
+[2016-08-11T20:11:21.316+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928281316] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T20:11:21.318+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928281318] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-08-11T20:11:21.318+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928281318] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-08-11T20:11:21.319+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928281319] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-08-11T20:11:21.811+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928281811] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:11:22.395+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928282395] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/test]]]
+
+[2016-08-11T20:11:22.419+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928282419] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 2,995 milliseconds.]]
+
+[2016-08-11T20:12:07.911+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470928327911] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:12:07.946+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470928327946] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:12:09.610+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470928329610] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T20:12:09.615+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470928329615] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/test']]
+
+[2016-08-11T20:12:09.803+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470928329803] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T20:12:09.805+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470928329805] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-08-11T20:12:09.805+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470928329805] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-08-11T20:12:09.805+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470928329805] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-08-11T20:12:10.232+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470928330232] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:12:10.860+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470928330860] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/test]]]
+
+[2016-08-11T20:12:10.871+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=42 _ThreadName=admin-listener(5)] [timeMillis: 1470928330871] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 2,967 milliseconds.]]
+
+[2016-08-11T20:13:05.169+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928385169] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:13:05.194+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928385194] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:13:06.976+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928386976] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T20:13:06.980+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928386980] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '']]
+
+[2016-08-11T20:13:07.158+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928387158] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T20:13:07.159+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928387159] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-08-11T20:13:07.159+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928387159] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-08-11T20:13:07.159+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928387159] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-08-11T20:13:07.589+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928387589] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:13:08.112+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928388112] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/]]]
+
+[2016-08-11T20:13:08.118+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=39 _ThreadName=admin-listener(3)] [timeMillis: 1470928388118] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 2,953 milliseconds.]]
+
+[2016-08-11T20:14:33.678+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928473678] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:14:33.712+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=37 _ThreadName=admin-listener(1)] [timeMillis: 1470928473712] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:14:36.106+0500] [Payara 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=38 _ThreadName=admin-listener(2)] [timeMillis: 1470928476106] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2016-08-11T20:14:36.319+0500] [Payara 4.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=230 _ThreadName=Thread-31] [timeMillis: 1470928476319] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2016-08-11T20:14:36.322+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=230 _ThreadName=Thread-31] [timeMillis: 1470928476322] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@12b5454f from service registry.]]
+
+[2016-08-11T20:14:36.323+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=230 _ThreadName=Thread-31] [timeMillis: 1470928476323] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2016-08-11T20:14:36.350+0500] [Payara 4.1] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=230 _ThreadName=Thread-31] [timeMillis: 1470928476350] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2016-08-11T20:14:36.350+0500] [Payara 4.1] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=230 _ThreadName=Thread-31] [timeMillis: 1470928476350] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2016-08-11T20:14:36.688+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=241 _ThreadName=RunLevelControllerThread-1470928476441] [timeMillis: 1470928476688] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
+[2016-08-11T20:14:42.896+0500] [] [INFO] [NCLS-GFLAUNCHER-00005] [javax.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928482896] [levelValue: 800] [[
+  JVM invocation command line:
+/usr/lib/jvm/java-8-oracle/bin/java
+-cp
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:NewRatio=2
+-XX:MaxPermSize=512m
+-Xmx1024m
+-server
+-javaagent:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/monitor/flashlight-agent.jar
+-Djava.security.auth.login.config=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/login.conf
+-Djavax.net.ssl.trustStore=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/cacerts.jks
+-Djdk.tls.rejectClientInitiatedRenegotiation=true
+-Djdk.corba.allowOutputStreamSubclass=true
+-Dcom.sun.aas.instanceRoot=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain
+-Dcom.sun.aas.installRoot=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.endorsed.dirs=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/modules/endorsed:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/endorsed
+-Djava.security.policy=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/server.policy
+-Dorg.jboss.weld.serialization.beanIdentifierIndexOptimization=false
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Djava.awt.headless=true
+-Djava.ext.dirs=/usr/lib/jvm/java-8-oracle/lib/ext:/usr/lib/jvm/java-8-oracle/jre/lib/ext:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/lib/ext
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Djavax.net.ssl.keyStore=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/keystore.jks
+-Djava.library.path=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib:/opt/idea16/bin:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-upgrade
+false
+-domaindir
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain
+-read-stdin
+true
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=false,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains,,,payaradomain
+-domainname
+payaradomain
+-instancename
+server
+-type
+DAS
+-verbose
+false
+-asadmin-classpath
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/client/appserver-cli.jar
+-debug
+false
+-asadmin-classname
+com.sun.enterprise.admin.cli.AdminMain
+-watchdog
+false]]
+
+[2016-08-11T20:15:30.900+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928530162] [timeMillis: 1470928530900] [levelValue: 800] [[
+  Running Payara Version: Payara Server  4.1.1.162 #badassfish (build 116)]]
+
+[2016-08-11T20:15:30.902+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928530162] [timeMillis: 1470928530902] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2016-08-11T20:15:32.542+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928530162] [timeMillis: 1470928532542] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2016-08-11T20:15:32.884+0500] [Payara 4.1] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928530191] [timeMillis: 1470928532884] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2016-08-11T20:15:33.163+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928530162] [timeMillis: 1470928533163] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2016-08-11T20:15:33.174+0500] [Payara 4.1] [INFO] [] [fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactory] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928530162] [timeMillis: 1470928533174] [levelValue: 800] [[
+  Registered Hazelcast BackingStoreFactory with persistence-type = hazelcast]]
+
+[2016-08-11T20:15:33.196+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928530191] [timeMillis: 1470928533196] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-08-11T20:15:33.255+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928530191] [timeMillis: 1470928533255] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-08-11T20:15:33.265+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928530191] [timeMillis: 1470928533265] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2016-08-11T20:15:34.013+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470928530191] [timeMillis: 1470928534013] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 94ms - bound to [/0.0.0.0:8080]]]
+
+[2016-08-11T20:15:34.082+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470928530191] [timeMillis: 1470928534082] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 1ms - bound to [/0.0.0.0:8181]]]
+
+[2016-08-11T20:15:34.095+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470928530191] [timeMillis: 1470928534095] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 1ms - bound to [/0.0.0.0:4848]]]
+
+[2016-08-11T20:15:34.289+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928530162] [timeMillis: 1470928534289] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 1ms - bound to [/0.0.0.0:3700]]]
+
+[2016-08-11T20:15:37.678+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928537678] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2016-08-11T20:15:37.678+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928537678] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2016-08-11T20:15:37.682+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928537682] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2016-08-11T20:15:37.802+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928537802] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2016-08-11T20:15:39.463+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928539463] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2016-08-11T20:15:39.471+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928539471] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2016-08-11T20:15:39.481+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928539481] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2016-08-11T20:15:39.518+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928539518] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2016-08-11T20:15:39.525+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928539525] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2016-08-11T20:15:41.047+0500] [Payara 4.1] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928541047] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2016-08-11T20:15:41.049+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928541049] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2016-08-11T20:15:44.558+0500] [Payara 4.1] [SEVERE] [] [global] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928544558] [levelValue: 1000] [[
+  Class [ Lorg/apache/commons/logging/Log; ] not found. Error while loading [ class ru.relesystem.dao.ReleDAOImpl ]]]
+
+[2016-08-11T20:15:48.436+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928548436] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/ReleStorageSystem']]
+
+[2016-08-11T20:15:54.463+0500] [Payara 4.1] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928554463] [levelValue: 800] [[
+  HV000001: Hibernate Validator 5.1.2.Final]]
+
+[2016-08-11T20:15:55.828+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928555828] [levelValue: 800] [[
+  Loading application [ReleStorageSystem] at [/ReleStorageSystem]]]
+
+[2016-08-11T20:15:55.831+0500] [Payara 4.1] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928530158] [timeMillis: 1470928555831] [levelValue: 800] [[
+  Loading application ReleStorageSystem done in 22,505 ms]]
+
+[2016-08-11T20:15:55.833+0500] [Payara 4.1] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928555833] [levelValue: 800] [[
+  Payara Server  4.1.1.162 #badassfish (116) startup time : Felix (45,221ms), startup services(25,682ms), total(70,903ms)]]
+
+[2016-08-11T20:15:55.837+0500] [Payara 4.1] [INFO] [] [fish.payara.nucleus.util.CleanupPostBoot] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928555837] [levelValue: 800] [[
+  Cleaning JarFileFactory Cache to prevent jar FD leaks]]
+
+[2016-08-11T20:15:56.031+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928530191] [timeMillis: 1470928556031] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 0ms - bound to [/0.0.0.0:7677]]]
+
+[2016-08-11T20:15:57.519+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928557519] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@12b5454f as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@2e2f720.]]
+
+[2016-08-11T20:15:58.596+0500] [Payara 4.1] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=62 _ThreadName=Thread-15] [timeMillis: 1470928558596] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://alex-ESPRIMO-P400:8686/jndi/rmi://alex-ESPRIMO-P400:8686/jmxrmi]]
+
+[2016-08-11T20:15:58.601+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=13 _ThreadName=FelixStartLevel] [timeMillis: 1470928558601] [levelValue: 800] [[
+  /home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/autodeploy/bundles does not exist, please create it.]]
+
+[2016-08-11T20:16:00.910+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928560910] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T20:16:01.011+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928561011] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/rele_system-4.0-SNAPSHOT']]
+
+[2016-08-11T20:16:01.315+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928561315] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T20:16:01.319+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928561319] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-08-11T20:16:01.320+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928561320] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-08-11T20:16:01.321+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928561321] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-08-11T20:16:02.136+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928562136] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:16:03.536+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928563536] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/rele_system-4.0-SNAPSHOT]]]
+
+[2016-08-11T20:16:03.718+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928563718] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 6,120 milliseconds.]]
+
+[2016-08-11T20:16:49.307+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(4)] [timeMillis: 1470928609307] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:16:49.363+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(4)] [timeMillis: 1470928609363] [levelValue: 800] [[
+  Cannot find the resource bundle for the name com.sun.logging.enterprise.system.core for class com.sun.ejb.containers.interceptors.JavaEEInterceptorBuilderImpl using org.glassfish.main.ejb.ejb-container [138]]]
+
+[2016-08-11T20:16:49.373+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(4)] [timeMillis: 1470928609373] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:16:50.606+0500] [Payara 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=43 _ThreadName=admin-listener(5)] [timeMillis: 1470928610606] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2016-08-11T20:16:50.690+0500] [Payara 4.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=100 _ThreadName=Thread-24] [timeMillis: 1470928610690] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2016-08-11T20:16:50.708+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=100 _ThreadName=Thread-24] [timeMillis: 1470928610708] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@12b5454f from service registry.]]
+
+[2016-08-11T20:16:50.713+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=100 _ThreadName=Thread-24] [timeMillis: 1470928610713] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2016-08-11T20:16:50.718+0500] [Payara 4.1] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=100 _ThreadName=Thread-24] [timeMillis: 1470928610718] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2016-08-11T20:16:50.719+0500] [Payara 4.1] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=100 _ThreadName=Thread-24] [timeMillis: 1470928610719] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2016-08-11T20:16:50.805+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=105 _ThreadName=RunLevelControllerThread-1470928610789] [timeMillis: 1470928610805] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
+[2016-08-11T20:17:03.307+0500] [] [INFO] [NCLS-GFLAUNCHER-00005] [javax.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928623307] [levelValue: 800] [[
+  JVM invocation command line:
+/usr/lib/jvm/java-8-oracle/bin/java
+-cp
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:NewRatio=2
+-XX:MaxPermSize=512m
+-Xmx1024m
+-server
+-javaagent:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/monitor/flashlight-agent.jar
+-Djava.security.auth.login.config=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/login.conf
+-Djavax.net.ssl.trustStore=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/cacerts.jks
+-Djdk.tls.rejectClientInitiatedRenegotiation=true
+-Djdk.corba.allowOutputStreamSubclass=true
+-Dcom.sun.aas.instanceRoot=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain
+-Dcom.sun.aas.installRoot=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.endorsed.dirs=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/modules/endorsed:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/endorsed
+-Djava.security.policy=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/server.policy
+-Dorg.jboss.weld.serialization.beanIdentifierIndexOptimization=false
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Djava.awt.headless=true
+-Djava.ext.dirs=/usr/lib/jvm/java-8-oracle/lib/ext:/usr/lib/jvm/java-8-oracle/jre/lib/ext:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/lib/ext
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Djavax.net.ssl.keyStore=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/keystore.jks
+-Djava.library.path=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib:/opt/idea16/bin:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-upgrade
+false
+-domaindir
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain
+-read-stdin
+true
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=false,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains,,,payaradomain
+-domainname
+payaradomain
+-instancename
+server
+-type
+DAS
+-verbose
+false
+-asadmin-classpath
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/client/appserver-cli.jar
+-debug
+false
+-asadmin-classname
+com.sun.enterprise.admin.cli.AdminMain
+-watchdog
+false]]
+
+[2016-08-11T20:17:05.929+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928625828] [timeMillis: 1470928625929] [levelValue: 800] [[
+  Running Payara Version: Payara Server  4.1.1.162 #badassfish (build 116)]]
+
+[2016-08-11T20:17:05.930+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928625828] [timeMillis: 1470928625930] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2016-08-11T20:17:06.343+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928625827] [timeMillis: 1470928626343] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2016-08-11T20:17:06.358+0500] [Payara 4.1] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928625828] [timeMillis: 1470928626358] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2016-08-11T20:17:06.432+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928626432] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-08-11T20:17:06.435+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928626435] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-08-11T20:17:06.433+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928625827] [timeMillis: 1470928626433] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2016-08-11T20:17:06.440+0500] [Payara 4.1] [INFO] [] [fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactory] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928625827] [timeMillis: 1470928626440] [levelValue: 800] [[
+  Registered Hazelcast BackingStoreFactory with persistence-type = hazelcast]]
+
+[2016-08-11T20:17:06.443+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928626443] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2016-08-11T20:17:06.566+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470928625835] [timeMillis: 1470928626566] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 36ms - bound to [/0.0.0.0:8080]]]
+
+[2016-08-11T20:17:06.636+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470928625835] [timeMillis: 1470928626636] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 9ms - bound to [/0.0.0.0:8181]]]
+
+[2016-08-11T20:17:06.644+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470928625835] [timeMillis: 1470928626644] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 2ms - bound to [/0.0.0.0:4848]]]
+
+[2016-08-11T20:17:06.749+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928625828] [timeMillis: 1470928626749] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 4ms - bound to [/0.0.0.0:3700]]]
+
+[2016-08-11T20:17:06.933+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928626933] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2016-08-11T20:17:06.933+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928626933] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2016-08-11T20:17:06.936+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928626936] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2016-08-11T20:17:06.974+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928626974] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2016-08-11T20:17:07.181+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928627181] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2016-08-11T20:17:07.187+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928627187] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2016-08-11T20:17:07.188+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928627188] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2016-08-11T20:17:07.204+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928627204] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2016-08-11T20:17:07.207+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928627207] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2016-08-11T20:17:07.481+0500] [Payara 4.1] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928627481] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2016-08-11T20:17:07.482+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928627482] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2016-08-11T20:17:07.900+0500] [Payara 4.1] [SEVERE] [] [global] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928627900] [levelValue: 1000] [[
+  Class [ Lorg/apache/commons/logging/Log; ] not found. Error while loading [ class ru.relesystem.dao.ReleDAOImpl ]]]
+
+[2016-08-11T20:17:08.155+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928628155] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/ReleStorageSystem']]
+
+[2016-08-11T20:17:08.898+0500] [Payara 4.1] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928628898] [levelValue: 800] [[
+  HV000001: Hibernate Validator 5.1.2.Final]]
+
+[2016-08-11T20:17:09.180+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928629180] [levelValue: 800] [[
+  Loading application [ReleStorageSystem] at [/ReleStorageSystem]]]
+
+[2016-08-11T20:17:09.183+0500] [Payara 4.1] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928629183] [levelValue: 800] [[
+  Loading application ReleStorageSystem done in 2,685 ms]]
+
+[2016-08-11T20:17:09.185+0500] [Payara 4.1] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928629185] [levelValue: 800] [[
+  Payara Server  4.1.1.162 #badassfish (116) startup time : Felix (2,064ms), startup services(3,362ms), total(5,426ms)]]
+
+[2016-08-11T20:17:09.193+0500] [Payara 4.1] [INFO] [] [fish.payara.nucleus.util.CleanupPostBoot] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928629193] [levelValue: 800] [[
+  Cleaning JarFileFactory Cache to prevent jar FD leaks]]
+
+[2016-08-11T20:17:09.332+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928625836] [timeMillis: 1470928629332] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 17ms - bound to [/0.0.0.0:7677]]]
+
+[2016-08-11T20:17:09.611+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928629611] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@12b5454f as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@2e2f720.]]
+
+[2016-08-11T20:17:09.915+0500] [Payara 4.1] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=62 _ThreadName=Thread-15] [timeMillis: 1470928629915] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://alex-ESPRIMO-P400:8686/jndi/rmi://alex-ESPRIMO-P400:8686/jmxrmi]]
+
+[2016-08-11T20:17:09.988+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=13 _ThreadName=FelixStartLevel] [timeMillis: 1470928629988] [levelValue: 800] [[
+  /home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/autodeploy/bundles does not exist, please create it.]]
+
+[2016-08-11T20:17:12.896+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928632896] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T20:17:13.017+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928633017] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/rele_system-4.0-SNAPSHOT']]
+
+[2016-08-11T20:17:13.549+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928633549] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T20:17:13.551+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928633551] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-08-11T20:17:13.552+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928633552] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-08-11T20:17:13.552+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928633552] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-08-11T20:17:14.440+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928634440] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:17:15.733+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928635733] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/rele_system-4.0-SNAPSHOT]]]
+
+[2016-08-11T20:17:15.834+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928635834] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 5,959 milliseconds.]]
+
+[2016-08-11T20:17:53.688+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928673688] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:17:53.865+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928673865] [levelValue: 800] [[
+  Cannot find the resource bundle for the name com.sun.logging.enterprise.system.core for class com.sun.ejb.containers.interceptors.JavaEEInterceptorBuilderImpl using org.glassfish.main.ejb.ejb-container [138]]]
+
+[2016-08-11T20:17:53.900+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928673900] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:17:56.577+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928676577] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T20:17:56.665+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928676665] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/rele_system-4.0-SNAPSHOT']]
+
+[2016-08-11T20:17:57.027+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928677027] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T20:17:57.029+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928677029] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-08-11T20:17:57.029+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928677029] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-08-11T20:17:57.029+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928677029] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-08-11T20:17:57.634+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928677634] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:17:58.322+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928678322] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/rele_system-4.0-SNAPSHOT]]]
+
+[2016-08-11T20:17:58.347+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928678347] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 4,698 milliseconds.]]
+
+[2016-08-11T20:18:10.088+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1470928690088] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:18:10.132+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1470928690132] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:18:11.785+0500] [Payara 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=42 _ThreadName=admin-listener(4)] [timeMillis: 1470928691785] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2016-08-11T20:18:11.862+0500] [Payara 4.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=106 _ThreadName=Thread-26] [timeMillis: 1470928691862] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2016-08-11T20:18:11.869+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=106 _ThreadName=Thread-26] [timeMillis: 1470928691869] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@12b5454f from service registry.]]
+
+[2016-08-11T20:18:11.869+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=106 _ThreadName=Thread-26] [timeMillis: 1470928691869] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2016-08-11T20:18:11.873+0500] [Payara 4.1] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=106 _ThreadName=Thread-26] [timeMillis: 1470928691873] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2016-08-11T20:18:11.874+0500] [Payara 4.1] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=106 _ThreadName=Thread-26] [timeMillis: 1470928691874] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2016-08-11T20:18:11.961+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=116 _ThreadName=RunLevelControllerThread-1470928691917] [timeMillis: 1470928691961] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
+[2016-08-11T20:18:14.799+0500] [] [INFO] [NCLS-GFLAUNCHER-00005] [javax.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928694799] [levelValue: 800] [[
+  JVM invocation command line:
+/usr/lib/jvm/java-8-oracle/bin/java
+-cp
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:NewRatio=2
+-XX:MaxPermSize=512m
+-Xmx1024m
+-server
+-javaagent:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/monitor/flashlight-agent.jar
+-Djava.security.auth.login.config=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/login.conf
+-Djavax.net.ssl.trustStore=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/cacerts.jks
+-Djdk.tls.rejectClientInitiatedRenegotiation=true
+-Djdk.corba.allowOutputStreamSubclass=true
+-Dcom.sun.aas.instanceRoot=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain
+-Dcom.sun.aas.installRoot=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.endorsed.dirs=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/modules/endorsed:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/endorsed
+-Djava.security.policy=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/server.policy
+-Dorg.jboss.weld.serialization.beanIdentifierIndexOptimization=false
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Djava.awt.headless=true
+-Djava.ext.dirs=/usr/lib/jvm/java-8-oracle/lib/ext:/usr/lib/jvm/java-8-oracle/jre/lib/ext:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/lib/ext
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Djavax.net.ssl.keyStore=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/keystore.jks
+-Djava.library.path=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib:/opt/idea16/bin:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-upgrade
+false
+-domaindir
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain
+-read-stdin
+true
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=false,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains,,,payaradomain
+-domainname
+payaradomain
+-instancename
+server
+-type
+DAS
+-verbose
+false
+-asadmin-classpath
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/client/appserver-cli.jar
+-debug
+false
+-asadmin-classname
+com.sun.enterprise.admin.cli.AdminMain
+-watchdog
+false]]
+
+[2016-08-11T20:18:17.283+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470928697153] [timeMillis: 1470928697283] [levelValue: 800] [[
+  Running Payara Version: Payara Server  4.1.1.162 #badassfish (build 116)]]
+
+[2016-08-11T20:18:17.284+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470928697153] [timeMillis: 1470928697284] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2016-08-11T20:18:17.609+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470928697153] [timeMillis: 1470928697609] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2016-08-11T20:18:17.772+0500] [Payara 4.1] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928697147] [timeMillis: 1470928697772] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2016-08-11T20:18:17.784+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470928697153] [timeMillis: 1470928697784] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2016-08-11T20:18:17.784+0500] [Payara 4.1] [INFO] [] [fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactory] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470928697153] [timeMillis: 1470928697784] [levelValue: 800] [[
+  Registered Hazelcast BackingStoreFactory with persistence-type = hazelcast]]
+
+[2016-08-11T20:18:17.829+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928697829] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-08-11T20:18:17.830+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928697830] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-08-11T20:18:17.833+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928697833] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2016-08-11T20:18:17.892+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928697153] [timeMillis: 1470928697892] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 14ms - bound to [/0.0.0.0:8080]]]
+
+[2016-08-11T20:18:17.938+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928697153] [timeMillis: 1470928697938] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 0ms - bound to [/0.0.0.0:8181]]]
+
+[2016-08-11T20:18:17.947+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928697153] [timeMillis: 1470928697947] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 1ms - bound to [/0.0.0.0:4848]]]
+
+[2016-08-11T20:18:17.996+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470928697153] [timeMillis: 1470928697996] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 10ms - bound to [/0.0.0.0:3700]]]
+
+[2016-08-11T20:18:18.247+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928698247] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2016-08-11T20:18:18.248+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928698248] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2016-08-11T20:18:18.250+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928698250] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2016-08-11T20:18:18.268+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928698268] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2016-08-11T20:18:18.562+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928698562] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2016-08-11T20:18:18.569+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928698569] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2016-08-11T20:18:18.579+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928698579] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2016-08-11T20:18:18.599+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928698599] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2016-08-11T20:18:18.604+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928698604] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2016-08-11T20:18:18.845+0500] [Payara 4.1] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928698845] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2016-08-11T20:18:18.846+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928698846] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2016-08-11T20:18:19.537+0500] [Payara 4.1] [SEVERE] [] [global] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928699537] [levelValue: 1000] [[
+  Class [ Lorg/apache/commons/logging/Log; ] not found. Error while loading [ class ru.relesystem.dao.ReleDAOImpl ]]]
+
+[2016-08-11T20:18:19.931+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928699931] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/ReleStorageSystem']]
+
+[2016-08-11T20:18:20.580+0500] [Payara 4.1] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928700580] [levelValue: 800] [[
+  HV000001: Hibernate Validator 5.1.2.Final]]
+
+[2016-08-11T20:18:20.872+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928700872] [levelValue: 800] [[
+  Loading application [ReleStorageSystem] at [/ReleStorageSystem]]]
+
+[2016-08-11T20:18:20.874+0500] [Payara 4.1] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=15 _ThreadName=RunLevelControllerThread-1470928697146] [timeMillis: 1470928700874] [levelValue: 800] [[
+  Loading application ReleStorageSystem done in 2,958 ms]]
+
+[2016-08-11T20:18:20.877+0500] [Payara 4.1] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928700877] [levelValue: 800] [[
+  Payara Server  4.1.1.162 #badassfish (116) startup time : Felix (1,828ms), startup services(3,735ms), total(5,563ms)]]
+
+[2016-08-11T20:18:20.879+0500] [Payara 4.1] [INFO] [] [fish.payara.nucleus.util.CleanupPostBoot] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928700879] [levelValue: 800] [[
+  Cleaning JarFileFactory Cache to prevent jar FD leaks]]
+
+[2016-08-11T20:18:21.041+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470928697147] [timeMillis: 1470928701041] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 16ms - bound to [/0.0.0.0:7677]]]
+
+[2016-08-11T20:18:21.233+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470928701233] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@12b5454f as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@2e2f720.]]
+
+[2016-08-11T20:18:21.522+0500] [Payara 4.1] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=64 _ThreadName=Thread-15] [timeMillis: 1470928701522] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://alex-ESPRIMO-P400:8686/jndi/rmi://alex-ESPRIMO-P400:8686/jmxrmi]]
+
+[2016-08-11T20:18:21.781+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=13 _ThreadName=FelixStartLevel] [timeMillis: 1470928701781] [levelValue: 800] [[
+  /home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/autodeploy/bundles does not exist, please create it.]]
+
+[2016-08-11T20:18:24.867+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928704867] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T20:18:24.964+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928704964] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/rele_system-4.0-SNAPSHOT']]
+
+[2016-08-11T20:18:25.310+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928705310] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T20:18:25.314+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928705314] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-08-11T20:18:25.314+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928705314] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-08-11T20:18:25.315+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928705315] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-08-11T20:18:26.082+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928706082] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:18:27.244+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928707244] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/rele_system-4.0-SNAPSHOT]]]
+
+[2016-08-11T20:18:27.393+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=41 _ThreadName=admin-listener(3)] [timeMillis: 1470928707393] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 5,801 milliseconds.]]
+
+[2016-08-11T20:19:19.268+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928759268] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:19:19.322+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928759322] [levelValue: 800] [[
+  Cannot find the resource bundle for the name com.sun.logging.enterprise.system.core for class com.sun.ejb.containers.interceptors.JavaEEInterceptorBuilderImpl using org.glassfish.main.ejb.ejb-container [138]]]
+
+[2016-08-11T20:19:19.339+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928759339] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:19:21.638+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928761638] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T20:19:21.728+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928761728] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '']]
+
+[2016-08-11T20:19:21.951+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928761951] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T20:19:21.953+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928761953] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-08-11T20:19:21.953+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928761953] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-08-11T20:19:21.953+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928761953] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-08-11T20:19:22.432+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928762432] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:19:22.999+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928762999] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/]]]
+
+[2016-08-11T20:19:23.014+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=39 _ThreadName=admin-listener(1)] [timeMillis: 1470928763014] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 3,813 milliseconds.]]
+
+[2016-08-11T20:19:27.647+0500] [Payara 4.1] [WARNING] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=27 _ThreadName=http-listener-1(4)] [timeMillis: 1470928767647] [levelValue: 900] [[
+  Context path from ServletContext:  differs from path from bundle: /]]
+
+[2016-08-11T20:19:38.173+0500] [Payara 4.1] [SEVERE] [] [org.apache.jasper.servlet.JspServlet] [tid: _ThreadID=28 _ThreadName=http-listener-1(5)] [timeMillis: 1470928778173] [levelValue: 1000] [[
+  PWC6117: File "null" not found]]
+
+[2016-08-11T20:20:37.715+0500] [Payara 4.1] [SEVERE] [] [org.apache.jasper.servlet.JspServlet] [tid: _ThreadID=26 _ThreadName=http-listener-1(3)] [timeMillis: 1470928837715] [levelValue: 1000] [[
+  PWC6117: File "null" not found]]
+
+[2016-08-11T20:20:42.265+0500] [Payara 4.1] [SEVERE] [] [org.apache.jasper.servlet.JspServlet] [tid: _ThreadID=27 _ThreadName=http-listener-1(4)] [timeMillis: 1470928842265] [levelValue: 1000] [[
+  PWC6117: File "null" not found]]
+
+[2016-08-11T20:26:19.672+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1470929179672] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:26:19.691+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=40 _ThreadName=admin-listener(2)] [timeMillis: 1470929179691] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:26:20.950+0500] [Payara 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=42 _ThreadName=admin-listener(4)] [timeMillis: 1470929180950] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2016-08-11T20:26:21.026+0500] [Payara 4.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=125 _ThreadName=Thread-26] [timeMillis: 1470929181026] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2016-08-11T20:26:21.035+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=125 _ThreadName=Thread-26] [timeMillis: 1470929181035] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@12b5454f from service registry.]]
+
+[2016-08-11T20:26:21.036+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=125 _ThreadName=Thread-26] [timeMillis: 1470929181036] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2016-08-11T20:26:21.052+0500] [Payara 4.1] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=125 _ThreadName=Thread-26] [timeMillis: 1470929181052] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2016-08-11T20:26:21.053+0500] [Payara 4.1] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=125 _ThreadName=Thread-26] [timeMillis: 1470929181053] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2016-08-11T20:26:21.168+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=137 _ThreadName=RunLevelControllerThread-1470929181103] [timeMillis: 1470929181168] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
+
+[2016-08-11T20:26:24.045+0500] [] [INFO] [NCLS-GFLAUNCHER-00005] [javax.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470929184045] [levelValue: 800] [[
+  JVM invocation command line:
+/usr/lib/jvm/java-8-oracle/bin/java
+-cp
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:NewRatio=2
+-XX:MaxPermSize=512m
+-Xmx1024m
+-server
+-javaagent:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/monitor/flashlight-agent.jar
+-Djava.security.auth.login.config=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/login.conf
+-Djavax.net.ssl.trustStore=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/cacerts.jks
+-Djdk.tls.rejectClientInitiatedRenegotiation=true
+-Djdk.corba.allowOutputStreamSubclass=true
+-Dcom.sun.aas.instanceRoot=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain
+-Dcom.sun.aas.installRoot=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.endorsed.dirs=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/modules/endorsed:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/endorsed
+-Djava.security.policy=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/server.policy
+-Dorg.jboss.weld.serialization.beanIdentifierIndexOptimization=false
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Djava.awt.headless=true
+-Djava.ext.dirs=/usr/lib/jvm/java-8-oracle/lib/ext:/usr/lib/jvm/java-8-oracle/jre/lib/ext:/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/lib/ext
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Djavax.net.ssl.keyStore=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/config/keystore.jks
+-Djava.library.path=/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib:/opt/idea16/bin:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-upgrade
+false
+-domaindir
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain
+-read-stdin
+true
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=false,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains,,,payaradomain
+-domainname
+payaradomain
+-instancename
+server
+-type
+DAS
+-verbose
+false
+-asadmin-classpath
+/home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/lib/client/appserver-cli.jar
+-debug
+false
+-asadmin-classname
+com.sun.enterprise.admin.cli.AdminMain
+-watchdog
+false]]
+
+[2016-08-11T20:26:26.823+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470929186729] [timeMillis: 1470929186823] [levelValue: 800] [[
+  Running Payara Version: Payara Server  4.1.1.162 #badassfish (build 116)]]
+
+[2016-08-11T20:26:26.825+0500] [Payara 4.1] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470929186729] [timeMillis: 1470929186825] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2016-08-11T20:26:27.099+0500] [Payara 4.1] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470929186736] [timeMillis: 1470929187099] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2016-08-11T20:26:27.277+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=23 _ThreadName=RunLevelControllerThread-1470929186924] [timeMillis: 1470929187277] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2016-08-11T20:26:27.324+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929187324] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-08-11T20:26:27.325+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929187325] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2016-08-11T20:26:27.346+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929187346] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2016-08-11T20:26:27.357+0500] [Payara 4.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=23 _ThreadName=RunLevelControllerThread-1470929186924] [timeMillis: 1470929187357] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2016-08-11T20:26:27.358+0500] [Payara 4.1] [INFO] [] [fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactory] [tid: _ThreadID=23 _ThreadName=RunLevelControllerThread-1470929186924] [timeMillis: 1470929187358] [levelValue: 800] [[
+  Registered Hazelcast BackingStoreFactory with persistence-type = hazelcast]]
+
+[2016-08-11T20:26:27.531+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470929186729] [timeMillis: 1470929187531] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 41ms - bound to [/0.0.0.0:8080]]]
+
+[2016-08-11T20:26:27.593+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470929186729] [timeMillis: 1470929187593] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 8ms - bound to [/0.0.0.0:8181]]]
+
+[2016-08-11T20:26:27.669+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470929186729] [timeMillis: 1470929187669] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 49ms - bound to [/0.0.0.0:4848]]]
+
+[2016-08-11T20:26:27.753+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=17 _ThreadName=RunLevelControllerThread-1470929186736] [timeMillis: 1470929187753] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 6ms - bound to [/0.0.0.0:3700]]]
+
+[2016-08-11T20:26:28.109+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929188109] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2016-08-11T20:26:28.110+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929188110] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2016-08-11T20:26:28.113+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929188113] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2016-08-11T20:26:28.164+0500] [Payara 4.1] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929188164] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2016-08-11T20:26:28.553+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929188553] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2016-08-11T20:26:28.562+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929188562] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2016-08-11T20:26:28.568+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929188568] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2016-08-11T20:26:28.589+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929188589] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2016-08-11T20:26:28.594+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929188594] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2016-08-11T20:26:28.818+0500] [Payara 4.1] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929188818] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2016-08-11T20:26:28.818+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929188818] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2016-08-11T20:26:29.797+0500] [Payara 4.1] [SEVERE] [] [global] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929189797] [levelValue: 1000] [[
+  Class [ Lorg/apache/commons/logging/Log; ] not found. Error while loading [ class ru.relesystem.dao.ReleDAOImpl ]]]
+
+[2016-08-11T20:26:30.115+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929190115] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '/ReleStorageSystem']]
+
+[2016-08-11T20:26:30.859+0500] [Payara 4.1] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929190859] [levelValue: 800] [[
+  HV000001: Hibernate Validator 5.1.2.Final]]
+
+[2016-08-11T20:26:31.138+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929191138] [levelValue: 800] [[
+  Loading application [ReleStorageSystem] at [/ReleStorageSystem]]]
+
+[2016-08-11T20:26:31.151+0500] [Payara 4.1] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=18 _ThreadName=RunLevelControllerThread-1470929186737] [timeMillis: 1470929191151] [levelValue: 800] [[
+  Loading application ReleStorageSystem done in 3,711 ms]]
+
+[2016-08-11T20:26:31.154+0500] [Payara 4.1] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470929191154] [levelValue: 800] [[
+  Payara Server  4.1.1.162 #badassfish (116) startup time : Felix (2,120ms), startup services(4,429ms), total(6,549ms)]]
+
+[2016-08-11T20:26:31.157+0500] [Payara 4.1] [INFO] [] [fish.payara.nucleus.util.CleanupPostBoot] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470929191157] [levelValue: 800] [[
+  Cleaning JarFileFactory Cache to prevent jar FD leaks]]
+
+[2016-08-11T20:26:31.344+0500] [Payara 4.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=16 _ThreadName=RunLevelControllerThread-1470929186729] [timeMillis: 1470929191344] [levelValue: 800] [[
+  Grizzly Framework 2.3.24 started in: 11ms - bound to [/0.0.0.0:7677]]]
+
+[2016-08-11T20:26:31.518+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1470929191518] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@12b5454f as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@2e2f720.]]
+
+[2016-08-11T20:26:31.795+0500] [Payara 4.1] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=65 _ThreadName=Thread-16] [timeMillis: 1470929191795] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://alex-ESPRIMO-P400:8686/jndi/rmi://alex-ESPRIMO-P400:8686/jmxrmi]]
+
+[2016-08-11T20:26:31.896+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=13 _ThreadName=FelixStartLevel] [timeMillis: 1470929191896] [levelValue: 800] [[
+  /home/alex/IdeaProjects/ReleStorageSystemSSH/server/payara41/glassfish/domains/payaradomain/autodeploy/bundles does not exist, please create it.]]
+
+[2016-08-11T20:26:34.772+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(3)] [timeMillis: 1470929194772] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():No Spring WebApplicationInitializer types detected on classpath]]
+
+[2016-08-11T20:26:34.876+0500] [Payara 4.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=42 _ThreadName=admin-listener(3)] [timeMillis: 1470929194876] [levelValue: 800] [[
+  Initializing Mojarra 2.2.13 ( 20160203-1910 unable to get svn info) for context '']]
+
+[2016-08-11T20:26:35.232+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(3)] [timeMillis: 1470929195232] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring root WebApplicationContext]]
+
+[2016-08-11T20:26:35.238+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(3)] [timeMillis: 1470929195238] [levelValue: 1000] [[
+  log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).]]
+
+[2016-08-11T20:26:35.239+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(3)] [timeMillis: 1470929195239] [levelValue: 1000] [[
+  log4j:WARN Please initialize the log4j system properly.]]
+
+[2016-08-11T20:26:35.239+0500] [Payara 4.1] [SEVERE] [] [] [tid: _ThreadID=42 _ThreadName=admin-listener(3)] [timeMillis: 1470929195239] [levelValue: 1000] [[
+  log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.]]
+
+[2016-08-11T20:26:36.062+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(3)] [timeMillis: 1470929196062] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Initializing Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:26:37.468+0500] [Payara 4.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=42 _ThreadName=admin-listener(3)] [timeMillis: 1470929197468] [levelValue: 800] [[
+  Loading application [rele_system-4.0-SNAPSHOT] at [/]]]
+
+[2016-08-11T20:26:37.648+0500] [Payara 4.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=42 _ThreadName=admin-listener(3)] [timeMillis: 1470929197648] [levelValue: 800] [[
+  rele_system-4.0-SNAPSHOT was successfully deployed in 5,784 milliseconds.]]
+
+[2016-08-11T20:26:38.238+0500] [Payara 4.1] [WARNING] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=25 _ThreadName=http-listener-1(1)] [timeMillis: 1470929198238] [levelValue: 900] [[
+  Context path from ServletContext:  differs from path from bundle: /]]
+
+[2016-08-11T20:29:46.747+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=40 _ThreadName=admin-listener(1)] [timeMillis: 1470929386747] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Destroying Spring FrameworkServlet 'dispatcherServlet']]
+
+[2016-08-11T20:29:46.779+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=40 _ThreadName=admin-listener(1)] [timeMillis: 1470929386779] [levelValue: 800] [[
+  Cannot find the resource bundle for the name com.sun.logging.enterprise.system.core for class com.sun.ejb.containers.interceptors.JavaEEInterceptorBuilderImpl using org.glassfish.main.ejb.ejb-container [138]]]
+
+[2016-08-11T20:29:46.784+0500] [Payara 4.1] [INFO] [] [javax.enterprise.web] [tid: _ThreadID=40 _ThreadName=admin-listener(1)] [timeMillis: 1470929386784] [levelValue: 800] [[
+  WebModule[null] ServletContext.log():Closing Spring root WebApplicationContext]]
+
+[2016-08-11T20:29:48.364+0500] [Payara 4.1] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=41 _ThreadName=admin-listener(2)] [timeMillis: 1470929388364] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2016-08-11T20:29:48.488+0500] [Payara 4.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=115 _ThreadName=Thread-25] [timeMillis: 1470929388488] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2016-08-11T20:29:48.514+0500] [Payara 4.1] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=115 _ThreadName=Thread-25] [timeMillis: 1470929388514] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@12b5454f from service registry.]]
+
+[2016-08-11T20:29:48.520+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=115 _ThreadName=Thread-25] [timeMillis: 1470929388520] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2016-08-11T20:29:48.537+0500] [Payara 4.1] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=115 _ThreadName=Thread-25] [timeMillis: 1470929388537] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2016-08-11T20:29:48.541+0500] [Payara 4.1] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=115 _ThreadName=Thread-25] [timeMillis: 1470929388541] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2016-08-11T20:29:48.688+0500] [Payara 4.1] [INFO] [] [] [tid: _ThreadID=120 _ThreadName=RunLevelControllerThread-1470929388594] [timeMillis: 1470929388688] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource]]]
 

@@ -1,7 +1,7 @@
 package ru.relesystem.interfaces;
 
 
-import ru.relesystem.entities.Relay;
+import entities.Relay;
 import ru.relesystem.location.*;
 
 import java.util.Date;

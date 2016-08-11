@@ -1,7 +1,7 @@
 package ru.relesystem.interfaces;
 
 
-import ru.relesystem.entities.Relay;
+import entities.Relay;
 
 public interface Shelve {
     void addRelay(int index, Relay relay);

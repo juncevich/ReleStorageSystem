@@ -6,6 +6,8 @@
         <fileset id="fileset" name="Spring Application Context " removed="false">
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml</file>
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/config/application-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/config/excel-pdf-config.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/config/excel-pdf-config.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -56,6 +58,13 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi:3.12" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
+    <orderEntry type="library" name="Maven: com.lowagie:itext:2.1.5" level="project" />
+    <orderEntry type="library" name="Maven: bouncycastle:bcmail-jdk14:138" level="project" />
+    <orderEntry type="library" name="Maven: bouncycastle:bcprov-jdk14:138" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" level="project" />
@@ -98,6 +107,18 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet.jsp:jsp-api:2.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - JMS: Java Message Service" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - Bean Validation" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - RESTful Web Service" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - JSON Processing (JSR 353)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - CDI: Contexts and Dependency Injection" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - Batch Applications" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - Concurrency Utils (JSR 236)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - JSF" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - Transaction API (JSR 907)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - EJB" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - Connector Architecture (JSR 322)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Payara - WebSocket" level="application_server_libraries" />
   </component>
   <component name="com.intellij.jsf.UserDefinedFacesConfigs">
     <option name="USER_DEFINED_CONFIGS">

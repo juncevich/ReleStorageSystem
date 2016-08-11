@@ -1,7 +1,7 @@
 package ru.relesystem.interfaces;
 
 
-import ru.relesystem.entities.User;
+import entities.User;
 
 public interface SecureLibrary {
     boolean login(User user);

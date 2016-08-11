@@ -1,7 +1,7 @@
 package ru.relesystem.location;
 
 
-import ru.relesystem.entities.Relay;
+import entities.Relay;
 import ru.relesystem.interfaces.Location;
 import ru.relesystem.interfaces.Shelve;
 

@@ -57,6 +57,7 @@
     <server config-ref="server-config" name="server">
       <application-ref ref="__admingui" virtual-servers="__asadmin"></application-ref>
       <application-ref ref="ReleStorageSystem" virtual-servers="server"></application-ref>
+      <application-ref ref="rele_system-4.0-SNAPSHOT" virtual-servers="server"></application-ref>
       <resource-ref ref="jdbc/__TimerPool"></resource-ref>
       <resource-ref ref="jdbc/__default"></resource-ref>
       <resource-ref ref="jms/__defaultConnectionFactory"></resource-ref>
@@ -448,6 +449,15 @@
       <property name="archiveType" value="war"></property>
       <property name="defaultAppName" value="ReleStorageSystem"></property>
       <module name="ReleStorageSystem">
+        <engine sniffer="security"></engine>
+        <engine sniffer="web"></engine>
+      </module>
+    </application>
+    <application context-root="/" object-type="user" name="rele_system-4.0-SNAPSHOT" directory-deployed="true" location="file:/home/alex/IdeaProjects/ReleStorageSystemSSH/target/rele_system-4.0-SNAPSHOT/">
+      <property name="appLocation" value="file:/home/alex/IdeaProjects/ReleStorageSystemSSH/target/rele_system-4.0-SNAPSHOT/"></property>
+      <property name="archiveType" value="war"></property>
+      <property name="defaultAppName" value="rele_system-4.0-SNAPSHOT"></property>
+      <module name="rele_system-4.0-SNAPSHOT">
         <engine sniffer="security"></engine>
         <engine sniffer="web"></engine>
       </module>
