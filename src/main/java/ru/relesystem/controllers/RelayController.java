@@ -7,12 +7,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 import ru.relesystem.entities.Relay;
 import ru.relesystem.services.RelayService;
 
 import java.util.List;
 
-@RequestMapping("/relays")
+
 @Controller
 public class RelayController {
     private final Logger logger = LoggerFactory.getLogger(RelayController.class);
@@ -20,8 +21,8 @@ public class RelayController {
     private RelayService relayService;
 
 
-    @RequestMapping(method = RequestMethod.GET)
-    public String list(Model uiModel) {
+    @RequestMapping(value = "/listReleays", method= RequestMethod.GET)
+    public ModelAndView listReleays(Model uiModel) {
         logger.info("Listing relays");
 
         List<Relay> relays = relayService.findAll();
@@ -29,7 +30,7 @@ public class RelayController {
 
         logger.info("No. of relays: " + relays.size());
 
-        return "relays/list";
+        return new ModelAndView("/relays/relays", "resultObject", relays);
     }
 
 

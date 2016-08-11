@@ -6,11 +6,8 @@
 
 <page:template>
     <jsp:body>
-        <c:url value="/ormFindAllUsers" var="ormFindAllUsers" />
-        <c:url value="/queryFindByIdUser/4" var="queryFindByIdUser" />
-        <c:url value="/ormUpdateUser/iduser/3/enabled/false" var="ormUpdateUser" />
-        <c:url value="/ormDeleteUser/iduser/8" var="ormDeleteUser" />
-        <c:url value="/ormInsertUser/username/newUserHere/password/NewPass/enabled/true" var="ormInsertUser" />
+        <c:url value="/listReleays" var="relays" />
+
 
 
         <!-- Page Content -->
@@ -38,11 +35,8 @@
                     <div class="list-group">
 
                         <a href="index.html" class="list-group-item">Home</a>
-                        <a href="${ormFindAllUsers}" class="list-group-item">Find All Users</a>
-                        <a href="${queryFindByIdUser}" class="list-group-item">Find User by id</a>
-                        <a href="${ormUpdateUser}" class="list-group-item">Update User</a>
-                        <a href="${ormDeleteUser}" class="list-group-item">Delete User</a>
-                        <a href="${ormInsertUser}" class="list-group-item">Insert User</a>
+                        <a href="${relays}" class="list-group-item">Find All Users</a>
+
                     </div>
                 </div>
                 <!-- Content Column -->

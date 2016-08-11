@@ -2,203 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c6ca1e6-df79-44c0-b05f-4224a2297440" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_2_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/relays/relays.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controllers/RelayController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/entities/Relay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/entities/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/entities/location/Location.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/entities/location/Station.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/entities/person/Engineer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/entities/person/Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/entities/person/Worker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/entities/storage/Stativ.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/entities/storage/Storage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/services/RelayService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/services/RelayServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/controllers/RelayController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/entities/Relay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/entities/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/entities/location/Location.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/entities/location/Station.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/entities/person/Engineer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/entities/person/Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/entities/person/Worker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/entities/storage/Stativ.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/entities/storage/Storage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/services/RelayService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/services/RelayServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/entities/RelayTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/entities/UserTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/controllers/RelayController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/RelayController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entities/Relay.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Relay.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entities/User.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entities/location/Location.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/location/Location.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entities/location/Station.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/location/Station.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entities/person/Engineer.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/person/Engineer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entities/person/Person.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/person/Person.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entities/person/Worker.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/person/Worker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entities/storage/Stativ.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/storage/Stativ.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entities/storage/Storage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/storage/Storage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/services/RelayService.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/services/RelayService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/services/RelayServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/services/RelayServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/entities/RelayTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/relesystem/entities/RelayTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/entities/UserTest.java" afterPath="$PROJECT_DIR$/src/test/java/ru/relesystem/entities/UserTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/SpringJPASample.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/SpringJPASample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/EditRele.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/EditRele.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/Location.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/Location.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/ReleSearch.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/ReleSearch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/SecureLibrary.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/SecureLibrary.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/Shelve.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/Shelve.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/ShowRele.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/interfaces/ShowRele.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/RailwayCrossing.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/location/RailwayCrossing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/RailwayPoint.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/location/RailwayPoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/RelayBoard.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/location/RelayBoard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/StandartShelve.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/location/StandartShelve.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Station.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Station.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Stativ.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Stativ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Unit.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Unit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Workshop.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/location/Workshop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/SpringJPASample.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/SpringJPASample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/EditRele.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/EditRele.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/Location.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/Location.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/ReleSearch.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/ReleSearch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/SecureLibrary.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/SecureLibrary.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/Shelve.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/Shelve.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/ShowRele.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/ShowRele.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/RailwayCrossing.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/RailwayCrossing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/RailwayPoint.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/RailwayPoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/RelayBoard.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/RelayBoard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/StandartShelve.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/StandartShelve.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Station.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Station.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Stativ.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Stativ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Unit.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Unit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Workshop.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Workshop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ReleStorageSystem_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ReleStorageSystem_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReleStorageSystem.iml" afterPath="$PROJECT_DIR$/ReleStorageSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/config/glassfish.container" afterPath="$PROJECT_DIR$/server/payara41/glassfish/config/glassfish.container" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/config/osgi.properties" afterPath="$PROJECT_DIR$/server/payara41/glassfish/config/osgi.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/docroot/index.html" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/docroot/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/ext/mysql-connector-java-5.1.39/CHANGES" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/ext/mysql-connector-java-5.1.39/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/ext/mysql-connector-java-5.1.39/docs/README.txt" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/ext/mysql-connector-java-5.1.39/docs/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/ext/mysql-connector-java-5.1.39/docs/connector-j.html" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/ext/mysql-connector-java-5.1.39/docs/connector-j.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/mysql-connector-java-5.1.39/CHANGES" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/mysql-connector-java-5.1.39/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/mysql-connector-java-5.1.39/docs/README.txt" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/mysql-connector-java-5.1.39/docs/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/mysql-connector-java-5.1.39/docs/connector-j.html" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/domain1/lib/mysql-connector-java-5.1.39/docs/connector-j.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/docroot/index.html" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/docroot/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/ext/mysql-connector-java-5.1.39/CHANGES" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/ext/mysql-connector-java-5.1.39/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/ext/mysql-connector-java-5.1.39/docs/README.txt" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/ext/mysql-connector-java-5.1.39/docs/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/ext/mysql-connector-java-5.1.39/docs/connector-j.html" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/ext/mysql-connector-java-5.1.39/docs/connector-j.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/mysql-connector-java-5.1.39/CHANGES" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/mysql-connector-java-5.1.39/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/mysql-connector-java-5.1.39/docs/README.txt" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/mysql-connector-java-5.1.39/docs/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/mysql-connector-java-5.1.39/docs/connector-j.html" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/lib/mysql-connector-java-5.1.39/docs/connector-j.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/logs/server.log" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/logs/server.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/logs/server.log_2016-08-11T00-05-19" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/logs/server.log_2016-08-11T00-05-19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/osgi-cache/felix/bundle135/bundle.info" afterPath="$PROJECT_DIR$/server/payara41/glassfish/domains/payaradomain/osgi-cache/felix/bundle135/bundle.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/legal/3RD-PARTY-LICENSE-WEB-PROFILE.txt" afterPath="$PROJECT_DIR$/server/payara41/glassfish/legal/3RD-PARTY-LICENSE-WEB-PROFILE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/legal/3RD-PARTY-LICENSE.txt" afterPath="$PROJECT_DIR$/server/payara41/glassfish/legal/3RD-PARTY-LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/legal/LICENSE.txt" afterPath="$PROJECT_DIR$/server/payara41/glassfish/legal/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/legal/PAYARA-3RD-PARTY-LICENSE.txt" afterPath="$PROJECT_DIR$/server/payara41/glassfish/legal/PAYARA-3RD-PARTY-LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/glassfish-ejb-jar_3_1-1.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/glassfish-ejb-jar_3_1-1.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/glassfish-web-app_3_0-1.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/glassfish-web-app_3_0-1.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-ejb-jar_2_1-0.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-ejb-jar_2_1-0.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-ejb-jar_2_1-1.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-ejb-jar_2_1-1.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-ejb-jar_3_0-0.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-ejb-jar_3_0-0.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-ejb-jar_3_1-0.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-ejb-jar_3_1-0.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-web-app_2_4-0.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-web-app_2_4-0.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-web-app_2_4-1.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-web-app_2_4-1.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-web-app_2_5-0.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-web-app_2_5-0.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-web-app_3_0-0.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/sun-web-app_3_0-0.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/web-app_2_2.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/web-app_2_2.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/web-app_2_3.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/dtds/web-app_2_3.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/install/applications/__admingui/3rd-party-license" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/install/applications/__admingui/3rd-party-license" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/install/applications/__admingui/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/install/applications/__admingui/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/install/applications/__admingui/META-INF/maven/fish.payara.admingui/war/pom.xml" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/install/applications/__admingui/META-INF/maven/fish.payara.admingui/war/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/install/templates/Domain-service-smf.xml.template" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/install/templates/Domain-service-smf.xml.template" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/mysql-connector-java-5.1.39/CHANGES" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/mysql-connector-java-5.1.39/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/mysql-connector-java-5.1.39/docs/README.txt" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/mysql-connector-java-5.1.39/docs/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/mysql-connector-java-5.1.39/docs/connector-j.html" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/mysql-connector-java-5.1.39/docs/connector-j.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/1.0/domain.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/1.0/domain.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/10.3/weblogic-application/1.0/weblogic-application.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/10.3/weblogic-application/1.0/weblogic-application.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/90/weblogic-application.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/90/weblogic-application.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/910/domain.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/910/domain.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/920/domain.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/920/domain.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/920/weblogic-application.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/920/weblogic-application.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/XMLSchema.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/XMLSchema.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/beans_1_0.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/beans_1_0.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/datatypes.dtd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/datatypes.dtd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/domain/1.0/domain.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/domain/1.0/domain.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/j2ee_jaxrpc_mapping_1_1.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/j2ee_jaxrpc_mapping_1_1.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/j2ee_web_services_1_1.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/j2ee_web_services_1_1.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/javaee_web_services_1_2.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/javaee_web_services_1_2.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/javaee_web_services_1_3.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/javaee_web_services_1_3.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/javaee_web_services_1_4.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/javaee_web_services_1_4.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/orm_1_0.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/orm_1_0.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/orm_2_0.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/orm_2_0.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/orm_2_1.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/orm_2_1.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/persistence_1_0.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/persistence_1_0.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/persistence_2_0.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/persistence_2_0.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/persistence_2_1.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/persistence_2_1.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/web-app_2_4.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/web-app_2_4.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/web-app_2_5.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/web-app_2_5.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/web-common_3_0.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/web-common_3_0.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/web-common_3_1.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/web-common_3_1.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.0/weblogic-application.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.0/weblogic-application.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.1/weblogic-application.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.1/weblogic-application.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.2/weblogic-application.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.2/weblogic-application.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.3/weblogic-application.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.3/weblogic-application.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.4/weblogic-application.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.4/weblogic-application.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.5/weblogic-application.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.5/weblogic-application.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.6/weblogic-application.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-application/1.6/weblogic-application.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-sca-binding/1.0/weblogic-sca-binding.xsd" afterPath="$PROJECT_DIR$/server/payara41/glassfish/lib/schemas/weblogic-sca-binding/1.0/weblogic-sca-binding.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/javadb/3RDPARTY" afterPath="$PROJECT_DIR$/server/payara41/javadb/3RDPARTY" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/javadb/LICENSE" afterPath="$PROJECT_DIR$/server/payara41/javadb/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/mq/etc/xml/com.sun.cmm.mq.xml" afterPath="$PROJECT_DIR$/server/payara41/mq/etc/xml/com.sun.cmm.mq.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/mq/etc/xml/template/com.sun.cmm.mq.xml" afterPath="$PROJECT_DIR$/server/payara41/mq/etc/xml/template/com.sun.cmm.mq.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/mq/lib/help/en/broker_config_basic.htm" afterPath="$PROJECT_DIR$/server/payara41/mq/lib/help/en/broker_config_basic.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/mq/lib/help/en/overview.htm" afterPath="$PROJECT_DIR$/server/payara41/mq/lib/help/en/overview.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/mq/lib/props/broker/default.properties" afterPath="$PROJECT_DIR$/server/payara41/mq/lib/props/broker/default.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/mysql-connector-java-5.1.39/CHANGES" afterPath="$PROJECT_DIR$/server/payara41/mysql-connector-java-5.1.39/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/mysql-connector-java-5.1.39/docs/README.txt" afterPath="$PROJECT_DIR$/server/payara41/mysql-connector-java-5.1.39/docs/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/payara41/mysql-connector-java-5.1.39/docs/connector-j.html" afterPath="$PROJECT_DIR$/server/payara41/mysql-connector-java-5.1.39/docs/connector-j.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/SpringJPASample.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/SpringJPASample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/EditRele.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/EditRele.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/Location.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/Location.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/ReleSearch.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/ReleSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/SecureLibrary.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/SecureLibrary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/Shelve.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/Shelve.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/ShowRele.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/interfaces/ShowRele.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/RailwayCrossing.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/RailwayCrossing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/RailwayPoint.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/RailwayPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/RelayBoard.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/RelayBoard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/StandartShelve.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/StandartShelve.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/Station.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/Station.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/Stativ.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/Stativ.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/Unit.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/Unit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/Workshop.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/location/Workshop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/sql/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/schema.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/sql/test-data.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/test-data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/application-context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/application-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/sql/schema.sql" afterPath="$PROJECT_DIR$/target/classes/META-INF/sql/schema.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/sql/test-data.sql" afterPath="$PROJECT_DIR$/target/classes/META-INF/sql/test-data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/mvc-config.xml" afterPath="$PROJECT_DIR$/target/classes/config/mvc-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/META-INF/sql/schema.sql" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/META-INF/sql/schema.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/META-INF/sql/test-data.sql" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/META-INF/sql/test-data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/config/mvc-config.xml" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/config/mvc-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/config/application-context.xml" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/config/application-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/config/mvc-config.xml" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/config/mvc-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/RelayController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/RelayController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/relays/relays.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/relays/relays.jsp" />
     </list>
     <ignored path="ReleStorageSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -247,7 +53,7 @@
       <file leaf-file-name="application-context.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/application-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-648">
+            <state relative-caret-position="-619">
               <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
               <folding>
                 <element signature="e#1358#1385#0" expanded="true" />
@@ -258,89 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RelayServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/services/RelayServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <marker date="1470934452858" expanded="true" signature="638:657" ph="select * fro... relay" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stativ.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/storage/Stativ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Storage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/storage/Storage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-              <folding>
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mvc-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
+            <state relative-caret-position="299">
               <caret line="42" column="43" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Relay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Relay.java">
+      <file leaf-file-name="relays.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/relays/relays.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              <folding>
-                <element signature="e#4657#4658#0" expanded="true" />
-                <element signature="e#4695#4696#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Location.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/location/Location.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Station.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/location/Station.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/schema.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="285">
+              <caret line="37" column="83" selection-start-line="37" selection-start-column="83" selection-end-line="37" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -349,11 +87,11 @@
       <file leaf-file-name="RelayController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/RelayController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+            <state relative-caret-position="-30">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1176#1177#0" expanded="true" />
+                <element signature="e#1224#1225#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -382,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Stativ.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/person/Engineer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/PersonMock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/location/Shelve.java" />
@@ -409,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/SpringJPASample.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context-annotation.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/RelayController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/relays/list.jspx" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/datasource-tx-jpa.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" />
@@ -433,6 +169,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Relay.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/storage/Stativ.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/entities/location/Station.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/RelayController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/relays/relays.jsp" />
       </list>
     </option>
   </component>
@@ -844,6 +582,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="relesystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReleStorageSystemSSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReleStorageSystemSSH" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="relesystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1567,16 +1335,16 @@
       <workItem from="1470681649221" duration="1801000" />
       <workItem from="1470844526663" duration="11779000" />
       <workItem from="1470921365673" duration="13076000" />
-      <workItem from="1470938292967" duration="636000" />
+      <workItem from="1470938292967" duration="1368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124904000" />
+    <option name="totallyTimeSpent" value="125636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1553" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1597,7 +1365,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37866667" sideWeight="0.49502322" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37866667" sideWeight="0.49502322" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29066667" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1686,7 +1454,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/dao/StationDaoImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/dao/StativDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/dao/StativDAOImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/User.java">
@@ -1813,6 +1580,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="24" column="33" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1843,6 +1613,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="16" column="40" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1866,6 +1639,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1873,6 +1649,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1880,6 +1657,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1963,37 +1741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/RelayController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-          <folding>
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/application-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding>
-            <element signature="e#1358#1385#0" expanded="true" />
-            <element signature="e#1424#1443#0" expanded="true" />
-            <element signature="e#1487#1511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/Relay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -2013,9 +1760,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/location/Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/services/RelayServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="300">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <marker date="1470934452858" expanded="true" signature="638:657" ph="select * fro... relay" />
@@ -2025,7 +1788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/storage/Storage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="300">
           <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
           <folding>
             <element signature="e#536#537#0" expanded="true" />
@@ -2042,10 +1805,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/entities/location/Station.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/application-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="-619">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="e#1358#1385#0" expanded="true" />
+            <element signature="e#1424#1443#0" expanded="true" />
+            <element signature="e#1487#1511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/RelayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/relays/relays.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="37" column="83" selection-start-line="37" selection-start-column="83" selection-end-line="37" selection-end-column="83" />
           <folding />
         </state>
       </provider>
