@@ -52,6 +52,10 @@
                 <li><a href="${about}">About</a></li>
                 <c:url value="/file.html" var="file"/>
                 <li><a href="${file}">File</a></li>
+                <c:url value="/relays.html" var="relays"/>
+                <li><a href="${relays}">Relays</a></li>
+                <c:url value="/email.html" var="email"/>
+                <li><a href="${email}">Mail</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorial<b class="caret"></b></a>
                     <ul class="dropdown-menu">

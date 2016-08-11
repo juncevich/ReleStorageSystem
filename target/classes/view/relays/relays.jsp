@@ -35,7 +35,7 @@
                     <div class="list-group">
 
                         <a href="index.html" class="list-group-item">Home</a>
-                        <a href="${relays}" class="list-group-item">Find All Users</a>
+                        <a href="${relays}" class="list-group-item">Find All Relays</a>
 
                     </div>
                 </div>
