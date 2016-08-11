@@ -32,10 +32,7 @@
         <jdbc:script location="classpath:META-INF/sql/schema.sql"/>
         <jdbc:script location="classpath:META-INF/sql/test-data.sql"/>
     </jdbc:initialize-database>
-    <!-- Automatic Transaction Participation-->
-    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
-        <property name="entityManagerFactory" ref="entityManagerFactory"/>
-    </bean>
+
     <!--Do not forget activate @Transactional JPA annotation with <annotation-driven/>-->
     <!-- JPA Persistence Context and EntityManager configuration -->
     <bean id="entityManagerFactory"
@@ -60,6 +57,10 @@
                 <prop key="hibernate.jdbc.batch_size">10</prop>
             </props>
         </property>
+    </bean>
+    <!-- Automatic Transaction Participation-->
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
     </bean>
     <tx:annotation-driven transaction-manager="transactionManager" />
 
