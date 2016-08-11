@@ -453,8 +453,8 @@
         <engine sniffer="web"></engine>
       </module>
     </application>
-    <application context-root="/rele_system-4.0-SNAPSHOT" object-type="user" name="rele_system-4.0-SNAPSHOT" location="${com.sun.aas.instanceRootURI}/applications/rele_system-4.0-SNAPSHOT/">
-      <property name="appLocation" value="${com.sun.aas.instanceRootURI}/applications/__internal/rele_system-4.0-SNAPSHOT/rele_system-4.0-SNAPSHOT.war"></property>
+    <application context-root="/test" object-type="user" name="rele_system-4.0-SNAPSHOT" directory-deployed="true" location="file:/home/alex/IdeaProjects/ReleStorageSystemSSH/target/rele_system-4.0-SNAPSHOT/">
+      <property name="appLocation" value="file:/home/alex/IdeaProjects/ReleStorageSystemSSH/target/rele_system-4.0-SNAPSHOT/"></property>
       <property name="archiveType" value="war"></property>
       <property name="defaultAppName" value="rele_system-4.0-SNAPSHOT"></property>
       <module name="rele_system-4.0-SNAPSHOT">
