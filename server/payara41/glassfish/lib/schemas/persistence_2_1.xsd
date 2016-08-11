@@ -205,11 +205,11 @@
 
                     Defines whether caching is enabled for the 
                     persistence unit if caching is supported by the
-                    persistence provider. When set to ALL, all entities 
-                    will be cached. When set to NONE, no entities will
-                    be cached. When set to ENABLE_SELECTIVE, only entities
+                    persistence provider. When set to ALL, all ru.relesystem.entities
+                    will be cached. When set to NONE, no ru.relesystem.entities will
+                    be cached. When set to ENABLE_SELECTIVE, only ru.relesystem.entities
                     specified as cacheable will be cached. When set to
-                    DISABLE_SELECTIVE, entities specified as not cacheable
+                    DISABLE_SELECTIVE, ru.relesystem.entities specified as not cacheable
                     will not be cached. When not specified or when set to
                     UNSPECIFIED, provider defaults may apply.
 

@@ -61,12 +61,12 @@
   <xsd:annotation>
     <xsd:documentation>
       <![CDATA[
-      The webservices element is the root element for the web services
+      The webservices element is the root element for the web ru.relesystem.services
       deployment descriptor.  It specifies the set of web service
       descriptions that are to be deployed into the Java EE Application
       Server and the dependencies they have on container resources and
-      services.  The deployment descriptor must be named
-      "META-INF/webservices.xml" in the web services' jar file.
+      ru.relesystem.services.  The deployment descriptor must be named
+      "META-INF/webservices.xml" in the web ru.relesystem.services' jar file.
       
       Used in: webservices.xml
       
@@ -124,13 +124,13 @@
     <xsd:annotation>
       <xsd:documentation>
 
-        The webservices element is the root element for the web services
-        deployment descriptor.  It specifies the set of web service
+        The webservices element is the root element for the web ru.relesystem.services
+        deployment descriptor. It specifies the set of web service
         descriptions that are to be deployed into the Java EE Application Server
-        and the dependencies they have on container resources and services.
-        
+        and the dependencies they have on container resources and ru.relesystem.services.
+
         Used in: webservices.xml
-        
+
       </xsd:documentation>
     </xsd:annotation>
     <xsd:key name="webservice-description-name-key">

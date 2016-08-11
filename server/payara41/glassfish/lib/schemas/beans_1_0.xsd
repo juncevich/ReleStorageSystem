@@ -23,8 +23,8 @@
    <xs:annotation>
       <xs:documentation>
          Contexts and Dependency Injection (CDI) defines
-         a set of complementary services that help improve the structure
-         of application code. beans.xml is used to enable CDI services
+         a set of complementary ru.relesystem.services that help improve the structure
+         of application code. beans.xml is used to enable CDI ru.relesystem.services
          for the current bean archive as well as to enable named
          interceptors, decorators and alternatives for the current bean
          archive.

@@ -9,7 +9,7 @@
 <!-- With the exception of cases with multiple namespace
      prefixes for the XML Schema namespace, any XML document which is
      not valid per this DTD given redefinitions in its internal subset of the
-     'p' and 's' parameter entities below appropriate to its namespace
+     'p' and 's' parameter ru.relesystem.entities below appropriate to its namespace
      declaration of the XML Schema namespace is almost certainly not
      a valid schema. -->
 
@@ -55,7 +55,7 @@
 <!ENTITY % appinfo "%p;appinfo">
 <!ENTITY % documentation "%p;documentation">
 
-<!-- Customisation entities for the ATTLIST of each element type.
+<!-- Customisation ru.relesystem.entities for the ATTLIST of each element type.
      Define one of these if your schema takes advantage of the
      anyAttribute='##other' in the schema for schemas -->
 

@@ -1,7 +1,7 @@
 package ru.relesystem.interfaces;
 
 
-import entities.Relay;
+import ru.relesystem.entities.Relay;
 
 public interface ShowRele {
     void showRele(Relay relay);

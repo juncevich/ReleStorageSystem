@@ -62,7 +62,7 @@ and distribution as defined by Sections 1 through 9 of this document.
 the copyright owner that is granting the License.
 
 "Legal Entity" shall mean the union of the acting entity and all
-other entities that control, are controlled by, or are under common
+other ru.relesystem.entities that control, are controlled by, or are under common
 control with that entity. For the purposes of this definition,
 "control" means the power, direct or indirect, to cause the
 direction or management of such entity, whether by contract or
@@ -538,7 +538,7 @@ archiving software is widely available for no charge.
 
 1.12. "You'' (or "Your") means an individual or a legal entity exercising rights under, and complying
 with all of the terms of, this License or a future version of this License issued under Section 6.1. For
-legal entities, "You'' includes any entity which controls, is controlled by, or is under common control
+legal ru.relesystem.entities, "You'' includes any entity which controls, is controlled by, or is under common control
 with You. For purposes of this definition, "control'' means (a) the power, direct or indirect, to cause the
 direction or management of such entity, whether by contract or otherwise, or (b) ownership of more
 than fifty percent (50%) of the outstanding shares or beneficial ownership of such entity.
@@ -3330,7 +3330,7 @@ law provisions. Nothing in this License Agreement shall be deemed to
 create any relationship of agency, partnership, or joint venture
 between BeOpen and Licensee. This License Agreement does not grant
 permission to use BeOpen trademarks or trade names in a trademark
-sense to endorse or promote products or services of Licensee, or any
+sense to endorse or promote products or ru.relesystem.services of Licensee, or any
 third party. As an exception, the "BeOpen Python" logos available at
 http://www.pythonlabs.com/logos.html may be used according to the
 permissions granted on that web page.
@@ -3402,7 +3402,7 @@ law provisions. Nothing in this License Agreement shall be deemed to
 create any relationship of agency, partnership, or joint venture
 between CNRI and Licensee. This License Agreement does not grant
 permission to use CNRI trademarks or trade name in a trademark sense
-to endorse or promote products or services of Licensee, or any third
+to endorse or promote products or ru.relesystem.services of Licensee, or any third
 party.
 
 8. By clicking on the "ACCEPT" button where indicated, or by copying,

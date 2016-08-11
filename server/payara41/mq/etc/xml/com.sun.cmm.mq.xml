@@ -62,8 +62,8 @@
 <!--
    This section described a strong dependencies to the Java ES MF
    Node Agent 2.0 Module. This implies that the Node Agent 2.0 must
-   be loaded by cacao and offering services before this current module
-   could be loaded and offer services. The name of the Node Agent Module
+   be loaded by cacao and offering ru.relesystem.services before this current module
+   could be loaded and offer ru.relesystem.services. The name of the Node Agent Module
    is "com.sun.mfwk".
 -->
 

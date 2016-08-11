@@ -20,7 +20,7 @@ DO NOT TRANSLATE OR LOCALIZE.
       the copyright owner that is granting the License.
 
       "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
+      other ru.relesystem.entities that control, are controlled by, or are under common
       control with that entity. For the purposes of this definition,
       "control" means (i) the power, direct or indirect, to cause the
       direction or management of such entity, whether by contract or
@@ -341,7 +341,7 @@ make it enforceable.
 
 14) Definition of "You" in This License. "You" throughout this License, whether
 in upper or lower case, means an individual or a legal entity exercising rights
-under, and complying with all of the terms of, this License. For legal entities,
+under, and complying with all of the terms of, this License. For legal ru.relesystem.entities,
 "You" includes any entity that controls, is controlled by, or is under common
 control with you. For purposes of this definition, "control" means (i) the
 power, direct or indirect, to cause the direction or management of such entity,
@@ -1113,7 +1113,7 @@ $$ Project Woodstock
       the copyright owner that is granting the License.
 
       "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
+      other ru.relesystem.entities that control, are controlled by, or are under common
       control with that entity. For the purposes of this definition,
       "control" means (i) the power, direct or indirect, to cause the
       direction or management of such entity, whether by contract or
@@ -1472,7 +1472,7 @@ to make it enforceable.
 whether in upper or lower case, means an individual or a legal entity
 exercising rights under, and complying with all of the terms of, this License. 
 
-For legal entities, "You" includes any entity that controls, is controlled
+For legal ru.relesystem.entities, "You" includes any entity that controls, is controlled
 by, or is under common control with you. For purposes of this definition,
 "control" means (i) the power, direct or indirect, to cause the direction
 or management of such entity, whether by contract or otherwise, or
@@ -1558,7 +1558,7 @@ Licensable by grantor.
 modifications are made and (b) associated documentation included in or with such code.
 
 1.13. You (or Your) means an individual or a legal entity exercising rights under,
-and complying with all of the terms of, this License. For legal entities, You
+and complying with all of the terms of, this License. For legal ru.relesystem.entities, You
 includes any entity which controls, is controlled by, or is under common control
 with You. For purposes of this definition, control means (a) the power, direct or
 indirect, to cause the direction or management of such entity, whether by contract

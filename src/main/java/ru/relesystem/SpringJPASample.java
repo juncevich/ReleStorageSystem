@@ -2,8 +2,8 @@ package ru.relesystem;
 
 
 import org.springframework.context.support.GenericXmlApplicationContext;
-import entities.Relay;
-import services.RelayService;
+import ru.relesystem.entities.Relay;
+import ru.relesystem.services.RelayService;
 
 import java.util.List;
 

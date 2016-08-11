@@ -960,7 +960,7 @@
 		</sequence>
 	</complexType>
 	<!--
-          The singleton service element is used to register user defined singleton services. 
+          The singleton service element is used to register user defined singleton ru.relesystem.services.
           These are classes that implement the interface weblogic.cluster.singleton.SingletonService. 
           The class-name element is the name of the users implementation of SingletonService.
           The singleton-uri is a jar file within the ear which contains the implementation.

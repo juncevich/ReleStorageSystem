@@ -889,7 +889,7 @@
       <xsd:documentation>
 
         Defines an entity listener to be invoked at lifecycle events
-        for the entities that list this listener.
+        for the ru.relesystem.entities that list this listener.
 
       </xsd:documentation>
     </xsd:annotation>
@@ -2130,7 +2130,7 @@
         @Target({TYPE}) @Retention(RUNTIME)
         public @interface SqlResultSetMapping {
           String name();
-          EntityResult[] entities() default {};
+          EntityResult[] ru.relesystem.entities() default {};
           ConstructorResult[] classes() default{};
           ColumnResult[] columns() default {};
         }

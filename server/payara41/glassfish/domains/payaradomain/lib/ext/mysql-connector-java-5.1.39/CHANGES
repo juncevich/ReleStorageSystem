@@ -2486,7 +2486,7 @@ nn-nn-07 - Version 5.0.9
     - Moved all SQLException creation to a factory method in SQLError,
       groundwork for JDBC-4.0 SQLState class-based exceptions.
 
-    - Added service-provider entry to META-INF/services/java.sql.Driver
+    - Added service-provider entry to META-INF/ru.relesystem.services/java.sql.Driver
       for JDBC-4.0 support.
 
     - Return "[VAR]BINARY" for RSMD.getColumnTypeName() when that is actually

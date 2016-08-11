@@ -438,7 +438,7 @@
               <xs:documentation>The name of the JMS connection factory.</xs:documentation>
             </xs:annotation>
           </xs:element>
-          <xs:element default="tuxedo.services.TuxedoConnection" minOccurs="0" name="tux-factory" nillable="false" type="xs:string">
+          <xs:element default="tuxedo.ru.relesystem.services.TuxedoConnection" minOccurs="0" name="tux-factory" nillable="false" type="xs:string">
             <xs:annotation>
               <xs:documentation>The name of the Tuxedo connection factory.</xs:documentation>
             </xs:annotation>
@@ -1627,7 +1627,7 @@
           <xs:element default="false" minOccurs="0" name="allow-anonymous" nillable="false" type="xs:boolean">
             <xs:annotation>
               <xs:documentation>Specifies whether the anonymous user is allowed to access remote
- Tuxedo services.</xs:documentation>
+                  Tuxedo ru.relesystem.services.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element default="-1" minOccurs="0" name="default-app-key" nillable="false" type="xs:int">
@@ -2255,14 +2255,14 @@
           <xs:element default="false" minOccurs="0" name="load-before-app-deployments" nillable="false" type="xs:boolean">
             <xs:annotation>
               <xs:documentation>Specifies whether the targeted servers load and run this startup
- class before activating JMS and JDBC services and before starting
+ class before activating JMS and JDBC ru.relesystem.services and before starting
  deployment for applications and EJBs.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element default="false" minOccurs="0" name="load-before-app-activation" nillable="false" type="xs:boolean">
             <xs:annotation>
               <xs:documentation>Specifies whether the targeted servers load and run this startup
- class after activating JMS and JDBC services and before activating
+ class after activating JMS and JDBC ru.relesystem.services and before activating
  applications and EJBs.</xs:documentation>
             </xs:annotation>
           </xs:element>
@@ -4220,7 +4220,7 @@
           </xs:element>
           <xs:element minOccurs="0" name="when-to-cache" nillable="true">
             <xs:annotation>
-              <xs:documentation>&lt;p&gt;Specifies when WebLogic Server should cache external entities that it
+              <xs:documentation>&lt;p&gt;Specifies when WebLogic Server should cache external ru.relesystem.entities that it
  retrieves from the Web.
 
  &lt;p&gt;When WebLogic Server resolves an external entity within an XML file
@@ -4382,10 +4382,10 @@
           </xs:element>
           <xs:element minOccurs="0" name="when-to-cache" nillable="true">
             <xs:annotation>
-              <xs:documentation>Specifies when WebLogic Server should cache the external entities
+              <xs:documentation>Specifies when WebLogic Server should cache the external ru.relesystem.entities
  it retrieves from the Web.
 
- &lt;p&gt;WebLogic Server can cache the entities when they are referenced, as
+ &lt;p&gt;WebLogic Server can cache the ru.relesystem.entities when they are referenced, as
  soon as possible (that is, on initialization) or never. Additionally,
  WebLogic Server can defer to the XML registry's cache setting.</xs:documentation>
             </xs:annotation>
@@ -4876,7 +4876,7 @@
           </xs:element>
           <xs:element maxOccurs="unbounded" minOccurs="0" name="app-deployment" nillable="true" type="dom:app-deploymentType">
             <xs:annotation>
-              <xs:documentation>The collection of deployable entities in this domain.
+              <xs:documentation>The collection of deployable ru.relesystem.entities in this domain.
  This replaces the Application in previous versions. </xs:documentation>
             </xs:annotation>
           </xs:element>
@@ -5721,14 +5721,14 @@
           </xs:element>
           <xs:element maxOccurs="unbounded" minOccurs="0" name="wtc-export" nillable="true" type="dom:wtc-exportType">
             <xs:annotation>
-              <xs:documentation>Provides information on services exported by a local Tuxedo
+              <xs:documentation>Provides information on ru.relesystem.services exported by a local Tuxedo
  access point. Defines your Exported Services when configured using
  the Administration Console.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element maxOccurs="unbounded" minOccurs="0" name="wtc-import" nillable="true" type="dom:wtc-importType">
             <xs:annotation>
-              <xs:documentation>Provides information on services imported and available on
+              <xs:documentation>Provides information on ru.relesystem.services imported and available on
  remote domains. Defines your Imported Services when configured
  using the Administration Console.</xs:documentation>
             </xs:annotation>
@@ -6515,7 +6515,7 @@
           <xs:element minOccurs="0" name="auto-migration-enabled" nillable="false" type="xs:boolean">
             <xs:annotation>
               <xs:documentation>Specifies whether Node Manager can automatically restart this
- server and its services on another machine if the server fails.</xs:documentation>
+ server and its ru.relesystem.services on another machine if the server fails.</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element minOccurs="0" name="web-server" nillable="true" type="dom:web-serverType">
@@ -9215,7 +9215,7 @@
           </xs:element>
           <xs:element default="false" minOccurs="0" name="debug-security-saml-service" nillable="false" type="xs:boolean">
             <xs:annotation>
-              <xs:documentation>Debug Security Framework SAML SSO profile services</xs:documentation>
+              <xs:documentation>Debug Security Framework SAML SSO profile ru.relesystem.services</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element default="false" minOccurs="0" name="debug-security-saml2-lib" nillable="false" type="xs:boolean">
@@ -9235,7 +9235,7 @@
           </xs:element>
           <xs:element default="false" minOccurs="0" name="debug-security-saml2-service" nillable="false" type="xs:boolean">
             <xs:annotation>
-              <xs:documentation>Debug Security Framework SAML2 SSO profile services</xs:documentation>
+              <xs:documentation>Debug Security Framework SAML2 SSO profile ru.relesystem.services</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element default="false" minOccurs="0" name="debug-jdbc-conn" nillable="false" type="xs:boolean">
@@ -10698,7 +10698,7 @@
           </xs:element>
           <xs:element minOccurs="0" name="migration-policy" nillable="true">
             <xs:annotation>
-              <xs:documentation>Defines the type of migration policy to use for the services hosted by this migratable target. 
+              <xs:documentation>Defines the type of migration policy to use for the ru.relesystem.services hosted by this migratable target.
  Valid options are:</xs:documentation>
             </xs:annotation>
             <xs:simpleType>
@@ -10898,9 +10898,11 @@
           </xs:element>
           <xs:element minOccurs="0" name="service-provider-preferred-binding" nillable="false">
             <xs:annotation>
-              <xs:documentation>Specifies the preferred binding type for endpoints of Service Provider services.
- Must be set to "None", "POST", or "Artifact".
- (Interface=weblogic.management.configuration.SingleSignOnServicesMBean Attribute=getServiceProviderPreferredBinding)</xs:documentation>
+              <xs:documentation>Specifies the preferred binding type for endpoints of Service Provider
+                  ru.relesystem.services.
+                  Must be set to "None", "POST", or "Artifact".
+                  (Interface=weblogic.management.configuration.SingleSignOnServicesMBean
+                  Attribute=getServiceProviderPreferredBinding)</xs:documentation>
             </xs:annotation>
             <xs:simpleType>
               <xs:restriction base="xs:string">
@@ -10971,8 +10973,10 @@
           </xs:element>
           <xs:element minOccurs="0" name="identity-provider-preferred-binding" nillable="false">
             <xs:annotation>
-              <xs:documentation>Specifies the preferred binding type for endpoints of the Identity Provider services.
- Must be set to &lt;code&gt;None&lt;/code&gt;, &lt;code&gt;HTTP/POST&lt;/code&gt;, &lt;code&gt;HTTP/Artifact&lt;/code&gt;, or &lt;code&gt;HTTP/Redirect&lt;/code&gt;.</xs:documentation>
+              <xs:documentation>Specifies the preferred binding type for endpoints of the Identity Provider
+                  ru.relesystem.services.
+                  Must be set to &lt;code&gt;None&lt;/code&gt;, &lt;code&gt;HTTP/POST&lt;/code&gt;, &lt;code&gt;HTTP/Artifact&lt;/code&gt;,
+                  or &lt;code&gt;HTTP/Redirect&lt;/code&gt;.</xs:documentation>
             </xs:annotation>
             <xs:simpleType>
               <xs:restriction base="xs:string">
@@ -11174,7 +11178,7 @@
           <xs:element default="WseeStore" minOccurs="0" name="default-logical-store-name" nillable="true" type="xs:string">
             <xs:annotation>
               <xs:documentation>Get the name of the logical store to use, by default, for all
- web services persistent state in this server.
+ web ru.relesystem.services persistent state in this server.
  (Interface=weblogic.management.configuration.WebServicePersistenceMBean Attribute=getDefaultLogicalStoreName)</xs:documentation>
             </xs:annotation>
           </xs:element>
@@ -11232,7 +11236,7 @@
           </xs:element>
           <xs:element minOccurs="0" name="request-buffering-queue-jndi-name" nillable="true" type="xs:string">
             <xs:annotation>
-              <xs:documentation>Get the JNDI name of the buffering queue that web services should use.
+              <xs:documentation>Get the JNDI name of the buffering queue that web ru.relesystem.services should use.
  (Both for buffering and to
  find the physical store for this logical store). Defaults to "" to indicate
  the PhysicalStoreName property should be used.
@@ -11243,7 +11247,7 @@
           </xs:element>
           <xs:element minOccurs="0" name="response-buffering-queue-jndi-name" nillable="true" type="xs:string">
             <xs:annotation>
-              <xs:documentation>Get the JNDI name of the response buffering queue that web services should
+              <xs:documentation>Get the JNDI name of the response buffering queue that web ru.relesystem.services should
  use. If this is null, the request buffering queue is used.
  (Interface=weblogic.management.configuration.WebServiceLogicalStoreMBean Attribute=getResponseBufferingQueueJndiName)</xs:documentation>
             </xs:annotation>
@@ -11467,7 +11471,7 @@
           <xs:element minOccurs="0" name="default-load-algorithm" nillable="true">
             <xs:annotation>
               <xs:documentation>The algorithm to be used for load-balancing between replicated
- services if none is specified for a particular service. The
+ ru.relesystem.services if none is specified for a particular service. The
  &lt;tt&gt;round-robin&lt;/tt&gt; algorithm cycles through a list of WebLogic
  Server instances in order. &lt;tt&gt;Weight-based&lt;/tt&gt; load balancing
  improves on the round-robin algorithm by taking into account a
@@ -11505,7 +11509,7 @@
           <xs:element default="180" minOccurs="0" name="service-age-threshold-seconds" nillable="false">
             <xs:annotation>
               <xs:documentation>The number of seconds (between 0 and 65534) by which the age of
- two conflicting services must differ before one is considered older
+ two conflicting ru.relesystem.services must differ before one is considered older
  than the other.</xs:documentation>
             </xs:annotation>
             <xs:simpleType>
@@ -11829,8 +11833,8 @@
           <xs:element minOccurs="0" name="database-less-leasing-basis" nillable="true" type="dom:database-less-leasing-basisType">
             <xs:annotation>
               <xs:documentation>Get attributes associated with database less leasing basis used for
- server migration and singleton services.
- (Interface=weblogic.management.configuration.ClusterMBean Attribute=getDatabaseLessLeasingBasis)</xs:documentation>
+                  server migration and singleton ru.relesystem.services.
+                  (Interface=weblogic.management.configuration.ClusterMBean Attribute=getDatabaseLessLeasingBasis)</xs:documentation>
             </xs:annotation>
           </xs:element>
           <xs:element default="3" minOccurs="0" name="http-ping-retry-count" nillable="false">

@@ -182,7 +182,7 @@
                 <xsd:annotation>
                   <xsd:documentation>
 
-                    Jar file that should be scanned for entities. 
+                    Jar file that should be scanned for ru.relesystem.entities.
                     Not applicable to Java SE persistence units.
 
                   </xsd:documentation>

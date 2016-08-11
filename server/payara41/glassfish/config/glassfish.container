@@ -38,6 +38,6 @@
 # holder.
 #
 containers=jruby, web, php
-jruby.application=app/controllers/application.rb
+jruby.application=app/ru.relesystem.controllers/application.rb
 web.application=WEB-INF/web.xml
 php.urlpattern=.*php$

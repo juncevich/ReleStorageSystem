@@ -67,7 +67,7 @@
 <!ENTITY % pattern "%p;pattern">
 
 <!--
-        Customisation entities for the ATTLIST of each element
+        Customisation ru.relesystem.entities for the ATTLIST of each element
         type. Define one of these if your schema takes advantage
         of the anyAttribute='##other' in the schema for schemas
   -->
@@ -89,7 +89,7 @@
 <!ENTITY % whiteSpaceAttrs "">
 <!ENTITY % patternAttrs "">
 
-<!-- Define some entities for informative use as attribute
+<!-- Define some ru.relesystem.entities for informative use as attribute
         types -->
 <!ENTITY % URIref "CDATA">
 <!ENTITY % XPathExpr "CDATA">

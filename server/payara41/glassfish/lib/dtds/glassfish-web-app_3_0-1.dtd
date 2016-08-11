@@ -573,7 +573,7 @@ transport guarantees. A value of INTEGRAL means that the application
 requires that the data sent between the client and server be sent in
 such a way that it can't be changed in transit. CONFIDENTIAL means
 that the application requires that the data be transmitted in a
-fashion that prevents other entities from observing the contents of
+fashion that prevents other ru.relesystem.entities from observing the contents of
 the transmission. In most cases, the presence of the INTEGRAL or
 CONFIDENTIAL flag will indicate that the use of SSL is required.
 -->

@@ -68,13 +68,13 @@
 
   <xsd:annotation>
     <xsd:documentation>
-      <![CDATA[
+		<![CDATA[
 
 	The element describes the Java mapping to a known WSDL document.
 
 	It contains the mapping between package names and XML namespaces,
 	WSDL root types and Java artifacts, and the set of mappings for
-	services.
+	ru.relesystem.services.
 
 	All java-wsdl-mapping deployment descriptors must indicate the
 	schema by using the J2EE namespace:
@@ -99,7 +99,7 @@
 	http://www.ibm.com/webservices/xsd/j2ee_jaxrpc_mapping_1_1.xsd
 
 	]]>
-    </xsd:documentation>
+	</xsd:documentation>
   </xsd:annotation>
 
   <xsd:annotation>
@@ -232,13 +232,13 @@
     <xsd:annotation>
       <xsd:documentation>
 
-	The element describes the Java mapping to a known WSDL document.
+		  The element describes the Java mapping to a known WSDL document.
 
-	It contains the mapping between package names and XML namespaces,
-	WSDL root types and Java artifacts, and the set of mappings for
-	services.
+		  It contains the mapping between package names and XML namespaces,
+		  WSDL root types and Java artifacts, and the set of mappings for
+		  ru.relesystem.services.
 
-      </xsd:documentation>
+	  </xsd:documentation>
     </xsd:annotation>
     <xsd:sequence>
       <xsd:element name="package-mapping"
@@ -655,7 +655,7 @@
 	  <xsd:documentation>
 
 	    The service-interface element defines the Java type for the service.
-	    For static services, it is javax.xml.rpc.Service interface. For
+	    For static ru.relesystem.services, it is javax.xml.rpc.Service interface. For
 	    generated service, it would be the generated interface name.
 
 	    The name must be a fully qualified class name.

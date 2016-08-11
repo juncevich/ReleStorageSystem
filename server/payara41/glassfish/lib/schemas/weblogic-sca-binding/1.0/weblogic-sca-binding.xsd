@@ -11,11 +11,11 @@
   <element name="binding.ws" substitutionGroup="sca:binding" type="sca:WSBindingModel" >
   	<annotation>
   		<documentation>
-The Web Service binding (binding.ws) can be applied to SCA services and references. It does the following:
-    *For service bindings, publishes "Plain Old Java Object" (POJO) "services" as Web Services.
+The Web Service binding (binding.ws) can be applied to SCA ru.relesystem.services and references. It does the following:
+    *For service bindings, publishes "Plain Old Java Object" (POJO) "ru.relesystem.services" as Web Services.
     *Parses the binding.ws element and generates a WSDL of the service to be published or the reference to be invoked. (This includes policy references.)
     *Publishes the service as a JAX-WS Web Service.
-    *Accepts request for the published services and performs reference invocations to the Web Services.
+    *Accepts request for the published ru.relesystem.services and performs reference invocations to the Web Services.
   		</documentation>
   	</annotation>
   </element>
@@ -90,7 +90,7 @@ the timeout (i.e. refresh interval) for cached wsdls is assumed to be 60 minutes
   <element name="binding.ejb" substitutionGroup="sca:binding" type="sca:EJBBindingModel" >
 	<annotation>
 		<documentation>
-The EJB session bean binding can be applied to both SCA services and SCA references.
+The EJB session bean binding can be applied to both SCA ru.relesystem.services and SCA references.
 
 Binding to Services: 
 When binding.ejb is configured on an SCA service, an implementation of the service interface becomes available in JNDI when the application is deployed. That service can then be invoked using the EJB programming model. For example, this allows a client to look up and invoke the service as if the underlying service were a deployed EJB. This may be useful in a situation where you want to replace an existing EJB service with an SCA implementation, without requiring clients of the legacy EJB to be updated.
@@ -134,7 +134,7 @@ it will be used as the service name for the web service in the WSDL
     		<documentation>
 Required. 
       
-For EJB bindings on references, uri specifies the JNDI name of the target EJB. For EJB bindings on services, the uri value is the JNDI name at which the EJB is bound.
+For EJB bindings on references, uri specifies the JNDI name of the target EJB. For EJB bindings on ru.relesystem.services, the uri value is the JNDI name at which the EJB is bound.
 Advanced CORBA name URIs are not supported. The following two simplified patterns are supported. Both result in the service implementation being bound to the JNDI name ejb/MyHome:
 * uri="corbaname:rir:#ejb/MyHome"
 * uri="ejb/MyHome". 
