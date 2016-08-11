@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<%@tag description="Template Site tag" pageEncoding="UTF-8"%>
+<%@tag description="Template Site tag" pageEncoding="UTF-8" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%@attribute name="title" fragment="true" %>
 
 <head>
-    <title><jsp:invoke fragment="title"/></title>
+    <title>
+        <jsp:invoke fragment="title"/>
+    </title>
 
     <!-- Bootstrap Core CSS -->
     <spring:url value="resources/css/bootstrap.css" var="bootstrap"/>
-    <link href="${bootstrap}" rel="stylesheet" />
+    <link href="${bootstrap}" rel="stylesheet"/>
 
     <!-- Custom CSS -->
     <spring:url value="/resources/css/modern-business.css" var="startertemplate"/>
-    <link href="${startertemplate}" rel="stylesheet" />
+    <link href="${startertemplate}" rel="stylesheet"/>
 
     <!-- Custom Fonts -->
     <spring:url value="/resources/css/font-awesome.min.css" var="fontawesome"/>
-    <link href="${fontawesome}" rel="stylesheet" />
+    <link href="${fontawesome}" rel="stylesheet"/>
 
     <!-- jQuery -->
     <spring:url value="/resources/js/jquery.js" var="jqueryjs"/>
@@ -31,13 +33,17 @@
 </head>
 
 <body>
-
+<c:url value="/file.html" var="file"/>
+<c:url value="/email.html" var="email" />
+<c:url value="/security.html" var="security" />
+<c:url value="/relays.html" var="relays"/>
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -48,13 +54,31 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+                <security:authorize access="hasAnyRole('ROLE_ADMIN','ROLE_SUPER_USER', 'ROLE_USER')" var="isUSer"/>
+
+
+                <c:if test="${not isUSer}">
+                    <li style="padding-top: 5px; padding-bottom: 5px; color: red">
+                        <c:if test="${empty param.error}"> Вы не вошли в приложение
+                        </c:if>
+                    </li>
+                    <li><a style="color: Green;" href="<c:url value="/login.html"/>">Login</a></li>
+                </c:if>
+
+
+                <c:if test="${isUSer}">
+                    <li style="padding-top: 15px; padding-bottom: 15px; color: green">
+                        Вы вошли как:
+                        <security:authentication property="principal.username"/> с ролью:
+                        <b><security:authentication property="principal.authorities"/></b>
+
+                    </li>
+                    <li><a style="color: red;" href="<c:url value="/j_spring_security_logout"/>">Logout</a></li>
+                </c:if>
                 <c:url value="/about.html" var="about"/>
                 <li><a href="${about}">About</a></li>
-                <c:url value="/file.html" var="file"/>
                 <li><a href="${file}">File</a></li>
-                <c:url value="/relays.html" var="relays"/>
                 <li><a href="${relays}">Relays</a></li>
-                <c:url value="/email.html" var="email"/>
                 <li><a href="${email}">Mail</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorial<b class="caret"></b></a>
@@ -64,10 +88,10 @@
                             <a href="${file}">Загрузка файла PDF и Excel</a>
                         </li>
                         <li>
-                            <a href="portfolio-2-col.html">Lesson 2</a>
+                            <a href="${relays}">Relays</a>
                         </li>
                         <li>
-                            <a href="portfolio-3-col.html">Lesson 3</a>
+                        <a href="${email}">Mail</a>
                         </li>
                         <li>
                             <a href="portfolio-4-col.html">Lesson 5</a>
