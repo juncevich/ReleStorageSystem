@@ -30,15 +30,15 @@
         <itext-version>2.1.5</itext-version>
         <!-- Spring Security -->
         <spring-security.version>4.0.4.RELEASE</spring-security.version>
+
+        <!-- Spring -->
+        <spring-framework.version>4.2.4.RELEASE</spring-framework.version>
         <!-- Logging -->
         <!--logback - improved version of log4j-->
         <logback.version>1.0.13</logback.version>
         <slf4j.version>1.7.13</slf4j.version>
-        <!-- Spring -->
-        <spring-framework.version>4.2.4.RELEASE</spring-framework.version>
     </properties>
     <dependencyManagement>
-
         <!--all spring dependencies -->
         <dependencies>
             <dependency>
@@ -51,20 +51,6 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
-
-        <!-- Logging with SLF4J & LogBack -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>${logback.version}</version>
-            <scope>runtime</scope>
-        </dependency>   
         <!-- Apache Commons File Upload -->
         <dependency>
             <groupId>commons-fileupload</groupId>
@@ -221,6 +207,20 @@
             <version>${spring-security.version}</version>
             <type>jar</type>
             <scope>compile</scope>
+        </dependency>
+
+        <!-- Logging with SLF4J & LogBack -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
     <build>
