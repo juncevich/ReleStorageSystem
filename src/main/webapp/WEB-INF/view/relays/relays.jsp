@@ -6,7 +6,8 @@
 
 <page:template>
     <jsp:body>
-        <c:url value="/listReleays" var="relays" />
+        <c:url value="/listRelays" var="relays" />
+        <c:url value="/queryFindByIdRelay/1" var="queryFindByIdRelay" />
 
 
 
@@ -36,6 +37,7 @@
 
                         <a href="index.html" class="list-group-item">Home</a>
                         <a href="${relays}" class="list-group-item">Find All Relays</a>
+                        <a href="${queryFindByIdRelay}" class="list-group-item">Find relay by 1 id</a>
 
                     </div>
                 </div>
@@ -44,13 +46,13 @@
                     <c:if test="${not empty resultObject}">
                         Result:
                         <c:if test="${resultObject == 'true'}">
-                            <font color="green"><b>${resultObject}</b></font>
+                            <span style="color: green; "><b>${resultObject}</b></span>
                         </c:if>
                         <c:if test="${resultObject == 'false'}">
-                            <font color="red"><b>${resultObject}</b></font>
+                            <span style="color: red; "><b>${resultObject}</b></span>
                         </c:if>
                         <c:if test="${resultObject !='true' and resultObject != 'false'}">
-                            <p>${resultObject}</p>
+                            <span style="color: #0a303d; "><p>${resultObject}<br></p></span>
                         </c:if>
                     </c:if>
                 </div>

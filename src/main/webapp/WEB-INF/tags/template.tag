@@ -37,6 +37,8 @@
 <c:url value="/email.html" var="email" />
 <c:url value="/security.html" var="security" />
 <c:url value="/relays.html" var="relays"/>
+<c:url value="/runtimeException.html" var="runtimeException" />
+<c:url value="/jstl.html" var="jstl" />
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -68,14 +70,10 @@
 
                 <c:if test="${isUSer}">
                     <li style="padding-top: 15px; padding-bottom: 15px; color: green">
-<<<<<<< HEAD
-                        <security:authentication property="principal.username"/>
-=======
+
                         Вы вошли как:
                         <security:authentication property="principal.username"/> с ролью:
                         <b><security:authentication property="principal.authorities"/></b>
-
->>>>>>> origin/master
                     </li>
                     <li><a style="color: red;" href="<c:url value="/j_spring_security_logout"/>">Logout</a></li>
                 </c:if>
@@ -84,6 +82,7 @@
                 <li><a href="${file}">File</a></li>
                 <li><a href="${relays}">Relays</a></li>
                 <li><a href="${email}">Mail</a></li>
+                <li><a href="${jstl}">Jstl</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorial<b class="caret"></b></a>
                     <ul class="dropdown-menu">
