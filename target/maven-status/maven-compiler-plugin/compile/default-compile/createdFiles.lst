@@ -11,6 +11,7 @@ ru/relesystem/entities/person/Engineer.class
 ru/relesystem/exception/ExceptionHandler.class
 ru/relesystem/entities/person/Person.class
 ru/javastudy/mvcHtml5Angular/mvc/security/SecurityController.class
+ru/relesystem/scope/ScopeController.class
 ru/relesystem/entities/location/Station.class
 ru/relesystem/email/EmailService.class
 ru/relesystem/email/EmailModel.class
@@ -20,6 +21,7 @@ ru/relesystem/location/Unit.class
 ru/relesystem/excelpdf/ExcelDocument.class
 ru/relesystem/location/Workshop.class
 ru/relesystem/location/RailwayCrossing.class
+ru/relesystem/interceptors/InterceptorController.class
 ru/relesystem/interfaces/Shelve.class
 ru/relesystem/file/FileUploadController.class
 ru/relesystem/jstl/JSTLController.class
@@ -32,11 +34,13 @@ ru/relesystem/email/EmailController.class
 ru/relesystem/entities/storage/Storage.class
 ru/relesystem/location/Stativ.class
 ru/relesystem/entities/Relay.class
+ru/relesystem/interceptors/SiteInterceptor.class
 ru/relesystem/location/RailwayPoint.class
 ru/relesystem/excelpdf/ExcelPDFController.class
 ru/relesystem/enums/Profession.class
 ru/relesystem/interfaces/EditRele.class
 ru/relesystem/email/EmailService$1.class
+ru/relesystem/redirect/RedirectController.class
 ru/relesystem/interfaces/ReleSearch.class
 ru/relesystem/interfaces/Location.class
 ru/relesystem/services/RelayServiceImpl.class

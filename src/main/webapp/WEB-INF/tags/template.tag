@@ -39,6 +39,8 @@
 <c:url value="/relays.html" var="relays"/>
 <c:url value="/runtimeException.html" var="runtimeException" />
 <c:url value="/jstl.html" var="jstl" />
+<c:url value="/scope.html" var="scope" />
+<c:url value="/angularjson.html" var="angularjson" />
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -83,6 +85,9 @@
                 <li><a href="${relays}">Relays</a></li>
                 <li><a href="${email}">Mail</a></li>
                 <li><a href="${jstl}">Jstl</a></li>
+                <li><a href="${scope}">Session Object Example</a></li>
+                <li><a href="${angularjson}">Angularjson</a></li>
+
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorial<b class="caret"></b></a>
                     <ul class="dropdown-menu">

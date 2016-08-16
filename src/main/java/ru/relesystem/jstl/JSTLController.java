@@ -36,7 +36,7 @@ public class JSTLController {
     public ModelAndView returnHTML(Model uiModel) {
         String html = "<font color='red'><b>Test Color Red</b></font>";
         uiModel.addAttribute(html);
-        return new ModelAndView("jstl/jstl", "jstlResultHTML", html);
+        return new ModelAndView("/jstl/jstl", "jstlResultHTML", html);
     }
 
 }

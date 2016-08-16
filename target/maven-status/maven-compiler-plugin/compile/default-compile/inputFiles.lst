@@ -11,6 +11,7 @@
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interfaces/ShowRele.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interfaces/Shelve.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/excelpdf/ExcelPDFController.java
+/home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/scope/ScopeController.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/security/SecurityController.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/file/FileUploadController.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/jstl/JSTLController.java
@@ -19,6 +20,7 @@
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/entities/storage/Storage.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/location/Unit.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/enums/Department.java
+/home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/redirect/RedirectController.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/entities/location/Location.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interfaces/SecureLibrary.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/email/EmailService.java
@@ -26,6 +28,7 @@
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interfaces/Location.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/entities/User.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/entities/location/Station.java
+/home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interceptors/InterceptorController.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interfaces/Person.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/location/Stativ.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/entities/person/Engineer.java
@@ -37,6 +40,7 @@
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/entities/Relay.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/exception/ExceptionHandler.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/entities/person/Person.java
+/home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interceptors/SiteInterceptor.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/SpringJPASample.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interfaces/Feedback.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/entities/storage/Stativ.java
