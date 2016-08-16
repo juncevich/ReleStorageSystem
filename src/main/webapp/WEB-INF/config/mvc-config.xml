@@ -16,6 +16,12 @@
 	   http://www.springframework.org/schema/context
 	   http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <!--
+        mvc:annotation-driven configures Spring MVC annotations
+        Support for validating @Controller inputs with @Valid, if a JSR-303 Provider is present on the classpath.
+        HttpMessageConverter support for @RequestBody method parameters and @ResponseBody method return values
+        from @RequestMapping or @ExceptionHandler methods.
+     -->
     <mvc:annotation-driven/>
 
     <!-- activate @Transactional JPA annotation -->
@@ -61,5 +67,14 @@
     <mvc:view-controller path="/jstl.html" view-name="/jstl/jstl"/>
     <!-- Static Resources Configuration (get access to static sources such as CSS and JavaScript files) -->
     <mvc:resources mapping="/resources/**" location="/resources/"/>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/interceptorCall/*"/>
+            <!--need to use ' /** ' not ' /* ' if you want to intercept all requests.-->
+            <!--<mvc:mapping path="/**"/>-->
+            <bean class="ru.relesystem.interceptors.SiteInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
 </beans>

@@ -22,6 +22,7 @@ ru/relesystem/location/Workshop.class
 ru/relesystem/location/RailwayCrossing.class
 ru/relesystem/interfaces/Shelve.class
 ru/relesystem/file/FileUploadController.class
+ru/relesystem/jstl/JSTLController.class
 ru/relesystem/enums/Department.class
 ru/relesystem/entities/person/Worker.class
 ru/relesystem/excelpdf/PDFDocument.class
@@ -29,7 +30,6 @@ ru/relesystem/location/RelayBoard.class
 ru/relesystem/PersonMock.class
 ru/relesystem/email/EmailController.class
 ru/relesystem/entities/storage/Storage.class
-ru/relesystem/controllers/JSTLController.class
 ru/relesystem/location/Stativ.class
 ru/relesystem/entities/Relay.class
 ru/relesystem/location/RailwayPoint.class

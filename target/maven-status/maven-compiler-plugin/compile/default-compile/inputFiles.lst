@@ -13,6 +13,7 @@
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/excelpdf/ExcelPDFController.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/security/SecurityController.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/file/FileUploadController.java
+/home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/jstl/JSTLController.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interfaces/EditRele.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interfaces/ReleSearch.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/entities/storage/Storage.java
@@ -24,7 +25,6 @@
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/location/Workshop.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interfaces/Location.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/entities/User.java
-/home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/controllers/JSTLController.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/entities/location/Station.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/interfaces/Person.java
 /home/alex/IdeaProjects/ReleStorageSystemSSH/src/main/java/ru/relesystem/location/Stativ.java

@@ -43,15 +43,16 @@
                 </div>
                 <!-- Content Column -->
                 <div class="col-md-9">
-                    <c:if test="${not empty resultObject}">
+                    <c:if test="${not empty jstlResultObject}">
                         Result:
                         <p>${jstlRelay}</p>
                     </c:if>
 
-                    <c:if test="${not empty resultObjectList}">
+                    <c:if test="${not empty jstlResultObjectList}">
                         <b>Result List:</b>
                         <table>
-                            <c:forEach var="relayVar" items="#{resultObjectList}">
+                            <%--@elvariable id="jstlResultObjectList" type="java.util.List"--%>
+                            <c:forEach var="relayVar" items="#{jstlResultObjectList}">
                                 <tr>
                                     <td><b>idRelay </b></td>
                                     <td><c:out value="${relayVar.id}"/></td>
@@ -70,10 +71,10 @@
                         </table>
                     </c:if>
 
-                    <c:if test="${not empty resultHTML}">
-                        <p>With <b>escapeXml='false'</b>: <c:out value="${jstlHTML}" escapeXml="false"/></p>
+                    <c:if test="${not empty jstlResultHTML}">
+                        <p>With <b>escapeXml='false'</b>: <c:out value="${jstlResultHTML}" escapeXml="false"/></p>
 
-                        <p>With <b>escapeXml='true'</b> : <c:out value="${jstlHTML}" escapeXml="true"/></p>
+                        <p>With <b>escapeXml='true'</b> : <c:out value="${jstlResultHTML}" escapeXml="true"/></p>
 
                     </c:if>
 

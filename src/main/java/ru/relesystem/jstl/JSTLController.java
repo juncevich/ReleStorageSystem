@@ -16,32 +16,27 @@ import java.util.List;
 @Controller
 public class JSTLController {
 
-
+    @Autowired
+    @Qualifier("jpaRelayService")
     private RelayService relayService;
 
     @RequestMapping(value = "/jstlReturnRelays", method = RequestMethod.GET)
-    public ModelAndView listRelays() {
+    public ModelAndView jstlListRelays() {
         List<Relay> relayList = relayService.findAll();
-        return new ModelAndView("jstl/jstl", "resultObjectList", relayList);
+        return new ModelAndView("jstl/jstl", "jstlResultObjectList", relayList);
     }
 
     @RequestMapping(value="/jstlRelay", method=RequestMethod.GET)
-    public ModelAndView getRelay() {;
-        return new ModelAndView("jstl/jstl", "resultObject", relayService.findById(1L));
+    public ModelAndView jstlGetRelay() {;
+
+        return new ModelAndView("jstl/jstl", "jstlResultObject", relayService.findById(1L));
     }
 
     @RequestMapping(value="/jstlHTML", method=RequestMethod.GET)
     public ModelAndView returnHTML(Model uiModel) {
         String html = "<font color='red'><b>Test Color Red</b></font>";
         uiModel.addAttribute(html);
-        return new ModelAndView("jstl/jstl", "resultHTML", html);
-    }
-
-
-    @Autowired
-    @Qualifier("jpaRelayService")
-    public void setRelayService( RelayService relayService) {
-        this.relayService = relayService;
+        return new ModelAndView("jstl/jstl", "jstlResultHTML", html);
     }
 
 }
