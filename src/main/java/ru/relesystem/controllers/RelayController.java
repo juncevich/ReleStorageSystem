@@ -42,8 +42,9 @@ public class RelayController {
         return new ModelAndView("/relays/relays", "resultObject", relay);
     }
 
-    @Qualifier("jpaRelayService")
+
     @Autowired
+    @Qualifier("jpaRelayService")
     public void setRelayService( RelayService relayService) {
         this.relayService = relayService;
     }
