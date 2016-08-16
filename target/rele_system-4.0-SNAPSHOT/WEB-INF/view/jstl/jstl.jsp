@@ -45,27 +45,29 @@
                 <div class="col-md-9">
                     <c:if test="${not empty jstlResultObject}">
                         Result:
-                        <p>${jstlRelay}</p>
+                        <p>${jstlResultObject}</p>
                     </c:if>
 
-                    <c:if test="${not empty jstlResultObjectList}">
+                    <c:if test="${not empty jstlResultRelays}">
                         <b>Result List:</b>
                         <table>
 
-                            <c:forEach var="relayVar" items="#{jstlResultObjectList}">
+                            <c:forEach var="relayVar" items="#{jstlResultRelays}">
                                 <tr>
-                                    <td><b>idRelay </b></td>
+                                    <td><b>idRelay: </b></td>
                                     <td><c:out value="${relayVar.id}"/></td>
                                 </tr>
                                 <tr>
-                                    <td><b>username: </b></td>
+                                    <td><b>number: </b></td>
                                     <td><c:out value="${relayVar.number}"/></td>
                                 </tr>
                                 <tr>
-                                    <td><b>password: </b></td>
+                                    <td><b>type: </b></td>
                                     <td><c:out value="${relayVar.type}"/></td>
                                 </tr>
-                                <tr><td><b style="color:green">End user with id:${relayVar.id}</b></td></tr>
+
+
+                                <tr><td><b style="color:green">End user with id:${relayVar}</b></td></tr>
                                 <tr><td> <br /></td></tr>
                             </c:forEach>
                         </table>

@@ -6,15 +6,12 @@
 
 
 <c:url value="/file.html" var="file"/>
-<c:url value="/jdbc.html" var="jdbc"/>
+
 <c:url value="/email.html" var="email" />
-<c:url value="/rest.html" var="rest" />
-<c:url value="/orm.html" var="orm" />
 <c:url value="/runtimeException.html" var="runtimeException" />
 <c:url value="/jstl.html" var="jstl" />
 <c:url value="/redirectExample" var="redirectExample" />
 <c:url value="/scope.html" var="scope" />
-<c:url value="/cookie.html" var="cookieView" />
 <c:url value="/security.html" var="security" />
 <c:url value="/angularIndex.html" var="angularIndex" />
 <c:url value="/angularjson.html" var="angularjson" />
@@ -31,7 +28,6 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><spring:message code="navMenu.home"/></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -42,29 +38,29 @@
                 <c:if test="${not isUSer}">
                     <li style="padding-top: 15px; padding-bottom: 15px; color: red">
                         <c:if test="${empty param.error}">
-                            <spring:message code="navMenu.notLogin"/>
+
                         </c:if>
                     </li>
-                    <li> <a style="color: Green;" href="<c:url value="/login.html"/>"><spring:message code="navMenu.login"/></a> </li>
+                    <li> <a style="color: Green;" href="<c:url value="/login.html"/>"></a> </li>
                 </c:if>
 
 
 
                 <c:if test="${isUSer}">
                     <li style="padding-top: 15px; padding-bottom: 15px; color: green">
-                        <spring:message code="navMenu.existLogin"/>
-                        <security:authentication property="principal.username"/>  <spring:message code="navMenu.existLoginRole"/>
+
+                        <security:authentication property="principal.username"/>
                         <b><security:authentication property="principal.authorities"/></b>
 
                     </li>
-                    <li> <a style="color: red;" href="<c:url value="/j_spring_security_logout"/>"><spring:message code="navMenu.logout"/></a> </li>
+                    <li> <a style="color: red;" href="<c:url value="/j_spring_security_logout"/>"></a> </li>
                 </c:if>
 
 
                 <c:url value="/about.html" var="about"/>
-                <li><a href="${about}"><spring:message code="navMenu.about"/></a></li>
+                <li><a href="${about}"></a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><spring:message code="navMenu.tutorial"/><b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="${file}">Загрузка файла PDF и Excel</a>
@@ -102,7 +98,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="angularIndex" class="dropdown-toggle" data-toggle="dropdown"><spring:message code="navMenu.angularjs"/><b class="caret"></b> </a>
+                    <a href="angularIndex" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b> </a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="${angularIndex}">Содержание тем AngularJS</a>

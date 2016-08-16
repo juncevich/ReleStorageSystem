@@ -7,7 +7,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+import ru.relesystem.entities.Relay;
 import ru.relesystem.services.RelayService;
+
+import java.util.List;
 
 
 @Controller
@@ -17,14 +20,18 @@ public class JSTLController {
     @Qualifier("jpaRelayService")
     private RelayService relayService;
 
-    @RequestMapping(value = "/jstlReturnRelays", method = RequestMethod.GET)
+    @RequestMapping(value="/jstlReturnRelays", method = RequestMethod.GET)
     public ModelAndView retirnListRelays() {
-        return new ModelAndView("jstl/jstl", "jstlReturnRelays", relayService.findAll());
+        List<Relay> relays = relayService.findAll();
+
+        return new ModelAndView("/jstl/jstl", "jstlResultRelays", relays);
     }
 
     @RequestMapping(value="/jstlRelay", method=RequestMethod.GET)
-    public ModelAndView returnRelay() {
-        return new ModelAndView("jstl/jstl", "jstlResultObject", relayService.findById(1L));
+    public ModelAndView returnRelay(Model uiModel) {
+        Relay relay = relayService.findById(1L);
+        uiModel.addAttribute("relay", relay);
+        return new ModelAndView("/jstl/jstl", "jstlResultObject", relay);
     }
 
     @RequestMapping(value="/jstlHTML", method=RequestMethod.GET)
