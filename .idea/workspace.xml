@@ -2,225 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c6ca1e6-df79-44c0-b05f-4224a2297440" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/redirect/RedirectController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/scope/ScopeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/scope/scope.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/mvc-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/view/jstl/jstl.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/META-INF/spring/datasource-tx-jpa.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/META-INF/sql/schema.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/META-INF/sql/test-data.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/config/mvc-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/javastudy/mvcHtml5Angular/mvc/security/SecurityController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/PersonMock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/SpringJPASample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/controllers/RelayController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/email/EmailController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/email/EmailModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/email/EmailService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/email/EmailService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/entities/Relay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/entities/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/entities/location/Location.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/entities/location/Station.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/entities/person/Engineer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/entities/person/Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/entities/person/Worker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/entities/storage/Stativ.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/entities/storage/Storage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/enums/Department.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/enums/Profession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/excelpdf/Cat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/excelpdf/ExcelDocument.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/excelpdf/ExcelPDFController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/excelpdf/PDFDocument.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/exception/ExceptionController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/exception/ExceptionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/file/FileUploadController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interceptors/InterceptorController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interceptors/SiteInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/EditRele.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/Feedback.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/Location.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/ReleSearch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/SecureLibrary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/Shelve.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/interfaces/ShowRele.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/jstl/JSTLController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/RailwayCrossing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/RailwayPoint.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/RelayBoard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/StandartShelve.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Station.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Stativ.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Unit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/location/Workshop.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/services/RelayService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/services/RelayServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/util.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/view/jstl/jstl.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/config/application-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/config/excel-pdf-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/config/mvc-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/config/security-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/email-templates/registered.vm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/bcmail-jdk14-138.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk14-138.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/commons-lang-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/guava-19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/h2-1.3.172.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-4.0.2.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/hibernate-core-4.2.3.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-4.2.3.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/hsqldb-2.3.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/itext-2.1.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/javassist-3.15.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/jetty-http-9.3.9.v20160517.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/jetty-io-9.3.9.v20160517.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/jetty-security-9.3.9.v20160517.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/jetty-server-9.3.9.v20160517.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/jetty-servlet-9.3.9.v20160517.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/jetty-util-9.3.9.v20160517.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/joda-time-2.9.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/joda-time-jsptags-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/jsr250-api-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.0.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/logback-core-1.0.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/mail-1.4.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-6.0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/poi-3.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.2.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-4.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-security-config-4.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-security-core-4.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-4.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-security-web-4.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/usertype.core-5.0.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/usertype.spi-5.0.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/lib/velocity-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/spring/root-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/tags/template.tag" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/about/about.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/email/email.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/error/error.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/error/errorpage.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/error/errorstatus.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/error/exception.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/file/file.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/form/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/jstl/jstl.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/relays/relays.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/security/admin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/security/profile.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/security/security.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/html5style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/modern-business.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/signin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/css/starter-template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/screen-reader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_screen-reader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/images/Java Api Mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/images/PDF Excel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/images/Srping_Security.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/images/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/images/angularjs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/images/indexImage1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/images/java-exception-handling.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/images/spring hibernate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/images/springmvc angular.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/js/contact_me.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/js/jqBootstrapValidation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/js/jquery-2.1.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/resources/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/security-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/config/security-config.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/relesystem/jstl/JSTLController.class" afterPath="$PROJECT_DIR$/target/classes/ru/relesystem/jstl/JSTLController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/jstl/JSTLController.class" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/classes/ru/relesystem/jstl/JSTLController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/relesystem/jstl/JSTLController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/relesystem/jstl/JSTLController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/file/file.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/file/file.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jstl/jstl.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jstl/jstl.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/jstl/jstl.jsp" afterPath="$PROJECT_DIR$/target/rele_system-4.0-SNAPSHOT/WEB-INF/view/jstl/jstl.jsp" />
     </list>
     <ignored path="ReleStorageSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -260,16 +51,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jstl.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jstl/jstl.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RedirectController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/redirect/RedirectController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -282,14 +63,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScopeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/scope/ScopeController.java">
+      <file leaf-file-name="jstl.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jstl/jstl.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -297,8 +76,8 @@
       <file leaf-file-name="JSTLController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/jstl/JSTLController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="136">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -306,31 +85,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.tag" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mvc-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="379">
+              <caret line="71" column="86" selection-start-line="71" selection-start-column="86" selection-end-line="71" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="173" column="10" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/about/about.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -360,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/dao/ReleDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/dao/StationDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/dao/StationDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/dao/StativDAO.java" />
@@ -400,17 +178,18 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/controllers/JSTLController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jstl/jstl.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/interceptors/SiteInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/interceptors/InterceptorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/redirect/RedirectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/scope/ScopeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/scope/scope.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/file/file.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/jstl/JSTLController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/security-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jstl/jstl.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/relesystem/jstl/JSTLController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
       </list>
     </option>
   </component>
@@ -1478,12 +1257,12 @@
       <workItem from="1471152100326" duration="624000" />
       <workItem from="1471268128773" duration="13153000" />
       <workItem from="1471291893098" duration="1008000" />
-      <workItem from="1471352001001" duration="10819000" />
+      <workItem from="1471352001001" duration="12738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161307000" />
+    <option name="totallyTimeSpent" value="163226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1553" height="876" extended-state="6" />
@@ -1508,10 +1287,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4922879" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.376" sideWeight="0.48971465" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.376" sideWeight="0.48971465" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28933334" sideWeight="0.4922879" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28933334" sideWeight="0.4922879" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15461181" sideWeight="0.50695825" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1725282" sideWeight="0.49304175" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1609,12 +1388,6 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jstl/jstl.jsp</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="14" />
     </breakpoint-manager>
@@ -1625,7 +1398,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/relays/list.jspx" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1790,6 +1562,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1900,24 +1673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jstl/jstl.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/redirect/RedirectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/file/file.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1934,34 +1689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/jstl/JSTLController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/scope/ScopeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/security-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
@@ -1970,14 +1697,6 @@
             <marker date="1471365621979" expanded="true" signature="2037:2098" ph="SELECT USERN... USER" />
             <marker date="1471365621979" expanded="true" signature="2154:2270" ph="SELECT U.USE... AUTHORITIES" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1993,6 +1712,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/scope/ScopeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/redirect/RedirectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jstl/jstl.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/relesystem/jstl/JSTLController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/mvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="71" column="86" selection-start-line="71" selection-start-column="86" selection-end-line="71" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="173" column="10" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/about/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>

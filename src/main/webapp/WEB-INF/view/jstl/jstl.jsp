@@ -51,7 +51,7 @@
                     <c:if test="${not empty jstlResultObjectList}">
                         <b>Result List:</b>
                         <table>
-                            <%--@elvariable id="jstlResultObjectList" type="java.util.List"--%>
+
                             <c:forEach var="relayVar" items="#{jstlResultObjectList}">
                                 <tr>
                                     <td><b>idRelay </b></td>
