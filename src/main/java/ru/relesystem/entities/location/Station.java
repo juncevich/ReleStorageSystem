@@ -2,7 +2,12 @@ package ru.relesystem.entities.location;
 
 import ru.relesystem.entities.storage.Stativ;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,8 +20,13 @@ import java.util.List;
                 query = "select s from Station s "),
 })
 public class Station extends Location {
-
+    /**
+     * Название станции
+     */
     private String stationName;
+    /**
+     * Список стативов на станции
+     */
     private List<Stativ> storageList = new ArrayList<>();
 
     public Station() {
