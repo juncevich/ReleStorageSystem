@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @MappedSuperclass
-public class Person implements Serializable{
+class Person implements Serializable{
     private int id;
     private int version;
     private long stuffId;

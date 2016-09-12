@@ -17,7 +17,7 @@ import java.util.List;
 public class Station extends Location {
 
     private String stationName;
-    List<Stativ> storageList = new ArrayList<>();
+    private List<Stativ> storageList = new ArrayList<>();
 
     public Station() {
     }

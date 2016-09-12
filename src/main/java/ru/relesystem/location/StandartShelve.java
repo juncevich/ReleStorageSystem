@@ -13,7 +13,7 @@ public class StandartShelve implements Shelve {
     /**
      * One shelve may have maximum eight relays.
      */
-    Relay[] shelveStorage = new Relay[8];
+    private Relay[] shelveStorage = new Relay[8];
 
     /**
      * Add relay to the shelve by index.

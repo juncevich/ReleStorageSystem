@@ -7,9 +7,9 @@ import org.junit.Test;
 
 public class UserTest {
 
-    User userWithEmptyConstructor = new User();
-    User getUserWithNotEmptyConstructor = new User("TestUser", "TestPassword", "TestGroup");
-    User userSettersTest = new User();
+    private User userWithEmptyConstructor = new User();
+    private User getUserWithNotEmptyConstructor = new User("TestUser", "TestPassword", "TestGroup");
+    private User userSettersTest = new User();
     @Test
     public void testEmptyConstructor() throws Exception{
 

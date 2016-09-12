@@ -7,7 +7,7 @@ import ru.relesystem.services.RelayService;
 
 import java.util.List;
 
-public class SpringJPASample {
+class SpringJPASample {
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.load("classpath:META-INF/spring/datasource-tx-jpa.xml");

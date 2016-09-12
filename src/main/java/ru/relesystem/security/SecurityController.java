@@ -13,7 +13,7 @@ import javax.annotation.security.RolesAllowed;
  * Created for JavaStudy.ru on 04.03.2016.
  */
 @Controller
-public class SecurityController {
+class SecurityController {
 
     //JSR-250 Security
     @RolesAllowed(value={"ROLE_SUPER_USER", "ROLE_ADMIN"})

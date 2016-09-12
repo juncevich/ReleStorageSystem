@@ -3,7 +3,7 @@ package ru.relesystem.email;
 /**
  * Created for JavaStudy.ru on 28.02.2016.
  */
-public class EmailModel {
+class EmailModel {
 
     private String name;
     private String email;

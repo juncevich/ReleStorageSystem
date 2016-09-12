@@ -57,7 +57,7 @@ public class ExcelDocument extends AbstractExcelView {
         }
 
     }
-    public void setExcelHeader(HSSFSheet excelSheet, CellStyle styleHeader) {
+    private void setExcelHeader(HSSFSheet excelSheet, CellStyle styleHeader) {
         //set Excel Header names
         HSSFRow header = excelSheet.createRow(0);
         header.createCell(0).setCellValue("Name");

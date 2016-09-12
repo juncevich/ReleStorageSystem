@@ -10,7 +10,7 @@ import ru.relesystem.interfaces.Shelve;
  * Each shelve has maximum eight connectors to connect the relay.
  */
 public class RelayBoard implements Location {
-    Shelve[] relayBoardStorage = new Shelve[5];
+    private Shelve[] relayBoardStorage = new Shelve[5];
 
     public void addRelay(int numberShelve, int relayPosition, Relay currentRelay) {
         relayBoardStorage[numberShelve].addRelay(relayPosition, currentRelay);

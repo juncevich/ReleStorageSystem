@@ -17,7 +17,7 @@ import java.util.List;
  * Created for JavaStudy.ru on 28.02.2016.
  */
 @Controller
-public class RestController {
+class RestController {
 
     @Autowired
     private DBLogService dbLogService;

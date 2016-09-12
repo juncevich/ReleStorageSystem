@@ -27,17 +27,15 @@ public class RelayServiceImpl implements RelayService{
     @Transactional(readOnly=true)
     @Override
     public List<Relay> findAll() {
-        List<Relay> relays = em.createNamedQuery("Relay.findAll",
+        return em.createNamedQuery("Relay.findAll",
                 Relay.class).getResultList();
-        return relays;
     }
 
     @Transactional(readOnly=true)
     @Override
     public List<Relay> findAllWithDetail() {
-        List<Relay> relays = em.createNamedQuery(
+        return em.createNamedQuery(
                 "Relay.findAllWithDetail", Relay.class).getResultList();
-        return relays;
     }
 
     @Transactional(readOnly=true)

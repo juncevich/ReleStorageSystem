@@ -227,7 +227,7 @@ function recordAPPArg(arg1, arg2) {
 
 function jvmMainArgsFor(value) {
     var valueStr = new String(value);
-    var earEnding = /.ear$/
+    var earEnding = /.ear$/;
     if (valueStr.match(earEnding)) {
         return "-jar " + accJar;
     } else {

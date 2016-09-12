@@ -5,7 +5,7 @@ import javax.persistence.*;
 @MappedSuperclass
 @Inheritance(strategy = InheritanceType.JOINED)
 @Table(name = "storaged")
-public class Storage {
+class Storage {
     private int id;
     private int version;
 

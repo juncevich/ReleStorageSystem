@@ -9,7 +9,7 @@ import java.util.HashMap;
  *
  */
 public class RailwayCrossing {
-    HashMap<Integer, RelayBoard> boards;
+    private HashMap<Integer, RelayBoard> boards;
 
     public void addRelay(int boardNumber, int numberShelve, int relayPosition, Relay currentRelay) {
     boards.get(boardNumber).addRelay(numberShelve, relayPosition, currentRelay);

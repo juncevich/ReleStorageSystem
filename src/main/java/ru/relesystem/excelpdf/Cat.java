@@ -1,7 +1,7 @@
 package ru.relesystem.excelpdf;
 
 
-public class Cat {
+class Cat {
 
 
     private String name;
