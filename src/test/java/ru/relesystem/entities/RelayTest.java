@@ -20,6 +20,9 @@ public class RelayTest {
 //        Assert.assertThat(relayWithEmptyConstructor.getManufactureDate(), CoreMatchers.is((Date) null));
 //        Assert.assertThat(relayWithEmptyConstructor.getResponsiblePerson(), CoreMatchers.is((Person) null));
     }
+    
+    
+    
 
 
 }
