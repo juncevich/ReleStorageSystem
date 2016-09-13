@@ -20,8 +20,11 @@ public class EmailController {
     @Autowired
     EmailService emailService;
 
-    @RequestMapping(value = "/email/send", method = RequestMethod.POST)
-    public ModelAndView email(@ModelAttribute("emailModel") EmailModel emailModel) {
+    @RequestMapping(value = "/email/send",
+            method = RequestMethod.POST)
+    public ModelAndView email(
+            @ModelAttribute("emailModel") EmailModel emailModel) {
+
         System.out.println("EmailController email is called");
         Map<String, Object> model = new HashMap<>();
         model.put(EmailService.FROM, "javastudy@mvc.app");
@@ -34,8 +37,8 @@ public class EmailController {
         model.put("message", emailModel.getMessage());
         boolean result = emailService.sendEmail("registered.vm", model);
         //use redirect or you will send email after every refresh page.
-        return new ModelAndView("redirect:/email.html", "resultSending", result);
+        return new ModelAndView("redirect:/email.html", "resultSending",
+                result);
     }
-
 
 }

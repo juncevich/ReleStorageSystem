@@ -21,12 +21,16 @@ public class EmailService {
 
     /*Email From*/
     public static final String FROM = "from";
+
     /*Email To*/
     private static final String TO = "to";
+
     /*Email Subject*/
     private static final String SUBJECT = "subject";
+
     /*Email BCC*/
     private static final String BCC_LIST = "bccList";
+
     /*Email CCC*/
     public static final String CCC_LIST = "ccList";
 
@@ -36,21 +40,25 @@ public class EmailService {
     @Autowired
     private VelocityEngine velocityEngine; //see application-context.xml
 
+    public boolean sendEmail(final String templateName,
+            final Map<String, Object> model) {
 
-    public boolean sendEmail (final String templateName, final Map<String, Object> model) {
         boolean res = false;
         try {
             MimeMessagePreparator preparator = new MimeMessagePreparator() {
 
                 @Override
                 public void prepare(MimeMessage mimeMessage) throws Exception {
+
                     String from = (String) model.get(FROM);
                     String to = (String) model.get(TO);
                     String subject = (String) model.get(SUBJECT);
 
                     List<String> bccList = (List<String>) model.get(BCC_LIST);
                     //ВАЖНО! ПОСТАВЬТЕ КОДИРОВКУ UTF-8 ИЛИ СООБЩЕНИЯ БУДУТ ?????? ??
-                    MimeMessageHelper message = new MimeMessageHelper(mimeMessage, "UTF-8"); //ENCODING IMPORTANT!
+                    MimeMessageHelper message =
+                            new MimeMessageHelper(mimeMessage,
+                                    "UTF-8"); //ENCODING IMPORTANT!
                     message.setFrom(from);
                     message.setTo(to);
                     message.setSubject(subject);
@@ -62,10 +70,11 @@ public class EmailService {
                     }
 
                     model.put("noArgs", new Object());
-                    String text = VelocityEngineUtils.mergeTemplateIntoString(
-                            velocityEngine, templateName, "UTF-8", model);
+                    String text = VelocityEngineUtils
+                            .mergeTemplateIntoString(velocityEngine,
+                                    templateName, "UTF-8", model);
 
-                    message.setText(text,true);
+                    message.setText(text, true);
                 }
             };
 

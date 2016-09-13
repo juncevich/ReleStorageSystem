@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EclipseCodeFormatter">
+    <option name="id" value="1473783167767" />
+    <option name="name" value="Area51" />
+    <option name="optimizeImports" value="false" />
+    <option name="pathToConfigFileJava" value="$USER_HOME$/Documents/idea.config-master/codestyles/Area 51 Rules.xml" />
+    <option name="useForLiveTemplates" value="true" />
+  </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>

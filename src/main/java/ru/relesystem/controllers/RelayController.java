@@ -15,16 +15,18 @@ import ru.relesystem.services.RelayService;
 
 import java.util.List;
 
-
 @Controller
 public class RelayController {
-    private final Logger logger = LoggerFactory.getLogger(RelayController.class);
+
+    private final Logger logger =
+            LoggerFactory.getLogger(RelayController.class);
 
     private RelayService relayService;
 
-
-    @RequestMapping(value = "/listRelays", method= RequestMethod.GET)
+    @RequestMapping(value = "/listRelays",
+            method = RequestMethod.GET)
     public ModelAndView listRelays(Model uiModel) {
+
         logger.info("Listing relays");
 
         List<Relay> relays = relayService.findAll();
@@ -35,17 +37,20 @@ public class RelayController {
         return new ModelAndView("/relays/relays", "resultObject", relays);
     }
 
-    @RequestMapping(value = "/queryFindByIdRelay/{realayid}", method = RequestMethod.GET)
-    public ModelAndView queryFindByIdUser(@PathVariable("realayid") Long relayid) {
+    @RequestMapping(value = "/queryFindByIdRelay/{realayid}",
+            method = RequestMethod.GET)
+    public ModelAndView queryFindByIdUser(
+            @PathVariable("realayid") Long relayid) {
+
         System.out.println("RelayController queryFindByIdRelay is called");
         Relay relay = relayService.findById(relayid);
         return new ModelAndView("/relays/relays", "resultObject", relay);
     }
 
-
     @Autowired
     @Qualifier("jpaRelayService")
-    public void setRelayService( RelayService relayService) {
+    public void setRelayService(RelayService relayService) {
+
         this.relayService = relayService;
     }
 
