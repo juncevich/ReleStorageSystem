@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class RelayTest {
+
 	private final Relay relayWithEmptyConstructor = new Relay();
 
 	@Test
@@ -21,6 +22,13 @@ public class RelayTest {
 		// CoreMatchers.is((Date) null));
 		// Assert.assertThat(relayWithEmptyConstructor.getResponsiblePerson(),
 		// CoreMatchers.is((Person) null));
+	}
+
+	@Test
+	public void testNewRelay() {
+		Relay relay = new Relay();
+		relay.setNumber(12345);
+		Assert.assertEquals("12345", relay.getNumber().toString());
 	}
 
 }

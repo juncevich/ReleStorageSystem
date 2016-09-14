@@ -27,6 +27,8 @@ import ru.relesystem.entities.storage.Stativ;
 @Table(name = "RELAY")
 @NamedQueries({@NamedQuery(name = "Relay.findAll", query = "select r from Relay r"),
 		@NamedQuery(name = "Relay.findById", query = "select r from Relay r where r.id = :id"),
+		@NamedQuery(name = "Relay.findBySerialNumber", query = "select r from Relay r where r.number = :number"),
+		@NamedQuery(name = "Relay.findByStativNumber", query = "select r from Relay r where r.stativ.num = :stativNumber"),
 		@NamedQuery(name = "Relay.findAllWithDetail", query = "select r from Relay r ")})
 public class Relay implements Serializable {
 
@@ -74,14 +76,18 @@ public class Relay implements Serializable {
 	public Relay() {
 	}
 
+	@Override
+	public String toString() {
+		return "Relay - Id: " + id + ", version " + version + ", Type: " + type + ", number " + number
+				+ ",shelve position: " + shelvePosition + ", manufacture date: " + manufactureDate
+				+ ", last service date: " + lastServiceDate + ", next service date: " + nextServiceDate + ", stativ: ";
+
+	}
+
 	@ManyToOne
 	@JoinColumn(name = "STATIV_ID")
 	public Stativ getStativ() {
 		return stativ;
-	}
-
-	public void setStativ(Stativ stativ) {
-		this.stativ = stativ;
 	}
 
 	@Id
@@ -91,18 +97,10 @@ public class Relay implements Serializable {
 		return id;
 	}
 
-	public void setId(Long id) {
-		this.id = id;
-	}
-
 	@Version
 	@Column(name = "VERSION")
 	public int getVersion() {
 		return version;
-	}
-
-	public void setVersion(int version) {
-		this.version = version;
 	}
 
 	/**
@@ -116,14 +114,6 @@ public class Relay implements Serializable {
 	}
 
 	/**
-	 * @param number
-	 *            number consists of nine characters.
-	 */
-	public void setNumber(Integer number) {
-		this.number = number;
-	}
-
-	/**
 	 * Returns the type corresponding to this user.
 	 *
 	 * @return the type corresponding to this user.
@@ -133,23 +123,9 @@ public class Relay implements Serializable {
 		return type;
 	}
 
-	/**
-	 * Set the type corresponding to this user.
-	 *
-	 * @param type
-	 *            corresponding to this user.
-	 */
-	public void setType(String type) {
-		this.type = type;
-	}
-
 	@Column(name = "SHELVE_POSITION")
 	public int getShelvePosition() {
 		return shelvePosition;
-	}
-
-	public void setShelvePosition(int shelvePosition) {
-		this.shelvePosition = shelvePosition;
 	}
 
 	/**
@@ -166,16 +142,6 @@ public class Relay implements Serializable {
 	}
 
 	/**
-	 * Set the lastServiceDate corresponding to this user.
-	 *
-	 * @param lastServiceDate
-	 *            corresponding to this user.
-	 */
-	public void setLastServiceDate(DateTime lastServiceDate) {
-		this.lastServiceDate = lastServiceDate;
-	}
-
-	/**
 	 * Returns the nextServiceDate corresponding to this user.
 	 *
 	 * @return the nextServiceDate corresponding to this user.
@@ -186,16 +152,6 @@ public class Relay implements Serializable {
 	public DateTime getNextServiceDate() {
 
 		return this.nextServiceDate;
-	}
-
-	/**
-	 * Set the nextServiceDate corresponding to this user.
-	 *
-	 * @param nextServiceDate
-	 *            corresponding to this user.
-	 */
-	public void setNextServiceDate(DateTime nextServiceDate) {
-		this.nextServiceDate = nextServiceDate;
 	}
 
 	/**
@@ -211,6 +167,70 @@ public class Relay implements Serializable {
 	}
 
 	/**
+	 * Returns the responsiblePerson corresponding to this user.
+	 *
+	 * @return the responsiblePerson corresponding to this user.
+	 */
+	@Column(name = "RESPONSIBLE_PERSON")
+	public String getResponsiblePerson() {
+		return responsiblePerson;
+	}
+
+	public void setStativ(Stativ stativ) {
+		this.stativ = stativ;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public void setVersion(int version) {
+		this.version = version;
+	}
+
+	/**
+	 * @param number
+	 *            number consists of nine characters.
+	 */
+	public void setNumber(Integer number) {
+		this.number = number;
+	}
+
+	/**
+	 * Set the type corresponding to this user.
+	 *
+	 * @param type
+	 *            corresponding to this user.
+	 */
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public void setShelvePosition(int shelvePosition) {
+		this.shelvePosition = shelvePosition;
+	}
+
+	/**
+	 * Set the lastServiceDate corresponding to this user.
+	 *
+	 * @param lastServiceDate
+	 *            corresponding to this user.
+	 */
+	public void setLastServiceDate(DateTime lastServiceDate) {
+		this.lastServiceDate = lastServiceDate;
+	}
+
+	/**
+	 * Set the nextServiceDate corresponding to this user.
+	 *
+	 * @param nextServiceDate
+	 *            corresponding to this user.
+	 */
+	public void setNextServiceDate(DateTime nextServiceDate) {
+		this.nextServiceDate = nextServiceDate;
+	}
+
+	/**
 	 * Set the manufactureDate corresponding to this user.
 	 *
 	 * @param manufactureDate
@@ -221,16 +241,6 @@ public class Relay implements Serializable {
 	}
 
 	/**
-	 * Returns the responsiblePerson corresponding to this user.
-	 *
-	 * @return the responsiblePerson corresponding to this user.
-	 */
-	@Column(name = "RESPONSIBLE_PERSON")
-	public String getResponsiblePerson() {
-		return responsiblePerson;
-	}
-
-	/**
 	 * Set the responsiblePerson corresponding to this user.
 	 *
 	 * @param responsiblePerson
@@ -238,13 +248,5 @@ public class Relay implements Serializable {
 	 */
 	public void setResponsiblePerson(String responsiblePerson) {
 		this.responsiblePerson = responsiblePerson;
-	}
-
-	@Override
-	public String toString() {
-		return "Relay - Id: " + id + ", version " + version + ", Type: " + type + ", number " + number
-				+ ",shelve position: " + shelvePosition + ", manufacture date: " + manufactureDate
-				+ ", last service date: " + lastServiceDate + ", next service date: " + nextServiceDate + ", stativ: ";
-
 	}
 }
