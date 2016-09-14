@@ -1,7 +1,13 @@
-package ru.javastudy.mvcHtml5Angular.mvc.rest.model;
+package ru.relesystem.rest.model;
 
-import javax.persistence.*;
 import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * Created for JavaStudy.ru on 26.02.2016.

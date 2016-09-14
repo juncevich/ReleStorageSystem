@@ -1,84 +1,89 @@
 package ru.relesystem.entities.person;
 
-import ru.relesystem.enums.Profession;
-
-import javax.persistence.*;
 import java.io.Serializable;
 
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.MappedSuperclass;
+
+import ru.relesystem.enums.Profession;
+
 @MappedSuperclass
-class Person implements Serializable{
-    private int id;
-    private int version;
-    private long stuffId;
-    private String firstName;
-    private String secondName;
-    private String thirdName;
-    private Enum<Profession> post;
-    private byte[] photo;
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID")
-    public int getId() {
-        return id;
-    }
+class Person implements Serializable {
+	private int id;
+	private int version;
+	private long stuffId;
+	private String firstName;
+	private String secondName;
+	private String thirdName;
+	private Enum<Profession> post;
+	private byte[] photo;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "ID")
+	public int getId() {
+		return id;
+	}
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    public int getVersion() {
-        return version;
-    }
+	public int getVersion() {
+		return version;
+	}
 
-    public void setVersion(int version) {
-        this.version = version;
-    }
+	public void setVersion(int version) {
+		this.version = version;
+	}
 
-    public long getStuffId() {
-        return stuffId;
-    }
+	public long getStuffId() {
+		return stuffId;
+	}
 
-    public void setStuffId(long stuffId) {
-        this.stuffId = stuffId;
-    }
+	public void setStuffId(long stuffId) {
+		this.stuffId = stuffId;
+	}
 
-    public String getFirstName() {
-        return firstName;
-    }
+	public String getFirstName() {
+		return firstName;
+	}
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
 
-    public String getSecondName() {
-        return secondName;
-    }
+	public String getSecondName() {
+		return secondName;
+	}
 
-    public void setSecondName(String secondName) {
-        this.secondName = secondName;
-    }
+	public void setSecondName(String secondName) {
+		this.secondName = secondName;
+	}
 
-    public String getThirdName() {
-        return thirdName;
-    }
+	public String getThirdName() {
+		return thirdName;
+	}
 
-    public void setThirdName(String thirdName) {
-        this.thirdName = thirdName;
-    }
+	public void setThirdName(String thirdName) {
+		this.thirdName = thirdName;
+	}
 
-    public Enum<Profession> getPost() {
-        return post;
-    }
+	public Enum<Profession> getPost() {
+		return post;
+	}
 
-    public void setPost(Enum<Profession> post) {
-        this.post = post;
-    }
+	public void setPost(Enum<Profession> post) {
+		this.post = post;
+	}
 
-    public byte[] getPhoto() {
-        return photo;
-    }
+	public byte[] getPhoto() {
+		return photo;
+	}
 
-    public void setPhoto(byte[] photo) {
-        this.photo = photo;
-    }
+	public void setPhoto(byte[] photo) {
+		this.photo = photo;
+	}
 }

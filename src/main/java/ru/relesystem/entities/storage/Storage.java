@@ -6,28 +6,28 @@ import javax.persistence.*;
 @Inheritance(strategy = InheritanceType.JOINED)
 @Table(name = "storaged")
 class Storage {
-    private int id;
-    private int version;
+	private int id;
+	private int version;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "ID", updatable = false, nullable = false)
-    public int getId() {
-        return id;
-    }
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name = "ID", updatable = false, nullable = false)
+	public int getId() {
+		return id;
+	}
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    @Version
-    @Column(name = "VERSION")
-    public int getVersion() {
-        return version;
-    }
+	@Version
+	@Column(name = "VERSION")
+	public int getVersion() {
+		return version;
+	}
 
-    public void setVersion(int version) {
-        this.version = version;
-    }
+	public void setVersion(int version) {
+		this.version = version;
+	}
 
 }

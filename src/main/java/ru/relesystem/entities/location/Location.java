@@ -15,33 +15,33 @@ import javax.persistence.Version;
 @Table(name = "location")
 class Location {
 
-    private int id;
+	private int id;
 
-    private int version;
+	private int version;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "ID")
-    public int getId() {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name = "ID")
+	public int getId() {
 
-        return id;
-    }
+		return id;
+	}
 
-    public void setId(int id) {
+	public void setId(int id) {
 
-        this.id = id;
-    }
+		this.id = id;
+	}
 
-    @Version
-    @Column(name = "VERSION")
-    public int getVersion() {
+	@Version
+	@Column(name = "VERSION")
+	public int getVersion() {
 
-        return version;
-    }
+		return version;
+	}
 
-    public void setVersion(int version) {
+	public void setVersion(int version) {
 
-        this.version = version;
-    }
+		this.version = version;
+	}
 
 }

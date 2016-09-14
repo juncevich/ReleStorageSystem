@@ -1,4 +1,4 @@
-package ru.javastudy.mvcHtml5Angular.mvc.rest.model;
+package ru.relesystem.rest.model;
 
 /**
  * Created for JavaStudy.ru on 28.02.2016.

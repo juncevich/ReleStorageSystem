@@ -1,5 +1,11 @@
 package ru.relesystem.email;
 
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+
+import javax.mail.internet.MimeMessage;
+
 import org.apache.velocity.app.VelocityEngine;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -8,84 +14,77 @@ import org.springframework.mail.javamail.MimeMessagePreparator;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.velocity.VelocityEngineUtils;
 
-import javax.mail.internet.MimeMessage;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
-
 /**
  * Created for JavaStudy.ru on 28.02.2016.
  */
 @Service
 public class EmailService {
 
-    /*Email From*/
-    public static final String FROM = "from";
+	/* Email From */
+	public static final String FROM = "from";
 
-    /*Email To*/
-    private static final String TO = "to";
+	/* Email To */
+	private static final String TO = "to";
 
-    /*Email Subject*/
-    private static final String SUBJECT = "subject";
+	/* Email Subject */
+	private static final String SUBJECT = "subject";
 
-    /*Email BCC*/
-    private static final String BCC_LIST = "bccList";
+	/* Email BCC */
+	private static final String BCC_LIST = "bccList";
 
-    /*Email CCC*/
-    public static final String CCC_LIST = "ccList";
+	/* Email CCC */
+	public static final String CCC_LIST = "ccList";
 
-    @Autowired
-    private JavaMailSender mailSender; //see application-context.xml
+	@Autowired
+	private JavaMailSender mailSender; // see application-context.xml
 
-    @Autowired
-    private VelocityEngine velocityEngine; //see application-context.xml
+	@Autowired
+	private VelocityEngine velocityEngine; // see application-context.xml
 
-    public boolean sendEmail(final String templateName,
-            final Map<String, Object> model) {
+	public boolean sendEmail(final String templateName, final Map<String, Object> model) {
 
-        boolean res = false;
-        try {
-            MimeMessagePreparator preparator = new MimeMessagePreparator() {
+		boolean res = false;
+		try {
+			MimeMessagePreparator preparator = new MimeMessagePreparator() {
 
-                @Override
-                public void prepare(MimeMessage mimeMessage) throws Exception {
+				@Override
+				public void prepare(MimeMessage mimeMessage) throws Exception {
 
-                    String from = (String) model.get(FROM);
-                    String to = (String) model.get(TO);
-                    String subject = (String) model.get(SUBJECT);
+					String from = (String) model.get(FROM);
+					String to = (String) model.get(TO);
+					String subject = (String) model.get(SUBJECT);
 
-                    List<String> bccList = (List<String>) model.get(BCC_LIST);
-                    //ВАЖНО! ПОСТАВЬТЕ КОДИРОВКУ UTF-8 ИЛИ СООБЩЕНИЯ БУДУТ ?????? ??
-                    MimeMessageHelper message =
-                            new MimeMessageHelper(mimeMessage,
-                                    "UTF-8"); //ENCODING IMPORTANT!
-                    message.setFrom(from);
-                    message.setTo(to);
-                    message.setSubject(subject);
-                    message.setSentDate(new Date());
-                    if (bccList != null) {
-                        for (String bcc : bccList) {
-                            message.addBcc(bcc);
-                        }
-                    }
+					List<String> bccList = (List<String>) model.get(BCC_LIST);
+					// ВАЖНО! ПОСТАВЬТЕ КОДИРОВКУ UTF-8 ИЛИ СООБЩЕНИЯ БУДУТ
+					// ?????? ??
+					MimeMessageHelper message = new MimeMessageHelper(mimeMessage, "UTF-8"); // ENCODING
+																								// IMPORTANT!
+					message.setFrom(from);
+					message.setTo(to);
+					message.setSubject(subject);
+					message.setSentDate(new Date());
+					if (bccList != null) {
+						for (String bcc : bccList) {
+							message.addBcc(bcc);
+						}
+					}
 
-                    model.put("noArgs", new Object());
-                    String text = VelocityEngineUtils
-                            .mergeTemplateIntoString(velocityEngine,
-                                    templateName, "UTF-8", model);
+					model.put("noArgs", new Object());
+					String text = VelocityEngineUtils.mergeTemplateIntoString(velocityEngine, templateName, "UTF-8",
+							model);
 
-                    message.setText(text, true);
-                }
-            };
+					message.setText(text, true);
+				}
+			};
 
-            mailSender.send(preparator);
-            res = true;
+			mailSender.send(preparator);
+			res = true;
 
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
 
-        return res;
-    }
+		return res;
+	}
 
 }

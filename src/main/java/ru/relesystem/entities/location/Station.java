@@ -1,6 +1,7 @@
 package ru.relesystem.entities.location;
 
-import ru.relesystem.entities.storage.Stativ;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,67 +9,65 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import java.util.ArrayList;
-import java.util.List;
+
+import ru.relesystem.entities.storage.Stativ;
 
 @Entity
 @Table(name = "STATION")
-@NamedQueries({ @NamedQuery(name = "Station.findById",
-        query = "select s from Station s where s.id = :id"),
-        @NamedQuery(name = "Station.findAllWithDetail",
-                query = "select s from Station s "), })
+@NamedQueries({@NamedQuery(name = "Station.findById", query = "select s from Station s where s.id = :id"),
+		@NamedQuery(name = "Station.findAllWithDetail", query = "select s from Station s "),})
 public class Station extends Location {
 
-    /**
-     * Название станции
-     */
-    private String stationName;
+	/**
+	 * Название станции
+	 */
+	private String stationName;
 
-    /**
-     * Список стативов на станции
-     */
-    private List<Stativ> storageList = new ArrayList<>();
+	/**
+	 * Список стативов на станции
+	 */
+	private List<Stativ> storageList = new ArrayList<>();
 
-    public Station() {
+	public Station() {
 
-    }
+	}
 
-    @OneToMany(mappedBy = "station")
-    public List<Stativ> getStorageList() {
+	@OneToMany(mappedBy = "station")
+	public List<Stativ> getStorageList() {
 
-        return storageList;
-    }
+		return storageList;
+	}
 
-    public void setStorageList(List<Stativ> storageList) {
+	public void setStorageList(List<Stativ> storageList) {
 
-        this.storageList = storageList;
-    }
+		this.storageList = storageList;
+	}
 
-    @Column(name = "STATION_NAME")
-    public String getStationName() {
+	@Column(name = "STATION_NAME")
+	public String getStationName() {
 
-        return stationName;
-    }
+		return stationName;
+	}
 
-    public void setStationName(String stationName) {
+	public void setStationName(String stationName) {
 
-        this.stationName = stationName;
-    }
+		this.stationName = stationName;
+	}
 
-    public void addStativ(Stativ stativ) {
+	public void addStativ(Stativ stativ) {
 
-        stativ.setStation(this);
-        getStorageList().add(stativ);
-    }
+		stativ.setStation(this);
+		getStorageList().add(stativ);
+	}
 
-    public void removeStativ(Stativ stativ) {
+	public void removeStativ(Stativ stativ) {
 
-        getStorageList().remove(stativ);
-    }
+		getStorageList().remove(stativ);
+	}
 
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 
-        return "Station{" + "stationName='" + stationName + '\'' + '}';
-    }
+		return "Station{" + "stationName='" + stationName + '\'' + '}';
+	}
 }

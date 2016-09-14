@@ -1,4 +1,4 @@
-package ru.javastudy.mvcHtml5Angular.mvc.rest.model;
+package ru.relesystem.rest.model;
 
 import java.util.List;
 
