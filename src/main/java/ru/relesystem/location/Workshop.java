@@ -4,11 +4,11 @@ import ru.relesystem.entities.Relay;
 import ru.relesystem.interfaces.Location;
 
 public class Workshop implements Location {
-	public void addRelay(int numberShelve, int relayPosition, Relay currentRelay) {
+	public void addRelay(Integer numberShelve, Integer relayPosition, Relay currentRelay) {
 
 	}
 
-	public void deleteRelay(int numberShelve, int relayPosition) {
+	public void deleteRelay(Integer numberShelve, Integer relayPosition) {
 
 	}
 }

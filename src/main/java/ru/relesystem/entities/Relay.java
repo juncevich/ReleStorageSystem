@@ -40,7 +40,7 @@ public class Relay implements Serializable {
 	/**
 	 * Optimistic block
 	 */
-	private int version;
+	private Integer version;
 	/**
 	 * Contains the serial number.
 	 */
@@ -53,7 +53,7 @@ public class Relay implements Serializable {
 	/**
 	 * Position on the shelve
 	 */
-	private int shelvePosition;
+	private Integer shelvePosition;
 
 	/**
 	 * Contains the date of the last service.
@@ -99,7 +99,7 @@ public class Relay implements Serializable {
 
 	@Version
 	@Column(name = "VERSION")
-	public int getVersion() {
+	public Integer getVersion() {
 		return version;
 	}
 
@@ -124,7 +124,7 @@ public class Relay implements Serializable {
 	}
 
 	@Column(name = "SHELVE_POSITION")
-	public int getShelvePosition() {
+	public Integer getShelvePosition() {
 		return shelvePosition;
 	}
 
@@ -184,7 +184,7 @@ public class Relay implements Serializable {
 		this.id = id;
 	}
 
-	public void setVersion(int version) {
+	public void setVersion(Integer version) {
 		this.version = version;
 	}
 
@@ -206,7 +206,7 @@ public class Relay implements Serializable {
 		this.type = type;
 	}
 
-	public void setShelvePosition(int shelvePosition) {
+	public void setShelvePosition(Integer shelvePosition) {
 		this.shelvePosition = shelvePosition;
 	}
 

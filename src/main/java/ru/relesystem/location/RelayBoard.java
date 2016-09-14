@@ -12,11 +12,11 @@ import ru.relesystem.interfaces.Shelve;
 public class RelayBoard implements Location {
 	private Shelve[] relayBoardStorage = new Shelve[5];
 
-	public void addRelay(int numberShelve, int relayPosition, Relay currentRelay) {
+	public void addRelay(Integer numberShelve, Integer relayPosition, Relay currentRelay) {
 		relayBoardStorage[numberShelve].addRelay(relayPosition, currentRelay);
 	}
 
-	public void deleteRelay(int numberShelve, int relayPosition) {
+	public void deleteRelay(Integer numberShelve, Integer relayPosition) {
 		relayBoardStorage[numberShelve].deleteRelay(relayPosition);
 	}
 }
