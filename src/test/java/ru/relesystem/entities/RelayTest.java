@@ -1,8 +1,9 @@
 package ru.relesystem.entities;
 
-import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
+
+import ru.relesystem.core.entities.Relay;
 
 public class RelayTest {
 
@@ -11,9 +12,9 @@ public class RelayTest {
 	@Test
 	public void testEmptyReleConstructor() {
 
-		Assert.assertThat(relayWithEmptyConstructor.getNumber(), CoreMatchers.is((Integer) null));
-		Assert.assertThat(relayWithEmptyConstructor.getType(), CoreMatchers.is((String) null));
-		Assert.assertThat(relayWithEmptyConstructor.getShelvePosition(), CoreMatchers.is(0));
+		Assert.assertEquals(relayWithEmptyConstructor.getNumber(), null);
+		Assert.assertEquals(relayWithEmptyConstructor.getType(), null);
+		Assert.assertEquals(relayWithEmptyConstructor.getShelvePosition(), null);
 		// Assert.assertThat(relayWithEmptyConstructor.getLastServiceDate(),
 		// CoreMatchers.is((Date) null));
 		// Assert.assertThat(relayWithEmptyConstructor.getNextServiceDate(),
@@ -27,8 +28,8 @@ public class RelayTest {
 	@Test
 	public void testNewRelay() {
 		Relay relay = new Relay();
-		relay.setNumber(12345);
-		Assert.assertEquals("12345", relay.getNumber().toString());
+		relay.setNumber("12345");
+		Assert.assertEquals("12345", relay.getNumber());
 	}
 
 }

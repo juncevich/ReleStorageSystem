@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import ru.relesystem.entities.Relay;
-import ru.relesystem.services.RelayService;
+import ru.relesystem.core.entities.Relay;
+import ru.relesystem.core.services.RelayService;
 
 @Controller
 public class JSTLController {

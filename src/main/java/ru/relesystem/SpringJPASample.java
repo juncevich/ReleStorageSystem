@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-import ru.relesystem.entities.Relay;
-import ru.relesystem.services.RelayService;
+import ru.relesystem.core.entities.Relay;
+import ru.relesystem.core.services.RelayService;
 
 class SpringJPASample {
 	public static void main(String[] args) {

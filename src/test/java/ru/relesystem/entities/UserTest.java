@@ -5,6 +5,8 @@ import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
 
+import ru.relesystem.core.entities.User;
+
 public class UserTest {
 
     private User userWithEmptyConstructor = new User();

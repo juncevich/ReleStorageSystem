@@ -89,3 +89,6 @@ target/generated-sources/
 target/generated-test-sources/
 target/surefire/
 target/test-classes/ru/relesystem/entities/location/
+.idea/inspectionProfiles/
+target/classes/ru/relesystem/entities/relaytype/
+target/test-classes/ru/relesystem/services/
