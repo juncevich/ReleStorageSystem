@@ -69,7 +69,7 @@ fabric.properties
 .idea/dataSources/
 .idea/findbugs-idea.xml
 src/main/java/ru/relesystem/core/
-target/classes/config/
+target/*
 target/classes/email-templates/
 target/classes/ru/relesystem/rest/
 target/classes/spring/
