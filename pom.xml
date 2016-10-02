@@ -1,5 +1,5 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.relesystem</groupId>
     <artifactId>rele_system</artifactId>
@@ -13,7 +13,6 @@
         <hibernate.jpamodelgen.version>4.2.3.Final</hibernate.jpamodelgen.version>
         <hibernate.entitymanager.version>4.2.3.Final</hibernate.entitymanager.version>
         <log4j.version>1.2.17</log4j.version>
-        <h2.version>1.3.172</h2.version>
         <junit-version>4.12</junit-version>
         <jetty.version>9.3.9.v20160517</jetty.version>
         <joda-time-version>2.9.4</joda-time-version>
@@ -38,6 +37,7 @@
         <!--logback - improved version of log4j-->
         <logback.version>1.0.13</logback.version>
         <slf4j.version>1.7.13</slf4j.version>
+        <h2.version>1.4.192</h2.version>
     </properties>
     <dependencyManagement>
         <!--all spring dependencies -->
@@ -229,6 +229,13 @@
             <version>${logback.version}</version>
             <scope>runtime</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>${h2.version}</version>
+        </dependency>
+
     </dependencies>
     <build>
 
