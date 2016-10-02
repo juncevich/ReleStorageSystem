@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="EclipseCodeFormatter">
-    <option name="id" value="1473783167767" />
+    <option name="enableJSFormatting" value="true" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1465458837221" />
     <option name="name" value="Area51" />
     <option name="optimizeImports" value="false" />
-    <option name="pathToConfigFileJava" value="$USER_HOME$/Documents/idea.config-master/codestyles/Area 51 Rules.xml" />
+    <option name="pathToConfigFileJS" value="$USER_HOME$/Documents/java.config-master/src/main/resources/area51.js.formatter.xml" />
+    <option name="pathToConfigFileJava" value="$USER_HOME$/Documents/java.config-master/src/main/resources/area51.js.formatter.xml" />
+    <option name="selectedJavaProfile" value="Area 51 Rules" />
+    <option name="selectedJavaScriptProfile" value="Area 51 Rules" />
     <option name="useForLiveTemplates" value="true" />
   </component>
   <component name="EntryPointsManager">
