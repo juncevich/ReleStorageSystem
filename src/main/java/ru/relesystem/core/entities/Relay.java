@@ -14,7 +14,7 @@ import java.io.Serializable;
  * The class that is used for storage of equipment.
  */
 @Entity
-@Table(name = "RELAY")
+@Table(name = "RELAYS")
 @NamedQueries({@NamedQuery(name = "Relay.findAll", query = "select r from Relay r"),
 		@NamedQuery(name = "Relay.findById", query = "select r from Relay r where r.id = :id"),
 		@NamedQuery(name = "Relay.findBySerialNumber", query = "select r from Relay r where r.number = :number"),

@@ -1,20 +1,14 @@
 package ru.relesystem.core.entities.location;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
-
 import ru.relesystem.core.entities.Relay;
 import ru.relesystem.core.entities.storage.Stativ;
 
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
-@Table(name = "STATION")
+@Table(name = "STATIONS")
 @NamedQueries({@NamedQuery(name = "Station.findById", query = "select s from Station s where s.id = :id"),
 		@NamedQuery(name = "Station.findAllWithDetail", query = "select s from Station s "),})
 public class Station extends Location {
@@ -72,18 +66,6 @@ public class Station extends Location {
 		return relayList;
 	}
 
-	@OneToMany(mappedBy = "station")
-	public List<Stativ> getStorageList() {
-
-		return storageList;
-	}
-
-	@Column(name = "STATION_NAME")
-	public String getStationName() {
-
-		return stationName;
-	}
-
 	/**
 	 * @param relayList
 	 *            the {@link #relayList} to set
@@ -93,9 +75,21 @@ public class Station extends Location {
 		this.relayList = relayList;
 	}
 
+	@OneToMany(mappedBy = "station")
+	public List<Stativ> getStorageList() {
+
+		return storageList;
+	}
+
 	public void setStorageList(List<Stativ> storageList) {
 
 		this.storageList = storageList;
+	}
+
+	@Column(name = "STATION_NAME")
+	public String getStationName() {
+
+		return stationName;
 	}
 
 	public void setStationName(String stationName) {

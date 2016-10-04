@@ -28,6 +28,7 @@
         <apache-poi-version>3.12</apache-poi-version>
         <itext-version>2.1.5</itext-version>
         <jackson.databind-version>RELEASE</jackson.databind-version>
+
         <!-- Spring Security -->
         <spring-security.version>4.0.4.RELEASE</spring-security.version>
 
@@ -52,6 +53,7 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+
         <!-- Spring REST jackson JSON Processing API -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>

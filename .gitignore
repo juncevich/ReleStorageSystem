@@ -67,8 +67,9 @@ fabric.properties
 .gitignore
 .idea/codeStyleSettings.xml
 .idea/dataSources/
-.idea/findbugs-idea.xml
-src/main/java/ru/relesystem/core/
+.idea/*
+out/*
+lib/*
 target/*
 target/classes/email-templates/
 target/classes/ru/relesystem/rest/
