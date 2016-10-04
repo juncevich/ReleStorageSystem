@@ -1,27 +1,14 @@
 package ru.relesystem.core.entities;
 
-import java.io.Serializable;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
-import javax.persistence.OneToOne;
-import javax.persistence.Table;
-import javax.persistence.Version;
-
 import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
 import org.springframework.format.annotation.DateTimeFormat;
-
 import ru.relesystem.core.entities.location.Station;
 import ru.relesystem.core.entities.relaytype.RelayType;
-import ru.relesystem.core.entities.storage.Stativ;
+import ru.relesystem.core.entities.storage.Storage;
+
+import javax.persistence.*;
+import java.io.Serializable;
 
 /**
  * The class that is used for storage of equipment.
@@ -31,12 +18,13 @@ import ru.relesystem.core.entities.storage.Stativ;
 @NamedQueries({@NamedQuery(name = "Relay.findAll", query = "select r from Relay r"),
 		@NamedQuery(name = "Relay.findById", query = "select r from Relay r where r.id = :id"),
 		@NamedQuery(name = "Relay.findBySerialNumber", query = "select r from Relay r where r.number = :number"),
-		@NamedQuery(name = "Relay.findByStativNumber", query = "select r from Relay r where r.stativ.num = :stativNumber"),
+		@NamedQuery(name = "Relay.findByStativNumber", query = "select r from Relay r where r.storage.id = :stativNumber"),
 		@NamedQuery(name = "Relay.findByStation", query = "select r from Relay r where r.station.stationName = :stationName"),
 		@NamedQuery(name = "Relay.findByResponsiblePerson", query = "select r from Relay r where r.responsiblePerson = :stationName"),
 		@NamedQuery(name = "Relay.findAllWithDetail", query = "select r from Relay r ")})
 public class Relay implements Serializable {
 
+	private static final long serialVersionUID = 491033965929835071L;
 	/**
 	 * Relay id
 	 */
@@ -85,7 +73,7 @@ public class Relay implements Serializable {
 	/**
 	 *
 	 */
-	private Stativ stativ;
+	private Storage storage;
 
 	/**
 	 *
@@ -106,10 +94,15 @@ public class Relay implements Serializable {
 	}
 
 	@ManyToOne
-	@JoinColumn(name = "STATIV_ID")
-	public Stativ getStativ() {
+	@JoinColumn(name = "STORAGE_ID")
+	public Storage getStorage() {
 
-		return stativ;
+		return storage;
+	}
+
+	public void setStorage(Storage storage) {
+
+		this.storage = storage;
 	}
 
 	@Id
@@ -120,11 +113,21 @@ public class Relay implements Serializable {
 		return id;
 	}
 
+	public void setId(Long id) {
+
+		this.id = id;
+	}
+
 	@Version
 	@Column(name = "VERSION")
 	public Integer getVersion() {
 
 		return version;
+	}
+
+	public void setVersion(Integer version) {
+
+		this.version = version;
 	}
 
 	/**
@@ -139,6 +142,15 @@ public class Relay implements Serializable {
 	}
 
 	/**
+	 * @param number
+	 *            number consists of nine characters.
+	 */
+	public void setNumber(String number) {
+
+		this.number = number;
+	}
+
+	/**
 	 * Returns the type corresponding to this user.
 	 *
 	 * @return the type corresponding to this user.
@@ -150,20 +162,43 @@ public class Relay implements Serializable {
 		return type;
 	}
 
+	/**
+	 * Set the type corresponding to this user.
+	 *
+	 * @param type corresponding to this user.
+	 */
+	public void setType(RelayType type) {
+
+		this.type = type;
+	}
+
 	@Column(name = "SHELVE_POSITION")
 	public Integer getShelvePosition() {
 
 		return shelvePosition;
 	}
 
+	public void setShelvePosition(Integer shelvePosition) {
+
+		this.shelvePosition = shelvePosition;
+	}
+
 	/**
 	 * @return the {@link #station}
 	 */
 	@ManyToOne
-	@JoinColumn(name = "STATION_ID")
+	@JoinColumn(name = "LOCATION_ID")
 	public Station getStation() {
 
 		return station;
+	}
+
+	/**
+	 * @param station the {@link #station} to set
+	 */
+	public void setStation(Station station) {
+
+		this.station = station;
 	}
 
 	/**
@@ -180,6 +215,17 @@ public class Relay implements Serializable {
 	}
 
 	/**
+	 * Set the lastServiceDate corresponding to this user.
+	 *
+	 * @param lastServiceDate
+	 *            corresponding to this user.
+	 */
+	public void setLastServiceDate(DateTime lastServiceDate) {
+
+		this.lastServiceDate = lastServiceDate;
+	}
+
+	/**
 	 * Returns the nextServiceDate corresponding to this user.
 	 *
 	 * @return the nextServiceDate corresponding to this user.
@@ -190,6 +236,17 @@ public class Relay implements Serializable {
 	public DateTime getNextServiceDate() {
 
 		return this.nextServiceDate;
+	}
+
+	/**
+	 * Set the nextServiceDate corresponding to this user.
+	 *
+	 * @param nextServiceDate
+	 *            corresponding to this user.
+	 */
+	public void setNextServiceDate(DateTime nextServiceDate) {
+
+		this.nextServiceDate = nextServiceDate;
 	}
 
 	/**
@@ -206,88 +263,6 @@ public class Relay implements Serializable {
 	}
 
 	/**
-	 * Returns the responsiblePerson corresponding to this user.
-	 *
-	 * @return the responsiblePerson corresponding to this user.
-	 */
-	@Column(name = "RESPONSIBLE_PERSON")
-	public String getResponsiblePerson() {
-
-		return responsiblePerson;
-	}
-
-	/**
-	 * @param station
-	 *            the {@link #station} to set
-	 */
-	public void setStation(Station station) {
-
-		this.station = station;
-	}
-
-	public void setStativ(Stativ stativ) {
-
-		this.stativ = stativ;
-	}
-
-	public void setId(Long id) {
-
-		this.id = id;
-	}
-
-	public void setVersion(Integer version) {
-
-		this.version = version;
-	}
-
-	/**
-	 * @param number
-	 *            number consists of nine characters.
-	 */
-	public void setNumber(String number) {
-
-		this.number = number;
-	}
-
-	/**
-	 * Set the type corresponding to this user.
-	 *
-	 * @param type
-	 *            corresponding to this user.
-	 */
-	public void setType(RelayType type) {
-
-		this.type = type;
-	}
-
-	public void setShelvePosition(Integer shelvePosition) {
-
-		this.shelvePosition = shelvePosition;
-	}
-
-	/**
-	 * Set the lastServiceDate corresponding to this user.
-	 *
-	 * @param lastServiceDate
-	 *            corresponding to this user.
-	 */
-	public void setLastServiceDate(DateTime lastServiceDate) {
-
-		this.lastServiceDate = lastServiceDate;
-	}
-
-	/**
-	 * Set the nextServiceDate corresponding to this user.
-	 *
-	 * @param nextServiceDate
-	 *            corresponding to this user.
-	 */
-	public void setNextServiceDate(DateTime nextServiceDate) {
-
-		this.nextServiceDate = nextServiceDate;
-	}
-
-	/**
 	 * Set the manufactureDate corresponding to this user.
 	 *
 	 * @param manufactureDate
@@ -296,6 +271,17 @@ public class Relay implements Serializable {
 	public void setManufactureDate(DateTime manufactureDate) {
 
 		this.manufactureDate = manufactureDate;
+	}
+
+	/**
+	 * Returns the responsiblePerson corresponding to this user.
+	 *
+	 * @return the responsiblePerson corresponding to this user.
+	 */
+	@Column(name = "RESPONSIBLE_PERSON")
+	public String getResponsiblePerson() {
+
+		return responsiblePerson;
 	}
 
 	/**

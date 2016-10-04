@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:mvc="http://www.springframework.org/schema/mvc"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:jdbc="http://www.springframework.org/schema/jdbc"
-       xmlns:tx="http://www.springframework.org/schema/tx"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns="http://www.springframework.org/schema/beans"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/mvc
 	   http://www.springframework.org/schema/mvc/spring-mvc.xsd
 	         http://www.springframework.org/schema/tx
       http://www.springframework.org/schema/tx/spring-tx.xsd
-	         http://www.springframework.org/schema/jdbc
-      http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+	         
+      
 	   http://www.springframework.org/schema/context
 	   http://www.springframework.org/schema/context/spring-context.xsd">
 
@@ -27,11 +26,11 @@
         <property name="password" value="${jdbc.mysql.password}" />
     </bean>
 
-    <!-- initialize Embedded DataSource. Встроенная база данных-->
-    <jdbc:initialize-database data-source="dataSource">
-        <jdbc:script location="classpath:META-INF/sql/schema.sql"/>
-        <jdbc:script location="classpath:META-INF/sql/test-data.sql"/>
-    </jdbc:initialize-database>
+    <!--&lt;!&ndash; initialize Embedded DataSource. Встроенная база данных&ndash;&gt;-->
+    <!--<jdbc:initialize-database data-source="dataSource">-->
+    <!--<jdbc:script location="classpath:META-INF/sql/schema.sql"/>-->
+    <!--<jdbc:script location="classpath:META-INF/sql/test-data.sql"/>-->
+    <!--</jdbc:initialize-database>-->
 
     <!--Do not forget activate @Transactional JPA annotation with <annotation-driven/>-->
     <!-- JPA Persistence Context and EntityManager configuration -->
@@ -48,7 +47,7 @@
         </property>
         <property name="jpaProperties">
             <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
                 <prop key="hibernate.show_sql">true</prop>
                 <prop key="hibernate.format_sql">false</prop>
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
