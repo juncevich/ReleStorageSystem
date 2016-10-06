@@ -9,6 +9,7 @@ public interface RelayTypeDao {
 	List<RelayType> findAll();
 	RelayType findById(Long id);
 	RelayType findByName(String name);
+	RelayType addType(RelayType relayType);
 	RelayType updateType(RelayType relayType);
 	void deleteType(RelayType relayType);
 }
