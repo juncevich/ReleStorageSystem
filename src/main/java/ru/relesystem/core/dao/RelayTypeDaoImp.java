@@ -1,19 +1,17 @@
 package ru.relesystem.core.dao;
 
-import java.util.List;
-
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.TypedQuery;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-
 import ru.relesystem.core.entities.relaytype.RelayType;
 
-@Repository("RelayTypeDao")
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+import java.util.List;
+
+@Repository("relayTypeDao")
 @Transactional
 public class RelayTypeDaoImp implements RelayTypeDao {
 

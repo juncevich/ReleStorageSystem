@@ -15,7 +15,7 @@
       http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
 	   http://www.springframework.org/schema/context
 	   http://www.springframework.org/schema/context/spring-context.xsd">
-
+    <context:component-scan base-package="ru.relesystem.core"/>
     <!--find property file. See bean id='dataSource' for example ${jdbc.hsqldb.driverClass}-->
     <context:property-placeholder location="classpath:util.properties"/>
 
