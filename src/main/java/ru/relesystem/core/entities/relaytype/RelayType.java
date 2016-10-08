@@ -1,15 +1,7 @@
 package ru.relesystem.core.entities.relaytype;
 
+import javax.persistence.*;
 import java.io.Serializable;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.NamedQueries;
-import javax.persistence.NamedQuery;
-import javax.persistence.Table;
 
 @Entity
 @Table(name = "RELAY_TYPE")
@@ -33,6 +25,22 @@ public class RelayType implements Serializable {
     }
 
     /**
+     * @return the {@link #id}
+     */
+    public Integer getId() {
+
+        return id;
+    }
+
+    /**
+     * @param id the {@link #id}  to set
+     */
+    public void setId(Integer id) {
+
+        this.id = id;
+    }
+
+    /**
      * @return the {@link #name}
      */
     public String getName() {
@@ -41,20 +49,20 @@ public class RelayType implements Serializable {
     }
 
     /**
-	 * @return the {@link #lifetime}
-	 */
-	public String getLifetime() {
+     * @param name
+     *            the {@link #name} to set
+     */
+    public void setName(String name) {
 
-		return lifetime;
+        this.name = name;
     }
 
     /**
-	 * @param name
-	 *            the {@link #name} to set
-	 */
-	public void setName(String name) {
+     * @return the {@link #lifetime}
+     */
+    public String getLifetime() {
 
-		this.name = name;
+        return lifetime;
     }
 
     /**
