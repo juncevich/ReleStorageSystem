@@ -1,6 +1,7 @@
 package ru.relesystem.core.dao;
 
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,7 +23,10 @@ public class RelayTypeDaoTest {
 
     @Before
     public void setUp() throws Exception {
-
+        RelayType relayType = new RelayType();
+        relayType.setName("НМШ-800");
+        relayType.setLifetime("200");
+        relayTypeDao.addType(relayType);
     }
 
     @After
@@ -32,7 +36,7 @@ public class RelayTypeDaoTest {
 
     @Test
     public void findAll() throws Exception {
-
+        Assert.assertNotNull(relayTypeDao.findAll());
     }
 
     @Test
@@ -42,7 +46,10 @@ public class RelayTypeDaoTest {
 
     @Test
     public void findByName() throws Exception {
-
+        RelayType relayType = relayTypeDao.findByName("НМШ-800");
+        Assert.assertNotNull(relayType);
+        Assert.assertEquals("НМШ-800", relayType.getName());
+        Assert.assertEquals("200", relayType.getLifetime());
     }
 
     @Test
