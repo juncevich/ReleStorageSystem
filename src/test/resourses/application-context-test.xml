@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:mvc="http://www.springframework.org/schema/mvc"
-    xmlns:context="http://www.springframework.org/schema/context"
-    xmlns:jdbc="http://www.springframework.org/schema/jdbc"
-    xmlns:tx="http://www.springframework.org/schema/tx"
-    xmlns="http://www.springframework.org/schema/beans"
-    xsi:schemaLocation="http://www.springframework.org/schema/beans
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/mvc
 	   http://www.springframework.org/schema/mvc/spring-mvc.xsd
 	         http://www.springframework.org/schema/tx
       http://www.springframework.org/schema/tx/spring-tx.xsd
-	         http://www.springframework.org/schema/jdbc
-      http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+
+
 	   http://www.springframework.org/schema/context
 	   http://www.springframework.org/schema/context/spring-context.xsd">
     <context:component-scan base-package="ru.relesystem.core"/>
@@ -27,11 +26,11 @@
         <property name="password" value="${jdbc.mysql.password}"/>
     </bean>
 
-    <!-- initialize Embedded DataSource. Встроенная база данных-->
-    <jdbc:initialize-database data-source="dataSource">
-        <jdbc:script location="classpath:META-INF/sql/schema.sql"/>
-        <jdbc:script location="classpath:META-INF/sql/test-data.sql"/>
-    </jdbc:initialize-database>
+    <!--&lt;!&ndash; initialize Embedded DataSource. Встроенная база данных&ndash;&gt;-->
+    <!--<jdbc:initialize-database data-source="dataSource">-->
+    <!--<jdbc:script location="classpath:META-INF/sql/schema.sql"/>-->
+    <!--<jdbc:script location="classpath:META-INF/sql/test-data.sql"/>-->
+    <!--</jdbc:initialize-database>-->
 
     <!--Do not forget activate @Transactional JPA annotation with <annotation-driven/>-->
     <!-- JPA Persistence Context and EntityManager configuration -->
@@ -44,7 +43,7 @@
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
                 <property name="generateDdl" value="true"/>
                 <property name="showSql" value="true"/>
-                <property name="database" value="H2"/>
+                <property name="database" value="MYSQL"/>
             </bean>
         </property>
         <property name="jpaProperties">

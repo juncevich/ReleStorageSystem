@@ -43,6 +43,7 @@ public class RelayType implements Serializable {
     /**
      * @return the {@link #name}
      */
+    @Column(unique = true)
     public String getName() {
 
         return name;

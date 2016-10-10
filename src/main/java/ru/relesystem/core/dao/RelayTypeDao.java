@@ -1,9 +1,8 @@
 package ru.relesystem.core.dao;
 
-import java.util.List;
-
 import ru.relesystem.core.entities.relaytype.RelayType;
 
+import java.util.List;
 public interface RelayTypeDao {
 
 	List<RelayType> findAll();

@@ -8,13 +8,13 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
 import ru.relesystem.core.entities.relaytype.RelayType;
 
-/**
- * Created by alex on 08.10.16.
- */
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:application-context-test.xml")
+@Transactional
 public class RelayTypeDaoTest {
 
     @Autowired
@@ -24,7 +24,7 @@ public class RelayTypeDaoTest {
     @Before
     public void setUp() throws Exception {
         RelayType relayType = new RelayType();
-        relayType.setName("НМШ-800");
+        relayType.setName("NMSH-800");
         relayType.setLifetime("200");
         relayTypeDao.addType(relayType);
     }
@@ -46,16 +46,16 @@ public class RelayTypeDaoTest {
 
     @Test
     public void findByName() throws Exception {
-        RelayType relayType = relayTypeDao.findByName("НМШ-800");
+        RelayType relayType = relayTypeDao.findByName("NMSH-800");
         Assert.assertNotNull(relayType);
-        Assert.assertEquals("НМШ-800", relayType.getName());
+        Assert.assertEquals("NMSH-800", relayType.getName());
         Assert.assertEquals("200", relayType.getLifetime());
     }
 
     @Test
     public void addType() throws Exception {
         RelayType relayType = new RelayType();
-        relayType.setName("НМШ-400");
+        relayType.setName("NMSH-400");
         relayType.setLifetime("100");
         relayTypeDao.addType(relayType);
     }

@@ -5,9 +5,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- * Created by alex on 06.10.16.
- */
+
 public class RelayTypeTest {
 
 	@Before
