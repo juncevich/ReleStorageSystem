@@ -93,3 +93,4 @@ target/test-classes/ru/relesystem/entities/location/
 .idea/inspectionProfiles/
 target/classes/ru/relesystem/entities/relaytype/
 target/test-classes/ru/relesystem/services/
+ReleStorageSystem.iml
