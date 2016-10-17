@@ -1,11 +1,20 @@
 package ru.relesystem.core.entities.storage;
 
-import ru.relesystem.core.entities.Relay;
-import ru.relesystem.core.entities.location.Station;
-
-import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import ru.relesystem.core.entities.Relay;
+import ru.relesystem.core.entities.location.Location;
+import ru.relesystem.core.entities.location.Station;
 
 @Entity
 @Table(name = "STATIVS")
@@ -15,7 +24,7 @@ public class Stativ extends Storage {
 
     private Integer Num;
 
-    private Station station;
+    private Location location;
 
     private List<Relay> relaysOnStativ = new ArrayList<>();
 
@@ -35,15 +44,15 @@ public class Stativ extends Storage {
     }
 
     @ManyToOne
-    @JoinColumn(name = "STATION_ID")
-    public Station getStation() {
+    @JoinColumn(name = "LOCATION_ID")
+    public Location getLocation() {
 
-        return station;
+        return location;
     }
 
-    public void setStation(Station station) {
+    public void setLocation(Location location) {
 
-        this.station = station;
+        this.location = location;
     }
 
     @OneToMany(mappedBy = "storage")
@@ -58,8 +67,9 @@ public class Stativ extends Storage {
     }
 
     public void addRele(Relay relay) {
-
+        
         relay.setStorage(this);
+        relay.setLocation(this.location);
         getRelaysOnStativ().add(relay);
     }
 

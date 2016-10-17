@@ -1,5 +1,9 @@
 package ru.relesystem.core.dao;
 
+import static org.junit.Assert.assertEquals;
+
+import java.util.List;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,7 +24,7 @@ public class StationDaoTest {
 	public void setUp() throws Exception {
 
 		Station station = new Station();
-        
+
 		station.setLocationName("Монетная");
 		locationDao.addLocation(station);
 	}
@@ -28,6 +32,8 @@ public class StationDaoTest {
 	@Test
 	public void findAll() throws Exception {
 
+		List<Station> locations = (List<Station>) locationDao.findAll();
+		assertEquals(1, locations.size());
 	}
 
 	@Test

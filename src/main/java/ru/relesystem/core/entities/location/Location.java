@@ -8,25 +8,10 @@ import javax.persistence.*;
 public class Location {
 
 	private int id;
+    private String locationName;
+	
 
-	/**
-	 * @return the {@link #locationName}
-	 */
-	public String getLocationName() {
-
-		return locationName;
-	}
-
-	/**
-	 * @param locationName
-	 *            the {@link #locationName} to set
-	 */
-	public void setLocationName(String locationName) {
-
-		this.locationName = locationName;
-	}
-
-	private String locationName;
+	
 	private int version;
 
 	@Id
@@ -54,4 +39,21 @@ public class Location {
 		this.version = version;
 	}
 
+    /**
+     * @return the {@link #locationName}
+     */
+    @Column(name="LOCATION_NAME")
+    public String getLocationName() {
+
+        return locationName;
+    }
+
+    /**
+     * @param locationName
+     *            the {@link #locationName} to set
+     */
+    public void setLocationName(String locationName) {
+
+        this.locationName = locationName;
+    }
 }

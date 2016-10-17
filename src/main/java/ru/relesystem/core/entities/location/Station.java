@@ -32,7 +32,7 @@ public class Station extends Location {
 
 	public void addStativ(Stativ stativ) {
 
-		stativ.setStation(this);
+		stativ.setLocation(this);
 		getStorageList().add(stativ);
 	}
 
@@ -47,7 +47,7 @@ public class Station extends Location {
 		return "Station{" + "stationName='" + getLocationName() + '\'' + '}';
 	}
 
-	@OneToMany(mappedBy = "station")
+	@OneToMany(mappedBy = "location")
 	public List<Stativ> getStorageList() {
 
 		return storageList;
@@ -57,6 +57,5 @@ public class Station extends Location {
 
 		this.storageList = storageList;
 	}
-
-
+	
 }
