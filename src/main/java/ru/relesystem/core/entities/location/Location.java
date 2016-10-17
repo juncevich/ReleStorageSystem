@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 @Table(name = "LOCATIONS")
-class Location {
+public class Location {
 
     private int id;
 
@@ -35,5 +35,7 @@ class Location {
 
         this.version = version;
     }
+    
+    
 
 }
