@@ -8,9 +8,11 @@ import ru.relesystem.core.entities.storage.Storage;
 
 public interface LocationDao {
 
-	List<Location> findAll();
-	Location findStorageByName(String storageName);
-	List<Relay> findReleayByStorageName();
-    List<Storage> findStoragesByLocationName();
-
+	List<? extends Location> findAll();
+	<T extends Location> T findLocationByName(String locationName);
+	List<Relay> findRelayByLocationName(String locationName);
+    List<? extends Storage> findStoragesByLocationName(String locationName);
+    <T extends Location> T addLocation(Location location);
+    <T extends Location> T updateLocation(Location location);
+    void deleteLocation(Location location);
 }
