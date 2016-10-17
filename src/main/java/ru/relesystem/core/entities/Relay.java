@@ -1,14 +1,27 @@
 package ru.relesystem.core.entities;
 
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+import javax.persistence.Version;
+
 import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
 import org.springframework.format.annotation.DateTimeFormat;
-import ru.relesystem.core.entities.location.Station;
+
+import ru.relesystem.core.entities.location.Location;
 import ru.relesystem.core.entities.relaytype.RelayType;
 import ru.relesystem.core.entities.storage.Storage;
-
-import javax.persistence.*;
-import java.io.Serializable;
 
 /**
  * The class that is used for storage of equipment.
@@ -19,7 +32,7 @@ import java.io.Serializable;
 		@NamedQuery(name = "Relay.findById", query = "select r from Relay r where r.id = :id"),
 		@NamedQuery(name = "Relay.findBySerialNumber", query = "select r from Relay r where r.number = :number"),
 		@NamedQuery(name = "Relay.findByStativNumber", query = "select r from Relay r where r.storage.id = :stativNumber"),
-		@NamedQuery(name = "Relay.findByStation", query = "select r from Relay r where r.station.stationName = :stationName"),
+		@NamedQuery(name = "Relay.findByLocationId", query = "select r from Relay r where r.location.id = :locationId"),
 		@NamedQuery(name = "Relay.findByResponsiblePerson", query = "select r from Relay r where r.responsiblePerson = :stationName"),
 		@NamedQuery(name = "Relay.findAllWithDetail", query = "select r from Relay r ")})
 public class Relay implements Serializable {
@@ -78,7 +91,7 @@ public class Relay implements Serializable {
 	/**
 	 *
 	 */
-	private Station station;
+	private Location location;
 
 	public Relay() {
 
@@ -165,7 +178,8 @@ public class Relay implements Serializable {
 	/**
 	 * Set the type corresponding to this user.
 	 *
-	 * @param type corresponding to this user.
+	 * @param type
+	 *            corresponding to this user.
 	 */
 	public void setType(RelayType type) {
 
@@ -184,21 +198,22 @@ public class Relay implements Serializable {
 	}
 
 	/**
-	 * @return the {@link #station}
+	 * @return the {@link #location}
 	 */
-	@ManyToOne
-	@JoinColumn(name = "LOCATION_ID")
-	public Station getStation() {
+    @OneToOne
+    @JoinColumn(name = "LOCATION_ID")
+	public Location getLocation() {
 
-		return station;
+		return location;
 	}
 
 	/**
-	 * @param station the {@link #station} to set
+	 * @param location
+	 *            the {@link #location} to set
 	 */
-	public void setStation(Station station) {
+	public void setLocation(Location location) {
 
-		this.station = station;
+		this.location = location;
 	}
 
 	/**

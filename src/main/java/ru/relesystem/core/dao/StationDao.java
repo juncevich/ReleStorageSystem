@@ -54,7 +54,7 @@ public class StationDao implements LocationDao {
 	@Override
 	public Station addLocation(Location location) {
 		Station station = (Station) location;
-		log.info("Add station : " + station.getStationName());
+		log.info("Add station : " + station.getLocationName());
 		entityManager.persist(station);
 		return station;
 	}
@@ -62,7 +62,7 @@ public class StationDao implements LocationDao {
 	@Override
 	public Station updateLocation(Location location) {
 		Station station = (Station) location;
-		log.info("Update station : " + station.getStationName());
+		log.info("Update station : " + station.getLocationName());
 		entityManager.merge(station);
 		return station;
 	}
@@ -71,8 +71,8 @@ public class StationDao implements LocationDao {
 	public void deleteLocation(Location location) {
 		Station station = (Station) location;
 		Station deletedStation = entityManager.merge(station);
-		log.info("Delete station : " + station.getStationName());
+		log.info("Delete station : " + station.getLocationName());
 		entityManager.remove(deletedStation);
-		log.info("Station with name: " + station.getStationName() + " deleted successfully");
+		log.info("Station with name: " + station.getLocationName() + " deleted successfully");
 	}
 }

@@ -7,35 +7,51 @@ import javax.persistence.*;
 @Table(name = "LOCATIONS")
 public class Location {
 
-    private int id;
+	private int id;
 
-    private int version;
+	/**
+	 * @return the {@link #locationName}
+	 */
+	public String getLocationName() {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "ID")
-    public int getId() {
+		return locationName;
+	}
 
-        return id;
-    }
+	/**
+	 * @param locationName
+	 *            the {@link #locationName} to set
+	 */
+	public void setLocationName(String locationName) {
 
-    public void setId(int id) {
+		this.locationName = locationName;
+	}
 
-        this.id = id;
-    }
+	private String locationName;
+	private int version;
 
-    @Version
-    @Column(name = "VERSION")
-    public int getVersion() {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name = "ID")
+	public int getId() {
 
-        return version;
-    }
+		return id;
+	}
 
-    public void setVersion(int version) {
+	public void setId(int id) {
 
-        this.version = version;
-    }
-    
-    
+		this.id = id;
+	}
+
+	@Version
+	@Column(name = "VERSION")
+	public int getVersion() {
+
+		return version;
+	}
+
+	public void setVersion(int version) {
+
+		this.version = version;
+	}
 
 }

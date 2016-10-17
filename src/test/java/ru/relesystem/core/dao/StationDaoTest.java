@@ -21,7 +21,7 @@ public class StationDaoTest {
 
 		Station station = new Station();
         
-		station.setStationName("Монетная");
+		station.setLocationName("Монетная");
 		locationDao.addLocation(station);
 	}
 
