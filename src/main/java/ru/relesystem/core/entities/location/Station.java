@@ -1,16 +1,25 @@
 package ru.relesystem.core.entities.location;
 
-import ru.relesystem.core.entities.Relay;
-import ru.relesystem.core.entities.storage.Stativ;
-
-import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import ru.relesystem.core.entities.Relay;
+import ru.relesystem.core.entities.storage.Stativ;
+
 @Entity
 @Table(name = "STATIONS")
-@NamedQueries({@NamedQuery(name = "Station.findById", query = "select s from Station s where s.id = :id"),
-		@NamedQuery(name = "Station.findAllWithDetail", query = "select s from Station s "),})
+@NamedQueries({
+		@NamedQuery(name = "Station.findByName", query = "select s from Station s where s.stationName = :stationName"),
+		@NamedQuery(name = "Station.findAll", query = "select s from Station s "),
+		@NamedQuery(name = "Station.findReleayByStationName", query = "select s.relayList from Station s where s.stationName = :stationName"),
+		@NamedQuery(name = "Station.findStoragesByStationName", query = "select s.storageList from Station s where s.stationName = :stationName")})
 public class Station extends Location {
 
 	/**
