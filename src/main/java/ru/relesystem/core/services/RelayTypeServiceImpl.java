@@ -1,14 +1,17 @@
 package ru.relesystem.core.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import ru.relesystem.core.dao.RelayTypeDao;
 import ru.relesystem.core.entities.relaytype.RelayType;
-
-import java.util.List;
 
 /**
  * Created by alex on 06.10.16.
  */
+@Service
 public class RelayTypeServiceImpl implements RelayTypeService {
 
     @Autowired
