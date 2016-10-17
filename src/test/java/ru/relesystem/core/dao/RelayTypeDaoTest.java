@@ -1,6 +1,7 @@
 package ru.relesystem.core.dao;
 
-import org.junit.After;
+import java.util.List;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -9,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
+
 import ru.relesystem.core.entities.relaytype.RelayType;
 
 
@@ -28,22 +30,12 @@ public class RelayTypeDaoTest {
         relayType.setLifetime("200");
         relayTypeDao.addType(relayType);
     }
-
-    @After
-    public void tearDown() throws Exception {
-
-    }
-
+    
     @Test
     public void findAll() throws Exception {
-        Assert.assertNotNull(relayTypeDao.findAll());
+        Assert.assertEquals(1,relayTypeDao.findAll().size());
     }
-
-    @Test
-    public void findById() throws Exception {
-
-    }
-
+    
     @Test
     public void findByName() throws Exception {
         RelayType relayType = relayTypeDao.findByName("NMSH-800");
@@ -62,12 +54,19 @@ public class RelayTypeDaoTest {
 
     @Test
     public void updateType() throws Exception {
-
+        RelayType testUpdateRelay = relayTypeDao.findByName("NMSH-800");
+        testUpdateRelay.setLifetime("100");
+        relayTypeDao.updateType(testUpdateRelay);
+        RelayType updatedRelay = relayTypeDao.findByName("NMSH-800");
+        Assert.assertEquals("100", updatedRelay.getLifetime());
     }
 
     @Test
     public void deleteType() throws Exception {
-
+        RelayType testDeleteRelay = relayTypeDao.findByName("NMSH-800");
+    relayTypeDao.deleteType(testDeleteRelay);
+        List<RelayType> deletedRelay = relayTypeDao.findAll();
+        Assert.assertEquals(0,deletedRelay.size());
     }
 
 }
