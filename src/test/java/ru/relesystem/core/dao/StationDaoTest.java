@@ -51,6 +51,11 @@ public class StationDaoTest {
 	public void findLocationByName() throws Exception {
 		Station foundedByName = locationDao.findLocationByName("Монетная");
 		assertNotNull(foundedByName);
+		assertEquals("Монетная", foundedByName.getLocationName());
+		assertEquals("100", foundedByName.getStorageList().get(0).getNum().toString());
+		assertEquals("NMSH-400", foundedByName.getStorageList().get(0).getRelaysOnStativ().get(0).getType().getName());
+		assertEquals("100", foundedByName.getStorageList().get(0).getRelaysOnStativ().get(0).getType().getLifetime());
+		
 		
 	}
 
