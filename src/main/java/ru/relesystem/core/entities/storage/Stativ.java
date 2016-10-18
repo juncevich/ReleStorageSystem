@@ -43,6 +43,11 @@ public class Stativ extends Storage {
         Num = num;
     }
 
+    public Stativ(Integer num) {
+
+        Num = num;
+    }
+
     @ManyToOne
     @JoinColumn(name = "LOCATION_ID")
     public Location getLocation() {

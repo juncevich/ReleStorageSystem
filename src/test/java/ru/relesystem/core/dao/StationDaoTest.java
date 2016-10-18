@@ -1,6 +1,7 @@
 package ru.relesystem.core.dao;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import java.util.List;
 
@@ -12,7 +13,10 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 
+import ru.relesystem.core.entities.Relay;
 import ru.relesystem.core.entities.location.Station;
+import ru.relesystem.core.entities.relaytype.RelayType;
+import ru.relesystem.core.entities.storage.Stativ;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:application-context-test.xml")
@@ -24,8 +28,15 @@ public class StationDaoTest {
 	public void setUp() throws Exception {
 
 		Station station = new Station();
-
+		Stativ stativ100 = new Stativ(100);
+		Relay testRelay = new Relay();
+		RelayType testTypeNMSH400 = new RelayType();
+		testTypeNMSH400.setName("NMSH-400");
+		testTypeNMSH400.setLifetime("100");
+		testRelay.setType(testTypeNMSH400);
+		stativ100.addRele(testRelay);
 		station.setLocationName("Монетная");
+		station.addStativ(stativ100);
 		locationDao.addLocation(station);
 	}
 
@@ -38,7 +49,9 @@ public class StationDaoTest {
 
 	@Test
 	public void findLocationByName() throws Exception {
-
+		Station foundedByName = locationDao.findLocationByName("Монетная");
+		assertNotNull(foundedByName);
+		
 	}
 
 	@Test
