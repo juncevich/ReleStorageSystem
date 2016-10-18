@@ -17,6 +17,7 @@ import ru.relesystem.core.entities.Relay;
 import ru.relesystem.core.entities.location.Station;
 import ru.relesystem.core.entities.relaytype.RelayType;
 import ru.relesystem.core.entities.storage.Stativ;
+import ru.relesystem.core.entities.storage.Storage;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:application-context-test.xml")
@@ -29,6 +30,7 @@ public class StationDaoTest {
 
 		Station station = new Station();
 		Stativ stativ100 = new Stativ(100);
+		station.addStativ(stativ100);
 		Relay testRelay = new Relay();
 		RelayType testTypeNMSH400 = new RelayType();
 		testTypeNMSH400.setName("NMSH-400");
@@ -36,7 +38,7 @@ public class StationDaoTest {
 		testRelay.setType(testTypeNMSH400);
 		stativ100.addRele(testRelay);
 		station.setLocationName("Монетная");
-		station.addStativ(stativ100);
+		
 		locationDao.addLocation(station);
 	}
 
@@ -58,15 +60,18 @@ public class StationDaoTest {
 		
 		
 	}
-
+	//TODO fix findRelayByLocationName()
 	@Test
 	public void findRelayByLocationName() throws Exception {
-
+		List<Relay> findRelayByLocationName = locationDao.findRelayByLocationName("Монетная");
+		assertNotNull(findRelayByLocationName);
 	}
 
+	//TODO fix findStoragesByLocationName()
 	@Test
 	public void findStoragesByLocationName() throws Exception {
-
+		List<? extends Storage> findStoragesByLocationName = locationDao.findStoragesByLocationName("Монетная");
+		assertNotNull(findStoragesByLocationName);
 	}
 
 	@Test

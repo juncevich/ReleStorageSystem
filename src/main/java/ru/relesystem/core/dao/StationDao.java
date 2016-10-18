@@ -14,6 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 import ru.relesystem.core.entities.Relay;
 import ru.relesystem.core.entities.location.Location;
 import ru.relesystem.core.entities.location.Station;
+import ru.relesystem.core.entities.storage.Stativ;
 import ru.relesystem.core.entities.storage.Storage;
 
 @Repository("stationDao")
@@ -44,9 +45,9 @@ public class StationDao implements LocationDao {
 	}
 
 	@Override
-	public List<Storage> findStoragesByLocationName(String locationName) {
+	public List<Stativ> findStoragesByLocationName(String locationName) {
 
-		List<Storage> storageList = entityManager.createNamedQuery("Station.findStoragesByStationName", Storage.class)
+		List<Stativ> storageList = entityManager.createNamedQuery("Station.findStoragesByStationName", Stativ.class)
 				.setParameter("stationName", locationName).getResultList();
 		return storageList;
 	}

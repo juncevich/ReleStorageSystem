@@ -16,8 +16,8 @@ import ru.relesystem.core.entities.storage.Stativ;
 @NamedQueries({
 		@NamedQuery(name = "Station.findByName", query = "select s from Station s where s.locationName = :stationName "),
 		@NamedQuery(name = "Station.findAll", query = "select s from Station s "),
-		@NamedQuery(name = "Station.findReleayByStationName", query = "select r from Relay r where r.location.locationName =:stationName"),
-		@NamedQuery(name = "Station.findStoragesByStationName", query = "select s.storageList from Station s where s.locationName = :stationName ")})
+		@NamedQuery(name = "Station.findReleayByStationName", query = "select r from Relay r where r.location.locationName = :stationName"),
+		@NamedQuery(name = "Station.findStoragesByStationName", query = "select s from Stativ s where s.location.locationName = :stationName ")})
 public class Station extends Location {
 
 	/**
