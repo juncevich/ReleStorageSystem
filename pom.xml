@@ -35,7 +35,7 @@
         <jackson.databind-version>2.9.10.8</jackson.databind-version>
 
         <!-- Spring Security -->
-        <spring-security.version>4.0.4.RELEASE</spring-security.version>
+        <spring-security.version>5.2.10.RELEASE</spring-security.version>
 
         <!-- Spring -->
         <spring-framework.version>4.2.4.RELEASE</spring-framework.version>
